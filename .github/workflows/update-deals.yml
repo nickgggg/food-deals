@@ -1,6 +1,12 @@
 name: Update deals
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - crawler/**
+      - .github/workflows/update-deals.yml
   schedule:
     - cron: "37 14 * * *"
   workflow_dispatch:
