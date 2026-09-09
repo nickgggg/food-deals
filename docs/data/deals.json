@@ -27,7 +27,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "e0018b09263f0e16",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Carlitos Diner",
       "source_notes": "Official homepage with Taco Tuesday and daily specials",
       "source_url": "https://www.carlitosdiner.com/",
@@ -65,7 +65,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "a0c766c1038ff466",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lamppost Pizza",
       "source_notes": "Official specials, coupons, and happy hour page",
       "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
@@ -95,7 +95,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "199bd16774013d7b",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lamppost Pizza",
       "source_notes": "Official specials, coupons, and happy hour page",
       "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
@@ -124,7 +124,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "04a0257d9190da2f",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lamppost Pizza",
       "source_notes": "Official specials, coupons, and happy hour page",
       "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
@@ -138,7 +138,7 @@
     },
     {
       "applies_days": [],
-      "candidate_text": "$4.00 off ALL TABLE KEGS (120 oz) ALL BOTTLES OF Vino 5 LB WINGS Dine In Only - Not Valid with any Other Offer Contact Us",
+      "candidate_text": "$4.00 off ALL TABLE KEGS (120 oz) ALL BOTTLES OF Vino 5 LB WINGS Dine In Only - Not Valid with any Other Offer (714) 968-6128",
       "categories": [
         "drink"
       ],
@@ -149,12 +149,12 @@
         "ALL BOTTLES OF Vino",
         "5 LB WINGS",
         "Dine In Only - Not Valid with any Other Offer",
-        "Contact Us"
+        "(714) 968-6128"
       ],
-      "first_seen": "2026-09-09T23:24:26Z",
-      "id": "623fd67c2d78cd3f",
+      "first_seen": "2026-09-09T23:27:41Z",
+      "id": "641573950e4de37c",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lamppost Pizza",
       "source_notes": "Official specials, coupons, and happy hour page",
       "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
@@ -186,7 +186,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "8328081df7a3b0e8",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lamppost Pizza",
       "source_notes": "Official specials, coupons, and happy hour page",
       "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
@@ -218,7 +218,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "135feeb9815a039b",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lamppost Pizza",
       "source_notes": "Official specials, coupons, and happy hour page",
       "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
@@ -243,7 +243,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "62e89009887af5b9",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lamppost Pizza",
       "source_notes": "Official specials, coupons, and happy hour page",
       "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
@@ -269,7 +269,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "cbd3a0a25cdcc564",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lamppost Pizza",
       "source_notes": "Official specials, coupons, and happy hour page",
       "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
@@ -284,7 +284,7 @@
     },
     {
       "applies_days": [],
-      "candidate_text": "Happy Hour Specials Lunch Specials Order Tap House About Gallery",
+      "candidate_text": "Happy Hour Specials Lunch Specials Tap House About Contact Specials",
       "categories": [
         "food"
       ],
@@ -293,15 +293,14 @@
       "details": [
         "Specials",
         "Lunch Specials",
-        "Order",
         "Tap House",
         "About",
-        "Gallery"
+        "Contact"
       ],
-      "first_seen": "2026-09-09T23:24:26Z",
-      "id": "cc6b2820aae2bed7",
+      "first_seen": "2026-09-09T23:27:41Z",
+      "id": "639fc5f5a167904c",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lamppost Pizza",
       "source_notes": "Official specials, coupons, and happy hour page",
       "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
@@ -318,7 +317,7 @@
         "tuesday",
         "saturday"
       ],
-      "candidate_text": "Happy Hour (Full Bar) Tuesday & Saturday Party Trays Contact Us Careers",
+      "candidate_text": "Happy Hour (Full Bar) Tuesday & Saturday Party Trays Nutritional Information Marie Callender\u2019s\u00ae at your Grocer",
       "categories": [
         "drink"
       ],
@@ -327,13 +326,13 @@
       "details": [
         "Tuesday & Saturday",
         "Party Trays",
-        "Contact Us",
-        "Careers"
+        "Nutritional Information",
+        "Marie Callender\u2019s\u00ae at your Grocer"
       ],
-      "first_seen": "2026-09-09T23:24:26Z",
-      "id": "baa452cf3772bf92",
+      "first_seen": "2026-09-09T23:27:41Z",
+      "id": "db8558c40230b364",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Marie Callender's",
       "source_notes": "Official Fountain Valley location page with offers",
       "source_url": "https://www.mariecallenders.com/store/fountain-valley/",
@@ -366,7 +365,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "fda179594744140c",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Marie Callender's",
       "source_notes": "Official Fountain Valley location page with offers",
       "source_url": "https://www.mariecallenders.com/store/fountain-valley/",
@@ -397,7 +396,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "ffe83b062b3b6c72",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Silky Sullivan's",
       "source_notes": "Official specials menu",
       "source_url": "https://www.silkysullivans.com/menu/specials/",
@@ -426,7 +425,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "491dfb79e3052d2e",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Silky Sullivan's",
       "source_notes": "Official specials menu",
       "source_url": "https://www.silkysullivans.com/menu/specials/",
@@ -455,7 +454,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "07cc8ce4e31ad0fa",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Silky Sullivan's",
       "source_notes": "Official specials menu",
       "source_url": "https://www.silkysullivans.com/menu/specials/",
@@ -483,7 +482,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "0c223c6bb9c8b573",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Silky Sullivan's",
       "source_notes": "Official specials menu",
       "source_url": "https://www.silkysullivans.com/menu/specials/",
@@ -509,7 +508,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "d9d30a29487948e5",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Silky Sullivan's",
       "source_notes": "Official specials menu",
       "source_url": "https://www.silkysullivans.com/menu/specials/",
@@ -539,7 +538,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "d6cee96d574a262b",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -569,7 +568,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "ed9c3ce71cf66199",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -599,7 +598,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "cccdea44ecc30bc8",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -630,7 +629,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "35c45e217dc9f491",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -661,7 +660,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "278ebe0d5b303a64",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -691,7 +690,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "6bdbbfaeaa405274",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -720,7 +719,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "21ed2be8c3d92fa4",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -750,7 +749,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "a22487f1f9066dfa",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -778,7 +777,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "cd842a874856cae2",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -808,7 +807,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "9f760259f398e2ec",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -837,7 +836,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "51fe27da047549b5",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -865,7 +864,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "bf2b91577ba0c5fc",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -893,7 +892,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "f5a0e20c3951f541",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -921,7 +920,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "c9965867f9ef3724",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -949,7 +948,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "a1f36d0f89f930e5",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -977,7 +976,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "9ec6dba24e42b403",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1005,7 +1004,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "3e57455c4250090e",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1033,7 +1032,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "cb474b7e02b3a57d",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1063,7 +1062,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "505fc97c05a6c4ac",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1093,7 +1092,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "19107c22f200163e",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1121,7 +1120,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "eba0ea2258c72d3b",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1150,7 +1149,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "8f3fc6fef19b8af3",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1178,7 +1177,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "6628c4c20948ba30",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1207,7 +1206,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "dca983048a621cc3",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1236,7 +1235,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "caedddf24316e40c",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1264,7 +1263,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "1dfd25b0840b7270",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1293,7 +1292,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "a0b099e9bfc6aba3",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1322,7 +1321,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "bbb70415d15a483d",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1351,7 +1350,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "506bd01204f4730a",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1380,7 +1379,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "ac61f71d879c2b09",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1408,7 +1407,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "80d398c099e1e09e",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1437,7 +1436,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "f7d1a4fc9047da49",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1466,7 +1465,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "806533bfd5dba418",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1481,6 +1480,9 @@
     {
       "applies_days": [
         "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
         "friday"
       ],
       "candidate_text": "Monday \u2014 Friday: 11:00 am - 4:00 pm, dine-in and takeout. Add non-alcoholic beverage to any lunch special $2.69. Choose an item below: Lunch Specials Half Sandwich 10.25 Order lunch specials - half sandwich bbq tri tip* or california chicken club Lunch Specials Fresh Salads + 2 Breadsticks",
@@ -1500,7 +1502,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "ae2d209df95ad880",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1512,7 +1514,7 @@
         "deal_language"
       ],
       "time_window": "11:00 AM - 4:00 PM",
-      "validity": "Mon, Fri, 11:00 AM - 4:00 PM"
+      "validity": "Mon-Fri, 11:00 AM - 4:00 PM"
     },
     {
       "applies_days": [],
@@ -1532,7 +1534,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "74a23f662a8ceed2",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1562,7 +1564,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "8342dbd8c6c79ec7",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1592,7 +1594,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "a358a9ff99cc15ff",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1622,7 +1624,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "d7169edf4cca078e",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1652,7 +1654,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "9a60c2ef639353f3",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Stonefire Grill",
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
@@ -1678,7 +1680,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "4875b29d9cb2458e",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "La Capilla Cantina",
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
@@ -1704,7 +1706,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "6ca8c414751221c7",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "La Capilla Cantina",
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
@@ -1730,7 +1732,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "3344326e59b689ab",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "La Capilla Cantina",
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
@@ -1756,7 +1758,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "01df482b16656450",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "La Capilla Cantina",
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
@@ -1782,7 +1784,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "ded77cf287ad5904",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "La Capilla Cantina",
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
@@ -1808,7 +1810,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "aae480d589966064",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "La Capilla Cantina",
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
@@ -1834,7 +1836,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "e0831c1ed2539a28",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "La Capilla Cantina",
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
@@ -1860,7 +1862,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "70911c00ef6a7084",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "La Capilla Cantina",
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
@@ -1886,7 +1888,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "4ea2bf570c0a5961",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "La Capilla Cantina",
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
@@ -1900,22 +1902,22 @@
     },
     {
       "applies_days": [],
-      "candidate_text": "HB Happy Hour | La Capilla Cantina Home Locations Locations Huntington Beach Torrance",
+      "candidate_text": "HB Happy Hour | La Capilla Cantina Locations Locations Huntington Beach Torrance La Palma",
       "categories": [
         "general"
       ],
       "city": "Huntington Beach",
       "days_since_seen": 0,
       "details": [
-        "Home",
         "Locations",
         "Huntington Beach",
-        "Torrance"
+        "Torrance",
+        "La Palma"
       ],
-      "first_seen": "2026-09-09T23:24:26Z",
-      "id": "9ea328dfee9f8a48",
+      "first_seen": "2026-09-09T23:27:41Z",
+      "id": "3a78b1e950cff6e5",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "La Capilla Cantina",
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
@@ -1952,7 +1954,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "35fa5dc6e86b95f2",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "La Capilla Cantina",
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
@@ -1983,7 +1985,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "34a6f914fc44edeb",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "La Capilla Cantina",
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
@@ -2020,7 +2022,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "52c8ed9f7b90729a",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "La Capilla Cantina",
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
@@ -2047,7 +2049,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "8f398b9f0ee0d6f1",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "La Capilla Cantina",
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
@@ -2073,7 +2075,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "802701cb502768f3",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "La Capilla Cantina",
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
@@ -2099,7 +2101,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "fa3a366096159b39",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "La Capilla Cantina",
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
@@ -2126,7 +2128,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "07874bfa2b2b0723",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lorea",
       "source_notes": "Official restaurant homepage with happenings and happy hour",
       "source_url": "https://loreahb.com/",
@@ -2160,7 +2162,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "7cebe01f014c57a9",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lorea",
       "source_notes": "Official restaurant homepage with happenings and happy hour",
       "source_url": "https://loreahb.com/",
@@ -2176,6 +2178,11 @@
     {
       "applies_days": [
         "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
         "sunday"
       ],
       "candidate_text": "Happy Hour (M - F), 3pm - 5pm Monday - Sunday, 7am - 10pm Accepts card payments only. Contact 714 698 6130 21080 Pacific Coast Highway Huntington Beach, CA 92648",
@@ -2195,7 +2202,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "b1e6c16ad285c14d",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lorea",
       "source_notes": "Official restaurant homepage with happenings and happy hour",
       "source_url": "https://loreahb.com/",
@@ -2206,7 +2213,7 @@
         "weekday_special"
       ],
       "time_window": "3 PM - 5 PM",
-      "validity": "Mon, Sun, 3 PM - 5 PM"
+      "validity": "Every day, 3 PM - 5 PM"
     },
     {
       "applies_days": [
@@ -2216,7 +2223,7 @@
         "thursday",
         "friday"
       ],
-      "candidate_text": "Happy Hour Monday - Sunday, 7am - 10pm Monday - Friday, 3pm - 5pm Location 21080 Pacific Coast Highway Huntington Beach, CA 92648 Contact Us",
+      "candidate_text": "Happy Hour Monday - Sunday, 7am - 10pm Monday - Friday, 3pm - 5pm Location 21080 Pacific Coast Highway Huntington Beach, CA 92648 714 698 6130",
       "categories": [
         "general"
       ],
@@ -2228,12 +2235,12 @@
         "Location",
         "21080 Pacific Coast Highway",
         "Huntington Beach, CA 92648",
-        "Contact Us"
+        "714 698 6130"
       ],
-      "first_seen": "2026-09-09T23:24:26Z",
-      "id": "e8d040957911e7a3",
+      "first_seen": "2026-09-09T23:27:41Z",
+      "id": "729b1e2ee19aad5d",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lorea",
       "source_notes": "Official restaurant homepage with happenings and happy hour",
       "source_url": "https://loreahb.com/",
@@ -2268,7 +2275,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "ef04eba814953186",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lorea",
       "source_notes": "Official restaurant homepage with happenings and happy hour",
       "source_url": "https://loreahb.com/",
@@ -2302,7 +2309,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "f95bc7eab9ac1ae1",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lorea",
       "source_notes": "Official restaurant homepage with happenings and happy hour",
       "source_url": "https://loreahb.com/",
@@ -2336,7 +2343,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "4a4e96b5520accc4",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lorea",
       "source_notes": "Official restaurant homepage with happenings and happy hour",
       "source_url": "https://loreahb.com/",
@@ -2367,7 +2374,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "6c81b849d19caaee",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lorea",
       "source_notes": "Official restaurant homepage with happenings and happy hour",
       "source_url": "https://loreahb.com/",
@@ -2397,7 +2404,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "1988b0ca94c9459c",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lorea",
       "source_notes": "Official restaurant homepage with happenings and happy hour",
       "source_url": "https://loreahb.com/",
@@ -2429,7 +2436,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "30546f510b9ba8e2",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Lorea",
       "source_notes": "Official restaurant homepage with happenings and happy hour",
       "source_url": "https://loreahb.com/",
@@ -2443,7 +2450,7 @@
     },
     {
       "applies_days": [],
-      "candidate_text": "Happy Hour No\u2022Ka\u2022Oi \u2014 Happy Hour in Huntington Beach Specials Drinks Gallery Our Story Contact Blog",
+      "candidate_text": "Happy Hour No\u2022Ka\u2022Oi \u2014 Happy Hour in Huntington Beach Specials Drinks Our Story Contact Blog No\u2022Ka\u2022Oi",
       "categories": [
         "drink"
       ],
@@ -2453,15 +2460,15 @@
         "No\u2022Ka\u2022Oi \u2014 Happy Hour in Huntington Beach",
         "Specials",
         "Drinks",
-        "Gallery",
         "Our Story",
         "Contact",
-        "Blog"
+        "Blog",
+        "No\u2022Ka\u2022Oi"
       ],
-      "first_seen": "2026-09-09T23:24:26Z",
-      "id": "4c75e27db2e27e47",
+      "first_seen": "2026-09-09T23:27:41Z",
+      "id": "78a2e631a0f83bd4",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "No Ka Oi",
       "source_notes": "Official happy hour page",
       "source_url": "https://www.nokaoihb.com/happyhour",
@@ -2475,20 +2482,19 @@
     },
     {
       "applies_days": [],
-      "candidate_text": "No\u2022Ka\u2022Oi \u2014 Happy Hour in Huntington Beach Menu Specials",
+      "candidate_text": "No\u2022Ka\u2022Oi \u2014 Happy Hour in Huntington Beach Specials",
       "categories": [
-        "food"
+        "general"
       ],
       "city": "Huntington Beach",
       "days_since_seen": 0,
       "details": [
-        "Menu",
         "Specials"
       ],
-      "first_seen": "2026-09-09T23:24:26Z",
-      "id": "9fb941d9bc296764",
+      "first_seen": "2026-09-09T23:27:41Z",
+      "id": "a33d97b60e4f6ded",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "No Ka Oi",
       "source_notes": "Official happy hour page",
       "source_url": "https://www.nokaoihb.com/happyhour",
@@ -2512,7 +2518,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "5c249a7a428cf4c0",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "No Ka Oi",
       "source_notes": "Official happy hour page",
       "source_url": "https://www.nokaoihb.com/happyhour",
@@ -2543,7 +2549,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "c8bd6d044d919c52",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Pacific Hideaway",
       "source_notes": "Visit Huntington Beach coupon page",
       "source_url": "https://www.surfcityusa.com/coupon/pacific-hideaway-happy-hour/227/print/",
@@ -2558,6 +2564,9 @@
     {
       "applies_days": [
         "sunday",
+        "monday",
+        "tuesday",
+        "wednesday",
         "thursday"
       ],
       "candidate_text": "Chips and Salsa $8 Pacific Hideaway's Happy Hour Bites are available Sunday through Thursday from 3-6 p.m. (excluding holidays). Nachos $11 chips, beans, cheese sauce, sour cream, pico de gallo, guacamole Tuna Tostada $8 ahi tuna, lemon ponzu, green onion, avocado, cilantro, serrano Brioche Sliders (2) $8",
@@ -2577,7 +2586,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "518dd5872a19ff35",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Pacific Hideaway",
       "source_notes": "Visit Huntington Beach coupon page",
       "source_url": "https://www.surfcityusa.com/coupon/pacific-hideaway-happy-hour/227/print/",
@@ -2589,7 +2598,7 @@
         "weekday_special"
       ],
       "time_window": null,
-      "validity": "Sun, Thu"
+      "validity": "Sun, Mon, Tue, Wed, Thu"
     },
     {
       "applies_days": [],
@@ -2609,7 +2618,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "59eefde6bba26cb2",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Pacific Hideaway",
       "source_notes": "Visit Huntington Beach coupon page",
       "source_url": "https://www.surfcityusa.com/coupon/pacific-hideaway-happy-hour/227/print/",
@@ -2639,7 +2648,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "5beefc3a83a43462",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Pacific Hideaway",
       "source_notes": "Visit Huntington Beach coupon page",
       "source_url": "https://www.surfcityusa.com/coupon/pacific-hideaway-happy-hour/227/print/",
@@ -2669,7 +2678,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "447769f07c08a884",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Pacific Hideaway",
       "source_notes": "Visit Huntington Beach coupon page",
       "source_url": "https://www.surfcityusa.com/coupon/pacific-hideaway-happy-hour/227/print/",
@@ -2684,6 +2693,9 @@
     {
       "applies_days": [
         "sunday",
+        "monday",
+        "tuesday",
+        "wednesday",
         "thursday"
       ],
       "candidate_text": "Nachos $11 Pacific Hideaway's Happy Hour Bites are available Sunday through Thursday from 3-6 p.m. (excluding holidays). chips, beans, cheese sauce, sour cream, pico de gallo, guacamole Tuna Tostada $8 ahi tuna, lemon ponzu, green onion, avocado, cilantro, serrano Brioche Sliders (2) $8 brioche buns, burger sauce, cheese, pickles, lettuce, tomato, onion",
@@ -2703,7 +2715,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "128e3a50db6e4c78",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Pacific Hideaway",
       "source_notes": "Visit Huntington Beach coupon page",
       "source_url": "https://www.surfcityusa.com/coupon/pacific-hideaway-happy-hour/227/print/",
@@ -2715,11 +2727,14 @@
         "weekday_special"
       ],
       "time_window": null,
-      "validity": "Sun, Thu"
+      "validity": "Sun, Mon, Tue, Wed, Thu"
     },
     {
       "applies_days": [
         "sunday",
+        "monday",
+        "tuesday",
+        "wednesday",
         "thursday"
       ],
       "candidate_text": "Pacific Hideaway Happy Hour Redeemable: Always Pacific Hideaway's Happy Hour Bites are available Sunday through Thursday from 3-6 p.m. (excluding holidays). EATS Chips and Salsa $8",
@@ -2738,7 +2753,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "ca949b61e4aa1659",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Pacific Hideaway",
       "source_notes": "Visit Huntington Beach coupon page",
       "source_url": "https://www.surfcityusa.com/coupon/pacific-hideaway-happy-hour/227/print/",
@@ -2750,11 +2765,14 @@
         "weekday_special"
       ],
       "time_window": null,
-      "validity": "Sun, Thu"
+      "validity": "Sun, Mon, Tue, Wed, Thu"
     },
     {
       "applies_days": [
         "sunday",
+        "monday",
+        "tuesday",
+        "wednesday",
         "thursday"
       ],
       "candidate_text": "Pacific Hideaway's Happy Hour Bites are available Sunday through Thursday from 3-6 p.m. (excluding holidays). Pacific Hideaway Happy Hour EATS Chips and Salsa $8 Nachos $11 chips, beans, cheese sauce, sour cream, pico de gallo, guacamole Tuna Tostada $8",
@@ -2774,7 +2792,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "74bb915c83a58ff8",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Pacific Hideaway",
       "source_notes": "Visit Huntington Beach coupon page",
       "source_url": "https://www.surfcityusa.com/coupon/pacific-hideaway-happy-hour/227/print/",
@@ -2786,11 +2804,14 @@
         "weekday_special"
       ],
       "time_window": null,
-      "validity": "Sun, Thu"
+      "validity": "Sun, Mon, Tue, Wed, Thu"
     },
     {
       "applies_days": [
         "sunday",
+        "monday",
+        "tuesday",
+        "wednesday",
         "thursday"
       ],
       "candidate_text": "Pacific Hideaway's Happy Hour Bites are available Sunday through Thursday from 3-6 p.m. Pacific Hideaway Happy Hour EATS Chips and Salsa $8 Nachos $11 chips, beans, cheese sauce, sour cream, pico de gallo, guacamole Tuna Tostada $8",
@@ -2810,7 +2831,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "64687335ddb31541",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Pacific Hideaway",
       "source_notes": "Visit Huntington Beach coupon page",
       "source_url": "https://www.surfcityusa.com/coupon/pacific-hideaway-happy-hour/227/print/",
@@ -2822,7 +2843,7 @@
         "weekday_special"
       ],
       "time_window": null,
-      "validity": "Sun, Thu"
+      "validity": "Sun, Mon, Tue, Wed, Thu"
     },
     {
       "applies_days": [],
@@ -2842,7 +2863,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "b9b84f644bd406df",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Pacific Hideaway",
       "source_notes": "Visit Huntington Beach coupon page",
       "source_url": "https://www.surfcityusa.com/coupon/pacific-hideaway-happy-hour/227/print/",
@@ -2873,7 +2894,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "d0135317a2ae8b27",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Pacific Hideaway",
       "source_notes": "Visit Huntington Beach coupon page",
       "source_url": "https://www.surfcityusa.com/coupon/pacific-hideaway-happy-hour/227/print/",
@@ -2888,6 +2909,9 @@
     {
       "applies_days": [
         "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
         "friday"
       ],
       "candidate_text": "$2 off Draft beer and well drinks Mon\u2013Fri \u2022 3\u20136pm Draft beer and well drinks are $2 off, house wines are $3 off, appetizer samplers are $5, Red Bull is $5, and walk-in 9-hole mini golf is $5 during happy hour.",
@@ -2904,7 +2928,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "b8580b9c326ee2ac",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Playground Mini Golf",
       "source_notes": "Official menu page with weekday specials",
       "source_url": "https://playgroundhb.com/pages/food-menu",
@@ -2915,7 +2939,7 @@
         "happy_hour"
       ],
       "time_window": null,
-      "validity": "Mon, Fri"
+      "validity": "Mon-Fri"
     },
     {
       "applies_days": [],
@@ -2932,7 +2956,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "900032b6d403b758",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Playground Mini Golf",
       "source_notes": "Official menu page with weekday specials",
       "source_url": "https://playgroundhb.com/pages/food-menu",
@@ -2961,7 +2985,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "05e3aae9b2c32581",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Playground Mini Golf",
       "source_notes": "Official menu page with weekday specials",
       "source_url": "https://playgroundhb.com/pages/food-menu",
@@ -2988,7 +3012,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "5f984e24a9fb51da",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Playground Mini Golf",
       "source_notes": "Official menu page with weekday specials",
       "source_url": "https://playgroundhb.com/pages/food-menu",
@@ -3024,7 +3048,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "c8c0dd437b744977",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Playground Mini Golf",
       "source_notes": "Official menu page with weekday specials",
       "source_url": "https://playgroundhb.com/pages/food-menu",
@@ -3059,7 +3083,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "ac27d0432591a771",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Playground Mini Golf",
       "source_notes": "Official menu page with weekday specials",
       "source_url": "https://playgroundhb.com/pages/food-menu",
@@ -3098,7 +3122,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "dca9576f2278dcc4",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Playground Mini Golf",
       "source_notes": "Official menu page with weekday specials",
       "source_url": "https://playgroundhb.com/pages/food-menu",
@@ -3134,7 +3158,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "1d4a57918b2994b3",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Playground Mini Golf",
       "source_notes": "Official menu page with weekday specials",
       "source_url": "https://playgroundhb.com/pages/food-menu",
@@ -3176,7 +3200,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "bf75380dfc6857cd",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Playground Mini Golf",
       "source_notes": "Official menu page with weekday specials",
       "source_url": "https://playgroundhb.com/pages/food-menu",
@@ -3213,7 +3237,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "bd1c5b195d560b28",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Playground Mini Golf",
       "source_notes": "Official menu page with weekday specials",
       "source_url": "https://playgroundhb.com/pages/food-menu",
@@ -3249,7 +3273,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "dc0a48261e655703",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Playground Mini Golf",
       "source_notes": "Official menu page with weekday specials",
       "source_url": "https://playgroundhb.com/pages/food-menu",
@@ -3284,7 +3308,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "429ce1ee222ee9bc",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Playground Mini Golf",
       "source_notes": "Official menu page with weekday specials",
       "source_url": "https://playgroundhb.com/pages/food-menu",
@@ -3322,7 +3346,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "56eb211335d0b332",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Playground Mini Golf",
       "source_notes": "Official menu page with weekday specials",
       "source_url": "https://playgroundhb.com/pages/food-menu",
@@ -3360,7 +3384,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "b00e825816a2c187",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Playground Mini Golf",
       "source_notes": "Official menu page with weekday specials",
       "source_url": "https://playgroundhb.com/pages/food-menu",
@@ -3378,7 +3402,7 @@
       "applies_days": [
         "thursday"
       ],
-      "candidate_text": "50% off all beer (dine-in only) THURSDAY (Thirsty Thursday) THIRSTY THURSDAY Contact Us 714 - 846 - 4700 info@redtablerestaurants.com Quick Links Home",
+      "candidate_text": "50% off all beer (dine-in only) THURSDAY (Thirsty Thursday) THIRSTY THURSDAY 714 - 846 - 4700 info@redtablerestaurants.com Our Story Menus Make a Reservation",
       "categories": [
         "drink"
       ],
@@ -3387,16 +3411,16 @@
       "details": [
         "THURSDAY (Thirsty Thursday)",
         "THIRSTY THURSDAY",
-        "Contact Us",
         "714 - 846 - 4700",
         "info@redtablerestaurants.com",
-        "Quick Links",
-        "Home"
+        "Our Story",
+        "Menus",
+        "Make a Reservation"
       ],
-      "first_seen": "2026-09-09T23:24:26Z",
-      "id": "72369a53ed3863ab",
+      "first_seen": "2026-09-09T23:27:41Z",
+      "id": "086db5b4f85d6577",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Red Table Restaurant",
       "source_notes": "Official daily specials page",
       "source_url": "https://redtablerestaurants.com/daily-specials/",
@@ -3427,7 +3451,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "436b0ead78f6fc89",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Red Table Restaurant",
       "source_notes": "Official daily specials page",
       "source_url": "https://redtablerestaurants.com/daily-specials/",
@@ -3458,7 +3482,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "26c6917e020b2e8d",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Red Table Restaurant",
       "source_notes": "Official daily specials page",
       "source_url": "https://redtablerestaurants.com/daily-specials/",
@@ -3481,7 +3505,7 @@
         "saturday",
         "sunday"
       ],
-      "candidate_text": "Happy Hour Daily Specials Sunday Brunch Red Table Cocktails Contact Us Order Online Rushable",
+      "candidate_text": "Happy Hour Daily Specials Sunday Brunch Red Table Cocktails Rushable Make a Reservation Banquet/Catering",
       "categories": [
         "food",
         "drink"
@@ -3492,14 +3516,14 @@
         "Daily Specials",
         "Sunday Brunch",
         "Red Table Cocktails",
-        "Contact Us",
-        "Order Online",
-        "Rushable"
+        "Rushable",
+        "Make a Reservation",
+        "Banquet/Catering"
       ],
-      "first_seen": "2026-09-09T23:24:26Z",
-      "id": "275e18c76f1cec66",
+      "first_seen": "2026-09-09T23:27:41Z",
+      "id": "bdb79574e8a78ccf",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Red Table Restaurant",
       "source_notes": "Official daily specials page",
       "source_url": "https://redtablerestaurants.com/daily-specials/",
@@ -3535,7 +3559,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "4df38cfc12aed42c",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Red Table Restaurant",
       "source_notes": "Official daily specials page",
       "source_url": "https://redtablerestaurants.com/daily-specials/",
@@ -3558,7 +3582,7 @@
         "saturday",
         "sunday"
       ],
-      "candidate_text": "Sunday Brunch Daily Specials Happy Hour Red Table Cocktails Contact Us Order Online Rushable Make a Reservation",
+      "candidate_text": "Sunday Brunch Daily Specials Happy Hour Red Table Cocktails Rushable Make a Reservation Banquet/Catering Daily Specials",
       "categories": [
         "food",
         "drink"
@@ -3569,15 +3593,14 @@
         "Daily Specials",
         "Happy Hour",
         "Red Table Cocktails",
-        "Contact Us",
-        "Order Online",
         "Rushable",
-        "Make a Reservation"
+        "Make a Reservation",
+        "Banquet/Catering"
       ],
-      "first_seen": "2026-09-09T23:24:26Z",
-      "id": "83857e7eea0d53e7",
+      "first_seen": "2026-09-09T23:27:41Z",
+      "id": "e32b0d048cee8d78",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Red Table Restaurant",
       "source_notes": "Official daily specials page",
       "source_url": "https://redtablerestaurants.com/daily-specials/",
@@ -3606,7 +3629,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "1b4f42dad765a326",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Red Table Restaurant",
       "source_notes": "Official daily specials page",
       "source_url": "https://redtablerestaurants.com/daily-specials/",
@@ -3632,7 +3655,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "d90158b13dab8d0a",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Red Table Restaurant",
       "source_notes": "Official daily specials page",
       "source_url": "https://redtablerestaurants.com/daily-specials/",
@@ -3658,7 +3681,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "cd2077fc71be7e93",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Red Table Restaurant",
       "source_notes": "Official daily specials page",
       "source_url": "https://redtablerestaurants.com/daily-specials/",
@@ -3686,7 +3709,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "79533bf2664ae225",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Red Table Restaurant",
       "source_notes": "Official daily specials page",
       "source_url": "https://redtablerestaurants.com/daily-specials/",
@@ -3713,7 +3736,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "750a0e4949ff9255",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Solita Tacos",
       "source_notes": "Official happy hour promotion page",
       "source_url": "https://solitatacos.com/promotions/happy-hour/",
@@ -3728,9 +3751,11 @@
     {
       "applies_days": [
         "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
         "friday",
-        "sunday",
-        "thursday"
+        "sunday"
       ],
       "candidate_text": "HAIL HAPPY HOUR. Happy Hour Happy Hour Join us for Happy Hour and relax over deals for tacos and margaritas Specials start at $4. Available every Monday \u2013 Friday from 3pm to 6pm. Huntington Beach location offers late night happy hour Sunday \u2013 Thursday from 8pm \u2013 close. FEED YOUR SOL JOIN OUR MAILING LIST FOR SPECIALS OFFERS & PROMOTIONS",
       "categories": [
@@ -3749,7 +3774,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "0257357bc574d384",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Solita Tacos",
       "source_notes": "Official happy hour promotion page",
       "source_url": "https://solitatacos.com/promotions/happy-hour/",
@@ -3761,51 +3786,24 @@
         "weekday_special"
       ],
       "time_window": "3 PM - 6 PM",
-      "validity": "Mon, Fri, Sun, Thu, 3 PM - 6 PM"
+      "validity": "Mon, Tue, Wed, Thu, Fri, Sun, 3 PM - 6 PM"
     },
     {
       "applies_days": [],
-      "candidate_text": "Happy Hour",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [],
-      "first_seen": "2026-09-09T23:24:26Z",
-      "id": "6aa0e17c07143ddc",
-      "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
-      "restaurant": "Solita Tacos",
-      "source_notes": "Official happy hour promotion page",
-      "source_url": "https://solitatacos.com/promotions/happy-hour/",
-      "status": "active",
-      "summary": "Happy Hour",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source for current day/time"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Happy Hour - Solita Content menus RESERVE A TABLE Order Online BOOK A TABLE",
+      "candidate_text": "Happy Hour - Solita menus CALL",
       "categories": [
         "general"
       ],
       "city": "Huntington Beach",
       "days_since_seen": 0,
       "details": [
-        "Content",
         "menus",
-        "RESERVE A TABLE",
-        "Order Online",
-        "BOOK A TABLE"
+        "CALL"
       ],
-      "first_seen": "2026-09-09T23:24:26Z",
-      "id": "98f6b75801afd9f7",
+      "first_seen": "2026-09-09T23:27:41Z",
+      "id": "1a408b00ef0391b9",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Solita Tacos",
       "source_notes": "Official happy hour promotion page",
       "source_url": "https://solitatacos.com/promotions/happy-hour/",
@@ -3818,8 +3816,37 @@
       "validity": "Check source for current day/time"
     },
     {
+      "applies_days": [],
+      "candidate_text": "Happy Hour Happy Hour - Solita",
+      "categories": [
+        "general"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Happy Hour - Solita"
+      ],
+      "first_seen": "2026-09-09T23:27:41Z",
+      "id": "f410fdd12ad5f8e6",
+      "is_stale": false,
+      "last_seen": "2026-09-09T23:27:41Z",
+      "restaurant": "Solita Tacos",
+      "source_notes": "Official happy hour promotion page",
+      "source_url": "https://solitatacos.com/promotions/happy-hour/",
+      "status": "active",
+      "summary": "Happy Hour",
+      "tags": [
+        "happy_hour"
+      ],
+      "time_window": null,
+      "validity": "Check source for current day/time"
+    },
+    {
       "applies_days": [
         "sunday",
+        "monday",
+        "tuesday",
+        "wednesday",
         "thursday"
       ],
       "candidate_text": "Huntington Beach location offers late night happy hour Sunday \u2013 Thursday from 8pm \u2013 close. Happy Hour HAIL HAPPY HOUR. Join us for Happy Hour and relax over deals for tacos and margaritas FEED YOUR SOL JOIN OUR MAILING LIST FOR SPECIALS OFFERS & PROMOTIONS SIGN UP TO RECEIVE NEWS ABOUT NEW MENU ITEMS, EVENTS AND PROMOTIONS. GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY",
@@ -3842,7 +3869,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "34c4bb7c7ad4c954",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Solita Tacos",
       "source_notes": "Official happy hour promotion page",
       "source_url": "https://solitatacos.com/promotions/happy-hour/",
@@ -3854,14 +3881,16 @@
         "free"
       ],
       "time_window": null,
-      "validity": "Sun, Thu"
+      "validity": "Sun, Mon, Tue, Wed, Thu"
     },
     {
       "applies_days": [
         "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
         "friday",
-        "sunday",
-        "thursday"
+        "sunday"
       ],
       "candidate_text": "Join us for Happy Hour and relax over deals for tacos and margaritas Happy Hour Happy Hour HAIL HAPPY HOUR. Specials start at $4. Available every Monday \u2013 Friday from 3pm to 6pm. Huntington Beach location offers late night happy hour Sunday \u2013 Thursday from 8pm \u2013 close. FEED YOUR SOL JOIN OUR MAILING LIST FOR SPECIALS OFFERS & PROMOTIONS SIGN UP TO RECEIVE NEWS ABOUT NEW MENU ITEMS, EVENTS AND PROMOTIONS.",
       "categories": [
@@ -3882,7 +3911,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "efbc62f11b27d5ca",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Solita Tacos",
       "source_notes": "Official happy hour promotion page",
       "source_url": "https://solitatacos.com/promotions/happy-hour/",
@@ -3894,14 +3923,16 @@
         "weekday_special"
       ],
       "time_window": "3 PM - 6 PM",
-      "validity": "Mon, Fri, Sun, Thu, 3 PM - 6 PM"
+      "validity": "Mon, Tue, Wed, Thu, Fri, Sun, 3 PM - 6 PM"
     },
     {
       "applies_days": [
         "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
         "friday",
-        "sunday",
-        "thursday"
+        "sunday"
       ],
       "candidate_text": "Specials start at $4. Available every Monday \u2013 Friday from 3pm to 6pm. Huntington Beach location offers late night happy hour Sunday \u2013 Thursday from 8pm \u2013 close. Happy Hour HAIL HAPPY HOUR. Join us for Happy Hour and relax over deals for tacos and margaritas FEED YOUR SOL JOIN OUR MAILING LIST FOR SPECIALS OFFERS & PROMOTIONS SIGN UP TO RECEIVE NEWS ABOUT NEW MENU ITEMS, EVENTS AND PROMOTIONS. GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY",
       "categories": [
@@ -3923,7 +3954,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "95704829c98db674",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Solita Tacos",
       "source_notes": "Official happy hour promotion page",
       "source_url": "https://solitatacos.com/promotions/happy-hour/",
@@ -3936,7 +3967,7 @@
         "free"
       ],
       "time_window": "3 PM - 6 PM",
-      "validity": "Mon, Fri, Sun, Thu, 3 PM - 6 PM"
+      "validity": "Mon, Tue, Wed, Thu, Fri, Sun, 3 PM - 6 PM"
     },
     {
       "applies_days": [],
@@ -3960,7 +3991,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "c18b013c4e5e0192",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Solita Tacos",
       "source_notes": "Official happy hour promotion page",
       "source_url": "https://solitatacos.com/promotions/happy-hour/",
@@ -3996,7 +4027,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "767a798d9d1f6edf",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Zubie's Dry Dock",
       "source_notes": "Official homepage with happy hour and daily specials",
       "source_url": "https://zubiesdrydock.com/",
@@ -4039,7 +4070,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "d7219ab885cb300e",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Zubie's Dry Dock",
       "source_notes": "Official homepage with happy hour and daily specials",
       "source_url": "https://zubiesdrydock.com/",
@@ -4062,7 +4093,7 @@
         "thursday",
         "friday"
       ],
-      "candidate_text": "Happy Hour (Mon - Fri) Sunday: 9:00 AM - 9:00 PM Sunday Breakfast 9:00 AM - 12:00 PM 1:00 PM - 6:00 PM Quick Links \u00a9 2026 Zubie's Dry Dock. All rights reserved. Call Menu Directions VIP Club",
+      "candidate_text": "Happy Hour (Mon - Fri) Sunday: 9:00 AM - 9:00 PM Sunday Breakfast 9:00 AM - 12:00 PM 1:00 PM - 6:00 PM \u00a9 2026 Zubie's Dry Dock. All rights reserved. Call Menu Directions VIP Club",
       "categories": [
         "food"
       ],
@@ -4073,14 +4104,13 @@
         "Sunday Breakfast",
         "9:00 AM - 12:00 PM",
         "1:00 PM - 6:00 PM",
-        "Quick Links",
         "\u00a9 2026 Zubie's Dry Dock. All rights reserved.",
         "Call Menu Directions VIP Club"
       ],
-      "first_seen": "2026-09-09T23:24:26Z",
-      "id": "30015aa7947df993",
+      "first_seen": "2026-09-09T23:27:41Z",
+      "id": "e895ed8c97f6646f",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Zubie's Dry Dock",
       "source_notes": "Official homepage with happy hour and daily specials",
       "source_url": "https://zubiesdrydock.com/",
@@ -4114,7 +4144,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "8f78ed670f6c4fe0",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Zubie's Dry Dock",
       "source_notes": "Official homepage with happy hour and daily specials",
       "source_url": "https://zubiesdrydock.com/",
@@ -4153,7 +4183,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "ad26e842d23d2ec3",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Zubie's Dry Dock",
       "source_notes": "Official homepage with happy hour and daily specials",
       "source_url": "https://zubiesdrydock.com/",
@@ -4196,7 +4226,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "bf24e51c5eb28124",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Zubie's Dry Dock",
       "source_notes": "Official homepage with happy hour and daily specials",
       "source_url": "https://zubiesdrydock.com/",
@@ -4239,7 +4269,7 @@
       "first_seen": "2026-09-09T23:24:26Z",
       "id": "a4b86e181af0c851",
       "is_stale": false,
-      "last_seen": "2026-09-09T23:24:26Z",
+      "last_seen": "2026-09-09T23:27:41Z",
       "restaurant": "Zubie's Dry Dock",
       "source_notes": "Official homepage with happy hour and daily specials",
       "source_url": "https://zubiesdrydock.com/",
@@ -4252,9 +4282,391 @@
       ],
       "time_window": "11:30 AM - 5:00 PM",
       "validity": "Every day, 11:30 AM - 5:00 PM"
+    },
+    {
+      "applies_days": [],
+      "candidate_text": "$4.00 off ALL TABLE KEGS (120 oz) ALL BOTTLES OF Vino 5 LB WINGS Dine In Only - Not Valid with any Other Offer Contact Us",
+      "categories": [
+        "drink"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "ALL TABLE KEGS (120 oz)",
+        "ALL BOTTLES OF Vino",
+        "5 LB WINGS",
+        "Dine In Only - Not Valid with any Other Offer",
+        "Contact Us"
+      ],
+      "first_seen": "2026-09-09T23:24:26Z",
+      "id": "623fd67c2d78cd3f",
+      "is_stale": true,
+      "last_seen": "2026-09-09T23:24:26Z",
+      "restaurant": "Lamppost Pizza",
+      "source_notes": "Official specials, coupons, and happy hour page",
+      "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$4.00 off",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "validity": "Check source for current day/time"
+    },
+    {
+      "applies_days": [
+        "tuesday",
+        "saturday"
+      ],
+      "candidate_text": "Happy Hour (Full Bar) Tuesday & Saturday Party Trays Contact Us Careers",
+      "categories": [
+        "drink"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Tuesday & Saturday",
+        "Party Trays",
+        "Contact Us",
+        "Careers"
+      ],
+      "first_seen": "2026-09-09T23:24:26Z",
+      "id": "baa452cf3772bf92",
+      "is_stale": true,
+      "last_seen": "2026-09-09T23:24:26Z",
+      "restaurant": "Marie Callender's",
+      "source_notes": "Official Fountain Valley location page with offers",
+      "source_url": "https://www.mariecallenders.com/store/fountain-valley/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour (Full Bar)",
+      "tags": [
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "validity": "Tue, Sat"
+    },
+    {
+      "applies_days": [],
+      "candidate_text": "HB Happy Hour | La Capilla Cantina Home Locations Locations Huntington Beach Torrance",
+      "categories": [
+        "general"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Home",
+        "Locations",
+        "Huntington Beach",
+        "Torrance"
+      ],
+      "first_seen": "2026-09-09T23:24:26Z",
+      "id": "9ea328dfee9f8a48",
+      "is_stale": true,
+      "last_seen": "2026-09-09T23:24:26Z",
+      "restaurant": "La Capilla Cantina",
+      "source_notes": "Official Huntington Beach happy hour page",
+      "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "HB Happy Hour | La Capilla Cantina",
+      "tags": [
+        "happy_hour"
+      ],
+      "time_window": null,
+      "validity": "Check source for current day/time"
+    },
+    {
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "candidate_text": "Happy Hour Monday - Sunday, 7am - 10pm Monday - Friday, 3pm - 5pm Location 21080 Pacific Coast Highway Huntington Beach, CA 92648 Contact Us",
+      "categories": [
+        "general"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Monday - Sunday, 7am - 10pm",
+        "Monday - Friday, 3pm - 5pm",
+        "Location",
+        "21080 Pacific Coast Highway",
+        "Huntington Beach, CA 92648",
+        "Contact Us"
+      ],
+      "first_seen": "2026-09-09T23:24:26Z",
+      "id": "e8d040957911e7a3",
+      "is_stale": true,
+      "last_seen": "2026-09-09T23:24:26Z",
+      "restaurant": "Lorea",
+      "source_notes": "Official restaurant homepage with happenings and happy hour",
+      "source_url": "https://loreahb.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour",
+      "tags": [
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": "7 AM - 10 PM",
+      "validity": "Mon-Fri, 7 AM - 10 PM"
+    },
+    {
+      "applies_days": [],
+      "candidate_text": "Happy Hour No\u2022Ka\u2022Oi \u2014 Happy Hour in Huntington Beach Specials Drinks Gallery Our Story Contact Blog",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "No\u2022Ka\u2022Oi \u2014 Happy Hour in Huntington Beach",
+        "Specials",
+        "Drinks",
+        "Gallery",
+        "Our Story",
+        "Contact",
+        "Blog"
+      ],
+      "first_seen": "2026-09-09T23:24:26Z",
+      "id": "4c75e27db2e27e47",
+      "is_stale": true,
+      "last_seen": "2026-09-09T23:24:26Z",
+      "restaurant": "No Ka Oi",
+      "source_notes": "Official happy hour page",
+      "source_url": "https://www.nokaoihb.com/happyhour",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour",
+      "tags": [
+        "happy_hour"
+      ],
+      "time_window": null,
+      "validity": "Check source for current day/time"
+    },
+    {
+      "applies_days": [],
+      "candidate_text": "No\u2022Ka\u2022Oi \u2014 Happy Hour in Huntington Beach Menu Specials",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Menu",
+        "Specials"
+      ],
+      "first_seen": "2026-09-09T23:24:26Z",
+      "id": "9fb941d9bc296764",
+      "is_stale": true,
+      "last_seen": "2026-09-09T23:24:26Z",
+      "restaurant": "No Ka Oi",
+      "source_notes": "Official happy hour page",
+      "source_url": "https://www.nokaoihb.com/happyhour",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "No\u2022Ka\u2022Oi \u2014 Happy Hour in Huntington Beach",
+      "tags": [
+        "happy_hour"
+      ],
+      "time_window": null,
+      "validity": "Check source for current day/time"
+    },
+    {
+      "applies_days": [
+        "thursday"
+      ],
+      "candidate_text": "50% off all beer (dine-in only) THURSDAY (Thirsty Thursday) THIRSTY THURSDAY Contact Us 714 - 846 - 4700 info@redtablerestaurants.com Quick Links Home",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "THURSDAY (Thirsty Thursday)",
+        "THIRSTY THURSDAY",
+        "Contact Us",
+        "714 - 846 - 4700",
+        "info@redtablerestaurants.com",
+        "Quick Links",
+        "Home"
+      ],
+      "first_seen": "2026-09-09T23:24:26Z",
+      "id": "72369a53ed3863ab",
+      "is_stale": true,
+      "last_seen": "2026-09-09T23:24:26Z",
+      "restaurant": "Red Table Restaurant",
+      "source_notes": "Official daily specials page",
+      "source_url": "https://redtablerestaurants.com/daily-specials/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "50% off all beer (dine-in only)",
+      "tags": [
+        "percent_off",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "validity": "Thu"
+    },
+    {
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "candidate_text": "Happy Hour Daily Specials Sunday Brunch Red Table Cocktails Contact Us Order Online Rushable",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Daily Specials",
+        "Sunday Brunch",
+        "Red Table Cocktails",
+        "Contact Us",
+        "Order Online",
+        "Rushable"
+      ],
+      "first_seen": "2026-09-09T23:24:26Z",
+      "id": "275e18c76f1cec66",
+      "is_stale": true,
+      "last_seen": "2026-09-09T23:24:26Z",
+      "restaurant": "Red Table Restaurant",
+      "source_notes": "Official daily specials page",
+      "source_url": "https://redtablerestaurants.com/daily-specials/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour",
+      "tags": [
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "validity": "Every day"
+    },
+    {
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "candidate_text": "Sunday Brunch Daily Specials Happy Hour Red Table Cocktails Contact Us Order Online Rushable Make a Reservation",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Daily Specials",
+        "Happy Hour",
+        "Red Table Cocktails",
+        "Contact Us",
+        "Order Online",
+        "Rushable",
+        "Make a Reservation"
+      ],
+      "first_seen": "2026-09-09T23:24:26Z",
+      "id": "83857e7eea0d53e7",
+      "is_stale": true,
+      "last_seen": "2026-09-09T23:24:26Z",
+      "restaurant": "Red Table Restaurant",
+      "source_notes": "Official daily specials page",
+      "source_url": "https://redtablerestaurants.com/daily-specials/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Sunday Brunch",
+      "tags": [
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "validity": "Every day"
+    },
+    {
+      "applies_days": [],
+      "candidate_text": "Happy Hour",
+      "categories": [
+        "general"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [],
+      "first_seen": "2026-09-09T23:24:26Z",
+      "id": "6aa0e17c07143ddc",
+      "is_stale": true,
+      "last_seen": "2026-09-09T23:24:26Z",
+      "restaurant": "Solita Tacos",
+      "source_notes": "Official happy hour promotion page",
+      "source_url": "https://solitatacos.com/promotions/happy-hour/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour",
+      "tags": [
+        "happy_hour"
+      ],
+      "time_window": null,
+      "validity": "Check source for current day/time"
+    },
+    {
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "candidate_text": "Happy Hour (Mon - Fri) Sunday: 9:00 AM - 9:00 PM Sunday Breakfast 9:00 AM - 12:00 PM 1:00 PM - 6:00 PM Quick Links \u00a9 2026 Zubie's Dry Dock. All rights reserved. Call Menu Directions VIP Club",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Sunday: 9:00 AM - 9:00 PM",
+        "Sunday Breakfast",
+        "9:00 AM - 12:00 PM",
+        "1:00 PM - 6:00 PM",
+        "Quick Links",
+        "\u00a9 2026 Zubie's Dry Dock. All rights reserved.",
+        "Call Menu Directions VIP Club"
+      ],
+      "first_seen": "2026-09-09T23:24:26Z",
+      "id": "30015aa7947df993",
+      "is_stale": true,
+      "last_seen": "2026-09-09T23:24:26Z",
+      "restaurant": "Zubie's Dry Dock",
+      "source_notes": "Official homepage with happy hour and daily specials",
+      "source_url": "https://zubiesdrydock.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour (Mon - Fri)",
+      "tags": [
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": "9:00 AM - 9:00 PM",
+      "validity": "Mon-Fri, 9:00 AM - 9:00 PM"
     }
   ],
-  "generated_at": "2026-09-09T23:24:26Z",
+  "generated_at": "2026-09-09T23:27:41Z",
   "scope": {
     "cities": [
       "Fountain Valley",
@@ -4267,7 +4679,7 @@
   "sources": [
     {
       "candidate_count": 16,
-      "checked_at": "2026-09-09T23:24:26Z",
+      "checked_at": "2026-09-09T23:27:41Z",
       "city": "Huntington Beach",
       "name": "La Capilla Cantina",
       "ok": true,
@@ -4275,7 +4687,7 @@
     },
     {
       "candidate_count": 10,
-      "checked_at": "2026-09-09T23:24:26Z",
+      "checked_at": "2026-09-09T23:27:41Z",
       "city": "Huntington Beach",
       "name": "Lorea",
       "ok": true,
@@ -4283,7 +4695,7 @@
     },
     {
       "candidate_count": 8,
-      "checked_at": "2026-09-09T23:24:26Z",
+      "checked_at": "2026-09-09T23:27:41Z",
       "city": "Huntington Beach",
       "name": "Solita Tacos",
       "ok": true,
@@ -4291,14 +4703,14 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-09T23:24:26Z",
+      "checked_at": "2026-09-09T23:27:41Z",
       "city": "Huntington Beach",
       "name": "No Ka Oi",
       "ok": true,
       "url": "https://www.nokaoihb.com/happyhour"
     },
     {
-      "checked_at": "2026-09-09T23:24:26Z",
+      "checked_at": "2026-09-09T23:27:41Z",
       "city": "Huntington Beach",
       "error": "RuntimeError: HTTP 403",
       "name": "STACKED",
@@ -4307,7 +4719,7 @@
     },
     {
       "candidate_count": 14,
-      "checked_at": "2026-09-09T23:24:26Z",
+      "checked_at": "2026-09-09T23:27:41Z",
       "city": "Huntington Beach",
       "name": "Playground Mini Golf",
       "ok": true,
@@ -4315,7 +4727,7 @@
     },
     {
       "candidate_count": 10,
-      "checked_at": "2026-09-09T23:24:26Z",
+      "checked_at": "2026-09-09T23:27:41Z",
       "city": "Huntington Beach",
       "name": "Red Table Restaurant",
       "ok": true,
@@ -4323,7 +4735,7 @@
     },
     {
       "candidate_count": 11,
-      "checked_at": "2026-09-09T23:24:26Z",
+      "checked_at": "2026-09-09T23:27:41Z",
       "city": "Huntington Beach",
       "name": "Pacific Hideaway",
       "ok": true,
@@ -4331,7 +4743,7 @@
     },
     {
       "candidate_count": 7,
-      "checked_at": "2026-09-09T23:24:26Z",
+      "checked_at": "2026-09-09T23:27:41Z",
       "city": "Huntington Beach",
       "name": "Zubie's Dry Dock",
       "ok": true,
@@ -4339,7 +4751,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-09T23:24:26Z",
+      "checked_at": "2026-09-09T23:27:41Z",
       "city": "Fountain Valley",
       "name": "Marie Callender's",
       "ok": true,
@@ -4347,7 +4759,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-09T23:24:26Z",
+      "checked_at": "2026-09-09T23:27:41Z",
       "city": "Fountain Valley",
       "name": "Carlitos Diner",
       "ok": true,
@@ -4355,7 +4767,7 @@
     },
     {
       "candidate_count": 9,
-      "checked_at": "2026-09-09T23:24:26Z",
+      "checked_at": "2026-09-09T23:27:41Z",
       "city": "Fountain Valley",
       "name": "Lamppost Pizza",
       "ok": true,
@@ -4363,7 +4775,7 @@
     },
     {
       "candidate_count": 39,
-      "checked_at": "2026-09-09T23:24:26Z",
+      "checked_at": "2026-09-09T23:27:41Z",
       "city": "Fountain Valley",
       "name": "Stonefire Grill",
       "ok": true,
@@ -4371,7 +4783,7 @@
     },
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-09T23:24:26Z",
+      "checked_at": "2026-09-09T23:27:41Z",
       "city": "Fountain Valley",
       "name": "Silky Sullivan's",
       "ok": true,
@@ -4382,7 +4794,7 @@
     "active_deals": 135,
     "failed_sources": 1,
     "healthy_sources": 13,
-    "stale_deals": 0,
-    "total_deals": 135
+    "stale_deals": 11,
+    "total_deals": 146
   }
 }
