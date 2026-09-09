@@ -20,6 +20,7 @@ OUTPUT_PATH = ROOT / "docs" / "data" / "deals.json"
 STALE_AFTER_DAYS = 21
 DROP_AFTER_DAYS = 90
 REQUEST_TIMEOUT = 25
+CRAWLER_VERSION = 2
 
 
 TAG_PATTERNS = {
@@ -117,6 +118,8 @@ def load_existing() -> dict[str, dict]:
     try:
         raw = json.loads(OUTPUT_PATH.read_text())
     except json.JSONDecodeError:
+        return {}
+    if raw.get("crawler_version") != CRAWLER_VERSION:
         return {}
     return {deal["id"]: deal for deal in raw.get("deals", []) if "id" in deal}
 
@@ -288,6 +291,7 @@ def main() -> int:
     stale_count = sum(1 for deal in all_deals if deal.get("status") == "stale")
 
     payload = {
+        "crawler_version": CRAWLER_VERSION,
         "generated_at": iso(now),
         "scope": {
             "cities": sorted({source.city for source in sources}),
