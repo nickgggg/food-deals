@@ -1,29 +1,56 @@
 const DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"];
+const DAY_LABELS = {
+  monday: "Mon",
+  tuesday: "Tue",
+  wednesday: "Wed",
+  thursday: "Thu",
+  friday: "Fri",
+  saturday: "Sat",
+  sunday: "Sun",
+};
 
 const state = {
   payload: null,
   query: "",
+  restaurant: "",
   city: "",
-  day: "",
+  day: "today",
   category: "",
   status: "active",
+  userLocation: null,
+  locationMessage: "",
 };
 
 const dealsEl = document.querySelector("#deals");
 const statsEl = document.querySelector("#stats");
 const metaEl = document.querySelector("#meta");
 const sourcesEl = document.querySelector("#sources");
+const jumpbarEl = document.querySelector("#jumpbar");
 const searchEl = document.querySelector("#search");
+const restaurantEl = document.querySelector("#restaurant");
 const cityEl = document.querySelector("#city");
 const dayEl = document.querySelector("#day");
 const categoryEl = document.querySelector("#category");
 const statusEl = document.querySelector("#status");
+const locateEl = document.querySelector("#locate");
+
+dayEl.value = "today";
+
+function todayKey() {
+  return DAYS[new Date().getDay() === 0 ? 6 : new Date().getDay() - 1];
+}
+
+function selectedDay() {
+  return state.day === "today" ? todayKey() : state.day;
+}
 
 function formatDate(value) {
   if (!value) return "never";
   return new Intl.DateTimeFormat(undefined, {
-    dateStyle: "medium",
-    timeStyle: "short",
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
   }).format(new Date(value));
 }
 
@@ -41,6 +68,18 @@ function categoryLabel(categories = []) {
   return "General";
 }
 
+function locationKeyForDeal(deal) {
+  const location = deal.location || {};
+  return [deal.restaurant, location.address || deal.city].join("|");
+}
+
+function locationSlug(group) {
+  return group.key
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
 function dealText(deal) {
   return [
     deal.restaurant,
@@ -48,24 +87,28 @@ function dealText(deal) {
     deal.summary,
     deal.candidate_text,
     deal.validity,
+    deal.location?.address,
     ...(deal.details || []),
     ...(deal.tags || []),
     ...(deal.categories || []),
   ]
+    .filter(Boolean)
     .join(" ")
     .toLowerCase();
 }
 
 function matchesDay(deal) {
-  if (!state.day) return true;
+  const day = selectedDay();
+  if (!day) return true;
   const days = deal.applies_days || [];
-  return days.length === 0 || days.includes(state.day) || DAYS.every((day) => days.includes(day));
+  return days.includes(day) || DAYS.every((item) => days.includes(item));
 }
 
 function matchesFilters(deal) {
   const categories = deal.categories || ["general"];
   return (
     (!state.query || dealText(deal).includes(state.query.toLowerCase())) &&
+    (!state.restaurant || deal.restaurant === state.restaurant) &&
     (!state.city || deal.city === state.city) &&
     (!state.status || deal.status === state.status) &&
     (!state.category || categories.includes(state.category)) &&
@@ -73,50 +116,83 @@ function matchesFilters(deal) {
   );
 }
 
+function sourceMap() {
+  const map = new Map();
+  for (const source of state.payload.sources || []) {
+    map.set(source.url, source);
+  }
+  return map;
+}
+
 function groupDeals(deals) {
+  const sources = sourceMap();
   const groups = new Map();
   for (const deal of deals) {
-    const key = `${deal.city}|${deal.restaurant}|${deal.source_url}`;
+    const source = sources.get(deal.source_url) || {};
+    const location = deal.location || source.location || {};
+    const key = locationKeyForDeal({ ...deal, location });
     if (!groups.has(key)) {
       groups.set(key, {
+        key,
         restaurant: deal.restaurant,
         city: deal.city,
-        source_url: deal.source_url,
+        location,
+        urls: new Set(),
         deals: [],
       });
     }
-    groups.get(key).deals.push(deal);
+    const group = groups.get(key);
+    group.urls.add(deal.source_url);
+    group.deals.push(deal);
   }
+
   return [...groups.values()].sort((a, b) => {
-    const city = a.city.localeCompare(b.city);
-    return city || a.restaurant.localeCompare(b.restaurant);
+    const distanceA = distanceToGroup(a);
+    const distanceB = distanceToGroup(b);
+    if (state.userLocation && Number.isFinite(distanceA) && Number.isFinite(distanceB)) {
+      return distanceA - distanceB || a.restaurant.localeCompare(b.restaurant);
+    }
+    return a.restaurant.localeCompare(b.restaurant) || a.city.localeCompare(b.city);
   });
 }
 
-function renderCityOptions() {
-  const cities = new Set(state.payload.scope?.cities || []);
-  for (const source of state.payload.sources || []) cities.add(source.city);
-  for (const deal of state.payload.deals || []) cities.add(deal.city);
-
-  for (const city of [...cities].sort()) {
+function renderSelectOptions(select, values, firstLabel) {
+  select.innerHTML = `<option value="">${firstLabel}</option>`;
+  for (const value of values) {
     const option = document.createElement("option");
-    option.value = city;
-    option.textContent = city;
-    cityEl.append(option);
+    option.value = value;
+    option.textContent = value;
+    select.append(option);
   }
+}
+
+function renderFilterOptions() {
+  const cities = new Set(state.payload.scope?.cities || []);
+  const restaurants = new Set();
+  for (const source of state.payload.sources || []) {
+    if (source.city) cities.add(source.city);
+    if (source.name) restaurants.add(source.name);
+  }
+  for (const deal of state.payload.deals || []) {
+    if (deal.city) cities.add(deal.city);
+    if (deal.restaurant) restaurants.add(deal.restaurant);
+  }
+  renderSelectOptions(cityEl, [...cities].sort(), "All cities");
+  renderSelectOptions(restaurantEl, [...restaurants].sort(), "All restaurants");
 }
 
 function renderSummary() {
   const { summary, generated_at: generatedAt, scope } = state.payload;
-  const groups = groupDeals((state.payload.deals || []).filter((deal) => deal.status === "active"));
+  const activeGroups = groupDeals((state.payload.deals || []).filter((deal) => deal.status === "active"));
   statsEl.innerHTML = `
-    <span><strong>${groups.length}</strong> locations</span>
-    <span><strong>${summary.active_deals}</strong> active deals</span>
-    <span><strong>${summary.healthy_sources}</strong> sources ok</span>
+    <span><strong>${activeGroups.length}</strong> spots</span>
+    <span><strong>${summary.active_deals}</strong> deals</span>
+    <span><strong>${summary.healthy_sources}</strong> ok</span>
   `;
 
+  const locationText = state.locationMessage ? ` ${state.locationMessage}` : "";
   metaEl.innerHTML = `
-    <p>Updated ${formatDate(generatedAt)}. Day and type filters use best-effort parsing from each source page; source links remain the final check. Old stale items drop after ${scope.drop_after_days} days.</p>
+    <p>Updated <strong>${formatDate(generatedAt)}</strong>. Showing <strong>${state.day === "today" ? DAY_LABELS[todayKey()] : state.day || "any day"}</strong> deals.${locationText} Stale items drop after ${scope.drop_after_days} days.</p>
   `;
 }
 
@@ -125,6 +201,98 @@ function badge(text, className = "") {
   span.className = className;
   span.textContent = text;
   return span;
+}
+
+function mapsUrl(address) {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+}
+
+function telUrl(phone) {
+  return `tel:${phone.replace(/[^0-9+]/g, "")}`;
+}
+
+function distanceMiles(a, b) {
+  const radius = 3958.8;
+  const toRad = (value) => (value * Math.PI) / 180;
+  const dLat = toRad(b.latitude - a.latitude);
+  const dLon = toRad(b.longitude - a.longitude);
+  const lat1 = toRad(a.latitude);
+  const lat2 = toRad(b.latitude);
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLon / 2) ** 2;
+  return 2 * radius * Math.asin(Math.sqrt(h));
+}
+
+function distanceToGroup(group) {
+  if (!state.userLocation || !group.location?.latitude || !group.location?.longitude) return Number.POSITIVE_INFINITY;
+  return distanceMiles(state.userLocation, group.location);
+}
+
+function distanceLabel(group) {
+  const distance = distanceToGroup(group);
+  if (!Number.isFinite(distance)) return null;
+  return `${distance.toFixed(distance < 10 ? 1 : 0)} mi`;
+}
+
+function minutesSinceWeekStart(date) {
+  const jsDay = date.getDay();
+  const dayIndex = jsDay === 0 ? 6 : jsDay - 1;
+  return dayIndex * 1440 + date.getHours() * 60 + date.getMinutes();
+}
+
+function parseClock(value) {
+  const [hour, minute] = value.split(":").map(Number);
+  return hour * 60 + minute;
+}
+
+function openStatus(location) {
+  const hours = location?.hours;
+  if (!hours) return "Hours unknown";
+  const now = new Date();
+  const current = minutesSinceWeekStart(now);
+  const today = DAYS[now.getDay() === 0 ? 6 : now.getDay() - 1];
+  const ranges = [];
+
+  DAYS.forEach((day, index) => {
+    for (const range of hours[day] || []) {
+      const start = index * 1440 + parseClock(range.open);
+      let end = index * 1440 + parseClock(range.close);
+      if (end <= start) end += 1440;
+      ranges.push({ start, end, range, day });
+    }
+  });
+
+  for (const item of ranges) {
+    if (current >= item.start && current < item.end) return `Open until ${formatClock(item.range.close)}`;
+    if (current + 1440 >= item.start && current + 1440 < item.end) return `Open until ${formatClock(item.range.close)}`;
+  }
+
+  const todayRanges = hours[today] || [];
+  if (todayRanges.length) return `Closed now, opens ${formatClock(todayRanges[0].open)}`;
+  return "Closed today";
+}
+
+function formatClock(value) {
+  const [hour, minute] = value.split(":").map(Number);
+  const period = hour >= 12 ? "PM" : "AM";
+  const displayHour = hour % 12 || 12;
+  return `${displayHour}:${String(minute).padStart(2, "0")} ${period}`;
+}
+
+function bestDeals(group) {
+  return group.deals
+    .slice()
+    .sort((a, b) => scoreDeal(b) - scoreDeal(a) || (a.summary || "").localeCompare(b.summary || ""))
+    .slice(0, 2);
+}
+
+function scoreDeal(deal) {
+  const tags = deal.tags || [];
+  let score = 0;
+  if (tags.includes("happy_hour")) score += 4;
+  if (tags.includes("percent_off") || tags.includes("bogo") || tags.includes("free")) score += 3;
+  if ((deal.applies_days || []).length) score += 2;
+  if (deal.time_window) score += 1;
+  return score;
 }
 
 function renderDealRow(deal) {
@@ -138,23 +306,19 @@ function renderDealRow(deal) {
   title.textContent = deal.summary || deal.candidate_text;
   main.append(title);
 
-  const details = (deal.details || []).filter((item) => item !== title.textContent).slice(0, 4);
-  if (details.length) {
-    const detailList = document.createElement("ul");
-    detailList.className = "deal-details";
-    for (const item of details) {
-      const li = document.createElement("li");
-      li.textContent = item;
-      detailList.append(li);
-    }
-    main.append(detailList);
+  const detailItems = (deal.details || []).filter((item) => item && item !== title.textContent).slice(0, 3);
+  if (detailItems.length) {
+    const details = document.createElement("p");
+    details.className = "deal-details";
+    details.textContent = detailItems.join(" · ");
+    main.append(details);
   }
 
   const meta = document.createElement("div");
   meta.className = "deal-meta";
-  meta.append(badge(deal.validity || "Check source for current day/time", "validity"));
+  meta.append(badge(deal.validity || "Check source", "validity"));
   meta.append(badge(categoryLabel(deal.categories), "category"));
-  for (const tag of deal.tags || []) meta.append(badge(tagLabel(tag)));
+  for (const tag of (deal.tags || []).slice(0, 2)) meta.append(badge(tagLabel(tag)));
   main.append(meta);
 
   const side = document.createElement("div");
@@ -162,60 +326,114 @@ function renderDealRow(deal) {
   side.append(badge(deal.status, `status ${deal.status}`));
   const seen = document.createElement("span");
   seen.className = "seen";
-  seen.textContent = deal.status === "stale" ? `Last seen ${formatDate(deal.last_seen)}` : `Seen ${formatDate(deal.last_seen)}`;
+  seen.textContent = deal.status === "stale" ? `last ${formatDate(deal.last_seen)}` : formatDate(deal.last_seen);
   side.append(seen);
 
   row.append(main, side);
   return row;
 }
 
+function renderGroup(group) {
+  const section = document.createElement("details");
+  section.className = "location";
+  section.id = locationSlug(group);
+  section.open = Boolean(state.restaurant || state.query || state.day !== "today" || state.category);
+
+  const summary = document.createElement("summary");
+  summary.className = "location-heading";
+
+  const titleWrap = document.createElement("div");
+  titleWrap.className = "location-title";
+  const title = document.createElement("h2");
+  title.textContent = group.restaurant;
+  const sub = document.createElement("p");
+  const bits = [group.city, distanceLabel(group), openStatus(group.location)].filter(Boolean);
+  sub.textContent = bits.join(" · ");
+  titleWrap.append(title, sub);
+
+  const preview = document.createElement("div");
+  preview.className = "deal-preview";
+  for (const deal of bestDeals(group)) preview.append(badge(deal.summary || "Deal"));
+
+  const actions = document.createElement("div");
+  actions.className = "location-actions";
+  actions.append(badge(`${group.deals.length}`, "count"));
+  if (group.location?.address) {
+    const directions = document.createElement("a");
+    directions.href = mapsUrl(group.location.address);
+    directions.target = "_blank";
+    directions.rel = "noopener";
+    directions.textContent = "Directions";
+    actions.append(directions);
+  }
+  if (group.location?.phone) {
+    const call = document.createElement("a");
+    call.href = telUrl(group.location.phone);
+    call.textContent = "Call";
+    actions.append(call);
+  }
+
+  summary.append(titleWrap, preview, actions);
+  section.append(summary);
+
+  const body = document.createElement("div");
+  body.className = "location-body";
+  const address = document.createElement("div");
+  address.className = "address-line";
+  address.textContent = group.location?.address || "Address not loaded yet";
+  body.append(address);
+
+  const rows = document.createElement("div");
+  rows.className = "deal-list";
+  for (const deal of group.deals) rows.append(renderDealRow(deal));
+  body.append(rows);
+
+  const sourceRow = document.createElement("div");
+  sourceRow.className = "source-row";
+  for (const url of group.urls) {
+    const source = document.createElement("a");
+    source.href = url;
+    source.target = "_blank";
+    source.rel = "noopener";
+    source.textContent = "Source";
+    sourceRow.append(source);
+  }
+  body.append(sourceRow);
+  section.append(body);
+  return section;
+}
+
+function renderJumpbar(groups) {
+  jumpbarEl.innerHTML = "";
+  for (const group of groups) {
+    const link = document.createElement("a");
+    link.href = `#${locationSlug(group)}`;
+    link.textContent = group.restaurant;
+    link.addEventListener("click", () => {
+      const section = document.getElementById(locationSlug(group));
+      if (section) section.open = true;
+    });
+    jumpbarEl.append(link);
+  }
+}
+
 function renderDeals() {
   const deals = (state.payload.deals || []).filter(matchesFilters);
   const groups = groupDeals(deals);
   dealsEl.innerHTML = "";
+  renderJumpbar(groups);
+  renderSummary();
 
   if (!groups.length) {
     dealsEl.innerHTML = '<p class="empty">No matching deals found yet.</p>';
     return;
   }
 
-  for (const group of groups) {
-    const section = document.createElement("section");
-    section.className = "location";
-
-    const heading = document.createElement("header");
-    heading.className = "location-heading";
-
-    const titleWrap = document.createElement("div");
-    const title = document.createElement("h2");
-    title.textContent = group.restaurant;
-    const city = document.createElement("p");
-    city.textContent = group.city;
-    titleWrap.append(title, city);
-
-    const actions = document.createElement("div");
-    actions.className = "location-actions";
-    actions.append(badge(`${group.deals.length} deal${group.deals.length === 1 ? "" : "s"}`));
-    const source = document.createElement("a");
-    source.href = group.source_url;
-    source.target = "_blank";
-    source.rel = "noopener";
-    source.textContent = "Source";
-    actions.append(source);
-
-    heading.append(titleWrap, actions);
-    section.append(heading);
-
-    const rows = document.createElement("div");
-    rows.className = "deal-list";
-    for (const deal of group.deals) rows.append(renderDealRow(deal));
-    section.append(rows);
-    dealsEl.append(section);
-  }
+  for (const group of groups) dealsEl.append(renderGroup(group));
 }
 
 function renderSources() {
-  const failed = (state.payload.sources || []).filter((source) => !source.ok);
+  const failed = (state.payload.sources || []).filter((source) => !source.ok && !source.retired);
   if (!failed.length) {
     sourcesEl.innerHTML = "";
     return;
@@ -238,20 +456,62 @@ function renderSources() {
 
 function rerender() {
   renderDeals();
+  renderSources();
+}
+
+function requestLocation() {
+  if (!navigator.geolocation) {
+    state.locationMessage = "Location is not available in this browser.";
+    rerender();
+    return;
+  }
+  locateEl.disabled = true;
+  locateEl.textContent = "Finding...";
+  navigator.geolocation.getCurrentPosition(
+    (position) => {
+      state.userLocation = {
+        latitude: position.coords.latitude,
+        longitude: position.coords.longitude,
+      };
+      state.locationMessage = "Sorted by distance.";
+      locateEl.textContent = "Distance on";
+      rerender();
+    },
+    () => {
+      state.locationMessage = "Location permission was not enabled.";
+      locateEl.disabled = false;
+      locateEl.textContent = "Use my location";
+      rerender();
+    },
+    { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 }
+  );
 }
 
 async function init() {
   const response = await fetch("data/deals.json", { cache: "no-store" });
   state.payload = await response.json();
-  renderCityOptions();
-  renderSummary();
+  renderFilterOptions();
   renderDeals();
-  renderSources();
 }
 
 searchEl.addEventListener("input", (event) => {
   state.query = event.target.value.trim();
   rerender();
+});
+
+restaurantEl.addEventListener("change", (event) => {
+  state.restaurant = event.target.value;
+  rerender();
+  if (state.restaurant) {
+    requestAnimationFrame(() => {
+      const group = groupDeals((state.payload.deals || []).filter(matchesFilters))[0];
+      const section = group && document.getElementById(locationSlug(group));
+      if (section) {
+        section.open = true;
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  }
 });
 
 cityEl.addEventListener("change", (event) => {
@@ -273,6 +533,8 @@ statusEl.addEventListener("change", (event) => {
   state.status = event.target.value;
   rerender();
 });
+
+locateEl.addEventListener("click", requestLocation);
 
 init().catch((error) => {
   dealsEl.innerHTML = `<p class="empty">Could not load deals: ${error.message}</p>`;
