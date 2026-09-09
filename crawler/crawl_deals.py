@@ -5,6 +5,7 @@ import html
 import json
 import re
 import sys
+import time
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from html.parser import HTMLParser
@@ -20,7 +21,7 @@ OUTPUT_PATH = ROOT / "docs" / "data" / "deals.json"
 STALE_AFTER_DAYS = 21
 DROP_AFTER_DAYS = 90
 REQUEST_TIMEOUT = 25
-CRAWLER_VERSION = 4
+CRAWLER_VERSION = 5
 
 
 DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
@@ -172,14 +173,21 @@ def fetch_html(source: Source) -> str:
         "Accept": "text/html,application/xhtml+xml",
     }
     request = Request(source.url, headers=headers)
-    try:
-        with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
-            charset = response.headers.get_content_charset() or "utf-8"
-            return response.read().decode(charset, errors="replace")
-    except HTTPError as exc:
-        raise RuntimeError(f"HTTP {exc.code}") from exc
-    except URLError as exc:
-        raise RuntimeError(str(exc.reason)) from exc
+    last_error: Exception | None = None
+    for attempt in range(3):
+        try:
+            with urlopen(request, timeout=REQUEST_TIMEOUT) as response:
+                charset = response.headers.get_content_charset() or "utf-8"
+                return response.read().decode(charset, errors="replace")
+        except HTTPError as exc:
+            if exc.code == 403:
+                raise RuntimeError(f"HTTP {exc.code}") from exc
+            last_error = exc
+        except (OSError, URLError) as exc:
+            last_error = exc
+        if attempt < 2:
+            time.sleep(2**attempt)
+    raise RuntimeError(str(getattr(last_error, "reason", last_error)))
 
 
 def clean_text(html: str) -> list[str]:
