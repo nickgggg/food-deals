@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HB Food Deals</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Huntington Beach + Fountain Valley</p>
+        <h1>Food Deals</h1>
+      </div>
+      <div class="stats" id="stats" aria-live="polite"></div>
+    </header>
+
+    <main>
+      <section class="controls" aria-label="Deal filters">
+        <label>
+          Search
+          <input id="search" type="search" placeholder="happy hour, taco, $5">
+        </label>
+        <label>
+          City
+          <select id="city">
+            <option value="">All cities</option>
+          </select>
+        </label>
+        <label>
+          Status
+          <select id="status">
+            <option value="active">Active</option>
+            <option value="">Active + stale</option>
+            <option value="stale">Stale only</option>
+          </select>
+        </label>
+      </section>
+
+      <section class="meta" id="meta"></section>
+      <section class="deals" id="deals" aria-live="polite"></section>
+      <section class="sources" id="sources"></section>
+    </main>
+
+    <template id="deal-template">
+      <article class="deal">
+        <div class="deal-heading">
+          <div>
+            <h2></h2>
+            <p class="city"></p>
+          </div>
+          <span class="status"></span>
+        </div>
+        <p class="candidate"></p>
+        <div class="tags"></div>
+        <footer>
+          <a target="_blank" rel="noopener">Source</a>
+          <span class="seen"></span>
+        </footer>
+      </article>
+    </template>
+
+    <script src="app.js"></script>
+  </body>
+</html>
