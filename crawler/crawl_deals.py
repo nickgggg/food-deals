@@ -49,6 +49,9 @@ TAG_PATTERNS = {
 NOISE_PATTERNS = [
     re.compile(r"^(skip to|copyright|privacy policy|terms|accessibility|do not sell)", re.I),
     re.compile(r"^(facebook|instagram|twitter|x|youtube|tiktok)$", re.I),
+    re.compile(r"^(?:home|menu|order|order online|reserve a table|book a table|contact us|careers|gallery|quick links|directions|vip club|content)$", re.I),
+    re.compile(r"\border(?: online)?\b.*\babout\b.*\bgallery\b", re.I),
+    re.compile(r"\bcontent\b.*\bmenus\b.*\breserve a table\b", re.I),
     re.compile(r"\b(?:cookie preferences|privacy policy|report abuse|powered by|yelp rating|read more|linktree|canva|analytics|sponsored links)\b", re.I),
     re.compile(r"\b(?:expired|click to use coupon|share|grubhub|doordash|uber eats|postmates)\b", re.I),
 ]
@@ -292,14 +295,6 @@ def is_quality_candidate(text: str, tags: list[str]) -> bool:
 
 def extract_days(text: str) -> list[str]:
     lower = text.lower()
-    if re.search(r"\b(?:daily|every day|all day|everyday)\b", lower):
-        return DAYS
-    if re.search(r"\b(?:weekday|weekdays|monday\s*(?:-|to|thru|through)\s*friday|mon\s*(?:-|to|thru|through)\s*fri)\b", lower):
-        return DAYS[:5]
-    if re.search(r"\b(?:weekend|weekends)\b", lower):
-        return DAYS[5:]
-
-    found: list[str] = []
     aliases = {
         "mon": "monday",
         "monday": "monday",
@@ -319,6 +314,29 @@ def extract_days(text: str) -> list[str]:
         "sun": "sunday",
         "sunday": "sunday",
     }
+
+    if re.search(r"\b(?:daily|every day|all day|everyday)\b", lower):
+        return DAYS
+    if re.search(r"\b(?:weekday|weekdays|monday\s*(?:-|to|thru|through)\s*friday|mon\s*(?:-|to|thru|through)\s*fri)\b", lower):
+        return DAYS[:5]
+    if re.search(r"\b(?:weekend|weekends)\b", lower):
+        return DAYS[5:]
+
+    found: list[str] = []
+    day_pattern = r"(mon(?:day)?|tues?|tuesday|wed(?:nesday)?|thu(?:r|rs|rsday)?|thursday|fri(?:day)?|sat(?:urday)?|sun(?:day)?)"
+    range_pattern = re.compile(rf"\b{day_pattern}\s*(?:-|to|thru|through|\u2013|\u2014)\s*{day_pattern}\b", re.I)
+    for match in range_pattern.finditer(lower):
+        start = aliases.get(match.group(1))
+        end = aliases.get(match.group(2))
+        if not start or not end:
+            continue
+        start_index = DAYS.index(start)
+        end_index = DAYS.index(end)
+        span = DAYS[start_index : end_index + 1] if start_index <= end_index else DAYS[start_index:] + DAYS[: end_index + 1]
+        for day in span:
+            if day not in found:
+                found.append(day)
+
     for match in re.finditer(r"\b(mon(?:day)?|tues?|tuesday|wed(?:nesday)?|thu(?:r|rs|rsday)?|thursday|fri(?:day)?|sat(?:urday)?|sun(?:day)?)\b", lower):
         day = aliases.get(match.group(1))
         if day and day not in found:
