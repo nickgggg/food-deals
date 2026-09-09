@@ -28,6 +28,28 @@
           </select>
         </label>
         <label>
+          Day
+          <select id="day">
+            <option value="">Any day</option>
+            <option value="monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thursday">Thursday</option>
+            <option value="friday">Friday</option>
+            <option value="saturday">Saturday</option>
+            <option value="sunday">Sunday</option>
+          </select>
+        </label>
+        <label>
+          Type
+          <select id="category">
+            <option value="">Food + drink</option>
+            <option value="food">Food</option>
+            <option value="drink">Drink</option>
+            <option value="general">General</option>
+          </select>
+        </label>
+        <label>
           Status
           <select id="status">
             <option value="active">Active</option>
@@ -41,24 +63,6 @@
       <section class="deals" id="deals" aria-live="polite"></section>
       <section class="sources" id="sources"></section>
     </main>
-
-    <template id="deal-template">
-      <article class="deal">
-        <div class="deal-heading">
-          <div>
-            <h2></h2>
-            <p class="city"></p>
-          </div>
-          <span class="status"></span>
-        </div>
-        <p class="candidate"></p>
-        <div class="tags"></div>
-        <footer>
-          <a target="_blank" rel="noopener">Source</a>
-          <span class="seen"></span>
-        </footer>
-      </article>
-    </template>
 
     <script src="app.js"></script>
   </body>
