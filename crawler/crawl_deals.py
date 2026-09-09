@@ -36,7 +36,15 @@ TAG_PATTERNS = {
 NOISE_PATTERNS = [
     re.compile(r"^(skip to|copyright|privacy policy|terms|accessibility|do not sell)", re.I),
     re.compile(r"^(facebook|instagram|twitter|x|youtube|tiktok)$", re.I),
+    re.compile(r"\b(?:cookie preferences|privacy policy|report abuse|powered by|yelp rating|read more|linktree|canva|analytics|sponsored links)\b", re.I),
 ]
+
+
+STRONG_TAGS = {"percent_off", "dollar_amount", "bogo", "happy_hour", "free"}
+SPECIAL_CONTEXT = re.compile(
+    r"\b(?:special|deal|discount|coupon|promo|promotion|offer|happy hour|taco tuesday|wine wednesday|brunch|lunch|dinner|menu)\b",
+    re.I,
+)
 
 
 class VisibleTextParser(HTMLParser):
@@ -158,6 +166,16 @@ def detect_tags(text: str) -> list[str]:
     return [tag for tag, pattern in TAG_PATTERNS.items() if pattern.search(text)]
 
 
+def is_quality_candidate(text: str, tags: list[str]) -> bool:
+    if any(pattern.search(text) for pattern in NOISE_PATTERNS):
+        return False
+    if len(text.split()) < 2:
+        return False
+    if STRONG_TAGS.intersection(tags):
+        return True
+    return bool(SPECIAL_CONTEXT.search(text))
+
+
 def deal_id(source: Source, candidate_text: str) -> str:
     stable_text = re.sub(r"\s+", " ", candidate_text.lower()).strip()
     digest = hashlib.sha1(f"{source.url}|{stable_text}".encode("utf-8")).hexdigest()
@@ -171,7 +189,7 @@ def crawl_source(source: Source, now: datetime, existing: dict[str, dict]) -> tu
 
     for candidate in candidate_windows(lines):
         tags = detect_tags(candidate)
-        if not tags:
+        if not tags or not is_quality_candidate(candidate, tags):
             continue
 
         did = deal_id(source, candidate)
@@ -213,6 +231,9 @@ def carry_forward_stale(existing: dict[str, dict], seen_ids: set[str], now: date
         last_seen_dt = parse_iso(deal.get("last_seen"), now)
         days_since_seen = max(0, (now - last_seen_dt).days)
         if days_since_seen > DROP_AFTER_DAYS:
+            continue
+        tags = deal.get("tags", [])
+        if not is_quality_candidate(deal.get("candidate_text", ""), tags):
             continue
 
         carried = dict(deal)
