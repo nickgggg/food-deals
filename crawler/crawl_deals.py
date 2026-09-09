@@ -37,6 +37,7 @@ NOISE_PATTERNS = [
     re.compile(r"^(skip to|copyright|privacy policy|terms|accessibility|do not sell)", re.I),
     re.compile(r"^(facebook|instagram|twitter|x|youtube|tiktok)$", re.I),
     re.compile(r"\b(?:cookie preferences|privacy policy|report abuse|powered by|yelp rating|read more|linktree|canva|analytics|sponsored links)\b", re.I),
+    re.compile(r"\b(?:expired|click to use coupon|share|grubhub|doordash|uber eats|postmates)\b", re.I),
 ]
 
 
@@ -151,10 +152,9 @@ def clean_text(markup: str) -> list[str]:
 
 def candidate_windows(lines: list[str]) -> Iterable[str]:
     seen: set[str] = set()
-    for index, line in enumerate(lines):
-        window = " ".join(lines[max(0, index - 1) : min(len(lines), index + 3)])
-        chunks = [line, window]
-        chunks.extend(re.split(r"(?<=[.!?])\s+", window))
+    for line in lines:
+        chunks = [line]
+        chunks.extend(re.split(r"(?<=[.!?])\s+", line))
         for chunk in chunks:
             normalized = re.sub(r"\s+", " ", chunk).strip(" -|")
             if 8 <= len(normalized) <= 500 and normalized.lower() not in seen:
@@ -170,6 +170,8 @@ def is_quality_candidate(text: str, tags: list[str]) -> bool:
     if any(pattern.search(text) for pattern in NOISE_PATTERNS):
         return False
     if len(text.split()) < 2:
+        return False
+    if text.startswith("&") and not STRONG_TAGS.intersection(tags):
         return False
     if STRONG_TAGS.intersection(tags):
         return True
