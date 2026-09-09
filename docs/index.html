@@ -17,9 +17,15 @@
 
     <main>
       <section class="controls" aria-label="Deal filters">
-        <label>
+        <label class="search-control">
           Search
-          <input id="search" type="search" placeholder="happy hour, taco, $5">
+          <input id="search" type="search" placeholder="happy hour, tacos, beer">
+        </label>
+        <label>
+          Restaurant
+          <select id="restaurant">
+            <option value="">All restaurants</option>
+          </select>
         </label>
         <label>
           City
@@ -30,6 +36,7 @@
         <label>
           Day
           <select id="day">
+            <option value="today">Today</option>
             <option value="">Any day</option>
             <option value="monday">Monday</option>
             <option value="tuesday">Tuesday</option>
@@ -57,9 +64,11 @@
             <option value="stale">Stale only</option>
           </select>
         </label>
+        <button id="locate" class="locate-button" type="button">Use my location</button>
       </section>
 
       <section class="meta" id="meta"></section>
+      <nav class="jumpbar" id="jumpbar" aria-label="Restaurant quick jump"></nav>
       <section class="deals" id="deals" aria-live="polite"></section>
       <section class="sources" id="sources"></section>
     </main>
