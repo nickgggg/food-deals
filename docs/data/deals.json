@@ -1,0 +1,21 @@
+{
+  "deals": [],
+  "generated_at": null,
+  "scope": {
+    "cities": [
+      "Huntington Beach",
+      "Fountain Valley"
+    ],
+    "drop_after_days": 90,
+    "source_count": 15,
+    "stale_after_days": 21
+  },
+  "sources": [],
+  "summary": {
+    "active_deals": 0,
+    "failed_sources": 0,
+    "healthy_sources": 0,
+    "stale_deals": 0,
+    "total_deals": 0
+  }
+}
