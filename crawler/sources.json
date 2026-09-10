@@ -21,7 +21,7 @@
     "url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
     "notes": "Official specials, coupons, and happy hour page",
     "location": { "address": "10130 Warner Ave, Fountain Valley, CA 92708", "phone": "(714) 968-6128", "latitude": 33.7159, "longitude": -117.953, "hours": { "monday": [{ "open": "11:00", "close": "21:00" }], "tuesday": [{ "open": "11:00", "close": "21:00" }], "wednesday": [{ "open": "11:00", "close": "21:00" }], "thursday": [{ "open": "11:00", "close": "21:00" }], "friday": [{ "open": "11:00", "close": "22:00" }], "saturday": [{ "open": "11:00", "close": "22:00" }], "sunday": [{ "open": "11:00", "close": "21:00" }] } },
-    "options": { "strict": true, "max_deals": 10 }
+    "options": { "static_deals": [{ "summary": "Happy hour", "details": ["Monday-Friday, 3 PM-6 PM", "$1 off pints, big mugs, glasses of wine, and 1 lb wings", "$2 off half pitchers and combo platters", "$3 off pitchers, ultimate combo platter, and 3 lb wings", "$4 off table kegs, bottles of wine, and 5 lb wings", "Dine-in only; not valid with any other offer"], "categories": ["food", "drink"], "applies_days": ["monday", "tuesday", "wednesday", "thursday", "friday"], "time_window": "3 PM - 6 PM", "validity": "Mon-Fri, 3 PM - 6 PM", "tags": ["happy_hour", "dollar_amount", "weekday_special"] }, { "summary": "Lunch specials", "details": ["Lunch combo menu includes pizza slices, sandwiches, salads, wings, spaghetti, and drinks", "Most listed combos run about $8.50-$14; open source for the exact item list"], "categories": ["food", "drink"], "applies_days": [], "validity": "Check source", "tags": ["dollar_amount", "deal_language"] }] }
   },
   {
     "name": "Lorea",
@@ -85,7 +85,7 @@
     "url": "https://solitatacos.com/promotions/happy-hour/",
     "notes": "Official happy hour promotion page",
     "location": { "address": "7631 Edinger Ave, Huntington Beach, CA 92647", "phone": "(714) 894-2792", "latitude": 33.7332, "longitude": -117.9946, "hours": { "monday": [{ "open": "11:00", "close": "22:00" }], "tuesday": [{ "open": "11:00", "close": "22:00" }], "wednesday": [{ "open": "11:00", "close": "22:00" }], "thursday": [{ "open": "11:00", "close": "22:00" }], "friday": [{ "open": "11:00", "close": "23:00" }], "saturday": [{ "open": "10:00", "close": "23:00" }], "sunday": [{ "open": "10:00", "close": "22:00" }] } },
-    "options": { "max_deals": 14 }
+    "options": { "static_deals": [{ "summary": "Happy hour", "details": ["Specials start at $4", "Deals for tacos and margaritas", "Available Monday-Friday, 3 PM-6 PM", "Huntington Beach also has late-night happy hour Sunday-Thursday, 8 PM-close"], "categories": ["food", "drink"], "applies_days": ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday"], "time_window": "3 PM - 6 PM", "validity": "Mon-Fri 3 PM-6 PM; Sun-Thu 8 PM-close late night", "tags": ["happy_hour", "dollar_amount", "weekday_special"] }, { "summary": "Email club free appetizer", "details": ["Free appetizer for signing up for the mailing list", "Birthday surprise on your birthday"], "categories": ["food"], "applies_days": [], "validity": "Check source", "tags": ["free", "deal_language"] }] }
   },
   {
     "name": "Stonefire Grill",
@@ -117,6 +117,6 @@
     "url": "https://zubiesdrydock.com/",
     "notes": "Official homepage with happy hour and daily specials",
     "location": { "address": "9059 Adams Ave, Huntington Beach, CA 92646", "phone": "(714) 916-5862", "latitude": 33.6722, "longitude": -117.9704, "hours": { "monday": [{ "open": "11:30", "close": "22:00" }], "tuesday": [{ "open": "11:30", "close": "22:00" }], "wednesday": [{ "open": "11:30", "close": "22:00" }], "thursday": [{ "open": "11:30", "close": "22:00" }], "friday": [{ "open": "11:30", "close": "22:00" }], "saturday": [{ "open": "11:30", "close": "22:00" }], "sunday": [{ "open": "09:00", "close": "21:00" }] } },
-    "options": { "strict": true, "max_deals": 10 }
+    "options": { "static_deals": [{ "summary": "Weekday happy hour", "details": ["Monday-Friday, 1 PM-6 PM", "$5 draft beers", "$6 well drinks and house wines", "Discounted apps and bites"], "categories": ["food", "drink"], "applies_days": ["monday", "tuesday", "wednesday", "thursday", "friday"], "time_window": "1 PM - 6 PM", "validity": "Mon-Fri, 1 PM - 6 PM", "tags": ["happy_hour", "dollar_amount", "weekday_special"] }, { "summary": "Daily specials", "details": ["Different lunch and dinner specials every day", "Lunch specials Mon-Fri, 11:30 AM-5 PM", "Dinner specials every day, 5 PM-close"], "categories": ["food"], "applies_days": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"], "time_window": "11:30 AM - close", "validity": "Lunch Mon-Fri 11:30 AM-5 PM; dinner every day 5 PM-close", "tags": ["weekday_special", "deal_language"] }, { "summary": "Sunday breakfast", "details": ["Sunday breakfast menu served 9 AM-noon"], "categories": ["food"], "applies_days": ["sunday"], "time_window": "9 AM - 12 PM", "validity": "Sunday, 9 AM - noon", "tags": ["weekday_special"] }] }
   }
 ]
