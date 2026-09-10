@@ -20,11 +20,12 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_PATH = ROOT / "crawler" / "sources.json"
 RESTAURANTS_PATH = ROOT / "docs" / "data" / "restaurants.json"
+AI_EXTRACTIONS_PATH = ROOT / "docs" / "data" / "ai_extractions.json"
 OUTPUT_PATH = ROOT / "docs" / "data" / "deals.json"
 STALE_AFTER_DAYS = 21
 DROP_AFTER_DAYS = 90
 REQUEST_TIMEOUT = 25
-CRAWLER_VERSION = 14
+CRAWLER_VERSION = 15
 
 DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 DAY_LABELS = {
@@ -150,6 +151,14 @@ def load_restaurant_inventory() -> list[dict[str, Any]]:
     return payload.get("restaurants", [])
 
 
+def load_ai_sources() -> list[dict[str, Any]]:
+    try:
+        payload = json.loads(AI_EXTRACTIONS_PATH.read_text())
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+    return payload.get("sources", [])
+
+
 def inventory_location(restaurant: dict[str, Any], fallback: dict[str, Any] | None = None) -> dict[str, Any]:
     location = dict(fallback or {})
     for key in ("address", "phone", "latitude", "longitude", "hours", "google_maps_url", "business_status", "place_id"):
@@ -185,6 +194,14 @@ def load_sources() -> list[Source]:
         if matched:
             raw = dict(raw)
             raw["location"] = inventory_location(matched, raw.get("location"))
+        sources.append(Source(**raw))
+
+    for raw in load_ai_sources():
+        key = restaurant_key(raw["name"], raw["city"])
+        url = raw["url"].rstrip("/")
+        if key in manual_keys or url in seen_urls:
+            continue
+        seen_urls.add(url)
         sources.append(Source(**raw))
 
     for restaurant in inventory:
@@ -405,6 +422,9 @@ def build_static_deal(source: Source, raw: dict[str, Any], now: datetime, existi
         "status": "active",
         "is_stale": False,
         "days_since_seen": 0,
+        "valid_through": raw.get("valid_through"),
+        "source_evidence": raw.get("source_evidence", []),
+        "ai_confidence": raw.get("ai_confidence"),
     }
 
 
@@ -502,7 +522,8 @@ def aggregate_deals(source: Source, deals: list[dict], now: datetime, existing: 
 def crawl_source(source: Source, now: datetime, existing: dict[str, dict]) -> tuple[list[dict], dict]:
     if source.options.get("static_deals"):
         deals = [build_static_deal(source, deal, now, existing) for deal in source.options["static_deals"]]
-        return deals, source_status(source, True, len(deals), now, mode="curated")
+        mode = "ai_extracted" if source.options.get("ai_extracted") else "curated"
+        return deals, source_status(source, True, len(deals), now, mode=mode)
 
     page_html = fetch_html(source)
     lines = clean_text(page_html)

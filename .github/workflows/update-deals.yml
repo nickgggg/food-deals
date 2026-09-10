@@ -31,6 +31,11 @@ jobs:
           GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
         run: python crawler/discover_restaurants.py
 
+      - name: Extract verified deals from candidate pages
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python crawler/extract_with_gemini.py
+
       - name: Crawl deals
         run: python crawler/crawl_deals.py
 
@@ -38,4 +43,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update deals data"
-          file_pattern: docs/data/deals.json docs/data/restaurants.json
+          file_pattern: docs/data/deals.json docs/data/restaurants.json docs/data/ai_extractions.json

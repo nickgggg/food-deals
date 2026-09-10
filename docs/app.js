@@ -186,8 +186,8 @@ function renderSummary() {
   const activeGroups = groupDeals((state.payload.deals || []).filter((deal) => deal.status === "active"));
   statsEl.innerHTML = `
     <span><strong>${state.restaurants?.coverage?.operational_count || activeGroups.length}</strong> nearby</span>
-    <span><strong>${activeGroups.length}</strong> with deals</span>
-    <span><strong>${summary.active_deals}</strong> deals</span>
+    <span><strong>${activeGroups.length}</strong> restaurants</span>
+    <span><strong>${summary.active_deals}</strong> verified offers</span>
   `;
 
   const locationText = state.locationMessage ? ` ${state.locationMessage}` : "";

@@ -8,6 +8,7 @@ The project runs entirely on GitHub:
 - The crawler writes normalized JSON to `docs/data/deals.json`.
 - GitHub Pages serves the static frontend from `docs/`.
 - Google Places builds a weekly nearby-restaurant inventory and supplies current business details.
+- Gemini extracts structured offers from likely specials pages; source-evidence checks keep uncertain results unpublished.
 - The crawler uses only the Python standard library, so there are no package installs.
 
 ## Current Scope
@@ -15,6 +16,8 @@ The project runs entirely on GitHub:
 Curated sources live in `crawler/sources.json`. A weekly discovery pass scans the configured map grid, finds official websites and likely specials pages, and writes the restaurant inventory to `docs/data/restaurants.json`. Discovered pages form a review queue; they publish only after a source-specific parser or explicit `publish` approval prevents generic page noise from reaching the site.
 
 The discovery job requires the repository Actions secret `GOOGLE_PLACES_API_KEY`, with Places API (New) enabled. Its map bounds and refresh interval live in `crawler/places_config.json`.
+
+AI extraction requires the Actions secret `GEMINI_API_KEY`. It processes at most 30 changed pages per run, stores content fingerprints in `docs/data/ai_extractions.json`, and reuses cached results while a page remains unchanged.
 
 ## What It Finds
 
