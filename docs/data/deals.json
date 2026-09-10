@@ -25,7 +25,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "a3e409f79a150a97",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -117,7 +117,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "184f74070521c82d",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -203,7 +203,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "ca3e67494d5c9c6e",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -289,7 +289,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "0bbca70d61eb1130",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -375,7 +375,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "dd66f6a6cf244601",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -444,6 +444,134 @@
       "validity": "Wednesday, all day"
     },
     {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "candidate_text": "Happy Hour Drinks Specials House Wine for $6 Beer for $5 Well Drinks for $7 Aperol Spritz and Italian Margarita for $8 Lemon Drop Martini, Raspberry Martini, Salted Pear Martini, and Espresso Martini for $9",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "House Wine for $6",
+        "Beer for $5",
+        "Well Drinks for $7",
+        "Aperol Spritz and Italian Margarita for $8",
+        "Lemon Drop Martini, Raspberry Martini, Salted Pear Martini, and Espresso Martini for $9"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "4528337bf42f2c04",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "19881 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=15574308285560232224&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "15:00",
+              "open": "11:00"
+            },
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "15:00",
+              "open": "11:00"
+            },
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "15:00",
+              "open": "10:00"
+            },
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "15:00",
+              "open": "10:00"
+            },
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "15:00",
+              "open": "11:00"
+            },
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "15:00",
+              "open": "11:00"
+            },
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "15:00",
+              "open": "11:00"
+            },
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.6736115,
+        "longitude": -117.95421869999998,
+        "phone": "(714) 593-9099",
+        "place_id": "ChIJLeGHncYg3YARIJk9l94OI9g"
+      },
+      "restaurant": "Crivello Ristorante Italiano",
+      "source_evidence": [
+        "MONDAY 4PM- CLOSE",
+        "TUESDAY- FRIDAY 4PM-6PM",
+        "APEROL SPRITZ- $8 ITALIAN MARGARITA- $8",
+        "HOUSE WINE$6",
+        "BEER- $5"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.crivelloristorante.com/happy-hour-menu",
+      "status": "active",
+      "summary": "Happy Hour Drinks Specials",
+      "tags": [
+        "dollar_amount",
+        "happy_hour",
+        "deal_language"
+      ],
+      "time_window": "Monday 4PM- CLOSE, Tuesday- Friday 4PM-6PM",
+      "valid_through": null,
+      "validity": "Mon-Fri, Monday 4PM- CLOSE, Tuesday- Friday 4PM-6PM"
+    },
+    {
       "ai_confidence": null,
       "applies_days": [
         "sunday",
@@ -471,7 +599,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "6a8211372a6ecd7b",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "807 Adams Ave, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -557,7 +685,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "e4d0c5f9b28fd58e",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -652,7 +780,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "7ad5f67f6d0e8602",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -747,7 +875,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "4bbe95bd0ffd47e9",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -834,7 +962,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "cdf9967358604fce",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -913,7 +1041,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "92146b0ee6a404ad",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -997,7 +1125,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "8fed335514a3bbde",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -1083,7 +1211,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "9d96ca0a186d956b",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -1167,7 +1295,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "aba3039f4cdbb4bb",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -1261,7 +1389,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "e8551543f33b54a8",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "215 Main St, Huntington Beach, CA 92648",
         "hours": {
@@ -1328,6 +1456,634 @@
       "validity": "Every day, 3 PM - 7 PM"
     },
     {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "candidate_text": "$6 drinks and $8 mezethes during happy hour $6 drinks $8 mezethes",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "$6 drinks",
+        "$8 mezethes"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "1d66a1074ac1c416",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=39677328803841963&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7241225,
+        "longitude": -118.0420941,
+        "phone": "(714) 316-5000",
+        "place_id": "ChIJSdeKm8Al3YARq0f9AFL2jAA"
+      },
+      "restaurant": "Olive Pit Grill - Huntington Beach",
+      "source_evidence": [
+        "monday-friday 2-5pm",
+        "$6 drinks | $8 mezethes"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.olivepitgrill.com/",
+      "status": "active",
+      "summary": "$6 drinks and $8 mezethes during happy hour",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "2-5pm",
+      "valid_through": null,
+      "validity": "Mon-Fri, 2-5pm"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "sunday"
+      ],
+      "candidate_text": "$10 sangria every Sunday $10 sangria",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "$10 sangria"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "e27f6b7fa88e2bd7",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=39677328803841963&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7241225,
+        "longitude": -118.0420941,
+        "phone": "(714) 316-5000",
+        "place_id": "ChIJSdeKm8Al3YARq0f9AFL2jAA"
+      },
+      "restaurant": "Olive Pit Grill - Huntington Beach",
+      "source_evidence": [
+        "SANGRIA",
+        "SUNDAYS",
+        "$10 every Sunday"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.olivepitgrill.com/",
+      "status": "active",
+      "summary": "$10 sangria every Sunday",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Sun"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "thursday"
+      ],
+      "candidate_text": "$10 Specialty Cocktails on Thursday $10 Specialty Cocktails",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "$10 Specialty Cocktails"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "48b944860daf26cc",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=39677328803841963&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7241225,
+        "longitude": -118.0420941,
+        "phone": "(714) 316-5000",
+        "place_id": "ChIJSdeKm8Al3YARq0f9AFL2jAA"
+      },
+      "restaurant": "Olive Pit Grill - Huntington Beach",
+      "source_evidence": [
+        "thirstier thursday",
+        "$10 Specialty Cocktails"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.olivepitgrill.com/",
+      "status": "active",
+      "summary": "$10 Specialty Cocktails on Thursday",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Thu"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "candidate_text": "$6 beers every Tuesday $6 beers",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "$6 beers"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "16a66e088961b9ff",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=39677328803841963&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7241225,
+        "longitude": -118.0420941,
+        "phone": "(714) 316-5000",
+        "place_id": "ChIJSdeKm8Al3YARq0f9AFL2jAA"
+      },
+      "restaurant": "Olive Pit Grill - Huntington Beach",
+      "source_evidence": [
+        "Tapped out tuesday",
+        "$6 beers every Tuesday"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.olivepitgrill.com/",
+      "status": "active",
+      "summary": "$6 beers every Tuesday",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "candidate_text": "Up to 50% off bottled wine on Wednesday Up to 50% off bottled wine",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Up to 50% off bottled wine"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "700c6792e34172e3",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=39677328803841963&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7241225,
+        "longitude": -118.0420941,
+        "phone": "(714) 316-5000",
+        "place_id": "ChIJSdeKm8Al3YARq0f9AFL2jAA"
+      },
+      "restaurant": "Olive Pit Grill - Huntington Beach",
+      "source_evidence": [
+        "WINE DOWN WEDNESDAY",
+        "Up to 50% off",
+        "bottled wine"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.olivepitgrill.com/",
+      "status": "active",
+      "summary": "Up to 50% off bottled wine on Wednesday",
+      "tags": [
+        "percent_off",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Wed"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "saturday",
+        "sunday"
+      ],
+      "candidate_text": "$6 glass or $20 bottle of mimosas on weekends $6 Glass $20 Bottle",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "$6 Glass",
+        "$20 Bottle"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "45b705f2a2037e85",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=39677328803841963&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7241225,
+        "longitude": -118.0420941,
+        "phone": "(714) 316-5000",
+        "place_id": "ChIJSdeKm8Al3YARq0f9AFL2jAA"
+      },
+      "restaurant": "Olive Pit Grill - Huntington Beach",
+      "source_evidence": [
+        "MIMOSAS",
+        "$6 Glass",
+        "$20 Bottle",
+        "Saturday & Sunday"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.olivepitgrill.com/",
+      "status": "active",
+      "summary": "$6 glass or $20 bottle of mimosas on weekends",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Weekend"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "saturday",
+        "sunday"
+      ],
+      "candidate_text": "$7 bloody marys on Saturday and Sunday $7 bloody marys",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "$7 bloody marys"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "36ecd3379921c78a",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=39677328803841963&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7241225,
+        "longitude": -118.0420941,
+        "phone": "(714) 316-5000",
+        "place_id": "ChIJSdeKm8Al3YARq0f9AFL2jAA"
+      },
+      "restaurant": "Olive Pit Grill - Huntington Beach",
+      "source_evidence": [
+        "bloody marys",
+        "$7 every Saturday & Sunday"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.olivepitgrill.com/",
+      "status": "active",
+      "summary": "$7 bloody marys on Saturday and Sunday",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Weekend"
+    },
+    {
       "applies_days": [
         "sunday",
         "monday",
@@ -1354,7 +2110,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "254934ce9aae95bd",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1442,7 +2198,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "51d8300f03acb8d3",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1533,7 +2289,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "b669d1f87691b6e5",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1622,7 +2378,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "c02c9eb945d74125",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
         "hours": {
@@ -1689,6 +2445,354 @@
       "validity": "Mon-Fri, 3 PM - 6 PM"
     },
     {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "Alfredo Pasta Family Meal special price Feeds 4 or more Includes creamy Alfredo penne pasta, fresh house salad, and dinner rolls Price: Only $40",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Feeds 4 or more",
+        "Includes creamy Alfredo penne pasta, fresh house salad, and dinner rolls",
+        "Price: Only $40"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "79e2a9d4263feb0e",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14874414982477338645&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.672638,
+        "longitude": -117.95707999999999,
+        "phone": "(714) 964-4424",
+        "place_id": "ChIJOalKR8Qg3YARFVhPWJ6JbM4"
+      },
+      "restaurant": "Polly's Pies Restaurant & Bakery",
+      "source_evidence": [
+        "Creamy Alfredo penne pasta served with a fresh house salad and freshly baked dinner rolls. A satisfying family favorite that feeds 4 or more. Only $40 in August and September!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.pollyspies.com/menu/family-meal-deals/?utm_source=Website&utm_medium=Home-Slider&utm_campaign=8-4-26-family-meal-deals",
+      "status": "active",
+      "summary": "Alfredo Pasta Family Meal special price",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-30",
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "Chicken Pie Family Meal special price Feeds 4 or more Includes whole Chicken Pie, gravy, cranberry sauce, fresh house salad, and dinner rolls Price: Only $40",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Feeds 4 or more",
+        "Includes whole Chicken Pie, gravy, cranberry sauce, fresh house salad, and dinner rolls",
+        "Price: Only $40"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "3abe2ff4397a0831",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14874414982477338645&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.672638,
+        "longitude": -117.95707999999999,
+        "phone": "(714) 964-4424",
+        "place_id": "ChIJOalKR8Qg3YARFVhPWJ6JbM4"
+      },
+      "restaurant": "Polly's Pies Restaurant & Bakery",
+      "source_evidence": [
+        "Our famous whole Chicken Pie served with gravy, cranberry sauce, a fresh house salad, and freshly baked dinner rolls. A comforting homestyle meal that feeds 4 or more. Only $40 in August and September!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.pollyspies.com/menu/family-meal-deals/?utm_source=Website&utm_medium=Home-Slider&utm_campaign=8-4-26-family-meal-deals",
+      "status": "active",
+      "summary": "Chicken Pie Family Meal special price",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-30",
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "Meatloaf Family Meal special price Feeds 4 or more Includes classic meatloaf with tomato ketchup glaze, red-skin smashed potatoes, gravy, house salad, and dinner rolls Price: Only $40",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Feeds 4 or more",
+        "Includes classic meatloaf with tomato ketchup glaze, red-skin smashed potatoes, gravy, house salad, and dinner rolls",
+        "Price: Only $40"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "907d61616f750b6d",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14874414982477338645&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.672638,
+        "longitude": -117.95707999999999,
+        "phone": "(714) 964-4424",
+        "place_id": "ChIJOalKR8Qg3YARFVhPWJ6JbM4"
+      },
+      "restaurant": "Polly's Pies Restaurant & Bakery",
+      "source_evidence": [
+        "Our classic meatloaf topped with a tangy tomato ketchup glaze, served with red-skin smashed potatoes, gravy, a fresh house salad, and freshly baked dinner rolls. Homestyle comfort for the whole family, feeding 4 or more. Only $40 in August and September!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.pollyspies.com/menu/family-meal-deals/?utm_source=Website&utm_medium=Home-Slider&utm_campaign=8-4-26-family-meal-deals",
+      "status": "active",
+      "summary": "Meatloaf Family Meal special price",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-30",
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "Turkey Dinner Family Meal special price Feeds 4 or more Includes oven-roasted turkey, stuffing, smashed potatoes, turkey gravy, green beans, cranberry sauce, and dinner rolls Price: Only $40",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Feeds 4 or more",
+        "Includes oven-roasted turkey, stuffing, smashed potatoes, turkey gravy, green beans, cranberry sauce, and dinner rolls",
+        "Price: Only $40"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "a32902cab24d4160",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14874414982477338645&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.672638,
+        "longitude": -117.95707999999999,
+        "phone": "(714) 964-4424",
+        "place_id": "ChIJOalKR8Qg3YARFVhPWJ6JbM4"
+      },
+      "restaurant": "Polly's Pies Restaurant & Bakery",
+      "source_evidence": [
+        "Oven-roasted turkey served with homestyle stuffing, red-skin smashed potatoes, turkey gravy, southern-style green beans, cranberry sauce, and freshly baked dinner rolls. A classic comfort meal that feeds 4 or more. Only $40 in August and September!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.pollyspies.com/menu/family-meal-deals/?utm_source=Website&utm_medium=Home-Slider&utm_campaign=8-4-26-family-meal-deals",
+      "status": "active",
+      "summary": "Turkey Dinner Family Meal special price",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-30",
+      "validity": "Check source"
+    },
+    {
       "ai_confidence": null,
       "applies_days": [
         "monday"
@@ -1706,7 +2810,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "700d259c156747f0",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1793,7 +2897,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "628ac54d6ba762ca",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1882,7 +2986,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "49d67dceb970ac15",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1968,7 +3072,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "51411e16e9f61c14",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2055,7 +3159,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "35f90d80e5b76dd4",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2124,6 +3228,1238 @@
       "validity": "Wednesday, dine-in only"
     },
     {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "$7 Two Taco Combo Price: $7.00 Includes a regular fountain drink and two tacos Choices include The Original Fish Taco, Classic Chicken Taco, and Roasted Sweet Potato Taco At participating locations",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $7.00",
+        "Includes a regular fountain drink and two tacos",
+        "Choices include The Original Fish Taco, Classic Chicken Taco, and Roasted Sweet Potato Taco",
+        "At participating locations"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "633770d6bfd63f33",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17856133369722654341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6860687,
+        "longitude": -118.00656769999999,
+        "phone": "(714) 536-9109",
+        "place_id": "ChIJ_QiCSKUm3YARhU5RpLG6zfc"
+      },
+      "restaurant": "Rubio's Coastal Grill",
+      "source_evidence": [
+        "$7 Two Taco Combo | Includes a regular fountain drink and two of the following:"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://rubios.com/weekly-deals/",
+      "status": "active",
+      "summary": "$7 Two Taco Combo",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "$8 Two Taco Combo Price: $8.00 Includes a regular fountain drink and two tacos Choices include Fish Taco Especial, Salsa Verde Shrimp Taco, Grilled Gourmet Chicken Taco, Grilled Gourmet Shrimp Taco, Grilled Gourmet Steak Taco, and Mexican Street Corn Shrimp Taco At participating locations",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $8.00",
+        "Includes a regular fountain drink and two tacos",
+        "Choices include Fish Taco Especial, Salsa Verde Shrimp Taco, Grilled Gourmet Chicken Taco, Grilled Gourmet Shrimp Taco, Grilled Gourmet Steak Taco, and Mexican Street Corn Shrimp Taco",
+        "At participating locations"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "8cd3b5ae6a071da7",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17856133369722654341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6860687,
+        "longitude": -118.00656769999999,
+        "phone": "(714) 536-9109",
+        "place_id": "ChIJ_QiCSKUm3YARhU5RpLG6zfc"
+      },
+      "restaurant": "Rubio's Coastal Grill",
+      "source_evidence": [
+        "$8 Two Taco Combo | Includes a regular fountain drink and two of the following:"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://rubios.com/weekly-deals/",
+      "status": "active",
+      "summary": "$8 Two Taco Combo",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "$8.00 Chicken Caesar Wrap Salad Price: $8.00 Item: Chicken Caesar Wrap Salad At participating locations",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $8.00",
+        "Item: Chicken Caesar Wrap Salad",
+        "At participating locations"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "12e57aec1b98fac4",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17856133369722654341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6860687,
+        "longitude": -118.00656769999999,
+        "phone": "(714) 536-9109",
+        "place_id": "ChIJ_QiCSKUm3YARhU5RpLG6zfc"
+      },
+      "restaurant": "Rubio's Coastal Grill",
+      "source_evidence": [
+        "$8.00 Chicken Caesar Wrap Salad"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://rubios.com/weekly-deals/",
+      "status": "active",
+      "summary": "$8.00 Chicken Caesar Wrap Salad",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "$8.99 Bean and Cheese Burrito Price: $8.99 Item: Bean and Cheese Burrito At participating locations",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $8.99",
+        "Item: Bean and Cheese Burrito",
+        "At participating locations"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "90f5669191475d78",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17856133369722654341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6860687,
+        "longitude": -118.00656769999999,
+        "phone": "(714) 536-9109",
+        "place_id": "ChIJ_QiCSKUm3YARhU5RpLG6zfc"
+      },
+      "restaurant": "Rubio's Coastal Grill",
+      "source_evidence": [
+        "$8.99 Bean and Cheese Burrito"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://rubios.com/weekly-deals/",
+      "status": "active",
+      "summary": "$8.99 Bean and Cheese Burrito",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "$9.49 Baja Grill Chicken Burrito Price: $9.49 Item: Baja Grill Chicken Burrito At participating locations",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $9.49",
+        "Item: Baja Grill Chicken Burrito",
+        "At participating locations"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "f13e2b63b85986c3",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17856133369722654341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6860687,
+        "longitude": -118.00656769999999,
+        "phone": "(714) 536-9109",
+        "place_id": "ChIJ_QiCSKUm3YARhU5RpLG6zfc"
+      },
+      "restaurant": "Rubio's Coastal Grill",
+      "source_evidence": [
+        "$9.49 Baja Grill Chicken Burrito"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://rubios.com/weekly-deals/",
+      "status": "active",
+      "summary": "$9.49 Baja Grill Chicken Burrito",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "$9.99 Chopped Chicken Salad Price: $9.99 Item: Chopped Chicken Salad At participating locations",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $9.99",
+        "Item: Chopped Chicken Salad",
+        "At participating locations"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "ce945e94109cf24c",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17856133369722654341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6860687,
+        "longitude": -118.00656769999999,
+        "phone": "(714) 536-9109",
+        "place_id": "ChIJ_QiCSKUm3YARhU5RpLG6zfc"
+      },
+      "restaurant": "Rubio's Coastal Grill",
+      "source_evidence": [
+        "$9.99 Chopped Chicken Salad"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://rubios.com/weekly-deals/",
+      "status": "active",
+      "summary": "$9.99 Chopped Chicken Salad",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "$9.99 Classic Taco Trio Price: $9.99 Item: Classic Taco Trio At participating locations",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $9.99",
+        "Item: Classic Taco Trio",
+        "At participating locations"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "831b6e255bedcba4",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17856133369722654341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6860687,
+        "longitude": -118.00656769999999,
+        "phone": "(714) 536-9109",
+        "place_id": "ChIJ_QiCSKUm3YARhU5RpLG6zfc"
+      },
+      "restaurant": "Rubio's Coastal Grill",
+      "source_evidence": [
+        "$9.99 Classic Taco Trio"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://rubios.com/weekly-deals/",
+      "status": "active",
+      "summary": "$9.99 Classic Taco Trio",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "7.99 Fish & Chips Price: $7.99 Item: Fish & Chips At participating locations",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $7.99",
+        "Item: Fish & Chips",
+        "At participating locations"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "20e6c0719d4e4241",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17856133369722654341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6860687,
+        "longitude": -118.00656769999999,
+        "phone": "(714) 536-9109",
+        "place_id": "ChIJ_QiCSKUm3YARhU5RpLG6zfc"
+      },
+      "restaurant": "Rubio's Coastal Grill",
+      "source_evidence": [
+        "$7.99 Fish & Chips"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://rubios.com/weekly-deals/",
+      "status": "active",
+      "summary": "7.99 Fish & Chips",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "friday"
+      ],
+      "candidate_text": "Friday Beer or Margarita Special Price: $4.00 Cold refreshing beer or margarita At participating locations",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $4.00",
+        "Cold refreshing beer or margarita",
+        "At participating locations"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "8b2bcd010f35bb3d",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17856133369722654341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6860687,
+        "longitude": -118.00656769999999,
+        "phone": "(714) 536-9109",
+        "place_id": "ChIJ_QiCSKUm3YARhU5RpLG6zfc"
+      },
+      "restaurant": "Rubio's Coastal Grill",
+      "source_evidence": [
+        "THANK GOODNESS IT\u2019S FRIDAY",
+        "Sit back and relax with a cold refreshing beer or margarita for only $4."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://rubios.com/weekly-deals/",
+      "status": "active",
+      "summary": "Friday Beer or Margarita Special",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Fri"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [
+        "monday"
+      ],
+      "candidate_text": "$9 Two Taco Combo Price: $9.00 Includes a regular fountain drink and two tacos Choices include Mahi Mahi Taco and Salmon Taco At participating locations",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $9.00",
+        "Includes a regular fountain drink and two tacos",
+        "Choices include Mahi Mahi Taco and Salmon Taco",
+        "At participating locations"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "51acab68486ed33d",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17856133369722654341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6860687,
+        "longitude": -118.00656769999999,
+        "phone": "(714) 536-9109",
+        "place_id": "ChIJ_QiCSKUm3YARhU5RpLG6zfc"
+      },
+      "restaurant": "Rubio's Coastal Grill",
+      "source_evidence": [
+        "$9 Two Taco Combo | Includes a regular fountain drink and two of the following:"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://rubios.com/weekly-deals/",
+      "status": "active",
+      "summary": "$9 Two Taco Combo",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Mon"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "candidate_text": "Taco Tuesday Specials $2.50 The Original Fish Taco or Classic Chicken Taco $3 Fish Taco Especial or Classic Steak Taco $10.99 Shrimp Trio (Salsa Verde Shrimp Taco, Grilled Gourmet Taco with Shrimp, and Mexican Street Corn Shrimp Taco) Prices may vary at some locations",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "$2.50 The Original Fish Taco or Classic Chicken Taco",
+        "$3 Fish Taco Especial or Classic Steak Taco",
+        "$10.99 Shrimp Trio (Salsa Verde Shrimp Taco, Grilled Gourmet Taco with Shrimp, and Mexican Street Corn Shrimp Taco)",
+        "Prices may vary at some locations"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "8890f3aae513f900",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17856133369722654341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6860687,
+        "longitude": -118.00656769999999,
+        "phone": "(714) 536-9109",
+        "place_id": "ChIJ_QiCSKUm3YARhU5RpLG6zfc"
+      },
+      "restaurant": "Rubio's Coastal Grill",
+      "source_evidence": [
+        "TACO TUESDAY",
+        "$2.50 The Original Fish Taco\u00ae or Classic Chicken Taco",
+        "$3 Fish Taco Especial or Classic Steak Taco",
+        "$10.99 Shrimp Trio (Salsa Verde Shrimp Taco, Grilled Gourmet Taco\u2122 with Shrimp, and the Mexican Street Corn Shrimp Taco)"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://rubios.com/weekly-deals/",
+      "status": "active",
+      "summary": "Taco Tuesday Specials",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "candidate_text": "Happy Hour Everyday Consistent drink specials",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Consistent drink specials"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "750174ec1c10ea87",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "16391 Beach Blvd, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3075884083873225438&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ]
+        },
+        "latitude": 33.7241667,
+        "longitude": -117.98972219999997,
+        "phone": "(714) 841-8790",
+        "place_id": "ChIJV4Pas14m3YAR3pqKDUe8ryo"
+      },
+      "restaurant": "Shanghai'd Room",
+      "source_evidence": [
+        "happy hour everyday 12pm-6pm"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://shanghaidroom.com/",
+      "status": "active",
+      "summary": "Happy Hour Everyday",
+      "tags": [
+        "happy_hour",
+        "deal_language"
+      ],
+      "time_window": "12pm-6pm",
+      "valid_through": null,
+      "validity": "Every day, 12pm-6pm"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "candidate_text": "$2 Off Drinks for Military, Police, and Firefighters $2 off drinks all day for military, police, and firefighters with ID",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "$2 off drinks all day for military, police, and firefighters with ID"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "16ef04592f4c103b",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "16391 Beach Blvd, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3075884083873225438&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ]
+        },
+        "latitude": 33.7241667,
+        "longitude": -117.98972219999997,
+        "phone": "(714) 841-8790",
+        "place_id": "ChIJV4Pas14m3YAR3pqKDUe8ryo"
+      },
+      "restaurant": "Shanghai'd Room",
+      "source_evidence": [
+        "Military Police Firefighters with ID",
+        "$2 OFF Drinks ALL DAY"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://shanghaidroom.com/",
+      "status": "active",
+      "summary": "$2 Off Drinks for Military, Police, and Firefighters",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": "all day",
+      "valid_through": null,
+      "validity": "Tue, all day"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "candidate_text": "$6 Jack, Jameson, and Buffalo Trace $6 Jack, $6 Jameson, and $6 Buffalo Trace available all day",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "$6 Jack, $6 Jameson, and $6 Buffalo Trace available all day"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "35991ac389aa03b9",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "16391 Beach Blvd, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3075884083873225438&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ]
+        },
+        "latitude": 33.7241667,
+        "longitude": -117.98972219999997,
+        "phone": "(714) 841-8790",
+        "place_id": "ChIJV4Pas14m3YAR3pqKDUe8ryo"
+      },
+      "restaurant": "Shanghai'd Room",
+      "source_evidence": [
+        "$6 Jack $6 Jameson $6 buffalo trace ALL DAY"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://shanghaidroom.com/",
+      "status": "active",
+      "summary": "$6 Jack, Jameson, and Buffalo Trace",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": "all day",
+      "valid_through": null,
+      "validity": "Wed, all day"
+    },
+    {
       "ai_confidence": null,
       "applies_days": [],
       "candidate_text": "Email club free appetizer Free appetizer for signing up for the mailing list Birthday surprise on your birthday",
@@ -2139,7 +4475,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "40ebc01c632ce4fa",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -2230,7 +4566,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "cc8d16cae580f858",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -2314,7 +4650,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "88f51558f931beae",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -2407,7 +4743,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "2049a4ccfac93784",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -2492,7 +4828,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "d5c0d77933076429",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2585,7 +4921,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "4f35c0e6c25c4a82",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2673,7 +5009,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "2b5c95f3f8fdac42",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2762,7 +5098,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "7be23f68b6c1f3ae",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2847,7 +5183,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "9625c427af7216ce",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2932,7 +5268,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "07aabbde13e25352",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -3001,6 +5337,293 @@
       "validity": "Wednesday"
     },
     {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "candidate_text": "Happy Hour Bar Bites and Drinks Prosciutto, Fig Butter, Gorgonzola & Arugula Flatbread: $9.00 Heirloom Tomato/Margherita Flatbread: $8.00 Spanish Chorizo Flatbread: $8.00 Pretzel Bites with House Made Spinach/Jalapeno Dip: $8.00 Pretzel Bites w/House-Made Mustard: $7.00 Pretzel Bites with Both Dips: $9.00 Glass of House Wine: $6.50 Any Craft Beer: $6.00",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Prosciutto, Fig Butter, Gorgonzola & Arugula Flatbread: $9.00",
+        "Heirloom Tomato/Margherita Flatbread: $8.00",
+        "Spanish Chorizo Flatbread: $8.00",
+        "Pretzel Bites with House Made Spinach/Jalapeno Dip: $8.00",
+        "Pretzel Bites w/House-Made Mustard: $7.00",
+        "Pretzel Bites with Both Dips: $9.00",
+        "Glass of House Wine: $6.50",
+        "Any Craft Beer: $6.00"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "7aa74b0e229c0b32",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "714 Adams Ave Unit 101, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=243171935806404046&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6717453,
+        "longitude": -117.98992910000001,
+        "phone": "(714) 465-9041",
+        "place_id": "ChIJU0i6xTYh3YARzrUVVZbrXwM"
+      },
+      "restaurant": "Triple Crown Tavern",
+      "source_evidence": [
+        "Join us for happy hour Monday - Friday, 4pm - 6pm."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://triplecrowntavern.com/happy-hour",
+      "status": "active",
+      "summary": "Happy Hour Bar Bites and Drinks",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "4pm - 6pm",
+      "valid_through": null,
+      "validity": "Mon-Fri, 4pm - 6pm"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "$3 Pretzel Bun Chili Dog Price: $3 Original Pretzel Bun Chili Dog only Cheese extra Coupon good for TWO orders on same visit Tax extra Must be surrendered at time of purchase Not valid with any other offer, discount or coupon Good at participating restaurants only",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $3",
+        "Original Pretzel Bun Chili Dog only",
+        "Cheese extra",
+        "Coupon good for TWO orders on same visit",
+        "Tax extra",
+        "Must be surrendered at time of purchase",
+        "Not valid with any other offer, discount or coupon",
+        "Good at participating restaurants only"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "c04b3d44a19da6d7",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+      },
+      "restaurant": "Wienerschnitzel",
+      "source_evidence": [
+        "$3 - Pretzel Bun Chili Dog - 230",
+        "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/",
+      "status": "active",
+      "summary": "$3 Pretzel Bun Chili Dog",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "friday"
+      ],
+      "candidate_text": "Corn Dog, Small Fries and Small Soda for $5 Price: $5 Includes one corn dog, small fries, and small soda Coupon good for TWO orders on same visit Must be surrendered at time of purchase Tax extra Not valid with any other offer, discount or coupon Not valid in Sacramento, Stockton & Modesto areas",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $5",
+        "Includes one corn dog, small fries, and small soda",
+        "Coupon good for TWO orders on same visit",
+        "Must be surrendered at time of purchase",
+        "Tax extra",
+        "Not valid with any other offer, discount or coupon",
+        "Not valid in Sacramento, Stockton & Modesto areas"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "98cf092771223aba",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+      },
+      "restaurant": "Wienerschnitzel",
+      "source_evidence": [
+        "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+        "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/",
+      "status": "active",
+      "summary": "Corn Dog, Small Fries and Small Soda for $5",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Fri"
+    },
+    {
       "ai_confidence": null,
       "applies_days": [
         "monday",
@@ -3025,7 +5648,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "fee37a360eca1ab2",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -3118,7 +5741,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "06297b4e40cf6d49",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -3204,7 +5827,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "559826adabba5ded",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:03:44Z",
+      "last_seen": "2026-09-10T02:14:52Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -3272,7 +5895,7 @@
       "validity": "Sunday, 9 AM - noon"
     }
   ],
-  "generated_at": "2026-09-10T02:03:44Z",
+  "generated_at": "2026-09-10T02:14:52Z",
   "scope": {
     "cities": [
       "Fountain Valley",
@@ -3280,13 +5903,13 @@
     ],
     "drop_after_days": 90,
     "restaurant_count": 693,
-    "source_count": 16,
+    "source_count": 24,
     "stale_after_days": 21
   },
   "sources": [
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-10T02:03:44Z",
+      "checked_at": "2026-09-10T02:14:52Z",
       "city": "Huntington Beach",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
@@ -3349,7 +5972,7 @@
     },
     {
       "candidate_count": 0,
-      "checked_at": "2026-09-10T02:03:44Z",
+      "checked_at": "2026-09-10T02:14:52Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18033 Magnolia St, Fountain Valley, CA 92708, USA",
@@ -3412,7 +6035,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T02:03:44Z",
+      "checked_at": "2026-09-10T02:14:52Z",
       "city": "Huntington Beach",
       "location": {
         "address": "807 Adams Ave, Huntington Beach, CA 92648, USA",
@@ -3475,7 +6098,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T02:03:44Z",
+      "checked_at": "2026-09-10T02:14:52Z",
       "city": "Fountain Valley",
       "location": {
         "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
@@ -3538,7 +6161,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T02:03:44Z",
+      "checked_at": "2026-09-10T02:14:52Z",
       "city": "Huntington Beach",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
@@ -3598,7 +6221,7 @@
     },
     {
       "candidate_count": 4,
-      "checked_at": "2026-09-10T02:03:44Z",
+      "checked_at": "2026-09-10T02:14:52Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
@@ -3661,7 +6284,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T02:03:44Z",
+      "checked_at": "2026-09-10T02:14:52Z",
       "city": "Huntington Beach",
       "location": {
         "address": "215 Main St, Huntington Beach, CA 92648",
@@ -3721,7 +6344,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T02:03:44Z",
+      "checked_at": "2026-09-10T02:14:52Z",
       "city": "Huntington Beach",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
@@ -3781,7 +6404,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T02:03:44Z",
+      "checked_at": "2026-09-10T02:14:52Z",
       "city": "Huntington Beach",
       "location": {
         "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
@@ -3841,7 +6464,7 @@
     },
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-10T02:03:44Z",
+      "checked_at": "2026-09-10T02:14:52Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
@@ -3904,7 +6527,7 @@
     },
     {
       "candidate_count": 0,
-      "checked_at": "2026-09-10T02:03:44Z",
+      "checked_at": "2026-09-10T02:14:52Z",
       "city": "Fountain Valley",
       "location": {
         "address": "10201 Slater Ave, Fountain Valley, CA 92708",
@@ -3964,7 +6587,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T02:03:44Z",
+      "checked_at": "2026-09-10T02:14:52Z",
       "city": "Huntington Beach",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
@@ -4024,7 +6647,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T02:03:44Z",
+      "checked_at": "2026-09-10T02:14:52Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708, USA",
@@ -4087,7 +6710,7 @@
     },
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-10T02:03:44Z",
+      "checked_at": "2026-09-10T02:14:52Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
@@ -4150,7 +6773,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T02:03:44Z",
+      "checked_at": "2026-09-10T02:14:52Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
@@ -4213,7 +6836,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T02:03:44Z",
+      "checked_at": "2026-09-10T02:14:52Z",
       "city": "Huntington Beach",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
@@ -4273,13 +6896,545 @@
       "notes": "Official homepage with happy hour and daily specials",
       "ok": true,
       "url": "https://zubiesdrydock.com/"
+    },
+    {
+      "candidate_count": 7,
+      "checked_at": "2026-09-10T02:14:52Z",
+      "city": "Huntington Beach",
+      "location": {
+        "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=39677328803841963&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7241225,
+        "longitude": -118.0420941,
+        "phone": "(714) 316-5000",
+        "place_id": "ChIJSdeKm8Al3YARq0f9AFL2jAA"
+      },
+      "mode": "ai_extracted",
+      "name": "Olive Pit Grill - Huntington Beach",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "http://www.olivepitgrill.com/"
+    },
+    {
+      "candidate_count": 1,
+      "checked_at": "2026-09-10T02:14:52Z",
+      "city": "Huntington Beach",
+      "location": {
+        "address": "19881 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=15574308285560232224&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "15:00",
+              "open": "11:00"
+            },
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "15:00",
+              "open": "11:00"
+            },
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "15:00",
+              "open": "10:00"
+            },
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "15:00",
+              "open": "10:00"
+            },
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "15:00",
+              "open": "11:00"
+            },
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "15:00",
+              "open": "11:00"
+            },
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "15:00",
+              "open": "11:00"
+            },
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.6736115,
+        "longitude": -117.95421869999998,
+        "phone": "(714) 593-9099",
+        "place_id": "ChIJLeGHncYg3YARIJk9l94OI9g"
+      },
+      "mode": "ai_extracted",
+      "name": "Crivello Ristorante Italiano",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "http://www.crivelloristorante.com/happy-hour-menu"
+    },
+    {
+      "candidate_count": 4,
+      "checked_at": "2026-09-10T02:14:52Z",
+      "city": "Huntington Beach",
+      "location": {
+        "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14874414982477338645&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.672638,
+        "longitude": -117.95707999999999,
+        "phone": "(714) 964-4424",
+        "place_id": "ChIJOalKR8Qg3YARFVhPWJ6JbM4"
+      },
+      "mode": "ai_extracted",
+      "name": "Polly's Pies Restaurant & Bakery",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://www.pollyspies.com/menu/family-meal-deals/?utm_source=Website&utm_medium=Home-Slider&utm_campaign=8-4-26-family-meal-deals"
+    },
+    {
+      "candidate_count": 11,
+      "checked_at": "2026-09-10T02:14:52Z",
+      "city": "Huntington Beach",
+      "location": {
+        "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17856133369722654341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6860687,
+        "longitude": -118.00656769999999,
+        "phone": "(714) 536-9109",
+        "place_id": "ChIJ_QiCSKUm3YARhU5RpLG6zfc"
+      },
+      "mode": "ai_extracted",
+      "name": "Rubio's Coastal Grill",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://rubios.com/weekly-deals/"
+    },
+    {
+      "candidate_count": 3,
+      "checked_at": "2026-09-10T02:14:52Z",
+      "city": "Huntington Beach",
+      "location": {
+        "address": "16391 Beach Blvd, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3075884083873225438&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "02:00",
+              "open": "12:00"
+            }
+          ]
+        },
+        "latitude": 33.7241667,
+        "longitude": -117.98972219999997,
+        "phone": "(714) 841-8790",
+        "place_id": "ChIJV4Pas14m3YAR3pqKDUe8ryo"
+      },
+      "mode": "ai_extracted",
+      "name": "Shanghai'd Room",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://shanghaidroom.com/"
+    },
+    {
+      "candidate_count": 1,
+      "checked_at": "2026-09-10T02:14:52Z",
+      "city": "Huntington Beach",
+      "location": {
+        "address": "714 Adams Ave Unit 101, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=243171935806404046&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6717453,
+        "longitude": -117.98992910000001,
+        "phone": "(714) 465-9041",
+        "place_id": "ChIJU0i6xTYh3YARzrUVVZbrXwM"
+      },
+      "mode": "ai_extracted",
+      "name": "Triple Crown Tavern",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "http://triplecrowntavern.com/happy-hour"
+    },
+    {
+      "candidate_count": 1,
+      "checked_at": "2026-09-10T02:14:52Z",
+      "city": "Huntington Beach",
+      "location": {
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+      },
+      "mode": "ai_extracted",
+      "name": "Wienerschnitzel",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+    },
+    {
+      "candidate_count": 1,
+      "checked_at": "2026-09-10T02:14:52Z",
+      "city": "Huntington Beach",
+      "location": {
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+      },
+      "mode": "ai_extracted",
+      "name": "Wienerschnitzel",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
     }
   ],
   "summary": {
-    "active_deals": 37,
+    "active_deals": 66,
     "failed_sources": 0,
-    "healthy_sources": 16,
+    "healthy_sources": 24,
     "stale_deals": 0,
-    "total_deals": 37
+    "total_deals": 66
   }
 }
