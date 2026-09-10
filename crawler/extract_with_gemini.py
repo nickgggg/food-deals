@@ -25,6 +25,15 @@ REQUEST_TIMEOUT = 25
 MAX_PAGES_PER_RUN = 30
 EXTRACTION_VERSION = 1
 DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+DAY_ALIASES = {
+    "monday": ("monday", "mondays", "mon"),
+    "tuesday": ("tuesday", "tuesdays", "tue", "tues"),
+    "wednesday": ("wednesday", "wednesdays", "wed"),
+    "thursday": ("thursday", "thursdays", "thu", "thur", "thurs"),
+    "friday": ("friday", "fridays", "fri"),
+    "saturday": ("saturday", "saturdays", "sat"),
+    "sunday": ("sunday", "sundays", "sun"),
+}
 
 PROMO_SIGNAL = re.compile(
     r"\b(?:happy\s*hour|daily specials?|weekly specials?|weekday specials?|specials?|"
@@ -237,6 +246,39 @@ def call_gemini(api_key: str, restaurant: dict[str, Any], url: str, context: str
 def parse_date(value: str) -> date | None:
     if not value:
         return None
+
+
+def evidence_days(evidence: list[str]) -> set[str]:
+    text = " ".join(evidence).lower()
+    if re.search(r"\b(?:every\s*day|everyday|daily|seven days|7 days)\b", text):
+        return set(DAYS)
+
+    supported: set[str] = set()
+    if re.search(r"\bweekdays?\b", text):
+        supported.update(DAYS[:5])
+    if re.search(r"\bweekends?\b", text):
+        supported.update(DAYS[5:])
+
+    alias_to_day = {alias: day for day, aliases in DAY_ALIASES.items() for alias in aliases}
+    aliases = "|".join(sorted((re.escape(alias) for alias in alias_to_day), key=len, reverse=True))
+    for match in re.finditer(rf"\b({aliases})\b", text):
+        supported.add(alias_to_day[match.group(1)])
+    for match in re.finditer(rf"\b({aliases})\b\s*(?:-|–|—|to|through|thru)\s*\b({aliases})\b", text):
+        start = DAYS.index(alias_to_day[match.group(1)])
+        end = DAYS.index(alias_to_day[match.group(2)])
+        if start <= end:
+            supported.update(DAYS[start : end + 1])
+        else:
+            supported.update(DAYS[start:] + DAYS[: end + 1])
+    return supported
+
+
+def evidence_has_time(evidence: list[str]) -> bool:
+    text = " ".join(evidence).lower()
+    return bool(
+        re.search(r"\b\d{1,2}(?::\d{2})?\s*(?:a\.?m\.?|p\.?m\.?)\b", text)
+        or re.search(r"\b(?:all day|open|close|closing)\b", text)
+    )
     try:
         return date.fromisoformat(value)
     except ValueError:
@@ -257,9 +299,12 @@ def validate_deals(raw: dict[str, Any], context: str) -> tuple[list[dict[str, An
         valid_through = normalize(deal.get("valid_through", ""))
         expires = parse_date(valid_through)
         evidence_matches = evidence and all(normalized_key(item) in context_key for item in evidence)
+        supported_days = evidence_days(evidence)
+        days = [day for day in days if day in supported_days]
+        time_window = normalize(deal.get("time_window", "")) if evidence_has_time(evidence) else ""
         useful_text = " ".join([summary, *details, *evidence])
         has_value = bool(VALUE_SIGNAL.search(useful_text))
-        has_schedule = bool(days or normalize(deal.get("time_window", "")))
+        has_schedule = bool(days or time_window)
         if (
             not summary
             or NOISE_SUMMARY.search(summary)
@@ -276,7 +321,7 @@ def validate_deals(raw: dict[str, Any], context: str) -> tuple[list[dict[str, An
                 "summary": summary,
                 "details": details,
                 "applies_days": list(dict.fromkeys(days)),
-                "time_window": normalize(deal.get("time_window", "")) or None,
+                "time_window": time_window or None,
                 "categories": list(dict.fromkeys(categories)) or ["general"],
                 "valid_through": valid_through or None,
                 "source_evidence": evidence,
@@ -386,7 +431,21 @@ def main() -> int:
     for item in fetched:
         previous = existing.get(item["key"])
         if item.get("content_hash") and previous and previous.get("content_hash") == item["content_hash"] and previous.get("status") in {"ok", "no_deals"}:
-            pages.append(previous)
+            if previous.get("status") == "ok":
+                cached_raw = {
+                    "deals": [
+                        {
+                            **deal,
+                            "evidence": deal.get("source_evidence", []),
+                            "confidence": deal.get("ai_confidence", 0),
+                        }
+                        for deal in previous.get("deals", [])
+                    ]
+                }
+                deals, rejected = validate_deals(cached_raw, item["context"])
+                pages.append({**previous, "deals": deals, "rejected_candidates": rejected})
+            else:
+                pages.append(previous)
         elif item.get("context"):
             pending.append(item)
         else:
