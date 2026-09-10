@@ -4,12 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Restaurant Deals</title>
-    <link rel="stylesheet" href="styles.css?v=3">
+    <script>
+      document.documentElement.dataset.theme = localStorage.getItem("theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    </script>
+    <link rel="stylesheet" href="styles.css?v=4">
   </head>
   <body>
     <header class="topbar">
       <h1>Restaurant Deals</h1>
-      <div class="stats" id="stats" aria-live="polite"></div>
+      <div class="header-actions">
+        <div class="stats" id="stats" aria-live="polite"></div>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Use dark mode" title="Use dark mode">
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 1 0 9 9c0-.5 0-1-.1-1.5A7 7 0 0 1 12 3Z"></path></svg>
+          <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"></path></svg>
+        </button>
+      </div>
     </header>
 
     <main>
@@ -42,13 +51,13 @@
           <select id="day">
             <option value="today">Today</option>
             <option value="">Any day</option>
-            <option value="monday">Monday</option>
-            <option value="tuesday">Tuesday</option>
-            <option value="wednesday">Wednesday</option>
-            <option value="thursday">Thursday</option>
-            <option value="friday">Friday</option>
-            <option value="saturday">Saturday</option>
-            <option value="sunday">Sunday</option>
+            <option value="monday">Mon</option>
+            <option value="tuesday">Tue</option>
+            <option value="wednesday">Wed</option>
+            <option value="thursday">Thu</option>
+            <option value="friday">Fri</option>
+            <option value="saturday">Sat</option>
+            <option value="sunday">Sun</option>
           </select>
           </label>
           <label>
@@ -83,9 +92,12 @@
       <section class="meta" id="meta"></section>
       <section class="deals" id="deals" aria-live="polite"></section>
       <section class="sources" id="sources"></section>
-      <footer>Restaurant details supplied by Google Maps. Deal terms come from linked restaurant sources.</footer>
+      <footer>
+        <p>Deals refresh daily at 14:37 UTC (6:37 or 7:37 AM Pacific). Restaurant coverage refreshes weekly.</p>
+        <p>Restaurant details supplied by Google Maps. Deal terms come from linked restaurant sources.</p>
+      </footer>
     </main>
 
-    <script src="app.js?v=3"></script>
+    <script src="app.js?v=4"></script>
   </body>
 </html>

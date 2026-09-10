@@ -130,7 +130,7 @@ def api_request(api_key: str, point: dict[str, Any], config: dict[str, Any]) -> 
             "Content-Type": "application/json",
             "X-Goog-Api-Key": api_key,
             "X-Goog-FieldMask": field_mask,
-            "User-Agent": "deal-radar/2.0 (+https://github.com/nickgggg/food-deals)",
+            "User-Agent": "deal-radar/2.0 (+https://github.com/nickgggg/restaurant-deals)",
         },
         method="POST",
     )
@@ -254,7 +254,7 @@ def fetch_homepage(url: str) -> str:
     request = Request(
         url,
         headers={
-            "User-Agent": "deal-radar/2.0 (+https://github.com/nickgggg/food-deals)",
+            "User-Agent": "deal-radar/2.0 (+https://github.com/nickgggg/restaurant-deals)",
             "Accept": "text/html,application/xhtml+xml",
         },
     )

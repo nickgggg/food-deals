@@ -12,6 +12,29 @@
   --mono: "SFMono-Regular", Consolas, "Liberation Mono", ui-monospace, monospace;
   --fresh: #09753c;
   --stale: #8a5a00;
+  --topbar: rgba(255, 255, 255, 0.94);
+  --controls-bg: rgba(243, 244, 239, 0.94);
+  --subsurface: #f7f9f6;
+  --shadow: rgba(25, 31, 36, 0.08);
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --ink: #edf1ef;
+  --muted: #a8b3ba;
+  --line: #3a4647;
+  --paper: #111718;
+  --surface: #1a2223;
+  --wash: #26302d;
+  --accent: #42c4c8;
+  --accent-2: #ff7b6f;
+  --amber: #eab44f;
+  --fresh: #68d29a;
+  --stale: #eab44f;
+  --topbar: rgba(20, 27, 28, 0.94);
+  --controls-bg: rgba(17, 23, 24, 0.94);
+  --subsurface: #141b1c;
+  --shadow: rgba(0, 0, 0, 0.3);
 }
 
 * {
@@ -40,7 +63,7 @@ body {
   gap: 18px;
   padding: 18px clamp(14px, 4vw, 42px) 14px;
   border-bottom: 1px solid var(--line);
-  background: rgba(255, 255, 255, 0.94);
+  background: var(--topbar);
   backdrop-filter: blur(14px);
 }
 
@@ -69,6 +92,41 @@ main {
   justify-content: flex-end;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.theme-toggle {
+  display: inline-grid;
+  width: 34px;
+  min-height: 34px;
+  padding: 0;
+  place-items: center;
+  border-radius: 50%;
+}
+
+.theme-toggle svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+
+.theme-icon-sun,
+:root[data-theme="dark"] .theme-icon-moon {
+  display: none;
+}
+
+:root[data-theme="dark"] .theme-icon-sun {
+  display: block;
+}
+
 .stats span,
 .deal-meta span,
 .location-actions span,
@@ -93,7 +151,7 @@ main {
   padding: 12px 0 10px;
   align-items: end;
   border-bottom: 1px solid rgba(216, 221, 216, 0.75);
-  background: rgba(243, 244, 239, 0.94);
+  background: var(--controls-bg);
   backdrop-filter: blur(14px);
 }
 
@@ -208,7 +266,7 @@ button {
 }
 
 .location[open] {
-  box-shadow: 0 12px 34px rgba(25, 31, 36, 0.06);
+  box-shadow: 0 12px 34px var(--shadow);
 }
 
 .location-heading {
@@ -227,7 +285,7 @@ button {
 
 .location[open] .location-heading {
   border-bottom: 1px solid var(--line);
-  background: #f8faf7;
+  background: var(--subsurface);
 }
 
 .disclosure {
@@ -304,7 +362,36 @@ button {
 }
 
 .location-body {
-  padding: 0 14px 4px;
+  margin: 0 12px 12px;
+  padding: 2px 12px 4px;
+  border-left: 3px solid var(--accent);
+  border-radius: 0 0 6px 0;
+  background: var(--subsurface);
+}
+
+.location[open] .deal-list {
+  animation: reveal-deals 170ms ease-out;
+}
+
+@keyframes reveal-deals {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .location[open] .deal-list {
+    animation: none;
+  }
+
+  .disclosure {
+    transition: none;
+  }
 }
 
 .deal-list {
@@ -327,7 +414,8 @@ button {
 }
 
 .deal-row h3 {
-  font-size: 0.92rem;
+  font-size: 0.86rem;
+  font-weight: 700;
 }
 
 .deal-details {
@@ -335,24 +423,24 @@ button {
 }
 
 .deal-meta span {
-  background: #eef6f4;
+  background: color-mix(in srgb, var(--accent) 9%, var(--surface));
   border-color: #c7ded9;
-  color: #105c54;
+  color: var(--ink);
 }
 
 .deal-meta .validity {
   max-width: 100%;
-  background: #fff7e7;
+  background: color-mix(in srgb, var(--amber) 13%, var(--surface));
   border-color: #ead19b;
-  color: #684507;
+  color: var(--ink);
   overflow-wrap: anywhere;
   white-space: normal;
 }
 
 .deal-meta .category {
-  background: #edf1f7;
+  background: color-mix(in srgb, #668aca 13%, var(--surface));
   border-color: #ccd5e4;
-  color: #334b7a;
+  color: var(--ink);
 }
 
 .status {
@@ -389,6 +477,10 @@ footer {
   color: var(--muted);
   font-family: var(--mono);
   font-size: 0.68rem;
+}
+
+footer p {
+  margin: 3px 0;
 }
 
 .empty a {
@@ -454,6 +546,10 @@ footer {
   .stats,
   .location-actions {
     justify-content: flex-start;
+  }
+
+  .header-actions {
+    justify-content: space-between;
   }
 
   .controls {
@@ -559,7 +655,8 @@ footer {
   }
 
   .location-body {
-    padding: 0 12px 3px;
+    margin: 0 8px 8px;
+    padding: 2px 10px 3px;
   }
 
   .deal-row {

@@ -242,7 +242,7 @@ def fetch_html(source: Source) -> str:
     request = Request(
         source.url,
         headers={
-            "User-Agent": "food-deals-bot/1.0 (+https://github.com/nickgggg/food-deals)",
+            "User-Agent": "restaurant-deals-bot/1.0 (+https://github.com/nickgggg/restaurant-deals)",
             "Accept": "text/html,application/xhtml+xml",
         },
     )

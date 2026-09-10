@@ -106,7 +106,7 @@ def fetch_page(url: str) -> str:
     request = Request(
         url,
         headers={
-            "User-Agent": "deal-radar/2.0 (+https://github.com/nickgggg/food-deals)",
+            "User-Agent": "deal-radar/2.0 (+https://github.com/nickgggg/restaurant-deals)",
             "Accept": "text/html,application/xhtml+xml",
         },
     )

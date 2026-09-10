@@ -39,6 +39,7 @@ const filtersEl = document.querySelector("#filters");
 const filterToggleEl = document.querySelector("#filter-toggle");
 const filterCountEl = document.querySelector("#filter-count");
 const filterSummaryEl = document.querySelector("#filter-summary");
+const themeToggleEl = document.querySelector("#theme-toggle");
 
 dayEl.value = "today";
 
@@ -81,6 +82,43 @@ function formatDate(value) {
     hour: "numeric",
     minute: "2-digit",
   }).format(new Date(value));
+}
+
+function normalizeScheduleText(value = "") {
+  let text = String(value);
+  for (const [day, label] of Object.entries(DAY_LABELS)) {
+    text = text.replace(new RegExp(`\\b${day}\\b`, "gi"), label);
+  }
+  text = text
+    .replace(/\b(\d{1,2})(?::(\d{2}))?\s*([ap])\.?m\.?\b/gi, (_, hour, minute, period) => {
+      const minutes = minute && minute !== "00" ? `:${minute}` : "";
+      return `${Number(hour)}${minutes}${period.toLowerCase()}m`;
+    })
+    .replace(/(\d(?:am|pm))\s+(?:to|[-–—])\s+(?=\d)/gi, "$1-")
+    .replace(/(\d:\d{2}(?:am|pm))\s+(?:to|[-–—])\s+(?=\d)/gi, "$1-")
+    .replace(/\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\s*[-–—]\s*(Mon|Tue|Wed|Thu|Fri|Sat|Sun)\b/g, "$1-$2")
+    .replace(/\s+([,;])/g, "$1")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+  return text;
+}
+
+function scheduleSignals(value = "") {
+  const normalized = normalizeScheduleText(value).toLowerCase();
+  return new Set([
+    ...(normalized.match(/\b(?:mon|tue|wed|thu|fri|sat|sun)\b/g) || []),
+    ...(normalized.match(/\b\d{1,2}(?::\d{2})?(?:am|pm)\b/g) || []),
+    ...(normalized.match(/\b(?:all day|every day|daily)\b/g) || []),
+  ]);
+}
+
+function isValidityRedundant(deal, visibleText) {
+  const validity = normalizeScheduleText(deal.validity || "");
+  if (!validity || /^check source$/i.test(validity)) return true;
+  const signals = scheduleSignals(validity);
+  if (!signals.size) return false;
+  const visibleSignals = scheduleSignals(visibleText);
+  return [...signals].every((signal) => visibleSignals.has(signal));
 }
 
 function tagLabel(tag) {
@@ -217,13 +255,12 @@ function renderFilterOptions() {
   renderSelectOptions(restaurantEl, [...restaurants].sort(), "All restaurants");
 }
 
-function renderSummary() {
+function renderSummary(visibleDeals) {
   const { summary, generated_at: generatedAt, scope } = state.payload;
-  const activeGroups = groupDeals((state.payload.deals || []).filter((deal) => deal.status === "active"));
+  const visibleGroups = groupDeals(visibleDeals);
   statsEl.innerHTML = `
-    <span><strong>${state.restaurants?.coverage?.operational_count || activeGroups.length}</strong> nearby</span>
-    <span><strong>${activeGroups.length}</strong> restaurants</span>
-    <span><strong>${summary.active_deals}</strong> verified offers</span>
+    <span><strong>${visibleGroups.length}</strong> restaurants</span>
+    <span><strong>${visibleDeals.length}</strong> deals</span>
   `;
 
   const locationText = state.locationMessage ? ` ${state.locationMessage}` : "";
@@ -335,7 +372,7 @@ function formatClock(value) {
   const [hour, minute] = value.split(":").map(Number);
   const period = hour >= 12 ? "PM" : "AM";
   const displayHour = hour % 12 || 12;
-  return `${displayHour}:${String(minute).padStart(2, "0")} ${period}`;
+  return `${displayHour}${minute ? `:${String(minute).padStart(2, "0")}` : ""}${period.toLowerCase()}`;
 }
 
 function bestDeals(group) {
@@ -363,20 +400,23 @@ function renderDealRow(deal) {
   main.className = "deal-main";
 
   const title = document.createElement("h3");
-  title.textContent = deal.summary || deal.candidate_text;
+  title.textContent = normalizeScheduleText(deal.summary || deal.candidate_text);
   main.append(title);
 
   const detailItems = (deal.details || []).filter((item) => item && item !== title.textContent).slice(0, 3);
   if (detailItems.length) {
     const details = document.createElement("p");
     details.className = "deal-details";
-    details.textContent = detailItems.join(" · ");
+    details.textContent = normalizeScheduleText(detailItems.join(" · "));
     main.append(details);
   }
 
   const meta = document.createElement("div");
   meta.className = "deal-meta";
-  meta.append(badge(deal.validity || "Check source", "validity"));
+  const visibleText = [title.textContent, ...detailItems].join(" ");
+  if (!isValidityRedundant(deal, visibleText)) {
+    meta.append(badge(normalizeScheduleText(deal.validity), "validity"));
+  }
   meta.append(badge(categoryLabel(deal.categories), "category"));
   const visibleTags = new Set(["happy_hour", "bogo", "percent_off", "free"]);
   const displayTags = (deal.tags || []).filter((tag) => visibleTags.has(tag)).slice(0, 1);
@@ -394,7 +434,13 @@ function renderDealRow(deal) {
   return row;
 }
 
-function renderGroup(group) {
+function locationQualifier(address = "") {
+  const street = address.split(",")[0].replace(/^\d+\s+/, "").replace(/\s+(?:Ste|Suite|Unit|#)\s*\S+.*$/i, "").trim();
+  if (/^(?:CA-1|Pacific Coast (?:Hwy|Highway))$/i.test(street)) return "PCH";
+  return street;
+}
+
+function renderGroup(group, needsQualifier = false) {
   const section = document.createElement("details");
   section.className = "location";
   section.id = locationSlug(group);
@@ -406,7 +452,9 @@ function renderGroup(group) {
   const titleWrap = document.createElement("div");
   titleWrap.className = "location-title";
   const title = document.createElement("h2");
-  title.textContent = restaurantLabel(group.restaurant, group.city);
+  const baseLabel = restaurantLabel(group.restaurant, group.city);
+  const qualifier = needsQualifier ? locationQualifier(group.location?.address) : "";
+  title.textContent = qualifier ? `${baseLabel} · ${qualifier}` : baseLabel;
   const sub = document.createElement("p");
   const bits = [group.city, distanceLabel(group), openStatus(group.location)].filter(Boolean);
   sub.textContent = bits.join(" · ");
@@ -414,7 +462,7 @@ function renderGroup(group) {
 
   const preview = document.createElement("div");
   preview.className = "deal-preview";
-  for (const deal of bestDeals(group)) preview.append(badge(deal.summary || "Deal"));
+  for (const deal of bestDeals(group)) preview.append(badge(normalizeScheduleText(deal.summary || "Deal")));
 
   const actions = document.createElement("div");
   actions.className = "location-actions";
@@ -450,8 +498,9 @@ function renderGroup(group) {
 function renderDeals() {
   const deals = (state.payload.deals || []).filter(matchesFilters);
   const groups = groupDeals(deals);
+  const nameCounts = groups.reduce((counts, group) => counts.set(group.restaurant, (counts.get(group.restaurant) || 0) + 1), new Map());
   dealsEl.innerHTML = "";
-  renderSummary();
+  renderSummary(deals);
 
   if (!groups.length) {
     const selected = (state.restaurants?.restaurants || []).find((item) => item.name === state.restaurant);
@@ -466,7 +515,7 @@ function renderDeals() {
     return;
   }
 
-  for (const group of groups) dealsEl.append(renderGroup(group));
+  for (const group of groups) dealsEl.append(renderGroup(group, nameCounts.get(group.restaurant) > 1));
 }
 
 function renderSources() {
@@ -595,7 +644,22 @@ filterToggleEl.addEventListener("click", () => {
 
 locateEl.addEventListener("click", requestLocation);
 
+function syncThemeButton() {
+  const dark = document.documentElement.dataset.theme === "dark";
+  const label = dark ? "Use light mode" : "Use dark mode";
+  themeToggleEl.setAttribute("aria-label", label);
+  themeToggleEl.title = label;
+}
+
+themeToggleEl.addEventListener("click", () => {
+  const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+  document.documentElement.dataset.theme = next;
+  localStorage.setItem("theme", next);
+  syncThemeButton();
+});
+
 renderFilterSummary();
+syncThemeButton();
 
 init().catch((error) => {
   dealsEl.innerHTML = `<p class="empty">Could not load deals: ${error.message}</p>`;
