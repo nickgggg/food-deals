@@ -5,9 +5,10 @@
   --line: #d8ddd8;
   --paper: #f3f4ef;
   --surface: #ffffff;
-  --wash: #eef2ed;
+  --wash: #e9eee8;
   --accent: #007c89;
   --accent-2: #bc372b;
+  --amber: #f0b02f;
   --mono: "SFMono-Regular", Consolas, "Liberation Mono", ui-monospace, monospace;
   --fresh: #09753c;
   --stale: #8a5a00;
@@ -32,7 +33,7 @@ body {
 .topbar {
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 30;
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: end;
@@ -68,8 +69,7 @@ main {
 .stats,
 .location-actions,
 .deal-meta,
-.deal-preview,
-.jumpbar {
+.deal-preview {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
@@ -93,11 +93,18 @@ main {
 }
 
 .controls {
+  position: sticky;
+  top: 80px;
+  z-index: 20;
   display: grid;
   grid-template-columns: minmax(180px, 1.25fr) minmax(150px, 0.9fr) repeat(4, minmax(104px, 0.55fr)) auto;
   gap: 8px;
-  margin: 10px 0 8px;
+  margin: 0 0 8px;
+  padding: 12px 0 10px;
   align-items: end;
+  border-bottom: 1px solid rgba(216, 221, 216, 0.75);
+  background: rgba(243, 244, 239, 0.94);
+  backdrop-filter: blur(14px);
 }
 
 label {
@@ -119,7 +126,9 @@ button {
   border-radius: 7px;
   background: var(--surface);
   color: var(--ink);
-  font: inherit;
+  font-family: var(--mono);
+  font-size: 0.82rem;
+  font-weight: 800;
   padding: 8px 9px;
 }
 
@@ -145,21 +154,7 @@ button {
   margin: 0;
 }
 
-.jumpbar {
-  position: sticky;
-  top: 86px;
-  z-index: 9;
-  margin: 0 -2px 10px;
-  padding: 8px 2px;
-  background: rgba(243, 244, 239, 0.92);
-  backdrop-filter: blur(12px);
-  overflow-x: auto;
-  flex-wrap: nowrap;
-}
-
-.jumpbar a,
-.location-actions a,
-.source-row a {
+.location-actions a {
   border: 1px solid var(--line);
   border-radius: 999px;
   background: var(--surface);
@@ -172,9 +167,7 @@ button {
   white-space: nowrap;
 }
 
-.jumpbar a:hover,
-.location-actions a:hover,
-.source-row a:hover {
+.location-actions a:hover {
   border-color: var(--accent);
   color: var(--accent);
 }
@@ -231,7 +224,7 @@ button {
 
 .location[open] .location-heading {
   border-bottom: 1px solid var(--line);
-  background: #fbfcfa;
+  background: linear-gradient(90deg, #fbfcfa 0%, #f7faf6 100%);
 }
 
 .location[open] .location-heading::before {
@@ -306,7 +299,7 @@ button {
 
 .deal-row {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(92px, 132px);
+  grid-template-columns: minmax(0, 1fr) minmax(112px, 150px);
   gap: 12px;
   padding: 10px 12px;
   border-top: 1px solid var(--line);
@@ -356,6 +349,7 @@ button {
   gap: 6px;
   color: var(--muted);
   font-size: 0.78rem;
+  text-align: right;
 }
 
 .status {
@@ -369,12 +363,6 @@ button {
 
 .status.stale {
   color: var(--stale);
-}
-
-.source-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
 }
 
 .empty {
@@ -419,6 +407,7 @@ button {
   .topbar {
     position: static;
     grid-template-columns: 1fr;
+    padding-bottom: 10px;
   }
 
   .stats,
@@ -427,16 +416,16 @@ button {
   }
 
   .controls {
+    top: 0;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 10px;
   }
 
   .search-control,
   .locate-button {
     grid-column: 1 / -1;
-  }
-
-  .jumpbar {
-    top: 0;
   }
 
   .location-heading {
