@@ -1,6 +1,6 @@
 {
   "extraction_version": 1,
-  "generated_at": "2026-09-10T02:24:01Z",
+  "generated_at": "2026-09-10T02:35:18Z",
   "model": "gemini-3.5-flash-lite",
   "pages": [
     {
@@ -1496,106 +1496,15 @@
       "status": "ok"
     },
     {
-      "content_hash": "58086db1f9ddcf5a728cdaf4f457c7e3ed2f45effc39fee6abffc6cd7eb32628",
-      "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [
-            "monday"
-          ],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Pasta Bolognese",
-            "$28.00",
-            "Ground beef, garlic, butter, Italian herbs"
-          ],
-          "source_evidence": [
-            "MONDAY (All Day Happy Hour)",
-            "PASTA BOLOGNESE",
-            "$28.00"
-          ],
-          "summary": "Pasta Bolognese for $28.00 on Monday",
-          "time_window": "None",
-          "valid_through": "None"
-        },
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [
-            "tuesday"
-          ],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "$5.00 tacos with choice of steak, chicken, or pork chorizo on corn tortillas with onions, cilantro, lime, and salsa",
-            "$10.00 house margarita",
-            "$11.00 fruit margarita",
-            "$9.00 rotating Mexican lager pint"
-          ],
-          "source_evidence": [
-            "TUESDAY (Taco Tuesday)",
-            "TACO TUESDAY",
-            "$5.00"
-          ],
-          "summary": "Taco Tuesday specials starting at $5.00",
-          "time_window": null,
-          "valid_through": "None"
-        },
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [
-            "wednesday"
-          ],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "50% off all wine bottles (dine-in only)",
-            "Fillet special for $35.00 with 5 oz. filet mignon, mashed potatoes, seasonal veggies, and choice of peppercorn or garlic butter sauce"
-          ],
-          "source_evidence": [
-            "WEDNESDAY (Wine Wednesday)",
-            "50% off all wine bottles (dine-in only)",
-            "FILLET SPECIAL",
-            "$35.00"
-          ],
-          "summary": "Wine Wednesday with 50% off wine bottles and $35 fillet special",
-          "time_window": null,
-          "valid_through": "None"
-        },
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [
-            "thursday"
-          ],
-          "categories": [
-            "drink"
-          ],
-          "details": [
-            "50% off all beer (dine-in only)"
-          ],
-          "source_evidence": [
-            "THURSDAY (Thirsty Thursday)",
-            "50% off all beer (dine-in only)"
-          ],
-          "summary": "Thirsty Thursday with 50% off all beer",
-          "time_window": null,
-          "valid_through": "None"
-        }
-      ],
-      "extracted_at": "2026-09-10T02:12:21Z",
+      "content_hash": "",
+      "deals": [],
+      "error": "No promotion text found",
       "key": "7d436ac2aeb8cd59a8d0",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
         "label": "Daily Specials",
         "url": "https://redtablerestaurants.com/daily-specials/"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1682,54 +1591,18 @@
         ],
         "website_url": "https://redtablerestaurants.com/"
       },
-      "status": "ok"
+      "status": "fetch_failed"
     },
     {
-      "content_hash": "4495db677e2800ce3387a97f78975eb4bdf0160784b336567edb335b3e156f3a",
-      "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [
-            "monday",
-            "tuesday",
-            "wednesday",
-            "thursday",
-            "friday",
-            "saturday",
-            "sunday"
-          ],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Red Table Fries for $8.00",
-            "Cajun Fries for $8.00",
-            "Truffle Fries for $9.00",
-            "Simple Slider for $10.00",
-            "Meatball Slider for $9.00",
-            "Poke Poquito for $13.00",
-            "Cup Tomato Bisque for $7.00",
-            "Chicken Lettuce Cups for $12.00"
-          ],
-          "source_evidence": [
-            "Happy Hour",
-            "( 4 - 6 pm daily )"
-          ],
-          "summary": "Happy Hour Food and Drink Specials",
-          "time_window": "4:00 PM - 6:00 PM",
-          "valid_through": "None"
-        }
-      ],
-      "extracted_at": "2026-09-10T02:12:29Z",
+      "content_hash": "",
+      "deals": [],
+      "error": "No promotion text found",
       "key": "472eae71b3859f0d3f0c",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
         "label": "Happy Hour",
         "url": "https://redtablerestaurants.com/happy-hour/"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1816,7 +1689,7 @@
         ],
         "website_url": "https://redtablerestaurants.com/"
       },
-      "status": "ok"
+      "status": "fetch_failed"
     },
     {
       "content_hash": "757fc588827dbcb593efbb5c323b5810aa4310587c4e1e5bbf4ec8aaa2d42848",
@@ -2697,6 +2570,108 @@
     {
       "content_hash": "277d092044d60ee9da3760a036d9e9b72b5f06c3eb4627b8e2e88f5c80b70c82",
       "deals": [],
+      "extracted_at": "2026-09-10T02:13:34Z",
+      "key": "07efdeef28eacc9b87a4",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "http://www.wienerschnitzel.com/coupons/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "no_deals"
+    },
+    {
+      "content_hash": "277d092044d60ee9da3760a036d9e9b72b5f06c3eb4627b8e2e88f5c80b70c82",
+      "deals": [],
       "extracted_at": "2026-09-10T02:13:26Z",
       "key": "a3ff1d2a0f58f65098fd",
       "model": "gemini-3.5-flash-lite",
@@ -2899,108 +2874,6 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "277d092044d60ee9da3760a036d9e9b72b5f06c3eb4627b8e2e88f5c80b70c82",
-      "deals": [],
-      "extracted_at": "2026-09-10T02:13:34Z",
-      "key": "07efdeef28eacc9b87a4",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "http://www.wienerschnitzel.com/coupons/"
-      },
-      "rejected_candidates": [],
-      "restaurant": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "no_deals"
-    },
-    {
       "content_hash": "751a8fbe7f9a8e7d3956b06685a62550664d425df6216b497991c9cf0dec27da",
       "deals": [
         {
@@ -3014,21 +2887,22 @@
             "Original Pretzel Bun Chili Dog only",
             "Cheese extra",
             "Coupon good for TWO orders on same visit",
+            "Tax extra",
             "Must be surrendered at time of purchase",
             "Not valid with any other offer, discount or coupon",
-            "Tax extra"
+            "Good at participating restaurants only"
           ],
           "source_evidence": [
             "$3 - Pretzel Bun Chili Dog - 230",
             "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
           ],
-          "summary": "$3 Pretzel Bun Chili Dog Coupon",
+          "summary": "$3 Pretzel Bun Chili Dog",
           "time_window": null,
           "valid_through": "None"
         }
       ],
-      "extracted_at": "2026-09-10T02:13:56Z",
-      "key": "48fe406dac90084e8078",
+      "extracted_at": "2026-09-10T02:13:48Z",
+      "key": "82f9838ad0af114e388c",
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
@@ -3037,59 +2911,59 @@
       },
       "rejected_candidates": [],
       "restaurant": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
         "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "monday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "saturday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "sunday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "thursday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "tuesday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "wednesday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ]
         },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
         "name": "Wienerschnitzel",
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ",
         "primary_type": "fast_food_restaurant",
         "specials_pages": [
           {
@@ -3122,7 +2996,7 @@
           "point_of_interest",
           "establishment"
         ],
-        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+        "website_url": "http://www.wienerschnitzel.com/location/239-beach-blvd-talbert-huntington-beach-18012-beach-blvd-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
     },
@@ -3267,27 +3141,280 @@
             "Original Pretzel Bun Chili Dog only",
             "Cheese extra",
             "Coupon good for TWO orders on same visit",
-            "Tax extra",
             "Must be surrendered at time of purchase",
             "Not valid with any other offer, discount or coupon",
-            "Good at participating restaurants only"
+            "Tax extra"
           ],
           "source_evidence": [
             "$3 - Pretzel Bun Chili Dog - 230",
             "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
           ],
-          "summary": "$3 Pretzel Bun Chili Dog",
+          "summary": "$3 Pretzel Bun Chili Dog Coupon",
           "time_window": null,
           "valid_through": "None"
         }
       ],
-      "extracted_at": "2026-09-10T02:13:48Z",
-      "key": "82f9838ad0af114e388c",
+      "extracted_at": "2026-09-10T02:13:56Z",
+      "key": "48fe406dac90084e8078",
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
         "label": "Specials",
         "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "cf602e88a841f032ceb9db45a7f93894a5bb22f67cdc9cc2d7235a0e1f3125e4",
+      "deals": [
+        {
+          "ai_confidence": 0.85,
+          "applies_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Price: $5",
+            "Includes one corn dog, small fries, and small soda",
+            "Coupon good for two orders on same visit and must be surrendered at time of purchase",
+            "Tax extra",
+            "Not valid with any other offer, discount or coupon",
+            "Good at participating restaurants only",
+            "Not valid in Sacramento, Stockton & Modesto areas"
+          ],
+          "source_evidence": [
+            "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+            "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
+          ],
+          "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
+          "time_window": null,
+          "valid_through": "None"
+        }
+      ],
+      "extracted_at": "2026-09-10T02:14:19Z",
+      "key": "b722649edfad301a9018",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "cf602e88a841f032ceb9db45a7f93894a5bb22f67cdc9cc2d7235a0e1f3125e4",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Price: $5",
+            "Includes one corn dog, small fries, and small soda",
+            "Coupon good for TWO orders on same visit",
+            "Must be surrendered at time of purchase",
+            "Tax extra",
+            "Not valid with any other offer, discount or coupon",
+            "Not valid in Sacramento, Stockton & Modesto areas"
+          ],
+          "source_evidence": [
+            "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+            "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
+          ],
+          "summary": "Corn Dog, Small Fries and Small Soda for $5",
+          "time_window": null,
+          "valid_through": "None"
+        }
+      ],
+      "extracted_at": "2026-09-10T02:14:11Z",
+      "key": "95b5880670224ea72a79",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
       },
       "rejected_candidates": [],
       "restaurant": {
@@ -3504,260 +3631,6 @@
           "establishment"
         ],
         "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "ok"
-    },
-    {
-      "content_hash": "cf602e88a841f032ceb9db45a7f93894a5bb22f67cdc9cc2d7235a0e1f3125e4",
-      "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Price: $5",
-            "Includes one corn dog, small fries, and small soda",
-            "Coupon good for TWO orders on same visit",
-            "Must be surrendered at time of purchase",
-            "Tax extra",
-            "Not valid with any other offer, discount or coupon",
-            "Not valid in Sacramento, Stockton & Modesto areas"
-          ],
-          "source_evidence": [
-            "$5 - Corn Dog, Small Fries and Small Soda Coupon",
-            "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
-          ],
-          "summary": "Corn Dog, Small Fries and Small Soda for $5",
-          "time_window": null,
-          "valid_through": "None"
-        }
-      ],
-      "extracted_at": "2026-09-10T02:14:11Z",
-      "key": "95b5880670224ea72a79",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-      },
-      "rejected_candidates": [],
-      "restaurant": {
-        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.7009621,
-        "longitude": -117.9886627,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 596-0478",
-        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/239-beach-blvd-talbert-huntington-beach-18012-beach-blvd-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "ok"
-    },
-    {
-      "content_hash": "cf602e88a841f032ceb9db45a7f93894a5bb22f67cdc9cc2d7235a0e1f3125e4",
-      "deals": [
-        {
-          "ai_confidence": 0.85,
-          "applies_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Price: $5",
-            "Includes one corn dog, small fries, and small soda",
-            "Coupon good for two orders on same visit and must be surrendered at time of purchase",
-            "Tax extra",
-            "Not valid with any other offer, discount or coupon",
-            "Good at participating restaurants only",
-            "Not valid in Sacramento, Stockton & Modesto areas"
-          ],
-          "source_evidence": [
-            "$5 - Corn Dog, Small Fries and Small Soda Coupon",
-            "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
-          ],
-          "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
-          "time_window": null,
-          "valid_through": "None"
-        }
-      ],
-      "extracted_at": "2026-09-10T02:14:19Z",
-      "key": "b722649edfad301a9018",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-      },
-      "rejected_candidates": [],
-      "restaurant": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
     },
@@ -4679,17 +4552,15 @@
       "status": "ok"
     },
     {
-      "content_hash": "e36d067ed44170b936a9c25a65139ec7dc6412a201ea32d60c1571a544db52f5",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-10T02:20:15Z",
+      "error": "No promotion text found",
       "key": "008aa5bd85978e26efee",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://basilthaicuisine.net/"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "9921 Hamilton Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -4789,7 +4660,7 @@
         ],
         "website_url": "https://basilthaicuisine.net/"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
       "content_hash": "9ce68d356f7a1ce58e0f8e3fb85d50b94f6af591cb22a3c30c67a04ec9548102",
@@ -4847,10 +4718,7 @@
         "label": "Specials / Events",
         "url": "https://www.basilicospastavino.com/specials-events"
       },
-      "rejected_candidates": [
-        "Aperitivo small plate and drink specials",
-        "Cigar pairings and drink specials"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "21501 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -5194,66 +5062,7 @@
     },
     {
       "content_hash": "f3e3601e7a0456009cc11be31e2d140c6a609f8eeb97ea8b7b50de8f3f8bccb9",
-      "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "One Large Pizza with choice of sauce, cheese and 1 topping",
-            "Online Only"
-          ],
-          "source_evidence": [
-            "One Large 1-Top Pizza",
-            "Get one Large Pizza with your choice of sauce, cheese and 1 topping. Online Only."
-          ],
-          "summary": "One Large 1-Top Pizza",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "One 11-inch 2-Top pizza",
-            "One 16oz Fountain Drink",
-            "Pickup Only"
-          ],
-          "source_evidence": [
-            "2 Top + Drink - Pickup Only",
-            "BLAZIN\u2019 DEAL: Get one 11-inch 2-Top pizza and a 16oz Fountain Drink."
-          ],
-          "summary": "2 Top Pizza and 16oz Fountain Drink",
-          "time_window": null,
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "One 11 inch 1-Top pizza",
-            "One 16oz House-made lemonade, tea, or Coca-Cola fountain drink",
-            "Online pick up only"
-          ],
-          "source_evidence": [
-            "Pizza Party for One",
-            "Get one 11 inch 1-Top and a 16oz House-made lemonade, tea, or Coca-Cola\u00ae fountain drink."
-          ],
-          "summary": "Pizza Party for One",
-          "time_window": null,
-          "valid_through": null
-        }
-      ],
+      "deals": [],
       "extracted_at": "2026-09-10T02:20:50Z",
       "key": "ef56c1bd6207ecb7e226",
       "model": "gemini-3.5-flash-lite",
@@ -5263,13 +5072,9 @@
         "url": "https://locations.blazepizza.com/us/ca/fountain-valley/blazepizza-1264"
       },
       "rejected_candidates": [
-        "Blazed BBQ Half 11-inch Pizza and side",
-        "Spicy Pepperoni Pizza and side",
-        "Kid's 3 Top Pizza",
-        "Two Large 2-Top Pizzas",
-        "Cheesy Bread Bundle",
-        "5 for Bundle Deal",
-        "BFF Bundle"
+        "One Large 1-Top Pizza",
+        "2 Top Pizza and 16oz Fountain Drink",
+        "Pizza Party for One"
       ],
       "restaurant": {
         "address": "17150 Brookhurst St #D, Fountain Valley, CA 92708, USA",
@@ -5490,96 +5295,6 @@
     {
       "content_hash": "1ef5a756012eaa07f977344a2a69be2bbedf165164c34aadbcfff2f501b666d1",
       "deals": [],
-      "extracted_at": "2026-09-10T02:21:06Z",
-      "key": "19cec4e1074e8465423c",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "medium",
-        "label": "Website specials",
-        "url": "http://www.carlitosdiner.com/"
-      },
-      "rejected_candidates": [
-        "Menudo & Pozole Everyday",
-        "Taco Tuesday",
-        "Daily Specials"
-      ],
-      "restaurant": {
-        "address": "7451 Warner Ave G, Huntington Beach, CA 92647, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=436858277318907960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "16:00",
-              "open": "08:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.716098,
-        "longitude": -117.99848000000001,
-        "name": "Carlitos Diner",
-        "phone": "(714) 841-9966",
-        "place_id": "ChIJB5cwb4om3YAROFjI5EkIEAY",
-        "primary_type": "mexican_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "medium",
-            "label": "Website specials",
-            "url": "http://www.carlitosdiner.com/"
-          }
-        ],
-        "types": [
-          "mexican_restaurant",
-          "american_restaurant",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.carlitosdiner.com/"
-      },
-      "status": "no_deals"
-    },
-    {
-      "content_hash": "1ef5a756012eaa07f977344a2a69be2bbedf165164c34aadbcfff2f501b666d1",
-      "deals": [],
       "extracted_at": "2026-09-10T02:21:13Z",
       "key": "a48cca227805c135b5be",
       "model": "gemini-3.5-flash-lite",
@@ -5658,6 +5373,96 @@
           "diner",
           "breakfast_restaurant",
           "hamburger_restaurant",
+          "american_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.carlitosdiner.com/"
+      },
+      "status": "no_deals"
+    },
+    {
+      "content_hash": "1ef5a756012eaa07f977344a2a69be2bbedf165164c34aadbcfff2f501b666d1",
+      "deals": [],
+      "extracted_at": "2026-09-10T02:21:06Z",
+      "key": "19cec4e1074e8465423c",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "medium",
+        "label": "Website specials",
+        "url": "http://www.carlitosdiner.com/"
+      },
+      "rejected_candidates": [
+        "Menudo & Pozole Everyday",
+        "Taco Tuesday",
+        "Daily Specials"
+      ],
+      "restaurant": {
+        "address": "7451 Warner Ave G, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=436858277318907960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "16:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.716098,
+        "longitude": -117.99848000000001,
+        "name": "Carlitos Diner",
+        "phone": "(714) 841-9966",
+        "place_id": "ChIJB5cwb4om3YAROFjI5EkIEAY",
+        "primary_type": "mexican_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "medium",
+            "label": "Website specials",
+            "url": "http://www.carlitosdiner.com/"
+          }
+        ],
+        "types": [
+          "mexican_restaurant",
           "american_restaurant",
           "restaurant",
           "food",
@@ -6461,10 +6266,7 @@
         "label": "Specials",
         "url": "https://ilovefcp.com/specials/"
       },
-      "rejected_candidates": [
-        "The Family Special: XL 2-Topping Pizza, side, dessert, and drink for 41.99",
-        "FCP Sandwich Combo with lunch salad and drink for 13.99"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "18671 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -7325,17 +7127,15 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "e5ec9c2da734396d39eff32b379c59eca4d380bd134a26eea95adcb3b7321d76",
+      "content_hash": "",
       "deals": [],
-      "extracted_at": "2026-09-10T02:23:55Z",
+      "error": "No promotion text found",
       "key": "68af568849ddd597ebcc",
-      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "JoJo Special",
         "url": "http://www.jojocakes.net/categories/jojo-special"
       },
-      "rejected_candidates": [],
       "restaurant": {
         "address": "17165 Newhope St #G, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -7411,7 +7211,7 @@
         ],
         "website_url": "http://www.jojocakes.net/content/about-us"
       },
-      "status": "no_deals"
+      "status": "fetch_failed"
     },
     {
       "content_hash": "",
@@ -7589,13 +7389,35 @@
     },
     {
       "content_hash": "7d7ca4d2bdb64a14415ee8fa20ecbc74f4dca4520912a425660ae1f44415364f",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Classic fried chicken meals for one, two or a few",
+            "Available for delivery or pick up",
+            "Promotional pricing is not available on KFC delivery orders"
+          ],
+          "source_evidence": [
+            "Our Taste of KFC\u00ae Deals are classic, finger lickin' good fried chicken meals for one, two or a few starting at just $5!"
+          ],
+          "summary": "Taste of KFC Deals starting at just $5",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T02:31:00Z",
       "key": "c4aa530a75c9d0a2f293",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://locations.kfc.com/ca/fountain-valley/17239-brookhurst-street"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "17239 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -7668,17 +7490,40 @@
         ],
         "website_url": "https://locations.kfc.com/ca/fountain-valley/17239-brookhurst-street"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "743f660966206000a15564449934b030f53ed08a07fce3fba31971e604a35dda",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Fried chicken meals for one, two or a few",
+            "Available for delivery or pick up",
+            "Prices may vary and do not include tax",
+            "Promotional pricing is not available on KFC delivery orders"
+          ],
+          "source_evidence": [
+            "Our Taste of KFC\u00ae Deals are classic, finger lickin' good fried chicken meals for one, two or a few starting at just $5! Order these new KFC\u00ae specials near you for delivery or pick up!"
+          ],
+          "summary": "Taste of KFC Deals starting at just $5",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T02:31:07Z",
       "key": "23cdf21a7497d5c50f4b",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://locations.kfc.com/ca/huntington-beach/19091-brookhurst-street"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "19091 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -7751,17 +7596,41 @@
         ],
         "website_url": "https://locations.kfc.com/ca/huntington-beach/19091-brookhurst-street"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "917de9dfacbd84ee0044be2e7bc541859d675adc9398d382afca3786f26b0ef2",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Classic fried chicken meals for one, two or a few starting at just $5",
+            "Available for delivery or pick up",
+            "Available at participating locations for a limited time",
+            "Prices may vary and do not include tax",
+            "Promotional pricing is not available on KFC delivery orders"
+          ],
+          "source_evidence": [
+            "Our Taste of KFC\u00ae Deals are classic, finger lickin' good fried chicken meals for one, two or a few starting at just $5!"
+          ],
+          "summary": "Taste of KFC Deals starting at just $5 for meals for one, two, or a few",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T02:31:15Z",
       "key": "293e789a2d273ccc992f",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://locations.kfc.com/ca/huntington-beach/8142-talbert-ave"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "8142 Talbert Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -7834,17 +7703,40 @@
         ],
         "website_url": "https://locations.kfc.com/ca/huntington-beach/8142-talbert-ave"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "e474b7616e7728e9563d3e6e7992ebfa9686765d9ef8fb4f714982d09113d7cf",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.85,
+          "applies_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Housemade ramen, charcoal-grilled skewers, sashimi, craft cocktails, and a late-night happy hour."
+          ],
+          "source_evidence": [
+            "housemade ramen with inventive broths, charcoal-grilled skewers, sashimi, craft cocktails, and a late-night happy hour that actually lives up to the name."
+          ],
+          "summary": "Late-night happy hour",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T02:31:27Z",
       "key": "e32e14788fcc4ee48d11",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://www.keiconcepts.info/brands/kin"
       },
+      "rejected_candidates": [
+        "Toast Bundle Deal"
+      ],
       "restaurant": {
         "address": "16185 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -7917,17 +7809,20 @@
         ],
         "website_url": "https://www.keiconcepts.info/brands/kin"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "fb94a4650dd4d4888b0a74356ca744d0f6517f75a0d4e73523fec95252a85723",
       "deals": [],
+      "extracted_at": "2026-09-10T02:31:34Z",
       "key": "ff141cdaaf2be3a8700d",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "http://www.lacapillarestaurant.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "807 Adams Ave, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -7999,17 +7894,20 @@
         ],
         "website_url": "http://www.lacapillarestaurant.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "536b578587a0f71da8cb75d4731a521584bb7dffaf65355c997aa039cffd01c6",
       "deals": [],
+      "extracted_at": "2026-09-10T02:31:41Z",
       "key": "afe02a94e075f6831818",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://www.bestpizzafountainvalleyca.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -8091,17 +7989,20 @@
         ],
         "website_url": "https://www.bestpizzafountainvalleyca.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
-      "content_hash": "4e650fdbfec2dc323e7f26d17f217d7357bd049943118c6119057c4d2127b011",
+      "content_hash": "a6563e14404a587a825db193f303f4783be402ee5926e0c463293b76627bc00b",
       "deals": [],
+      "extracted_at": "2026-09-10T02:31:49Z",
       "key": "589825ac47de20879b9c",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://leesandwiches.com/store-locator/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "16058 Goldenwest St, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -8175,17 +8076,20 @@
         ],
         "website_url": "https://leesandwiches.com/store-locator/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "41c11f7b48849518bdc2f1b8349be548da6f712d0292091dd5c714ef588f6cdd",
       "deals": [],
+      "extracted_at": "2026-09-10T02:31:56Z",
       "key": "019539f5038d404cfe77",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "http://www.longboardrestaurant.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "14892 Springdale St, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -8270,17 +8174,20 @@
         ],
         "website_url": "http://www.longboardrestaurant.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "025816bad218cd742bc1f4c8c12af2062b42755ee2771b78c5fb949eded31466",
       "deals": [],
+      "extracted_at": "2026-09-10T02:32:03Z",
       "key": "59f559fe410dab72ee82",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Triple Crown Races and Weekend Specials for April and May",
         "url": "https://longboardrestaurant.com/2026/04/28/triple-crown-races-and-weekend-specials-for-april-and-may/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "14892 Springdale St, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -8365,17 +8272,20 @@
         ],
         "website_url": "http://www.longboardrestaurant.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "46f44608df9df4dcc6940e922844f409e47a482f6f4d952a1d0de0a1e9333efe",
       "deals": [],
+      "extracted_at": "2026-09-10T02:32:10Z",
       "key": "2de81f85cbdb7c8496c5",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "http://www.mamaonmain.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "301 Main St #107, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -8463,17 +8373,54 @@
         ],
         "website_url": "http://www.mamaonmain.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "b3eeba18a0ba075bfd406f83a4b4f1e64cdbb06586b0bb7c7e3d0441a0845394",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Get a whole pie to-go for just $13.99 all month long"
+          ],
+          "source_evidence": [
+            "Luscious Lemon Meringue is our Pie of the Month! Get a whole pie to-go for just $13.99 all month long!"
+          ],
+          "summary": "Lemon Meringue Pie of the Month to-go for $13.99",
+          "time_window": null,
+          "valid_through": "2026-09-30"
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes one appetizer, two entrees, and two slices of pie for $42",
+            "Dine-in only, at participating locations"
+          ],
+          "source_evidence": [
+            "One Appetizer, Two Entrees & Two Slices of Pie for $42! Dine-in only, at participating locations."
+          ],
+          "summary": "Pair & Share: One Appetizer, Two Entrees & Two Slices of Pie for $42",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T02:32:18Z",
       "key": "314f18ca3ce051ff8397",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://www.mariecallenders.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -8548,17 +8495,20 @@
         ],
         "website_url": "https://www.mariecallenders.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "6197d48a899944c55c28b422e62c3a29504f38151919466f858d40a5520f993d",
       "deals": [],
+      "extracted_at": "2026-09-10T02:32:26Z",
       "key": "5d88e39c2362b02c828d",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://www.marketbroiler.com/huntington"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "20111 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -8635,17 +8585,20 @@
         ],
         "website_url": "https://www.marketbroiler.com/huntington"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "752e92c37b4d9a61c9823f193a04efcb061aacc1bd536705538896ff1ca2c1db",
       "deals": [],
+      "extracted_at": "2026-09-10T02:32:33Z",
       "key": "60e66bbb88cd1ce419de",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Special Diets",
         "url": "https://www.wholefoodsmarket.com/special-diets"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "10011-10111, 10081 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -8725,17 +8678,20 @@
         ],
         "website_url": "https://www.wholefoodsmarket.com/stores/brookhurst#store-eateries-and-bars?utm_source=google&utm_medium=organic&utm_campaign=listings"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "52f41a04befbcde61623529b2c70f2a5cf843084bd563c84ff96bfb20f3c72c2",
       "deals": [],
+      "extracted_at": "2026-09-10T02:32:43Z",
       "key": "76158c674b0cbdb6c08f",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://www.wholefoodsmarket.com/stores/brookhurst"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "10011-10111, 10081 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -8815,17 +8771,20 @@
         ],
         "website_url": "https://www.wholefoodsmarket.com/stores/brookhurst#store-eateries-and-bars?utm_source=google&utm_medium=organic&utm_campaign=listings"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "ba070cc58746ebd16c3d2a527435e87741e44d2de4a3b18ff8cebe82912dff7a",
       "deals": [],
+      "extracted_at": "2026-09-10T02:32:50Z",
       "key": "b772f2c10f5cf49ea4f7",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "http://www.matter-of-craft.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "21022 Beach Blvd #105, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -8902,17 +8861,20 @@
         ],
         "website_url": "http://www.matter-of-craft.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "020af6e4fbf2c9661b956a13653f2adbf5fc23e63da0afc34ee0883630e49bf8",
       "deals": [],
+      "extracted_at": "2026-09-10T02:32:58Z",
       "key": "9f5c39d27dd7f14f9781",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Folder: SPECIAL OCCASIONS",
         "url": "http://www.monstermuffins.com/SPECIALOCCASIONS"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "9951 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -8979,17 +8941,56 @@
         ],
         "website_url": "http://www.monstermuffins.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "e2577b7fdae2debdf370ce43dd270689c732a35b9b5f2fcacd47cda9be8868c4",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "general"
+          ],
+          "details": [
+            "5% discount applies to online orders only"
+          ],
+          "source_evidence": [
+            "5% off online only"
+          ],
+          "summary": "5% off online orders",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Price: $31.00",
+            "Includes extra large pizza with 2 toppings, whole chicken, rice, pita bread, homemade pickles, and garlic sauce"
+          ],
+          "source_evidence": [
+            "Moonlight Special",
+            "$31.00",
+            "Ex large pizza 2 toppings, whole chicken, served with rice, pita bread homemade pickles, garlic sauce."
+          ],
+          "summary": "Moonlight Special: Extra large pizza, whole chicken, rice, pita, pickles, and garlic sauce",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T02:33:06Z",
       "key": "f8ded4d956abc4bace36",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Special",
         "url": "http://moonlightpizzaandchicken.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "9895 Warner Ave A, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -9071,17 +9072,37 @@
         ],
         "website_url": "http://moonlightpizzaandchicken.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "e2577b7fdae2debdf370ce43dd270689c732a35b9b5f2fcacd47cda9be8868c4",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "general"
+          ],
+          "details": [
+            "5% discount applies to online orders only"
+          ],
+          "source_evidence": [
+            "5% off online only"
+          ],
+          "summary": "5% off online orders",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T02:33:14Z",
       "key": "7dd59c04af1dd9af9fdb",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Special Pizza $8.25 Out of stock 6 Toppings.",
         "url": "http://moonlightpizzaandchicken.com/?category-id=1000074600&item-id=1000549303"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "9895 Warner Ave A, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -9163,17 +9184,37 @@
         ],
         "website_url": "http://moonlightpizzaandchicken.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "e2577b7fdae2debdf370ce43dd270689c732a35b9b5f2fcacd47cda9be8868c4",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "general"
+          ],
+          "details": [
+            "Valid for online orders only"
+          ],
+          "source_evidence": [
+            "5% off online only"
+          ],
+          "summary": "5% off online only",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T02:33:22Z",
       "key": "816ee19ee9aaf2bbb590",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Moonlight Special $31.00 Out of stock Ex large pizza 2 toppings, whole chicken, served with rice, pita bread homemade pickles, garlic sauce.",
         "url": "http://moonlightpizzaandchicken.com/?category-id=1000074620&item-id=1000549408"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "9895 Warner Ave A, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -9255,17 +9296,52 @@
         ],
         "website_url": "http://moonlightpizzaandchicken.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "68639acb26b2af0b5f9538ab0d6e81df98917a354ba61bfaa314d0b111a7c204",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "wednesday",
+            "thursday",
+            "friday"
+          ],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Dine-in only",
+            "House Margaritas starting at $7",
+            "Draft Beer for $5",
+            "Chicken, Carnitas & Al Pastor Tacos for $4",
+            "Asada Tacos for $5.50",
+            "Tacos de Rajas with Cheese for $3.50",
+            "Cheese Quesadillas for $10",
+            "Chile Verde Plate and Carnitas Plate for $18 with rice, beans, and handmade tortillas"
+          ],
+          "source_evidence": [
+            "MORENA\u2019S HAPPY HOUR \u2013 HUNTINGTON BEACH",
+            "Available Monday, Wednesday, Thursday & Friday from 3:00 PM \u2013 6:00 PM (Dine-In Only).",
+            "House Margaritas starting at $7, Draft Beer for $5, Chicken, Carnitas & Al Pastor Tacos for $4, Asada Tacos for $5.50, Tacos de Rajas with Cheese for $3.50, and Cheese Quesadillas for $10."
+          ],
+          "summary": "Morena's Happy Hour with discounted food, drinks, and plates",
+          "time_window": "3:00 PM \u2013 6:00 PM",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T02:33:30Z",
       "key": "49fc10ba0c11f30985d4",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://hb.morenasmex.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -9343,17 +9419,97 @@
         ],
         "website_url": "https://hb.morenasmex.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "5c5f5c384ccd5beeacd833429403620100668a7b14674a547f0fe4c06d932235",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "wednesday",
+            "thursday",
+            "friday"
+          ],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Dine-In Only",
+            "House Margaritas starting at $7",
+            "Draft Beer for $5",
+            "Chicken, Carnitas & Al Pastor Tacos for $4",
+            "Asada Tacos for $5.50",
+            "Tacos de Rajas with Cheese for $3.50",
+            "Cheese Quesadillas for $10",
+            "Chile Verde Plate and Carnitas Plate for $18"
+          ],
+          "source_evidence": [
+            "Available Monday, Wednesday, Thursday & Friday from 3:00 PM \u2013 6:00 PM (Dine-In Only)."
+          ],
+          "summary": "Happy Hour featuring discounted drinks, tacos, quesadillas, and dinner plates",
+          "time_window": "3:00 PM \u2013 6:00 PM",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "sunday"
+          ],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "$39.99 Per Guest \u2013 Includes Bottomless Mimosas",
+            "$34.99 Per Guest \u2013 Non-Alcoholic Option",
+            "Kids Ages 6\u201312: $19.99",
+            "Kids Under 6 Eat Free",
+            "Bottomless Mimosa service limited to 90 minutes per guest"
+          ],
+          "source_evidence": [
+            "Every Sunday | 10:00 AM \u2013 3:00 PM",
+            "$39.99 Per Guest \u2013 Includes Bottomless Mimosas"
+          ],
+          "summary": "Sunday Brunch Buffet with optional bottomless mimosas",
+          "time_window": "10:00 AM \u2013 3:00 PM",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "Draft Mexican Beer \u2013 $6",
+            "Bottled Mexican Beer \u2013 $5",
+            "Brewery X \u2013 $5",
+            "House Margaritas \u2013 $8",
+            "Cadillac Margaritas \u2013 $11"
+          ],
+          "source_evidence": [
+            "TACO TUESDAY",
+            "Taco Tuesday Drink Specials"
+          ],
+          "summary": "Taco Tuesday drink specials",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T02:33:40Z",
       "key": "6d69a42f4282d5cf415c",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "ALL SPECIALS",
         "url": "https://hb.morenasmex.com/huntington-beach-bella-terra-morenas-mexican-cuisine-huntington-beach-happy-hours-specials"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -9431,17 +9587,48 @@
         ],
         "website_url": "https://hb.morenasmex.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "0c58dcdace2723391634d59a8eb4f1eb66e6e39f89fbb59ea1b5426ad396070d",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.85,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday"
+          ],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "Specials on full bar, beer, and wine list",
+            "Specials on selected food items"
+          ],
+          "source_evidence": [
+            "Monday - Friday \u2022 2:00 PM - 6:00 PM",
+            "Unwind with specials from our full bar, beer and wine list, and selected food items."
+          ],
+          "summary": "Happy Hour specials on full bar, beer, wine list, and selected food items",
+          "time_window": "2:00 PM - 6:00 PM",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T02:33:48Z",
       "key": "7bce048bad09ddc68d44",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "http://myplacesportsbar.com/"
       },
+      "rejected_candidates": [
+        "Weekend breakfast and all-day weekend mimosas"
+      ],
       "restaurant": {
         "address": "5452 Commercial Dr, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -9526,17 +9713,43 @@
         ],
         "website_url": "http://myplacesportsbar.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
-      "content_hash": "ad73d31826cfd52406c54712b8b5eabb4d3887f870398e2a5b0c148e8a9e5307",
-      "deals": [],
+      "content_hash": "53d75dba47b4b333659b250afe698181672db7602784851957440a6eeda48a09",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday"
+          ],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "Buy a double shot of Kava get a double shot of kava free"
+          ],
+          "source_evidence": [
+            "Happy Hour Monday through Friday 4 PM till 7 PM. Buy a double shot of Kava get a double shot of kava free."
+          ],
+          "summary": "Happy Hour: Buy a double shot of Kava, get a double shot of kava free",
+          "time_window": "16:00 - 19:00",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T02:34:09Z",
       "key": "0dd556e0163f09c1dcdd",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Specials",
         "url": "https://www.mysticwaterkavabar.com/huntington-beach-located-inside-old-world-village-mystic-water-kava-bar-orange-county-happy-hours-specials"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "7561 Center Ave #6, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -9606,17 +9819,49 @@
         ],
         "website_url": "https://www.mysticwaterkavabar.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "994f78fdd0a074dc5bd24478d16372b2468e6919a2c306b77e0d0183620b96c9",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Prices start from $11.99",
+            "Includes a fresh salad and a crispy spring roll, plus a cup of soup when you dine in",
+            "Applicable items include Pad Thai, Krapow, Pad Kee Mao, Panang Curry, Yellow Curry, Cashew Nut, Garlic & Pepper, and Mixed Vegetables"
+          ],
+          "source_evidence": [
+            "Weekday Lunch Specials",
+            "from",
+            "$11.99",
+            "Monday \u2013 Friday",
+            "11:30 AM \u2013 3:00 PM"
+          ],
+          "summary": "Weekday Lunch Specials starting from $11.99 with salad, spring roll, and soup.",
+          "time_window": "11:30 AM \u2013 3:00 PM",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T02:34:16Z",
       "key": "6718f35dbe1d9a1cd347",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Weekday Lunch Specials from $11.99",
         "url": "https://narwhalthaihb.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "19072 Beach Blvd Ste A & B, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -9695,17 +9940,48 @@
         ],
         "website_url": "https://narwhalthaihb.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "58348a1ba627aa437f77aa570b899b0e146c87ae92fae06b7c17ca38c02eb78e",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Starts from $11.99",
+            "Includes a fresh salad and a crispy spring roll",
+            "Includes a cup of soup when dining in",
+            "Available for dine-in or takeout",
+            "Choices include wok noodles, rice plates, stir-fried vegetables, or curry"
+          ],
+          "source_evidence": [
+            "Thai Lunch Specials in Huntington Beach \u2014 Mon\u2013Fri from $11.99",
+            "Monday through Friday, 11:30 AM to 3:00 PM. Pick a plate below and it comes with a fresh salad and a crispy spring roll \u2014 plus a cup of soup when you dine in."
+          ],
+          "summary": "Weekday Lunch Specials starting from $11.99 with salad, spring roll, and soup.",
+          "time_window": "11:30 AM to 3:00 PM",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T02:34:24Z",
       "key": "776d29987ca93903ec17",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Lunch specials",
         "url": "https://narwhalthaihb.com/lunch"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "19072 Beach Blvd Ste A & B, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -9784,17 +10060,63 @@
         ],
         "website_url": "https://narwhalthaihb.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "69fb8751bba7b0f445a7904896f8edab828c426b8b3b04d2e1ae329a87f8bb03",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday"
+          ],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "30% off Food and Beverage for industry members"
+          ],
+          "source_evidence": [
+            "Monday: Industry Night \u2013",
+            "30% off Food & Beverage"
+          ],
+          "summary": "Industry Night: 30% off Food and Beverage on Mondays",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "30% off Food and Beverage for locals"
+          ],
+          "source_evidence": [
+            "Tuesday: Locals Night",
+            "\u2013 30% off Food & Beverage"
+          ],
+          "summary": "Locals Night: 30% off Food and Beverage on Tuesdays",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T02:34:33Z",
       "key": "b25242653899664a9f0a",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://waterfrontresort.com/dining/offshore-9-rooftop-lounge?y_source=1_MjA1NjM2Mzg2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
+      "rejected_candidates": [
+        "Power Hour Happy Hour: $6 beer, Prosecco, and lite bites"
+      ],
       "restaurant": {
         "address": "21100 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -9885,17 +10207,20 @@
         ],
         "website_url": "https://waterfrontresort.com/dining/offshore-9-rooftop-lounge?y_source=1_MjA1NjM2Mzg2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "a5da7c0146f8c9ebec67cc7ef421321123c154927673dde0d989006e5997e3d8",
       "deals": [],
+      "extracted_at": "2026-09-10T02:34:43Z",
       "key": "225bb0e2908f7044a236",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Spa Specials",
         "url": "https://waterfrontresort.com/spa/spa-specials"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "21100 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -9986,17 +10311,20 @@
         ],
         "website_url": "https://waterfrontresort.com/dining/offshore-9-rooftop-lounge?y_source=1_MjA1NjM2Mzg2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "222faa495001e724955e39737216f1832cf9f5f17fca267f0aa8dfa3da1148c8",
       "deals": [],
+      "extracted_at": "2026-09-10T02:34:50Z",
       "key": "0dc681d163143886b72c",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Pawsome Getaway",
         "url": "https://waterfrontresort.com/specials"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "21100 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -10087,7 +10415,7 @@
         ],
         "website_url": "https://waterfrontresort.com/dining/offshore-9-rooftop-lounge?y_source=1_MjA1NjM2Mzg2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "",
@@ -10179,12 +10507,15 @@
     {
       "content_hash": "57d5b7e8dae1244dd4828c6cdd5307d3db701141d8188902ff7f4b21ee64a31e",
       "deals": [],
+      "extracted_at": "2026-09-10T02:34:59Z",
       "key": "d62086b5224cb38d3f8e",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://locations.papajohns.com/united-states/ca/92647/huntington-beach/16105-goldenwest-st?utm_source=gmb&utm_medium=organic&y_source=1_MTA2OTI2MDEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "16105 Goldenwest St, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -10256,17 +10587,20 @@
         ],
         "website_url": "https://locations.papajohns.com/united-states/ca/92647/huntington-beach/16105-goldenwest-st?utm_source=gmb&utm_medium=organic&y_source=1_MTA2OTI2MDEtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "29b19eca0e7d0b50ab337e39fe5eae7a0aea2cc1fa62bdfbfd94db41fe3e943d",
       "deals": [],
+      "extracted_at": "2026-09-10T02:35:12Z",
       "key": "1b7852ac31e9c82323cb",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://locations.papajohns.com/united-states/ca/92648/huntington-beach/19008-beach-blvd?utm_source=gmb&utm_medium=organic&y_source=1_MTA2OTI1OTQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "19008 Beach Blvd, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -10338,7 +10672,7 @@
         ],
         "website_url": "https://locations.papajohns.com/united-states/ca/92648/huntington-beach/19008-beach-blvd?utm_source=gmb&utm_medium=organic&y_source=1_MTA2OTI1OTQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "fd44bb82f7d0a3cf49caddd50205bc4e932801b65926058af6d3154866760ffa",
@@ -16202,255 +16536,6 @@
     {
       "city": "Huntington Beach",
       "location": {
-        "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=11674292558364870341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "10:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ]
-        },
-        "latitude": 33.7175194,
-        "longitude": -118.05144999999999,
-        "phone": "(714) 846-4700",
-        "place_id": "ChIJWZHWWrol3YARxQZTkTprA6I"
-      },
-      "name": "Red Table Restaurant",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [
-              "monday"
-            ],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Pasta Bolognese",
-              "$28.00",
-              "Ground beef, garlic, butter, Italian herbs"
-            ],
-            "source_evidence": [
-              "MONDAY (All Day Happy Hour)",
-              "PASTA BOLOGNESE",
-              "$28.00"
-            ],
-            "summary": "Pasta Bolognese for $28.00 on Monday",
-            "time_window": "None",
-            "valid_through": "None"
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [
-              "tuesday"
-            ],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "$5.00 tacos with choice of steak, chicken, or pork chorizo on corn tortillas with onions, cilantro, lime, and salsa",
-              "$10.00 house margarita",
-              "$11.00 fruit margarita",
-              "$9.00 rotating Mexican lager pint"
-            ],
-            "source_evidence": [
-              "TUESDAY (Taco Tuesday)",
-              "TACO TUESDAY",
-              "$5.00"
-            ],
-            "summary": "Taco Tuesday specials starting at $5.00",
-            "time_window": null,
-            "valid_through": "None"
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [
-              "wednesday"
-            ],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "50% off all wine bottles (dine-in only)",
-              "Fillet special for $35.00 with 5 oz. filet mignon, mashed potatoes, seasonal veggies, and choice of peppercorn or garlic butter sauce"
-            ],
-            "source_evidence": [
-              "WEDNESDAY (Wine Wednesday)",
-              "50% off all wine bottles (dine-in only)",
-              "FILLET SPECIAL",
-              "$35.00"
-            ],
-            "summary": "Wine Wednesday with 50% off wine bottles and $35 fillet special",
-            "time_window": null,
-            "valid_through": "None"
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [
-              "thursday"
-            ],
-            "categories": [
-              "drink"
-            ],
-            "details": [
-              "50% off all beer (dine-in only)"
-            ],
-            "source_evidence": [
-              "THURSDAY (Thirsty Thursday)",
-              "50% off all beer (dine-in only)"
-            ],
-            "summary": "Thirsty Thursday with 50% off all beer",
-            "time_window": null,
-            "valid_through": "None"
-          }
-        ]
-      },
-      "url": "https://redtablerestaurants.com/daily-specials/"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
-        "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=11674292558364870341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "10:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ]
-        },
-        "latitude": 33.7175194,
-        "longitude": -118.05144999999999,
-        "phone": "(714) 846-4700",
-        "place_id": "ChIJWZHWWrol3YARxQZTkTprA6I"
-      },
-      "name": "Red Table Restaurant",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [
-              "monday",
-              "tuesday",
-              "wednesday",
-              "thursday",
-              "friday",
-              "saturday",
-              "sunday"
-            ],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "Red Table Fries for $8.00",
-              "Cajun Fries for $8.00",
-              "Truffle Fries for $9.00",
-              "Simple Slider for $10.00",
-              "Meatball Slider for $9.00",
-              "Poke Poquito for $13.00",
-              "Cup Tomato Bisque for $7.00",
-              "Chicken Lettuce Cups for $12.00"
-            ],
-            "source_evidence": [
-              "Happy Hour",
-              "( 4 - 6 pm daily )"
-            ],
-            "summary": "Happy Hour Food and Drink Specials",
-            "time_window": "4:00 PM - 6:00 PM",
-            "valid_through": "None"
-          }
-        ]
-      },
-      "url": "https://redtablerestaurants.com/happy-hour/"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
         "google_maps_url": "https://maps.google.com/?cid=17856133369722654341&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
@@ -17021,181 +17106,6 @@
     {
       "city": "Huntington Beach",
       "location": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
-      },
-      "name": "Wienerschnitzel",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.9,
-            "applies_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Price: $3",
-              "Original Pretzel Bun Chili Dog only",
-              "Cheese extra",
-              "Coupon good for TWO orders on same visit",
-              "Must be surrendered at time of purchase",
-              "Not valid with any other offer, discount or coupon",
-              "Tax extra"
-            ],
-            "source_evidence": [
-              "$3 - Pretzel Bun Chili Dog - 230",
-              "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
-            ],
-            "summary": "$3 Pretzel Bun Chili Dog Coupon",
-            "time_window": null,
-            "valid_through": "None"
-          }
-        ]
-      },
-      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
-      },
-      "name": "Wienerschnitzel",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Price: $3",
-              "Original Pretzel Bun Chili Dog only",
-              "Cheese extra",
-              "Coupon good for TWO orders on same visit",
-              "Must be surrendered at time of purchase",
-              "Not valid with any other offer, discount or coupon",
-              "Good at participating restaurants only",
-              "Tax extra"
-            ],
-            "source_evidence": [
-              "$3 - Pretzel Bun Chili Dog - 230",
-              "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
-            ],
-            "summary": "Pretzel Bun Chili Dog for $3",
-            "time_window": null,
-            "valid_through": "None"
-          }
-        ]
-      },
-      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
         "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
@@ -17345,16 +17255,191 @@
             "ai_confidence": 0.95,
             "applies_days": [],
             "categories": [
+              "food"
+            ],
+            "details": [
+              "Price: $3",
+              "Original Pretzel Bun Chili Dog only",
+              "Cheese extra",
+              "Coupon good for TWO orders on same visit",
+              "Must be surrendered at time of purchase",
+              "Not valid with any other offer, discount or coupon",
+              "Good at participating restaurants only",
+              "Tax extra"
+            ],
+            "source_evidence": [
+              "$3 - Pretzel Bun Chili Dog - 230",
+              "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+            ],
+            "summary": "Pretzel Bun Chili Dog for $3",
+            "time_window": null,
+            "valid_through": "None"
+          }
+        ]
+      },
+      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
+      },
+      "name": "Wienerschnitzel",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Price: $3",
+              "Original Pretzel Bun Chili Dog only",
+              "Cheese extra",
+              "Coupon good for TWO orders on same visit",
+              "Must be surrendered at time of purchase",
+              "Not valid with any other offer, discount or coupon",
+              "Tax extra"
+            ],
+            "source_evidence": [
+              "$3 - Pretzel Bun Chili Dog - 230",
+              "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+            ],
+            "summary": "$3 Pretzel Bun Chili Dog Coupon",
+            "time_window": null,
+            "valid_through": "None"
+          }
+        ]
+      },
+      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
+      },
+      "name": "Wienerschnitzel",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.85,
+            "applies_days": [],
+            "categories": [
               "food",
               "drink"
             ],
             "details": [
               "Price: $5",
-              "Includes a corn dog, small fries, and small soda",
-              "Coupon good for two orders on same visit",
-              "Must be surrendered at time of purchase",
+              "Includes one corn dog, small fries, and small soda",
+              "Coupon good for two orders on same visit and must be surrendered at time of purchase",
               "Tax extra",
               "Not valid with any other offer, discount or coupon",
+              "Good at participating restaurants only",
               "Not valid in Sacramento, Stockton & Modesto areas"
             ],
             "source_evidence": [
@@ -17460,57 +17545,57 @@
     {
       "city": "Huntington Beach",
       "location": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "monday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "saturday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "sunday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "thursday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "tuesday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "wednesday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ]
         },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
       },
       "name": "Wienerschnitzel",
       "notes": "AI-extracted from an official restaurant page; source evidence checked",
@@ -17518,7 +17603,7 @@
         "ai_extracted": true,
         "static_deals": [
           {
-            "ai_confidence": 0.85,
+            "ai_confidence": 0.95,
             "applies_days": [],
             "categories": [
               "food",
@@ -17526,11 +17611,11 @@
             ],
             "details": [
               "Price: $5",
-              "Includes one corn dog, small fries, and small soda",
-              "Coupon good for two orders on same visit and must be surrendered at time of purchase",
+              "Includes a corn dog, small fries, and small soda",
+              "Coupon good for two orders on same visit",
+              "Must be surrendered at time of purchase",
               "Tax extra",
               "Not valid with any other offer, discount or coupon",
-              "Good at participating restaurants only",
               "Not valid in Sacramento, Stockton & Modesto areas"
             ],
             "source_evidence": [
@@ -18458,128 +18543,6 @@
     {
       "city": "Fountain Valley",
       "location": {
-        "address": "17150 Brookhurst St #D, Fountain Valley, CA 92708, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=10735232304953417645&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.714076,
-        "longitude": -117.9540937,
-        "phone": "(714) 587-1672",
-        "place_id": "ChIJMRDQWBEn3YARrd8LVuc0-5Q"
-      },
-      "name": "Blaze Pizza",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "One Large Pizza with choice of sauce, cheese and 1 topping",
-              "Online Only"
-            ],
-            "source_evidence": [
-              "One Large 1-Top Pizza",
-              "Get one Large Pizza with your choice of sauce, cheese and 1 topping. Online Only."
-            ],
-            "summary": "One Large 1-Top Pizza",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "One 11-inch 2-Top pizza",
-              "One 16oz Fountain Drink",
-              "Pickup Only"
-            ],
-            "source_evidence": [
-              "2 Top + Drink - Pickup Only",
-              "BLAZIN\u2019 DEAL: Get one 11-inch 2-Top pizza and a 16oz Fountain Drink."
-            ],
-            "summary": "2 Top Pizza and 16oz Fountain Drink",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "One 11 inch 1-Top pizza",
-              "One 16oz House-made lemonade, tea, or Coca-Cola fountain drink",
-              "Online pick up only"
-            ],
-            "source_evidence": [
-              "Pizza Party for One",
-              "Get one 11 inch 1-Top and a 16oz House-made lemonade, tea, or Coca-Cola\u00ae fountain drink."
-            ],
-            "summary": "Pizza Party for One",
-            "time_window": null,
-            "valid_through": null
-          }
-        ]
-      },
-      "url": "https://locations.blazepizza.com/us/ca/fountain-valley/blazepizza-1264"
-    },
-    {
-      "city": "Fountain Valley",
-      "location": {
         "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
         "google_maps_url": "https://maps.google.com/?cid=9498211700790055897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
@@ -18813,14 +18776,1226 @@
         ]
       },
       "url": "https://ilovefcp.com/specials/"
+    },
+    {
+      "city": "Fountain Valley",
+      "location": {
+        "address": "17239 Brookhurst St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=13371100991143654279&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.7127882,
+        "longitude": -117.95498099999999,
+        "phone": "(657) 531-2327",
+        "place_id": "ChIJ4zrxshYn3YARh7P9IIKxj7k"
+      },
+      "name": "KFC",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Classic fried chicken meals for one, two or a few",
+              "Available for delivery or pick up",
+              "Promotional pricing is not available on KFC delivery orders"
+            ],
+            "source_evidence": [
+              "Our Taste of KFC\u00ae Deals are classic, finger lickin' good fried chicken meals for one, two or a few starting at just $5!"
+            ],
+            "summary": "Taste of KFC Deals starting at just $5",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://locations.kfc.com/ca/fountain-valley/17239-brookhurst-street"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "19091 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=8643731794441369632&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6853897,
+        "longitude": -117.95456069999999,
+        "phone": "(657) 531-2433",
+        "place_id": "ChIJ8RWkgswg3YARIHhtRUW09Hc"
+      },
+      "name": "KFC",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Fried chicken meals for one, two or a few",
+              "Available for delivery or pick up",
+              "Prices may vary and do not include tax",
+              "Promotional pricing is not available on KFC delivery orders"
+            ],
+            "source_evidence": [
+              "Our Taste of KFC\u00ae Deals are classic, finger lickin' good fried chicken meals for one, two or a few starting at just $5! Order these new KFC\u00ae specials near you for delivery or pick up!"
+            ],
+            "summary": "Taste of KFC Deals starting at just $5",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://locations.kfc.com/ca/huntington-beach/19091-brookhurst-street"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "8142 Talbert Ave, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=15851796774076995457&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.7009256,
+        "longitude": -117.9872219,
+        "phone": "(714) 596-0549",
+        "place_id": "ChIJb9a2x-km3YARgdeK-i3l_Ns"
+      },
+      "name": "KFC",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Classic fried chicken meals for one, two or a few starting at just $5",
+              "Available for delivery or pick up",
+              "Available at participating locations for a limited time",
+              "Prices may vary and do not include tax",
+              "Promotional pricing is not available on KFC delivery orders"
+            ],
+            "source_evidence": [
+              "Our Taste of KFC\u00ae Deals are classic, finger lickin' good fried chicken meals for one, two or a few starting at just $5!"
+            ],
+            "summary": "Taste of KFC Deals starting at just $5 for meals for one, two, or a few",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://locations.kfc.com/ca/huntington-beach/8142-talbert-ave"
+    },
+    {
+      "city": "Fountain Valley",
+      "location": {
+        "address": "16185 Brookhurst St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14493193937286508464&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7274491,
+        "longitude": -117.955402,
+        "phone": "(949) 688-6961",
+        "place_id": "ChIJYd8E_nkn3YARsK_OBBkrIsk"
+      },
+      "name": "KIN Craft Ramen & Izakaya",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.85,
+            "applies_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Housemade ramen, charcoal-grilled skewers, sashimi, craft cocktails, and a late-night happy hour."
+            ],
+            "source_evidence": [
+              "housemade ramen with inventive broths, charcoal-grilled skewers, sashimi, craft cocktails, and a late-night happy hour that actually lives up to the name."
+            ],
+            "summary": "Late-night happy hour",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.keiconcepts.info/brands/kin"
+    },
+    {
+      "city": "Fountain Valley",
+      "location": {
+        "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1442914910243946143&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6883792,
+        "longitude": -117.95460899999999,
+        "phone": "(714) 963-6791",
+        "place_id": "ChIJ51DnXjMn3YARn340SndDBhQ"
+      },
+      "name": "Marie Callender's",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Get a whole pie to-go for just $13.99 all month long"
+            ],
+            "source_evidence": [
+              "Luscious Lemon Meringue is our Pie of the Month! Get a whole pie to-go for just $13.99 all month long!"
+            ],
+            "summary": "Lemon Meringue Pie of the Month to-go for $13.99",
+            "time_window": null,
+            "valid_through": "2026-09-30"
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes one appetizer, two entrees, and two slices of pie for $42",
+              "Dine-in only, at participating locations"
+            ],
+            "source_evidence": [
+              "One Appetizer, Two Entrees & Two Slices of Pie for $42! Dine-in only, at participating locations."
+            ],
+            "summary": "Pair & Share: One Appetizer, Two Entrees & Two Slices of Pie for $42",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.mariecallenders.com/"
+    },
+    {
+      "city": "Fountain Valley",
+      "location": {
+        "address": "9895 Warner Ave A, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11335989513759305443&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7166996,
+        "longitude": -117.9562395,
+        "phone": "(714) 963-4488",
+        "place_id": "ChIJqdFhuREn3YAR4y4t8WaGUZ0"
+      },
+      "name": "Moonlight Pizza & Chicken",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "general"
+            ],
+            "details": [
+              "5% discount applies to online orders only"
+            ],
+            "source_evidence": [
+              "5% off online only"
+            ],
+            "summary": "5% off online orders",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Price: $31.00",
+              "Includes extra large pizza with 2 toppings, whole chicken, rice, pita bread, homemade pickles, and garlic sauce"
+            ],
+            "source_evidence": [
+              "Moonlight Special",
+              "$31.00",
+              "Ex large pizza 2 toppings, whole chicken, served with rice, pita bread homemade pickles, garlic sauce."
+            ],
+            "summary": "Moonlight Special: Extra large pizza, whole chicken, rice, pita, pickles, and garlic sauce",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "http://moonlightpizzaandchicken.com/"
+    },
+    {
+      "city": "Fountain Valley",
+      "location": {
+        "address": "9895 Warner Ave A, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11335989513759305443&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7166996,
+        "longitude": -117.9562395,
+        "phone": "(714) 963-4488",
+        "place_id": "ChIJqdFhuREn3YAR4y4t8WaGUZ0"
+      },
+      "name": "Moonlight Pizza & Chicken",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "general"
+            ],
+            "details": [
+              "Valid for online orders only"
+            ],
+            "source_evidence": [
+              "5% off online only"
+            ],
+            "summary": "5% off online only",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "http://moonlightpizzaandchicken.com/?category-id=1000074620&item-id=1000549408"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "name": "Morena's Mexican Cuisine",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Dine-in only",
+              "House Margaritas starting at $7",
+              "Draft Beer for $5",
+              "Chicken, Carnitas & Al Pastor Tacos for $4",
+              "Asada Tacos for $5.50",
+              "Tacos de Rajas with Cheese for $3.50",
+              "Cheese Quesadillas for $10",
+              "Chile Verde Plate and Carnitas Plate for $18 with rice, beans, and handmade tortillas"
+            ],
+            "source_evidence": [
+              "MORENA\u2019S HAPPY HOUR \u2013 HUNTINGTON BEACH",
+              "Available Monday, Wednesday, Thursday & Friday from 3:00 PM \u2013 6:00 PM (Dine-In Only).",
+              "House Margaritas starting at $7, Draft Beer for $5, Chicken, Carnitas & Al Pastor Tacos for $4, Asada Tacos for $5.50, Tacos de Rajas with Cheese for $3.50, and Cheese Quesadillas for $10."
+            ],
+            "summary": "Morena's Happy Hour with discounted food, drinks, and plates",
+            "time_window": "3:00 PM \u2013 6:00 PM",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://hb.morenasmex.com/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7298377,
+        "longitude": -117.99953239999999,
+        "phone": "(657) 301-2017",
+        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
+      },
+      "name": "Morena's Mexican Cuisine",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Dine-In Only",
+              "House Margaritas starting at $7",
+              "Draft Beer for $5",
+              "Chicken, Carnitas & Al Pastor Tacos for $4",
+              "Asada Tacos for $5.50",
+              "Tacos de Rajas with Cheese for $3.50",
+              "Cheese Quesadillas for $10",
+              "Chile Verde Plate and Carnitas Plate for $18"
+            ],
+            "source_evidence": [
+              "Available Monday, Wednesday, Thursday & Friday from 3:00 PM \u2013 6:00 PM (Dine-In Only)."
+            ],
+            "summary": "Happy Hour featuring discounted drinks, tacos, quesadillas, and dinner plates",
+            "time_window": "3:00 PM \u2013 6:00 PM",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "sunday"
+            ],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "$39.99 Per Guest \u2013 Includes Bottomless Mimosas",
+              "$34.99 Per Guest \u2013 Non-Alcoholic Option",
+              "Kids Ages 6\u201312: $19.99",
+              "Kids Under 6 Eat Free",
+              "Bottomless Mimosa service limited to 90 minutes per guest"
+            ],
+            "source_evidence": [
+              "Every Sunday | 10:00 AM \u2013 3:00 PM",
+              "$39.99 Per Guest \u2013 Includes Bottomless Mimosas"
+            ],
+            "summary": "Sunday Brunch Buffet with optional bottomless mimosas",
+            "time_window": "10:00 AM \u2013 3:00 PM",
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "tuesday"
+            ],
+            "categories": [
+              "drink"
+            ],
+            "details": [
+              "Draft Mexican Beer \u2013 $6",
+              "Bottled Mexican Beer \u2013 $5",
+              "Brewery X \u2013 $5",
+              "House Margaritas \u2013 $8",
+              "Cadillac Margaritas \u2013 $11"
+            ],
+            "source_evidence": [
+              "TACO TUESDAY",
+              "Taco Tuesday Drink Specials"
+            ],
+            "summary": "Taco Tuesday drink specials",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://hb.morenasmex.com/huntington-beach-bella-terra-morenas-mexican-cuisine-huntington-beach-happy-hours-specials"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "5452 Commercial Dr, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6888664519943214520&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "10:30"
+            }
+          ]
+        },
+        "latitude": 33.737849,
+        "longitude": -118.03351599999999,
+        "phone": "(657) 244-1886",
+        "place_id": "ChIJXT0eUu4l3YARuFUNGOJzmV8"
+      },
+      "name": "My Place Sports Bar & Grill",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.85,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Specials on full bar, beer, and wine list",
+              "Specials on selected food items"
+            ],
+            "source_evidence": [
+              "Monday - Friday \u2022 2:00 PM - 6:00 PM",
+              "Unwind with specials from our full bar, beer and wine list, and selected food items."
+            ],
+            "summary": "Happy Hour specials on full bar, beer, wine list, and selected food items",
+            "time_window": "2:00 PM - 6:00 PM",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "http://myplacesportsbar.com/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "7561 Center Ave #6, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=531254587814951031&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.735089699999996,
+        "longitude": -117.997063,
+        "phone": "(657) 227-7928",
+        "place_id": "ChIJf-HAPmom3YARd7gBoDtlXwc"
+      },
+      "name": "Mystic Water Kava Bar Huntington Beach",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "categories": [
+              "drink"
+            ],
+            "details": [
+              "Buy a double shot of Kava get a double shot of kava free"
+            ],
+            "source_evidence": [
+              "Happy Hour Monday through Friday 4 PM till 7 PM. Buy a double shot of Kava get a double shot of kava free."
+            ],
+            "summary": "Happy Hour: Buy a double shot of Kava, get a double shot of kava free",
+            "time_window": "16:00 - 19:00",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.mysticwaterkavabar.com/huntington-beach-located-inside-old-world-village-mystic-water-kava-bar-orange-county-happy-hours-specials"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "19072 Beach Blvd Ste A & B, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6790489916821266867&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "12:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "12:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6856602,
+        "longitude": -117.98840279999999,
+        "phone": "(714) 378-6003",
+        "place_id": "ChIJj1Lyz84m3YARs-EAD5qqPF4"
+      },
+      "name": "Narwhal Thai Table",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Prices start from $11.99",
+              "Includes a fresh salad and a crispy spring roll, plus a cup of soup when you dine in",
+              "Applicable items include Pad Thai, Krapow, Pad Kee Mao, Panang Curry, Yellow Curry, Cashew Nut, Garlic & Pepper, and Mixed Vegetables"
+            ],
+            "source_evidence": [
+              "Weekday Lunch Specials",
+              "from",
+              "$11.99",
+              "Monday \u2013 Friday",
+              "11:30 AM \u2013 3:00 PM"
+            ],
+            "summary": "Weekday Lunch Specials starting from $11.99 with salad, spring roll, and soup.",
+            "time_window": "11:30 AM \u2013 3:00 PM",
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://narwhalthaihb.com/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "21100 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17547021652932034871&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "14:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "14:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.6523927,
+        "longitude": -117.9935301,
+        "phone": "(714) 845-8460",
+        "place_id": "ChIJM-IrURMh3YARNwEaqTmLg_M"
+      },
+      "name": "Offshore 9 Rooftop Lounge",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday"
+            ],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "30% off Food and Beverage for industry members"
+            ],
+            "source_evidence": [
+              "Monday: Industry Night \u2013",
+              "30% off Food & Beverage"
+            ],
+            "summary": "Industry Night: 30% off Food and Beverage on Mondays",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "tuesday"
+            ],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "30% off Food and Beverage for locals"
+            ],
+            "source_evidence": [
+              "Tuesday: Locals Night",
+              "\u2013 30% off Food & Beverage"
+            ],
+            "summary": "Locals Night: 30% off Food and Beverage on Tuesdays",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://waterfrontresort.com/dining/offshore-9-rooftop-lounge?y_source=1_MjA1NjM2Mzg2OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   ],
   "summary": {
     "candidate_pages": 158,
-    "failed_pages": 12,
-    "pending_pages": 86,
-    "processed_pages": 60,
-    "published_deals": 76,
-    "published_sources": 24
+    "failed_pages": 16,
+    "pending_pages": 56,
+    "processed_pages": 86,
+    "published_deals": 86,
+    "published_sources": 34
   }
 }
