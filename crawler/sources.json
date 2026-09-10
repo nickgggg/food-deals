@@ -29,7 +29,7 @@
     "url": "https://loreahb.com/",
     "notes": "Official restaurant homepage with happenings and happy hour",
     "location": { "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648", "phone": "(714) 698-6130", "latitude": 33.6537, "longitude": -117.9956, "hours": { "monday": [{ "open": "07:00", "close": "22:00" }], "tuesday": [{ "open": "07:00", "close": "22:00" }], "wednesday": [{ "open": "07:00", "close": "22:00" }], "thursday": [{ "open": "07:00", "close": "22:00" }], "friday": [{ "open": "07:00", "close": "22:00" }], "saturday": [{ "open": "07:00", "close": "22:00" }], "sunday": [{ "open": "07:00", "close": "22:00" }] } },
-    "options": { "strict": true, "max_deals": 8 }
+    "options": { "static_deals": [{ "summary": "Weekday happy hour", "details": ["Monday-Friday, 3 PM-5 PM", "$12 select food items", "$14 classic cocktails", "20% off draft beers and select house wines"], "categories": ["food", "drink"], "applies_days": ["monday", "tuesday", "wednesday", "thursday", "friday"], "time_window": "3 PM - 5 PM", "validity": "Mon-Fri, 3 PM - 5 PM", "tags": ["happy_hour", "percent_off", "dollar_amount", "weekday_special"] }, { "summary": "Weekend brunch", "details": ["Saturday-Sunday, 7 AM-3 PM", "Brunch favorites, drinks, and live music"], "categories": ["food", "drink"], "applies_days": ["saturday", "sunday"], "time_window": "7 AM - 3 PM", "validity": "Sat-Sun, 7 AM - 3 PM", "tags": ["weekday_special", "deal_language"] }] }
   },
   {
     "name": "Marie Callender's",
