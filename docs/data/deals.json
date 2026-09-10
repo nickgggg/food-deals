@@ -1,7 +1,8 @@
 {
-  "crawler_version": 14,
+  "crawler_version": 15,
   "deals": [
     {
+      "ai_confidence": null,
       "applies_days": [
         "monday",
         "tuesday",
@@ -21,10 +22,10 @@
         "Rotating specialty pizza by the slice",
         "Ask your server for today's slice"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "a3e409f79a150a97",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -79,6 +80,7 @@
         "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc"
       },
       "restaurant": "Beachwood Pizza & Beer",
+      "source_evidence": [],
       "source_notes": "Official Huntington Beach specials page",
       "source_url": "https://beachwoodbrewing.com/huntingtonbeach.html",
       "status": "active",
@@ -88,9 +90,11 @@
         "deal_language"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Every day"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "monday",
         "tuesday",
@@ -110,10 +114,10 @@
         "Friday-Saturday, 8:30 PM-10 PM",
         "$2 off draft wine and beer with purchase of any food item"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "184f74070521c82d",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -168,6 +172,7 @@
         "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc"
       },
       "restaurant": "Beachwood Pizza & Beer",
+      "source_evidence": [],
       "source_notes": "Official Huntington Beach specials page",
       "source_url": "https://beachwoodbrewing.com/huntingtonbeach.html",
       "status": "active",
@@ -178,9 +183,11 @@
         "weekday_special"
       ],
       "time_window": "Mon-Thu 3 PM - 5 PM; Fri-Sat 8:30 PM - 10 PM",
+      "valid_through": null,
       "validity": "Mon-Thu 3-5 PM; Fri-Sat 8:30-10 PM"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "monday"
       ],
@@ -193,10 +200,10 @@
       "details": [
         "Full pours of beer and seltzers for $6 with purchase of a food item"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "ca3e67494d5c9c6e",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -251,6 +258,7 @@
         "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc"
       },
       "restaurant": "Beachwood Pizza & Beer",
+      "source_evidence": [],
       "source_notes": "Official Huntington Beach specials page",
       "source_url": "https://beachwoodbrewing.com/huntingtonbeach.html",
       "status": "active",
@@ -260,9 +268,11 @@
         "weekday_special"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Monday, all day"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "tuesday"
       ],
@@ -276,10 +286,10 @@
         "Choice of starter, salad, and classic pizza for $50",
         "Not valid during fundraising events"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "0bbca70d61eb1130",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -334,6 +344,7 @@
         "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc"
       },
       "restaurant": "Beachwood Pizza & Beer",
+      "source_evidence": [],
       "source_notes": "Official Huntington Beach specials page",
       "source_url": "https://beachwoodbrewing.com/huntingtonbeach.html",
       "status": "active",
@@ -344,9 +355,11 @@
         "deal_language"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Tuesday, all day"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "wednesday"
       ],
@@ -359,10 +372,10 @@
       "details": [
         "50% off 1/2 liter and liter pours of house wines"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "dd66f6a6cf244601",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -417,6 +430,7 @@
         "place_id": "ChIJX0-VVdUl3YARwabaC5IitNc"
       },
       "restaurant": "Beachwood Pizza & Beer",
+      "source_evidence": [],
       "source_notes": "Official Huntington Beach specials page",
       "source_url": "https://beachwoodbrewing.com/huntingtonbeach.html",
       "status": "active",
@@ -426,9 +440,11 @@
         "weekday_special"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Wednesday, all day"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "sunday",
         "monday",
@@ -452,10 +468,10 @@
         "Drink specials include draft beer and margaritas",
         "Food specials include tacos and chips/salsa"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "6a8211372a6ecd7b",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "807 Adams Ave, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -510,6 +526,7 @@
         "place_id": "ChIJWwRktTYh3YARzEdDxBYps-Y"
       },
       "restaurant": "La Capilla Cantina",
+      "source_evidence": [],
       "source_notes": "Official Huntington Beach happy hour page",
       "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
       "status": "active",
@@ -520,9 +537,11 @@
         "deal_language"
       ],
       "time_window": "2 PM - 6 PM",
+      "valid_through": null,
       "validity": "Sun-Fri 2-6 PM; Tue ends 5 PM; daily last hour"
     },
     {
+      "ai_confidence": null,
       "applies_days": [],
       "candidate_text": "Lunch specials Lunch combo menu includes pizza slices, sandwiches, salads, wings, spaghetti, and drinks Most listed combos run about $8.50-$14; open source for the exact item list",
       "categories": [
@@ -535,10 +554,10 @@
         "Lunch combo menu includes pizza slices, sandwiches, salads, wings, spaghetti, and drinks",
         "Most listed combos run about $8.50-$14; open source for the exact item list"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "e4d0c5f9b28fd58e",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -593,6 +612,7 @@
         "place_id": "ChIJyXtqsxMn3YARsJeV7G9nVQw"
       },
       "restaurant": "Lamppost Pizza",
+      "source_evidence": [],
       "source_notes": "Official specials, coupons, and happy hour page",
       "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
       "status": "active",
@@ -602,9 +622,11 @@
         "deal_language"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Check source"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "monday",
         "tuesday",
@@ -627,10 +649,10 @@
         "$4 off table kegs, bottles of wine, and 5 lb wings",
         "Dine-in only; not valid with any other offer"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "7ad5f67f6d0e8602",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -685,6 +707,7 @@
         "place_id": "ChIJyXtqsxMn3YARsJeV7G9nVQw"
       },
       "restaurant": "Lamppost Pizza",
+      "source_evidence": [],
       "source_notes": "Official specials, coupons, and happy hour page",
       "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
       "status": "active",
@@ -696,9 +719,11 @@
         "deal_language"
       ],
       "time_window": "3 PM - 6 PM",
+      "valid_through": null,
       "validity": "Mon-Fri, 3 PM - 6 PM"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "monday",
         "tuesday",
@@ -719,10 +744,10 @@
         "$14 classic cocktails",
         "20% off draft beers and select house wines"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "4bbe95bd0ffd47e9",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -774,6 +799,7 @@
         "phone": "(714) 698-6130"
       },
       "restaurant": "Lorea",
+      "source_evidence": [],
       "source_notes": "Official restaurant homepage with happenings and happy hour",
       "source_url": "https://loreahb.com/",
       "status": "active",
@@ -785,9 +811,11 @@
         "weekday_special"
       ],
       "time_window": "3 PM - 5 PM",
+      "valid_through": null,
       "validity": "Mon-Fri, 3 PM - 5 PM"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "saturday",
         "sunday"
@@ -803,10 +831,10 @@
         "Saturday-Sunday, 7 AM-3 PM",
         "Brunch favorites, drinks, and live music"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "cdf9967358604fce",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -858,6 +886,7 @@
         "phone": "(714) 698-6130"
       },
       "restaurant": "Lorea",
+      "source_evidence": [],
       "source_notes": "Official restaurant homepage with happenings and happy hour",
       "source_url": "https://loreahb.com/",
       "status": "active",
@@ -867,6 +896,7 @@
         "deal_language"
       ],
       "time_window": "7 AM - 3 PM",
+      "valid_through": null,
       "validity": "Sat-Sun, 7 AM - 3 PM"
     },
     {
@@ -880,10 +910,10 @@
       "details": [
         "Offers"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "92146b0ee6a404ad",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -964,10 +994,10 @@
         "CCPA",
         "This error message is only visible to WordPress admins"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "8fed335514a3bbde",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -1050,10 +1080,10 @@
         "Offers",
         "Tuesday & Saturday"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "9d96ca0a186d956b",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -1134,10 +1164,10 @@
         "Kids Eat Free",
         "Tuesday & Saturday"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "aba3039f4cdbb4bb",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -1204,6 +1234,7 @@
       "validity": "Tue, Sat"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "monday",
         "tuesday",
@@ -1227,10 +1258,10 @@
         "Examples include chicken nachos, sliders, tacos, quesadilla, and tempura",
         "Drink specials include well drinks, wine, Mai Tai, and beer"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "e8551543f33b54a8",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "215 Main St, Huntington Beach, CA 92648",
         "hours": {
@@ -1282,6 +1313,7 @@
         "phone": "(714) 960-8300"
       },
       "restaurant": "No Ka Oi",
+      "source_evidence": [],
       "source_notes": "Official happy hour page",
       "source_url": "https://www.nokaoihb.com/happyhour",
       "status": "active",
@@ -1292,6 +1324,7 @@
         "deal_language"
       ],
       "time_window": "3 PM - 7 PM",
+      "valid_through": null,
       "validity": "Every day, 3 PM - 7 PM"
     },
     {
@@ -1318,10 +1351,10 @@
         "ahi tuna, lemon ponzu, green onion, avocado, cilantro, serrano",
         "Brioche Sliders (2) $8"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "254934ce9aae95bd",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1406,10 +1439,10 @@
         "EATS",
         "Chips and Salsa $8"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "51d8300f03acb8d3",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1497,10 +1530,10 @@
         "chips, beans, cheese sauce, sour cream, pico de gallo, guacamole",
         "Tuna Tostada $8"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "b669d1f87691b6e5",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1565,6 +1598,7 @@
       "validity": "Sun, Mon, Tue, Wed, Thu"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "monday",
         "tuesday",
@@ -1585,10 +1619,10 @@
         "Mini golf special",
         "Draft beer, well drink, wine, and appetizer specials"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "c02c9eb945d74125",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
         "hours": {
@@ -1640,6 +1674,7 @@
         "phone": "(657) 733-2774"
       },
       "restaurant": "Playground Mini Golf",
+      "source_evidence": [],
       "source_notes": "Official menu page with weekday specials",
       "source_url": "https://playgroundhb.com/pages/food-menu",
       "status": "active",
@@ -1650,9 +1685,11 @@
         "deal_language"
       ],
       "time_window": "3 PM - 6 PM",
+      "valid_through": null,
       "validity": "Mon-Fri, 3 PM - 6 PM"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "monday"
       ],
@@ -1666,10 +1703,10 @@
         "Ground beef, garlic, butter, and Italian herbs",
         "$28.00"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "700d259c156747f0",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1724,6 +1761,7 @@
         "place_id": "ChIJWZHWWrol3YARxQZTkTprA6I"
       },
       "restaurant": "Red Table Restaurant",
+      "source_evidence": [],
       "source_notes": "Official daily specials page",
       "source_url": "https://redtablerestaurants.com/daily-specials/",
       "status": "active",
@@ -1734,9 +1772,11 @@
         "happy_hour"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Monday, all day happy hour"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "thursday"
       ],
@@ -1750,10 +1790,10 @@
         "50% off all beer",
         "Dine-in only"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "628ac54d6ba762ca",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1808,6 +1848,7 @@
         "place_id": "ChIJWZHWWrol3YARxQZTkTprA6I"
       },
       "restaurant": "Red Table Restaurant",
+      "source_evidence": [],
       "source_notes": "Official daily specials page",
       "source_url": "https://redtablerestaurants.com/daily-specials/",
       "status": "active",
@@ -1817,9 +1858,11 @@
         "weekday_special"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Thursday, dine-in only"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "tuesday"
       ],
@@ -1836,10 +1879,10 @@
         "Fruit margarita $11.00",
         "Rotating Mexican lager pint $9.00"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "49d67dceb970ac15",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1894,6 +1937,7 @@
         "place_id": "ChIJWZHWWrol3YARxQZTkTprA6I"
       },
       "restaurant": "Red Table Restaurant",
+      "source_evidence": [],
       "source_notes": "Official daily specials page",
       "source_url": "https://redtablerestaurants.com/daily-specials/",
       "status": "active",
@@ -1903,9 +1947,11 @@
         "weekday_special"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Tuesday"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "wednesday"
       ],
@@ -1919,10 +1965,10 @@
         "5 oz. filet mignon with mashed potatoes, seasonal veggies, and choice of peppercorn or garlic butter sauce",
         "$35.00"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "51411e16e9f61c14",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1977,6 +2023,7 @@
         "place_id": "ChIJWZHWWrol3YARxQZTkTprA6I"
       },
       "restaurant": "Red Table Restaurant",
+      "source_evidence": [],
       "source_notes": "Official daily specials page",
       "source_url": "https://redtablerestaurants.com/daily-specials/",
       "status": "active",
@@ -1987,9 +2034,11 @@
         "deal_language"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Wednesday"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "wednesday"
       ],
@@ -2003,10 +2052,10 @@
         "50% off all wine bottles",
         "Dine-in only"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "35f90d80e5b76dd4",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2061,6 +2110,7 @@
         "place_id": "ChIJWZHWWrol3YARxQZTkTprA6I"
       },
       "restaurant": "Red Table Restaurant",
+      "source_evidence": [],
       "source_notes": "Official daily specials page",
       "source_url": "https://redtablerestaurants.com/daily-specials/",
       "status": "active",
@@ -2070,9 +2120,11 @@
         "weekday_special"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Wednesday, dine-in only"
     },
     {
+      "ai_confidence": null,
       "applies_days": [],
       "candidate_text": "Email club free appetizer Free appetizer for signing up for the mailing list Birthday surprise on your birthday",
       "categories": [
@@ -2084,10 +2136,10 @@
         "Free appetizer for signing up for the mailing list",
         "Birthday surprise on your birthday"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "40ebc01c632ce4fa",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -2139,6 +2191,7 @@
         "phone": "(714) 894-2792"
       },
       "restaurant": "Solita Tacos",
+      "source_evidence": [],
       "source_notes": "Official happy hour promotion page",
       "source_url": "https://solitatacos.com/promotions/happy-hour/",
       "status": "active",
@@ -2148,9 +2201,11 @@
         "deal_language"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Check source"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "sunday",
         "monday",
@@ -2172,10 +2227,10 @@
         "Available Monday-Friday, 3 PM-6 PM",
         "Huntington Beach also has late-night happy hour Sunday-Thursday, 8 PM-close"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "cc8d16cae580f858",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -2227,6 +2282,7 @@
         "phone": "(714) 894-2792"
       },
       "restaurant": "Solita Tacos",
+      "source_evidence": [],
       "source_notes": "Official happy hour promotion page",
       "source_url": "https://solitatacos.com/promotions/happy-hour/",
       "status": "active",
@@ -2238,9 +2294,11 @@
         "deal_language"
       ],
       "time_window": "3 PM - 6 PM",
+      "valid_through": null,
       "validity": "Mon-Fri 3 PM-6 PM; Sun-Thu 8 PM-close late night"
     },
     {
+      "ai_confidence": null,
       "applies_days": [],
       "candidate_text": "Lunch specials Lunch special menu with optional beverage add-on Open source page for current items and prices",
       "categories": [
@@ -2253,10 +2311,10 @@
         "Lunch special menu with optional beverage add-on",
         "Open source page for current items and prices"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "88f51558f931beae",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -2311,6 +2369,7 @@
         "place_id": "ChIJzaUQiDMn3YAR0UDIcy6OAIs"
       },
       "restaurant": "Stonefire Grill",
+      "source_evidence": [],
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
       "status": "active",
@@ -2320,9 +2379,11 @@
         "deal_language"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Check source"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "monday",
         "tuesday",
@@ -2343,10 +2404,10 @@
         "Examples include salads, personal pizzas, pulled pork, and chicken breast meals",
         "Open source page for current item list"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "2049a4ccfac93784",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -2401,6 +2462,7 @@
         "place_id": "ChIJzaUQiDMn3YAR0UDIcy6OAIs"
       },
       "restaurant": "Stonefire Grill",
+      "source_evidence": [],
       "source_notes": "Official meal deals and lunch specials page",
       "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
       "status": "active",
@@ -2410,9 +2472,11 @@
         "deal_language"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Every day; check source for item list"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "friday"
       ],
@@ -2425,10 +2489,10 @@
       "details": [
         "Prime rib dinner available after 5 PM with potatoes and veggies"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "d5c0d77933076429",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2483,6 +2547,7 @@
         "place_id": "ChIJOTcapcAl3YARqcxlj71_XRk"
       },
       "restaurant": "The Hangout",
+      "source_evidence": [],
       "source_notes": "Official daily weekday specials page",
       "source_url": "https://www.thehangoutrestaurant.com/daily-specials",
       "status": "active",
@@ -2492,9 +2557,11 @@
         "deal_language"
       ],
       "time_window": "After 5 PM",
+      "valid_through": null,
       "validity": "Friday, after 5 PM"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "monday",
         "tuesday",
@@ -2515,10 +2582,10 @@
         "Bottled beer, craft beer, well drinks, wine, and food specials",
         "Not available on holidays"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "4f35c0e6c25c4a82",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2573,6 +2640,7 @@
         "place_id": "ChIJOTcapcAl3YARqcxlj71_XRk"
       },
       "restaurant": "The Hangout",
+      "source_evidence": [],
       "source_notes": "Official weekday happy hour page",
       "source_url": "https://www.thehangoutrestaurant.com/happy-hour",
       "status": "active",
@@ -2583,9 +2651,11 @@
         "deal_language"
       ],
       "time_window": "3 PM - 6 PM",
+      "valid_through": null,
       "validity": "Mon-Fri, 3 PM - 6 PM"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "monday"
       ],
@@ -2600,10 +2670,10 @@
         "Buy one, get one free meatloaf sandwiches or dinners with purchase of two drinks",
         "$8 martinis all day"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "2b5c95f3f8fdac42",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2658,6 +2728,7 @@
         "place_id": "ChIJOTcapcAl3YARqcxlj71_XRk"
       },
       "restaurant": "The Hangout",
+      "source_evidence": [],
       "source_notes": "Official daily weekday specials page",
       "source_url": "https://www.thehangoutrestaurant.com/daily-specials",
       "status": "active",
@@ -2669,9 +2740,11 @@
         "free"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Monday, all day"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "thursday"
       ],
@@ -2686,10 +2759,10 @@
         "Chicken, steak, or fish street tacos for $2.75 each",
         "$8 house margaritas all day"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "7be23f68b6c1f3ae",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2744,6 +2817,7 @@
         "place_id": "ChIJOTcapcAl3YARqcxlj71_XRk"
       },
       "restaurant": "The Hangout",
+      "source_evidence": [],
       "source_notes": "Official daily weekday specials page",
       "source_url": "https://www.thehangoutrestaurant.com/daily-specials",
       "status": "active",
@@ -2753,9 +2827,11 @@
         "weekday_special"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Thursday, all day"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "tuesday"
       ],
@@ -2768,10 +2844,10 @@
       "details": [
         "Special spaghetti meals"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "9625c427af7216ce",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2826,6 +2902,7 @@
         "place_id": "ChIJOTcapcAl3YARqcxlj71_XRk"
       },
       "restaurant": "The Hangout",
+      "source_evidence": [],
       "source_notes": "Official daily weekday specials page",
       "source_url": "https://www.thehangoutrestaurant.com/daily-specials",
       "status": "active",
@@ -2835,9 +2912,11 @@
         "deal_language"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Tuesday"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "wednesday"
       ],
@@ -2850,10 +2929,10 @@
       "details": [
         "Special fried fish dishes"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "07aabbde13e25352",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2908,6 +2987,7 @@
         "place_id": "ChIJOTcapcAl3YARqcxlj71_XRk"
       },
       "restaurant": "The Hangout",
+      "source_evidence": [],
       "source_notes": "Official daily weekday specials page",
       "source_url": "https://www.thehangoutrestaurant.com/daily-specials",
       "status": "active",
@@ -2917,9 +2997,11 @@
         "deal_language"
       ],
       "time_window": null,
+      "valid_through": null,
       "validity": "Wednesday"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "monday",
         "tuesday",
@@ -2940,10 +3022,10 @@
         "Lunch specials Mon-Fri, 11:30 AM-5 PM",
         "Dinner specials every day, 5 PM-close"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "fee37a360eca1ab2",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -2998,6 +3080,7 @@
         "place_id": "ChIJF_T2J9gg3YARVdsj1ZatpT8"
       },
       "restaurant": "Zubie's Dry Dock",
+      "source_evidence": [],
       "source_notes": "Official homepage with happy hour and daily specials",
       "source_url": "https://zubiesdrydock.com/",
       "status": "active",
@@ -3007,9 +3090,11 @@
         "deal_language"
       ],
       "time_window": "11:30 AM - close",
+      "valid_through": null,
       "validity": "Lunch Mon-Fri 11:30 AM-5 PM; dinner every day 5 PM-close"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "monday",
         "tuesday",
@@ -3030,10 +3115,10 @@
         "$6 well drinks and house wines",
         "Discounted apps and bites"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "06297b4e40cf6d49",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -3088,6 +3173,7 @@
         "place_id": "ChIJF_T2J9gg3YARVdsj1ZatpT8"
       },
       "restaurant": "Zubie's Dry Dock",
+      "source_evidence": [],
       "source_notes": "Official homepage with happy hour and daily specials",
       "source_url": "https://zubiesdrydock.com/",
       "status": "active",
@@ -3098,9 +3184,11 @@
         "weekday_special"
       ],
       "time_window": "1 PM - 6 PM",
+      "valid_through": null,
       "validity": "Mon-Fri, 1 PM - 6 PM"
     },
     {
+      "ai_confidence": null,
       "applies_days": [
         "sunday"
       ],
@@ -3113,10 +3201,10 @@
       "details": [
         "Sunday breakfast menu served 9 AM-noon"
       ],
-      "first_seen": "2026-09-10T01:26:14Z",
+      "first_seen": "2026-09-10T02:03:44Z",
       "id": "559826adabba5ded",
       "is_stale": false,
-      "last_seen": "2026-09-10T01:26:14Z",
+      "last_seen": "2026-09-10T02:03:44Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -3171,6 +3259,7 @@
         "place_id": "ChIJF_T2J9gg3YARVdsj1ZatpT8"
       },
       "restaurant": "Zubie's Dry Dock",
+      "source_evidence": [],
       "source_notes": "Official homepage with happy hour and daily specials",
       "source_url": "https://zubiesdrydock.com/",
       "status": "active",
@@ -3179,10 +3268,11 @@
         "weekday_special"
       ],
       "time_window": "9 AM - 12 PM",
+      "valid_through": null,
       "validity": "Sunday, 9 AM - noon"
     }
   ],
-  "generated_at": "2026-09-10T01:26:14Z",
+  "generated_at": "2026-09-10T02:03:44Z",
   "scope": {
     "cities": [
       "Fountain Valley",
@@ -3196,7 +3286,7 @@
   "sources": [
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-10T01:26:14Z",
+      "checked_at": "2026-09-10T02:03:44Z",
       "city": "Huntington Beach",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
@@ -3259,7 +3349,7 @@
     },
     {
       "candidate_count": 0,
-      "checked_at": "2026-09-10T01:26:14Z",
+      "checked_at": "2026-09-10T02:03:44Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18033 Magnolia St, Fountain Valley, CA 92708, USA",
@@ -3322,7 +3412,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T01:26:14Z",
+      "checked_at": "2026-09-10T02:03:44Z",
       "city": "Huntington Beach",
       "location": {
         "address": "807 Adams Ave, Huntington Beach, CA 92648, USA",
@@ -3385,7 +3475,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T01:26:14Z",
+      "checked_at": "2026-09-10T02:03:44Z",
       "city": "Fountain Valley",
       "location": {
         "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
@@ -3448,7 +3538,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T01:26:14Z",
+      "checked_at": "2026-09-10T02:03:44Z",
       "city": "Huntington Beach",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
@@ -3508,7 +3598,7 @@
     },
     {
       "candidate_count": 4,
-      "checked_at": "2026-09-10T01:26:14Z",
+      "checked_at": "2026-09-10T02:03:44Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
@@ -3571,7 +3661,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T01:26:14Z",
+      "checked_at": "2026-09-10T02:03:44Z",
       "city": "Huntington Beach",
       "location": {
         "address": "215 Main St, Huntington Beach, CA 92648",
@@ -3631,7 +3721,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T01:26:14Z",
+      "checked_at": "2026-09-10T02:03:44Z",
       "city": "Huntington Beach",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
@@ -3691,7 +3781,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T01:26:14Z",
+      "checked_at": "2026-09-10T02:03:44Z",
       "city": "Huntington Beach",
       "location": {
         "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
@@ -3751,7 +3841,7 @@
     },
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-10T01:26:14Z",
+      "checked_at": "2026-09-10T02:03:44Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
@@ -3814,7 +3904,7 @@
     },
     {
       "candidate_count": 0,
-      "checked_at": "2026-09-10T01:26:14Z",
+      "checked_at": "2026-09-10T02:03:44Z",
       "city": "Fountain Valley",
       "location": {
         "address": "10201 Slater Ave, Fountain Valley, CA 92708",
@@ -3874,7 +3964,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T01:26:14Z",
+      "checked_at": "2026-09-10T02:03:44Z",
       "city": "Huntington Beach",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
@@ -3934,7 +4024,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T01:26:14Z",
+      "checked_at": "2026-09-10T02:03:44Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708, USA",
@@ -3997,7 +4087,7 @@
     },
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-10T01:26:14Z",
+      "checked_at": "2026-09-10T02:03:44Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
@@ -4060,7 +4150,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T01:26:14Z",
+      "checked_at": "2026-09-10T02:03:44Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
@@ -4123,7 +4213,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T01:26:14Z",
+      "checked_at": "2026-09-10T02:03:44Z",
       "city": "Huntington Beach",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
