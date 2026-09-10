@@ -28,7 +28,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "6a8211372a6ecd7b",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "807 E Adams Ave, Huntington Beach, CA 92648",
         "hours": {
@@ -108,7 +108,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "e4d0c5f9b28fd58e",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
         "hours": {
@@ -197,7 +197,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "7ad5f67f6d0e8602",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
         "hours": {
@@ -264,26 +264,29 @@
     },
     {
       "applies_days": [
-        "monday"
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
       ],
-      "candidate_text": "Our schedule of ongoing events includes monthly chef-led dinners, weekly happy hour specials and other exciting happenings to make L\u014drea your new refined social hangout. Experience Meet L\u014drea Happenings View Calendar September 20 - 26, Times Vary Find Your Table Learn More",
+      "candidate_text": "Weekday happy hour Monday-Friday, 3 PM-5 PM $12 select food items $14 classic cocktails 20% off draft beers and select house wines",
       "categories": [
-        "general"
+        "food",
+        "drink"
       ],
       "city": "Huntington Beach",
       "days_since_seen": 0,
       "details": [
-        "Meet L\u014drea",
-        "Happenings",
-        "View Calendar",
-        "September 20 - 26, Times Vary",
-        "Find Your Table",
-        "Learn More"
+        "Monday-Friday, 3 PM-5 PM",
+        "$12 select food items",
+        "$14 classic cocktails",
+        "20% off draft beers and select house wines"
       ],
-      "first_seen": "2026-09-10T00:16:48Z",
-      "id": "662bfb8c579525f3",
+      "first_seen": "2026-09-10T00:23:22Z",
+      "id": "4bbe95bd0ffd47e9",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -338,610 +341,97 @@
       "source_notes": "Official restaurant homepage with happenings and happy hour",
       "source_url": "https://loreahb.com/",
       "status": "active",
-      "summary": "Our schedule of ongoing events includes monthly chef-led dinners, weekly happy hour specials and other exciting happenings to make L\u014drea your new refined social hangout. Experience",
+      "summary": "Weekday happy hour",
       "tags": [
         "happy_hour",
+        "percent_off",
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": "3 PM - 5 PM",
+      "validity": "Mon-Fri, 3 PM - 5 PM"
+    },
+    {
+      "applies_days": [
+        "saturday",
+        "sunday"
+      ],
+      "candidate_text": "Weekend brunch Saturday-Sunday, 7 AM-3 PM Brunch favorites, drinks, and live music",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Saturday-Sunday, 7 AM-3 PM",
+        "Brunch favorites, drinks, and live music"
+      ],
+      "first_seen": "2026-09-10T00:23:22Z",
+      "id": "cdf9967358604fce",
+      "is_stale": false,
+      "last_seen": "2026-09-10T00:23:22Z",
+      "location": {
+        "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.6537,
+        "longitude": -117.9956,
+        "phone": "(714) 698-6130"
+      },
+      "restaurant": "Lorea",
+      "source_notes": "Official restaurant homepage with happenings and happy hour",
+      "source_url": "https://loreahb.com/",
+      "status": "active",
+      "summary": "Weekend brunch",
+      "tags": [
+        "weekday_special",
         "deal_language"
       ],
-      "time_window": null,
-      "validity": "Mon"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "friday"
-      ],
-      "candidate_text": "$12 select food items, $14 Classic cocktails, 20% off draft beers and select house wines. Learn More L\u014drea Soundwaves Music Series Mondays \u2013 Fridays, 3:00PM - 5:00PM Learn More",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Learn More",
-        "L\u014drea Soundwaves Music Series",
-        "Mondays \u2013 Fridays, 3:00PM - 5:00PM"
-      ],
-      "first_seen": "2026-09-10T00:16:48Z",
-      "id": "fc7a3d6d62e861af",
-      "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
-      "location": {
-        "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.6537,
-        "longitude": -117.9956,
-        "phone": "(714) 698-6130"
-      },
-      "restaurant": "Lorea",
-      "source_notes": "Official restaurant homepage with happenings and happy hour",
-      "source_url": "https://loreahb.com/",
-      "status": "active",
-      "summary": "$12 select food items, $14 Classic cocktails, 20% off draft beers and select house wines.",
-      "tags": [
-        "percent_off",
-        "dollar_amount"
-      ],
-      "time_window": "3:00 PM - 5:00 PM",
-      "validity": "Mon, Fri, 3:00 PM - 5:00 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "friday"
-      ],
-      "candidate_text": "Happy Hour at L\u014drea Mondays \u2013 Fridays, 3:00PM - 5:00PM",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Mondays \u2013 Fridays, 3:00PM - 5:00PM"
-      ],
-      "first_seen": "2026-09-10T00:16:48Z",
-      "id": "8479d74643b9c295",
-      "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
-      "location": {
-        "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.6537,
-        "longitude": -117.9956,
-        "phone": "(714) 698-6130"
-      },
-      "restaurant": "Lorea",
-      "source_notes": "Official restaurant homepage with happenings and happy hour",
-      "source_url": "https://loreahb.com/",
-      "status": "active",
-      "summary": "Happy Hour at L\u014drea",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": "3:00 PM - 5:00 PM",
-      "validity": "Mon, Fri, 3:00 PM - 5:00 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "21080 Pacific Coast Highway Happy Hour Monday - Friday, 3pm - 5pm Location Huntington Beach, CA 92648 714 698 6130 info@loreahb.com Press Room Loyalty",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy Hour",
-        "Monday - Friday, 3pm - 5pm",
-        "Location",
-        "Huntington Beach, CA 92648",
-        "714 698 6130",
-        "info@loreahb.com",
-        "Press Room",
-        "Loyalty"
-      ],
-      "first_seen": "2026-09-10T00:16:48Z",
-      "id": "d43bf96fc6a5b67c",
-      "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
-      "location": {
-        "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.6537,
-        "longitude": -117.9956,
-        "phone": "(714) 698-6130"
-      },
-      "restaurant": "Lorea",
-      "source_notes": "Official restaurant homepage with happenings and happy hour",
-      "source_url": "https://loreahb.com/",
-      "status": "active",
-      "summary": "21080 Pacific Coast Highway",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "3 PM - 5 PM",
-      "validity": "Mon-Fri, 3 PM - 5 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "Happy Hour (M - F), 3pm - 5pm More Info Hours Monday - Sunday, 7am - 10pm Accepts card payments only. Contact 714 698 6130 21080 Pacific Coast Highway Huntington Beach, CA 92648",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "More Info",
-        "Hours",
-        "Monday - Sunday, 7am - 10pm",
-        "Accepts card payments only.",
-        "Contact",
-        "714 698 6130",
-        "21080 Pacific Coast Highway",
-        "Huntington Beach, CA 92648"
-      ],
-      "first_seen": "2026-09-10T00:16:48Z",
-      "id": "6463a12be8ee9c62",
-      "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
-      "location": {
-        "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.6537,
-        "longitude": -117.9956,
-        "phone": "(714) 698-6130"
-      },
-      "restaurant": "Lorea",
-      "source_notes": "Official restaurant homepage with happenings and happy hour",
-      "source_url": "https://loreahb.com/",
-      "status": "active",
-      "summary": "Happy Hour (M - F), 3pm - 5pm",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "3 PM - 5 PM",
-      "validity": "Mon-Fri, 3 PM - 5 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "Happy Hour Hours Monday - Sunday, 7am - 10pm Accepts card payments only. Monday - Friday, 3pm - 5pm Location 21080 Pacific Coast Highway Huntington Beach, CA 92648 714 698 6130",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Hours",
-        "Monday - Sunday, 7am - 10pm",
-        "Accepts card payments only.",
-        "Monday - Friday, 3pm - 5pm",
-        "Location",
-        "21080 Pacific Coast Highway",
-        "Huntington Beach, CA 92648",
-        "714 698 6130"
-      ],
-      "first_seen": "2026-09-10T00:16:48Z",
-      "id": "a3d5b1faa265f33c",
-      "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
-      "location": {
-        "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.6537,
-        "longitude": -117.9956,
-        "phone": "(714) 698-6130"
-      },
-      "restaurant": "Lorea",
-      "source_notes": "Official restaurant homepage with happenings and happy hour",
-      "source_url": "https://loreahb.com/",
-      "status": "active",
-      "summary": "Happy Hour",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "7 AM - 10 PM",
-      "validity": "Mon-Fri, 7 AM - 10 PM"
-    },
-    {
-      "applies_days": [
-        "saturday",
-        "sunday"
-      ],
-      "candidate_text": "Find Your Table Happy Hour at L\u014drea Saturdays and Sundays, 7am \u2013 3pm Brunch favorites, refreshing libations and live music. Learn More Weekend Brunch at L\u014drea Private Events Learn More",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy Hour at L\u014drea",
-        "Saturdays and Sundays, 7am \u2013 3pm",
-        "Brunch favorites, refreshing libations and live music.",
-        "Learn More",
-        "Weekend Brunch at L\u014drea",
-        "Private Events"
-      ],
-      "first_seen": "2026-09-10T00:16:48Z",
-      "id": "9cecd762723240db",
-      "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
-      "location": {
-        "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.6537,
-        "longitude": -117.9956,
-        "phone": "(714) 698-6130"
-      },
-      "restaurant": "Lorea",
-      "source_notes": "Official restaurant homepage with happenings and happy hour",
-      "source_url": "https://loreahb.com/",
-      "status": "active",
-      "summary": "Find Your Table",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
       "time_window": "7 AM - 3 PM",
-      "validity": "Weekend, 7 AM - 3 PM"
-    },
-    {
-      "applies_days": [
-        "saturday",
-        "sunday"
-      ],
-      "candidate_text": "Saturdays and Sundays, 7am \u2013 3pm $12 select food items, $14 Classic cocktails, 20% off draft beers and select house wines. Learn More",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "$12 select food items, $14 Classic cocktails, 20% off draft beers and select house wines.",
-        "Learn More"
-      ],
-      "first_seen": "2026-09-10T00:16:48Z",
-      "id": "7b9572c48d470a2a",
-      "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
-      "location": {
-        "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.6537,
-        "longitude": -117.9956,
-        "phone": "(714) 698-6130"
-      },
-      "restaurant": "Lorea",
-      "source_notes": "Official restaurant homepage with happenings and happy hour",
-      "source_url": "https://loreahb.com/",
-      "status": "active",
-      "summary": "Saturdays and Sundays, 7am \u2013 3pm",
-      "tags": [
-        "percent_off",
-        "dollar_amount"
-      ],
-      "time_window": "7 AM - 3 PM",
-      "validity": "Weekend, 7 AM - 3 PM"
+      "validity": "Sat-Sun, 7 AM - 3 PM"
     },
     {
       "applies_days": [],
@@ -957,7 +447,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "92146b0ee6a404ad",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -1038,7 +528,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "8fed335514a3bbde",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -1121,7 +611,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "9d96ca0a186d956b",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -1202,7 +692,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "aba3039f4cdbb4bb",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -1292,7 +782,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "e8551543f33b54a8",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "215 Main St, Huntington Beach, CA 92648",
         "hours": {
@@ -1383,7 +873,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "254934ce9aae95bd",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1471,7 +961,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "51d8300f03acb8d3",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1562,7 +1052,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "b669d1f87691b6e5",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1650,7 +1140,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "c02c9eb945d74125",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
         "hours": {
@@ -1729,7 +1219,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "f19aaa29324a04de",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -1817,7 +1307,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "932d25342edf58f1",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -1909,7 +1399,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "74739de9b87c3387",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2004,7 +1494,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "51a4cb974fe9fbc8",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2089,7 +1579,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "04df59eb735fd1b5",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2173,7 +1663,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "196adad505509c2a",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2257,7 +1747,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "ad4b9f62c95dbbf1",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2346,7 +1836,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "b45a577e58b57c7d",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2430,7 +1920,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "d4462a7e95fd1872",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2512,7 +2002,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "40ebc01c632ce4fa",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -2600,7 +2090,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "cc8d16cae580f858",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -2681,7 +2171,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "88f51558f931beae",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -2768,7 +2258,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "2049a4ccfac93784",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -2847,7 +2337,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "d5c0d77933076429",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -2934,7 +2424,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "4f35c0e6c25c4a82",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -3016,7 +2506,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "2b5c95f3f8fdac42",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -3099,7 +2589,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "7be23f68b6c1f3ae",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -3178,7 +2668,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "9625c427af7216ce",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -3257,7 +2747,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "07aabbde13e25352",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -3344,7 +2834,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "fee37a360eca1ab2",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -3431,7 +2921,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "06297b4e40cf6d49",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -3511,7 +3001,7 @@
       "first_seen": "2026-09-10T00:16:48Z",
       "id": "559826adabba5ded",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:16:48Z",
+      "last_seen": "2026-09-10T00:23:22Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -3572,9 +3062,698 @@
       ],
       "time_window": "9 AM - 12 PM",
       "validity": "Sunday, 9 AM - noon"
+    },
+    {
+      "applies_days": [
+        "monday"
+      ],
+      "candidate_text": "Our schedule of ongoing events includes monthly chef-led dinners, weekly happy hour specials and other exciting happenings to make L\u014drea your new refined social hangout. Experience Meet L\u014drea Happenings View Calendar September 20 - 26, Times Vary Find Your Table Learn More",
+      "categories": [
+        "general"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Meet L\u014drea",
+        "Happenings",
+        "View Calendar",
+        "September 20 - 26, Times Vary",
+        "Find Your Table",
+        "Learn More"
+      ],
+      "first_seen": "2026-09-10T00:16:48Z",
+      "id": "662bfb8c579525f3",
+      "is_stale": true,
+      "last_seen": "2026-09-10T00:16:48Z",
+      "location": {
+        "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.6537,
+        "longitude": -117.9956,
+        "phone": "(714) 698-6130"
+      },
+      "restaurant": "Lorea",
+      "source_notes": "Official restaurant homepage with happenings and happy hour",
+      "source_url": "https://loreahb.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Our schedule of ongoing events includes monthly chef-led dinners, weekly happy hour specials and other exciting happenings to make L\u014drea your new refined social hangout. Experience",
+      "tags": [
+        "happy_hour",
+        "deal_language"
+      ],
+      "time_window": null,
+      "validity": "Mon"
+    },
+    {
+      "applies_days": [
+        "monday",
+        "friday"
+      ],
+      "candidate_text": "$12 select food items, $14 Classic cocktails, 20% off draft beers and select house wines. Learn More L\u014drea Soundwaves Music Series Mondays \u2013 Fridays, 3:00PM - 5:00PM Learn More",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Learn More",
+        "L\u014drea Soundwaves Music Series",
+        "Mondays \u2013 Fridays, 3:00PM - 5:00PM"
+      ],
+      "first_seen": "2026-09-10T00:16:48Z",
+      "id": "fc7a3d6d62e861af",
+      "is_stale": true,
+      "last_seen": "2026-09-10T00:16:48Z",
+      "location": {
+        "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.6537,
+        "longitude": -117.9956,
+        "phone": "(714) 698-6130"
+      },
+      "restaurant": "Lorea",
+      "source_notes": "Official restaurant homepage with happenings and happy hour",
+      "source_url": "https://loreahb.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$12 select food items, $14 Classic cocktails, 20% off draft beers and select house wines.",
+      "tags": [
+        "percent_off",
+        "dollar_amount"
+      ],
+      "time_window": "3:00 PM - 5:00 PM",
+      "validity": "Mon, Fri, 3:00 PM - 5:00 PM"
+    },
+    {
+      "applies_days": [
+        "monday",
+        "friday"
+      ],
+      "candidate_text": "Happy Hour at L\u014drea Mondays \u2013 Fridays, 3:00PM - 5:00PM",
+      "categories": [
+        "general"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Mondays \u2013 Fridays, 3:00PM - 5:00PM"
+      ],
+      "first_seen": "2026-09-10T00:16:48Z",
+      "id": "8479d74643b9c295",
+      "is_stale": true,
+      "last_seen": "2026-09-10T00:16:48Z",
+      "location": {
+        "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.6537,
+        "longitude": -117.9956,
+        "phone": "(714) 698-6130"
+      },
+      "restaurant": "Lorea",
+      "source_notes": "Official restaurant homepage with happenings and happy hour",
+      "source_url": "https://loreahb.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour at L\u014drea",
+      "tags": [
+        "happy_hour"
+      ],
+      "time_window": "3:00 PM - 5:00 PM",
+      "validity": "Mon, Fri, 3:00 PM - 5:00 PM"
+    },
+    {
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "candidate_text": "21080 Pacific Coast Highway Happy Hour Monday - Friday, 3pm - 5pm Location Huntington Beach, CA 92648 714 698 6130 info@loreahb.com Press Room Loyalty",
+      "categories": [
+        "general"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Happy Hour",
+        "Monday - Friday, 3pm - 5pm",
+        "Location",
+        "Huntington Beach, CA 92648",
+        "714 698 6130",
+        "info@loreahb.com",
+        "Press Room",
+        "Loyalty"
+      ],
+      "first_seen": "2026-09-10T00:16:48Z",
+      "id": "d43bf96fc6a5b67c",
+      "is_stale": true,
+      "last_seen": "2026-09-10T00:16:48Z",
+      "location": {
+        "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.6537,
+        "longitude": -117.9956,
+        "phone": "(714) 698-6130"
+      },
+      "restaurant": "Lorea",
+      "source_notes": "Official restaurant homepage with happenings and happy hour",
+      "source_url": "https://loreahb.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "21080 Pacific Coast Highway",
+      "tags": [
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": "3 PM - 5 PM",
+      "validity": "Mon-Fri, 3 PM - 5 PM"
+    },
+    {
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "candidate_text": "Happy Hour (M - F), 3pm - 5pm More Info Hours Monday - Sunday, 7am - 10pm Accepts card payments only. Contact 714 698 6130 21080 Pacific Coast Highway Huntington Beach, CA 92648",
+      "categories": [
+        "general"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "More Info",
+        "Hours",
+        "Monday - Sunday, 7am - 10pm",
+        "Accepts card payments only.",
+        "Contact",
+        "714 698 6130",
+        "21080 Pacific Coast Highway",
+        "Huntington Beach, CA 92648"
+      ],
+      "first_seen": "2026-09-10T00:16:48Z",
+      "id": "6463a12be8ee9c62",
+      "is_stale": true,
+      "last_seen": "2026-09-10T00:16:48Z",
+      "location": {
+        "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.6537,
+        "longitude": -117.9956,
+        "phone": "(714) 698-6130"
+      },
+      "restaurant": "Lorea",
+      "source_notes": "Official restaurant homepage with happenings and happy hour",
+      "source_url": "https://loreahb.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour (M - F), 3pm - 5pm",
+      "tags": [
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": "3 PM - 5 PM",
+      "validity": "Mon-Fri, 3 PM - 5 PM"
+    },
+    {
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "candidate_text": "Happy Hour Hours Monday - Sunday, 7am - 10pm Accepts card payments only. Monday - Friday, 3pm - 5pm Location 21080 Pacific Coast Highway Huntington Beach, CA 92648 714 698 6130",
+      "categories": [
+        "general"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Hours",
+        "Monday - Sunday, 7am - 10pm",
+        "Accepts card payments only.",
+        "Monday - Friday, 3pm - 5pm",
+        "Location",
+        "21080 Pacific Coast Highway",
+        "Huntington Beach, CA 92648",
+        "714 698 6130"
+      ],
+      "first_seen": "2026-09-10T00:16:48Z",
+      "id": "a3d5b1faa265f33c",
+      "is_stale": true,
+      "last_seen": "2026-09-10T00:16:48Z",
+      "location": {
+        "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.6537,
+        "longitude": -117.9956,
+        "phone": "(714) 698-6130"
+      },
+      "restaurant": "Lorea",
+      "source_notes": "Official restaurant homepage with happenings and happy hour",
+      "source_url": "https://loreahb.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Happy Hour",
+      "tags": [
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": "7 AM - 10 PM",
+      "validity": "Mon-Fri, 7 AM - 10 PM"
+    },
+    {
+      "applies_days": [
+        "saturday",
+        "sunday"
+      ],
+      "candidate_text": "Find Your Table Happy Hour at L\u014drea Saturdays and Sundays, 7am \u2013 3pm Brunch favorites, refreshing libations and live music. Learn More Weekend Brunch at L\u014drea Private Events Learn More",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Happy Hour at L\u014drea",
+        "Saturdays and Sundays, 7am \u2013 3pm",
+        "Brunch favorites, refreshing libations and live music.",
+        "Learn More",
+        "Weekend Brunch at L\u014drea",
+        "Private Events"
+      ],
+      "first_seen": "2026-09-10T00:16:48Z",
+      "id": "9cecd762723240db",
+      "is_stale": true,
+      "last_seen": "2026-09-10T00:16:48Z",
+      "location": {
+        "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.6537,
+        "longitude": -117.9956,
+        "phone": "(714) 698-6130"
+      },
+      "restaurant": "Lorea",
+      "source_notes": "Official restaurant homepage with happenings and happy hour",
+      "source_url": "https://loreahb.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Find Your Table",
+      "tags": [
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": "7 AM - 3 PM",
+      "validity": "Weekend, 7 AM - 3 PM"
+    },
+    {
+      "applies_days": [
+        "saturday",
+        "sunday"
+      ],
+      "candidate_text": "Saturdays and Sundays, 7am \u2013 3pm $12 select food items, $14 Classic cocktails, 20% off draft beers and select house wines. Learn More",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "$12 select food items, $14 Classic cocktails, 20% off draft beers and select house wines.",
+        "Learn More"
+      ],
+      "first_seen": "2026-09-10T00:16:48Z",
+      "id": "7b9572c48d470a2a",
+      "is_stale": true,
+      "last_seen": "2026-09-10T00:16:48Z",
+      "location": {
+        "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.6537,
+        "longitude": -117.9956,
+        "phone": "(714) 698-6130"
+      },
+      "restaurant": "Lorea",
+      "source_notes": "Official restaurant homepage with happenings and happy hour",
+      "source_url": "https://loreahb.com/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Saturdays and Sundays, 7am \u2013 3pm",
+      "tags": [
+        "percent_off",
+        "dollar_amount"
+      ],
+      "time_window": "7 AM - 3 PM",
+      "validity": "Weekend, 7 AM - 3 PM"
     }
   ],
-  "generated_at": "2026-09-10T00:16:48Z",
+  "generated_at": "2026-09-10T00:23:22Z",
   "scope": {
     "cities": [
       "Fountain Valley",
@@ -3587,7 +3766,7 @@
   "sources": [
     {
       "candidate_count": 0,
-      "checked_at": "2026-09-10T00:16:48Z",
+      "checked_at": "2026-09-10T00:23:22Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18033 Magnolia St, Fountain Valley, CA 92708",
@@ -3647,7 +3826,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T00:16:48Z",
+      "checked_at": "2026-09-10T00:23:22Z",
       "city": "Huntington Beach",
       "location": {
         "address": "807 E Adams Ave, Huntington Beach, CA 92648",
@@ -3707,7 +3886,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T00:16:48Z",
+      "checked_at": "2026-09-10T00:23:22Z",
       "city": "Fountain Valley",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
@@ -3766,8 +3945,8 @@
       "url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials"
     },
     {
-      "candidate_count": 8,
-      "checked_at": "2026-09-10T00:16:48Z",
+      "candidate_count": 2,
+      "checked_at": "2026-09-10T00:23:22Z",
       "city": "Huntington Beach",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
@@ -3819,7 +3998,7 @@
         "longitude": -117.9956,
         "phone": "(714) 698-6130"
       },
-      "mode": "crawled",
+      "mode": "curated",
       "name": "Lorea",
       "notes": "Official restaurant homepage with happenings and happy hour",
       "ok": true,
@@ -3827,7 +4006,7 @@
     },
     {
       "candidate_count": 4,
-      "checked_at": "2026-09-10T00:16:48Z",
+      "checked_at": "2026-09-10T00:23:22Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
@@ -3887,7 +4066,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T00:16:48Z",
+      "checked_at": "2026-09-10T00:23:22Z",
       "city": "Huntington Beach",
       "location": {
         "address": "215 Main St, Huntington Beach, CA 92648",
@@ -3947,7 +4126,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T00:16:48Z",
+      "checked_at": "2026-09-10T00:23:22Z",
       "city": "Huntington Beach",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
@@ -4007,7 +4186,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T00:16:48Z",
+      "checked_at": "2026-09-10T00:23:22Z",
       "city": "Huntington Beach",
       "location": {
         "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
@@ -4067,7 +4246,7 @@
     },
     {
       "candidate_count": 9,
-      "checked_at": "2026-09-10T00:16:48Z",
+      "checked_at": "2026-09-10T00:23:22Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
@@ -4131,7 +4310,7 @@
     },
     {
       "candidate_count": 0,
-      "checked_at": "2026-09-10T00:16:48Z",
+      "checked_at": "2026-09-10T00:23:22Z",
       "city": "Fountain Valley",
       "location": {
         "address": "10201 Slater Ave, Fountain Valley, CA 92708",
@@ -4191,7 +4370,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T00:16:48Z",
+      "checked_at": "2026-09-10T00:23:22Z",
       "city": "Huntington Beach",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
@@ -4251,7 +4430,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T00:16:48Z",
+      "checked_at": "2026-09-10T00:23:22Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
@@ -4311,7 +4490,7 @@
     },
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-10T00:16:48Z",
+      "checked_at": "2026-09-10T00:23:22Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
@@ -4371,7 +4550,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T00:16:48Z",
+      "checked_at": "2026-09-10T00:23:22Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
@@ -4431,7 +4610,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T00:16:48Z",
+      "checked_at": "2026-09-10T00:23:22Z",
       "city": "Huntington Beach",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
@@ -4491,10 +4670,10 @@
     }
   ],
   "summary": {
-    "active_deals": 42,
+    "active_deals": 36,
     "failed_sources": 0,
     "healthy_sources": 15,
-    "stale_deals": 0,
-    "total_deals": 42
+    "stale_deals": 8,
+    "total_deals": 44
   }
 }
