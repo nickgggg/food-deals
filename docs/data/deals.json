@@ -1,5 +1,5 @@
 {
-  "crawler_version": 8,
+  "crawler_version": 9,
   "deals": [
     {
       "applies_days": [
@@ -25,10 +25,10 @@
         "Drink specials include draft beer and margaritas",
         "Food specials include tacos and chips/salsa"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "6a8211372a6ecd7b",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "807 E Adams Ave, Huntington Beach, CA 92648",
         "hours": {
@@ -105,10 +105,10 @@
         "Lunch combo menu includes pizza slices, sandwiches, salads, wings, spaghetti, and drinks",
         "Most listed combos run about $8.50-$14; open source for the exact item list"
       ],
-      "first_seen": "2026-09-10T00:14:30Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "e4d0c5f9b28fd58e",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
         "hours": {
@@ -194,10 +194,10 @@
         "$4 off table kegs, bottles of wine, and 5 lb wings",
         "Dine-in only; not valid with any other offer"
       ],
-      "first_seen": "2026-09-10T00:14:30Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "7ad5f67f6d0e8602",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
         "hours": {
@@ -280,10 +280,10 @@
         "Find Your Table",
         "Learn More"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "662bfb8c579525f3",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -362,10 +362,10 @@
         "L\u014drea Soundwaves Music Series",
         "Mondays \u2013 Fridays, 3:00PM - 5:00PM"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "fc7a3d6d62e861af",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -442,10 +442,10 @@
       "details": [
         "Mondays \u2013 Fridays, 3:00PM - 5:00PM"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "8479d74643b9c295",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -531,10 +531,10 @@
         "Press Room",
         "Loyalty"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "d43bf96fc6a5b67c",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -621,10 +621,10 @@
         "21080 Pacific Coast Highway",
         "Huntington Beach, CA 92648"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "6463a12be8ee9c62",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -711,10 +711,10 @@
         "Huntington Beach, CA 92648",
         "714 698 6130"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "a3d5b1faa265f33c",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -796,10 +796,10 @@
         "Weekend Brunch at L\u014drea",
         "Private Events"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "9cecd762723240db",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -877,10 +877,10 @@
         "$12 select food items, $14 Classic cocktails, 20% off draft beers and select house wines.",
         "Learn More"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "7b9572c48d470a2a",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -954,10 +954,10 @@
       "details": [
         "Offers"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "92146b0ee6a404ad",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -1035,10 +1035,10 @@
         "CCPA",
         "This error message is only visible to WordPress admins"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "8fed335514a3bbde",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -1118,10 +1118,10 @@
         "Offers",
         "Tuesday & Saturday"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "9d96ca0a186d956b",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -1199,10 +1199,10 @@
         "Kids Eat Free",
         "Tuesday & Saturday"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "aba3039f4cdbb4bb",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -1289,10 +1289,10 @@
         "Examples include chicken nachos, sliders, tacos, quesadilla, and tempura",
         "Drink specials include well drinks, wine, Mai Tai, and beer"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "e8551543f33b54a8",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "215 Main St, Huntington Beach, CA 92648",
         "hours": {
@@ -1380,10 +1380,10 @@
         "ahi tuna, lemon ponzu, green onion, avocado, cilantro, serrano",
         "Brioche Sliders (2) $8"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "254934ce9aae95bd",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1468,10 +1468,10 @@
         "EATS",
         "Chips and Salsa $8"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "51d8300f03acb8d3",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1559,10 +1559,10 @@
         "chips, beans, cheese sauce, sour cream, pico de gallo, guacamole",
         "Tuna Tostada $8"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "b669d1f87691b6e5",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1647,10 +1647,10 @@
         "Mini golf special",
         "Draft beer, well drink, wine, and appetizer specials"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "c02c9eb945d74125",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
         "hours": {
@@ -1726,10 +1726,10 @@
         "50% off all wine bottles (dine-in only)",
         "FILLET SPECIAL"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "f19aaa29324a04de",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -1814,10 +1814,10 @@
         "Follow",
         "More Links"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "932d25342edf58f1",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -1906,10 +1906,10 @@
         "Ground beef, garlic, butter, Italian herbs",
         "TUESDAY (Taco Tuesday)"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "74739de9b87c3387",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2001,10 +2001,10 @@
         "MONDAY (All Day Happy Hour)",
         "PASTA BOLOGNESE"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "51a4cb974fe9fbc8",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2086,10 +2086,10 @@
         "MONDAY (All Day Happy Hour)",
         "PASTA BOLOGNESE"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "04df59eb735fd1b5",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2170,10 +2170,10 @@
         "Monthly Specials",
         "Dinner Menu"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "196adad505509c2a",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2254,10 +2254,10 @@
         "Make a Reservation",
         "Banquet/Catering"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "ad4b9f62c95dbbf1",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2343,10 +2343,10 @@
         "Our Story",
         "Make a Reservation"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "b45a577e58b57c7d",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2427,10 +2427,10 @@
         "Mexican-style lager, spice, floral, clean",
         "WEDNESDAY (Wine Wednesday)"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "d4462a7e95fd1872",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2509,10 +2509,10 @@
         "Free appetizer for signing up for the mailing list",
         "Birthday surprise on your birthday"
       ],
-      "first_seen": "2026-09-10T00:14:30Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "40ebc01c632ce4fa",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -2597,10 +2597,10 @@
         "Available Monday-Friday, 3 PM-6 PM",
         "Huntington Beach also has late-night happy hour Sunday-Thursday, 8 PM-close"
       ],
-      "first_seen": "2026-09-10T00:14:30Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "cc8d16cae580f858",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -2678,10 +2678,10 @@
         "Lunch special menu with optional beverage add-on",
         "Open source page for current items and prices"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "88f51558f931beae",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -2765,10 +2765,10 @@
         "Examples include salads, personal pizzas, pulled pork, and chicken breast meals",
         "Open source page for current item list"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "2049a4ccfac93784",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -2844,10 +2844,10 @@
       "details": [
         "Prime rib dinner available after 5 PM with potatoes and veggies"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "d5c0d77933076429",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -2931,10 +2931,10 @@
         "Bottled beer, craft beer, well drinks, wine, and food specials",
         "Not available on holidays"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "4f35c0e6c25c4a82",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -3013,10 +3013,10 @@
         "Buy one, get one free meatloaf sandwiches or dinners with purchase of two drinks",
         "$8 martinis all day"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "2b5c95f3f8fdac42",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -3096,10 +3096,10 @@
         "Chicken, steak, or fish street tacos for $2.75 each",
         "$8 house margaritas all day"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "7be23f68b6c1f3ae",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -3175,10 +3175,10 @@
       "details": [
         "Special spaghetti meals"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "9625c427af7216ce",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -3254,10 +3254,10 @@
       "details": [
         "Special fried fish dishes"
       ],
-      "first_seen": "2026-09-10T00:11:27Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "07aabbde13e25352",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -3341,10 +3341,10 @@
         "Lunch specials Mon-Fri, 11:30 AM-5 PM",
         "Dinner specials every day, 5 PM-close"
       ],
-      "first_seen": "2026-09-10T00:14:30Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "fee37a360eca1ab2",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -3428,10 +3428,10 @@
         "$6 well drinks and house wines",
         "Discounted apps and bites"
       ],
-      "first_seen": "2026-09-10T00:14:30Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "06297b4e40cf6d49",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -3508,10 +3508,10 @@
       "details": [
         "Sunday breakfast menu served 9 AM-noon"
       ],
-      "first_seen": "2026-09-10T00:14:30Z",
+      "first_seen": "2026-09-10T00:16:48Z",
       "id": "559826adabba5ded",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:14:30Z",
+      "last_seen": "2026-09-10T00:16:48Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -3572,2658 +3572,9 @@
       ],
       "time_window": "9 AM - 12 PM",
       "validity": "Sunday, 9 AM - noon"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "#1) One Slice, Salad & Drink* HAPPY HOUR",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "HAPPY HOUR"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "6aecdfb1e1697495",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "10130 Warner Ave, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7159,
-        "longitude": -117.953,
-        "phone": "(714) 968-6128"
-      },
-      "restaurant": "Lamppost Pizza",
-      "source_notes": "Official specials, coupons, and happy hour page",
-      "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "#1) One Slice, Salad & Drink*",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Available carry out only. with Purchase of any Med or Large PIZZA at Regular Price Offer good only at the Lamppost Pizza in Fountain Valley, CA. Not valid with any other offers. Valid with coupon only. Click to use coupon Share EXPIRED Share Tweet",
-      "categories": [
-        "food"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "with Purchase of any Med or Large PIZZA at Regular Price",
-        "Offer good only at the Lamppost Pizza in Fountain Valley, CA. Not valid with any other offers.",
-        "Valid with coupon only.",
-        "Click to use coupon",
-        "Share",
-        "EXPIRED",
-        "Tweet"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "86ccf1c0b7fb7c20",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "10130 Warner Ave, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7159,
-        "longitude": -117.953,
-        "phone": "(714) 968-6128"
-      },
-      "restaurant": "Lamppost Pizza",
-      "source_notes": "Official specials, coupons, and happy hour page",
-      "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Available carry out only.",
-      "tags": [
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Diet/Reg PEPSI Fountain Valley Coupon!",
-      "categories": [
-        "general"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "Fountain Valley Coupon!"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "08ba30fd00b9d8a0",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "10130 Warner Ave, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7159,
-        "longitude": -117.953,
-        "phone": "(714) 968-6128"
-      },
-      "restaurant": "Lamppost Pizza",
-      "source_notes": "Official specials, coupons, and happy hour page",
-      "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Diet/Reg PEPSI",
-      "tags": [
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "FREE 2 LITER OF SODA Coupons Fountain Valley Coupon!",
-      "categories": [
-        "food"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "Coupons",
-        "Fountain Valley Coupon!"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "49629b4e5fa305e3",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "10130 Warner Ave, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7159,
-        "longitude": -117.953,
-        "phone": "(714) 968-6128"
-      },
-      "restaurant": "Lamppost Pizza",
-      "source_notes": "Official specials, coupons, and happy hour page",
-      "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "FREE 2 LITER OF SODA",
-      "tags": [
-        "free",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Free Soda PLUS TAX Coupons Fountain Valley Coupon!",
-      "categories": [
-        "food"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "PLUS TAX",
-        "Coupons",
-        "Fountain Valley Coupon!"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "491869a4eaaaa98f",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "10130 Warner Ave, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7159,
-        "longitude": -117.953,
-        "phone": "(714) 968-6128"
-      },
-      "restaurant": "Lamppost Pizza",
-      "source_notes": "Official specials, coupons, and happy hour page",
-      "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Free Soda",
-      "tags": [
-        "free",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Happy Hour Specials",
-      "categories": [
-        "general"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "Specials"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "42f8b3488717466c",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "10130 Warner Ave, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7159,
-        "longitude": -117.953,
-        "phone": "(714) 968-6128"
-      },
-      "restaurant": "Lamppost Pizza",
-      "source_notes": "Official specials, coupons, and happy hour page",
-      "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Happy Hour",
-      "tags": [
-        "happy_hour",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Offer good only at the Lamppost Pizza in Fountain Valley, CA. Not valid with any other offers. FREE 2 LITER OF SODA Diet/Reg PEPSI with Purchase of any Med or Large PIZZA at Regular Price Valid with coupon only. Available carry out only. Click to use coupon Share EXPIRED",
-      "categories": [
-        "food"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "FREE 2 LITER OF SODA",
-        "Diet/Reg PEPSI",
-        "with Purchase of any Med or Large PIZZA at Regular Price",
-        "Valid with coupon only.",
-        "Available carry out only.",
-        "Click to use coupon",
-        "Share",
-        "EXPIRED"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "d3cfebcad1813d96",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "10130 Warner Ave, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7159,
-        "longitude": -117.953,
-        "phone": "(714) 968-6128"
-      },
-      "restaurant": "Lamppost Pizza",
-      "source_notes": "Official specials, coupons, and happy hour page",
-      "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Offer good only at the Lamppost Pizza in Fountain Valley, CA. Not valid with any other offers.",
-      "tags": [
-        "free",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "PLUS TAX $6.25 *Ask For Details Coupons Fountain Valley Coupon!",
-      "categories": [
-        "general"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "$6.25",
-        "*Ask For Details",
-        "Coupons",
-        "Fountain Valley Coupon!"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "eb58cfc277ef8d3e",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "10130 Warner Ave, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7159,
-        "longitude": -117.953,
-        "phone": "(714) 968-6128"
-      },
-      "restaurant": "Lamppost Pizza",
-      "source_notes": "Official specials, coupons, and happy hour page",
-      "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "PLUS TAX",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Valid with coupon only. Diet/Reg PEPSI with Purchase of any Med or Large PIZZA at Regular Price Offer good only at the Lamppost Pizza in Fountain Valley, CA. Not valid with any other offers. Available carry out only. Click to use coupon Share EXPIRED Share",
-      "categories": [
-        "food"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "Diet/Reg PEPSI",
-        "with Purchase of any Med or Large PIZZA at Regular Price",
-        "Offer good only at the Lamppost Pizza in Fountain Valley, CA. Not valid with any other offers.",
-        "Available carry out only.",
-        "Click to use coupon",
-        "Share",
-        "EXPIRED"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "2821f88b665f6da9",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "10130 Warner Ave, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7159,
-        "longitude": -117.953,
-        "phone": "(714) 968-6128"
-      },
-      "restaurant": "Lamppost Pizza",
-      "source_notes": "Official specials, coupons, and happy hour page",
-      "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Valid with coupon only.",
-      "tags": [
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "with Purchase of any Med or Large PIZZA at Regular Price Free Soda",
-      "categories": [
-        "food"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "Free Soda"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "fe8b3cba280948b6",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "10130 Warner Ave, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7159,
-        "longitude": -117.953,
-        "phone": "(714) 968-6128"
-      },
-      "restaurant": "Lamppost Pizza",
-      "source_notes": "Official specials, coupons, and happy hour page",
-      "source_url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "with Purchase of any Med or Large PIZZA at Regular Price",
-      "tags": [
-        "free"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "11065 Knott Ave. Suite A Cypress CA 90630 FL 32801 407.698.4161 Xperience Restaurant Group MAKE A RESERVATION Locations Specials Catering & Private Events Taco truck",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "FL 32801",
-        "407.698.4161",
-        "Xperience Restaurant Group",
-        "MAKE A RESERVATION",
-        "Locations",
-        "Specials",
-        "Catering & Private Events",
-        "Taco truck"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "54a55c67040a5007",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
-        "hours": {
-          "friday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "23:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7332,
-        "longitude": -117.9946,
-        "phone": "(714) 894-2792"
-      },
-      "restaurant": "Solita Tacos",
-      "source_notes": "Official happy hour promotion page",
-      "source_url": "https://solitatacos.com/promotions/happy-hour/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "11065 Knott Ave. Suite A Cypress CA 90630",
-      "tags": [
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "FEED YOUR SOL HAIL HAPPY HOUR. Join us for Happy Hour and relax over deals for tacos and margaritas JOIN OUR MAILING LIST FOR SPECIALS OFFERS & PROMOTIONS GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY SURPRISE ON YOUR BIRTHDAY.",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "HAIL HAPPY HOUR.",
-        "Join us for Happy Hour and relax over deals for tacos and margaritas",
-        "JOIN OUR MAILING LIST FOR",
-        "SPECIALS OFFERS & PROMOTIONS",
-        "GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY",
-        "SURPRISE ON YOUR BIRTHDAY."
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "4d4a6fdd3d019908",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
-        "hours": {
-          "friday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "23:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7332,
-        "longitude": -117.9946,
-        "phone": "(714) 894-2792"
-      },
-      "restaurant": "Solita Tacos",
-      "source_notes": "Official happy hour promotion page",
-      "source_url": "https://solitatacos.com/promotions/happy-hour/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "FEED YOUR SOL",
-      "tags": [
-        "happy_hour",
-        "free",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY JOIN OUR MAILING LIST FOR SPECIALS OFFERS & PROMOTIONS SURPRISE ON YOUR BIRTHDAY. SIGN UP SURPRISE ON YOUR BIRTHDAY. SIGN UP",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "JOIN OUR MAILING LIST FOR",
-        "SPECIALS OFFERS & PROMOTIONS",
-        "SURPRISE ON YOUR BIRTHDAY.",
-        "SIGN UP"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "02867e8bd2dd8b68",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
-        "hours": {
-          "friday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "23:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7332,
-        "longitude": -117.9946,
-        "phone": "(714) 894-2792"
-      },
-      "restaurant": "Solita Tacos",
-      "source_notes": "Official happy hour promotion page",
-      "source_url": "https://solitatacos.com/promotions/happy-hour/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY",
-      "tags": [
-        "free",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "HAIL HAPPY HOUR. CALL",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "CALL"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "e1456eb38bd523c4",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
-        "hours": {
-          "friday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "23:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7332,
-        "longitude": -117.9946,
-        "phone": "(714) 894-2792"
-      },
-      "restaurant": "Solita Tacos",
-      "source_notes": "Official happy hour promotion page",
-      "source_url": "https://solitatacos.com/promotions/happy-hour/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "HAIL HAPPY HOUR.",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Happy Hour Happy Hour - Solita Content CALL HAIL HAPPY HOUR. Join us for Happy Hour and relax over deals for tacos and margaritas FEED YOUR SOL",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy Hour - Solita",
-        "Content",
-        "CALL",
-        "HAIL HAPPY HOUR.",
-        "Join us for Happy Hour and relax over deals for tacos and margaritas",
-        "FEED YOUR SOL"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "deba16a0ad3ef2f1",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
-        "hours": {
-          "friday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "23:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7332,
-        "longitude": -117.9946,
-        "phone": "(714) 894-2792"
-      },
-      "restaurant": "Solita Tacos",
-      "source_notes": "Official happy hour promotion page",
-      "source_url": "https://solitatacos.com/promotions/happy-hour/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Happy Hour",
-      "tags": [
-        "happy_hour",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Happy Hour - Solita Content CALL",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Content",
-        "CALL"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "913acd682dab1942",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
-        "hours": {
-          "friday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "23:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7332,
-        "longitude": -117.9946,
-        "phone": "(714) 894-2792"
-      },
-      "restaurant": "Solita Tacos",
-      "source_notes": "Official happy hour promotion page",
-      "source_url": "https://solitatacos.com/promotions/happy-hour/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Happy Hour - Solita",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "JOIN OUR MAILING LIST FOR Join us for Happy Hour and relax over deals for tacos and margaritas FEED YOUR SOL SPECIALS OFFERS & PROMOTIONS GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY SURPRISE ON YOUR BIRTHDAY. SIGN UP",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Join us for Happy Hour and relax over deals for tacos and margaritas",
-        "FEED YOUR SOL",
-        "SPECIALS OFFERS & PROMOTIONS",
-        "GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY",
-        "SURPRISE ON YOUR BIRTHDAY.",
-        "SIGN UP"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "eb121553d300af17",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
-        "hours": {
-          "friday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "23:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7332,
-        "longitude": -117.9946,
-        "phone": "(714) 894-2792"
-      },
-      "restaurant": "Solita Tacos",
-      "source_notes": "Official happy hour promotion page",
-      "source_url": "https://solitatacos.com/promotions/happy-hour/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "JOIN OUR MAILING LIST FOR",
-      "tags": [
-        "happy_hour",
-        "free",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Join us for Happy Hour and relax over deals for tacos and margaritas Happy Hour",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy Hour"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "108a5d07d1939d02",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
-        "hours": {
-          "friday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "23:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7332,
-        "longitude": -117.9946,
-        "phone": "(714) 894-2792"
-      },
-      "restaurant": "Solita Tacos",
-      "source_notes": "Official happy hour promotion page",
-      "source_url": "https://solitatacos.com/promotions/happy-hour/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Join us for Happy Hour and relax over deals for tacos and margaritas",
-      "tags": [
-        "happy_hour",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "MAKE A RESERVATION 407.698.4161 Xperience Restaurant Group 11065 Knott Ave. Suite A Cypress CA 90630 Locations Specials Catering & Private Events Taco truck Our Story",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "407.698.4161",
-        "Xperience Restaurant Group",
-        "11065 Knott Ave. Suite A Cypress CA 90630",
-        "Locations",
-        "Specials",
-        "Catering & Private Events",
-        "Taco truck",
-        "Our Story"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "5bfea46810bd561b",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
-        "hours": {
-          "friday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "23:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7332,
-        "longitude": -117.9946,
-        "phone": "(714) 894-2792"
-      },
-      "restaurant": "Solita Tacos",
-      "source_notes": "Official happy hour promotion page",
-      "source_url": "https://solitatacos.com/promotions/happy-hour/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "MAKE A RESERVATION",
-      "tags": [
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "SIGN UP GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY SURPRISE ON YOUR BIRTHDAY. GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY SURPRISE ON YOUR BIRTHDAY. Valencia 24201 Valencia Blvd. STE. 3470.",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY",
-        "SURPRISE ON YOUR BIRTHDAY.",
-        "Valencia",
-        "24201 Valencia Blvd. STE. 3470."
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "b6f4a4e8af1416a1",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
-        "hours": {
-          "friday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "23:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7332,
-        "longitude": -117.9946,
-        "phone": "(714) 894-2792"
-      },
-      "restaurant": "Solita Tacos",
-      "source_notes": "Official happy hour promotion page",
-      "source_url": "https://solitatacos.com/promotions/happy-hour/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "SIGN UP",
-      "tags": [
-        "free"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "SIGN UP TO RECEIVE NEWS ABOUT NEW MENU ITEMS, EVENTS AND PROMOTIONS. FEED YOUR SOL JOIN OUR MAILING LIST FOR SPECIALS OFFERS & PROMOTIONS GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY SURPRISE ON YOUR BIRTHDAY. SIGN UP GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY SURPRISE ON YOUR BIRTHDAY.",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "FEED YOUR SOL",
-        "JOIN OUR MAILING LIST FOR",
-        "SPECIALS OFFERS & PROMOTIONS",
-        "GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY",
-        "SURPRISE ON YOUR BIRTHDAY.",
-        "SIGN UP"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "ce06c33bd5014ca8",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
-        "hours": {
-          "friday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "23:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7332,
-        "longitude": -117.9946,
-        "phone": "(714) 894-2792"
-      },
-      "restaurant": "Solita Tacos",
-      "source_notes": "Official happy hour promotion page",
-      "source_url": "https://solitatacos.com/promotions/happy-hour/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "SIGN UP TO RECEIVE NEWS ABOUT NEW MENU ITEMS, EVENTS AND PROMOTIONS.",
-      "tags": [
-        "free",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "SPECIALS OFFERS & PROMOTIONS FEED YOUR SOL JOIN OUR MAILING LIST FOR GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY SURPRISE ON YOUR BIRTHDAY. SIGN UP GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "FEED YOUR SOL",
-        "JOIN OUR MAILING LIST FOR",
-        "GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY",
-        "SURPRISE ON YOUR BIRTHDAY.",
-        "SIGN UP"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "ac45ea6b7140b7cc",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
-        "hours": {
-          "friday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "23:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7332,
-        "longitude": -117.9946,
-        "phone": "(714) 894-2792"
-      },
-      "restaurant": "Solita Tacos",
-      "source_notes": "Official happy hour promotion page",
-      "source_url": "https://solitatacos.com/promotions/happy-hour/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "SPECIALS OFFERS & PROMOTIONS",
-      "tags": [
-        "free",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "SURPRISE ON YOUR BIRTHDAY. SPECIALS OFFERS & PROMOTIONS GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY SIGN UP GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY SIGN UP Valencia",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "SPECIALS OFFERS & PROMOTIONS",
-        "GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY",
-        "SIGN UP",
-        "Valencia"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "d4207f1f430edf83",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
-        "hours": {
-          "friday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "23:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7332,
-        "longitude": -117.9946,
-        "phone": "(714) 894-2792"
-      },
-      "restaurant": "Solita Tacos",
-      "source_notes": "Official happy hour promotion page",
-      "source_url": "https://solitatacos.com/promotions/happy-hour/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "SURPRISE ON YOUR BIRTHDAY.",
-      "tags": [
-        "free",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Xperience Restaurant Group 222 S Orange Ave. Orlando, FL 32801 407.698.4161 11065 Knott Ave. Suite A Cypress CA 90630 MAKE A RESERVATION Locations Specials Catering & Private Events",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "222 S Orange Ave. Orlando,",
-        "FL 32801",
-        "407.698.4161",
-        "11065 Knott Ave. Suite A Cypress CA 90630",
-        "MAKE A RESERVATION",
-        "Locations",
-        "Specials",
-        "Catering & Private Events"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "d623cf372fe8af8c",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
-        "hours": {
-          "friday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "23:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "22:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7332,
-        "longitude": -117.9946,
-        "phone": "(714) 894-2792"
-      },
-      "restaurant": "Solita Tacos",
-      "source_notes": "Official happy hour promotion page",
-      "source_url": "https://solitatacos.com/promotions/happy-hour/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Xperience Restaurant Group",
-      "tags": [
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "View Happy Hour Menu $5 Draft Beers",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "$5 Draft Beers"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "7c68619331ee7633",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "9059 Adams Ave, Huntington Beach, CA 92646",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ]
-        },
-        "latitude": 33.6722,
-        "longitude": -117.9704,
-        "phone": "(714) 916-5862"
-      },
-      "restaurant": "Zubie's Dry Dock",
-      "source_notes": "Official homepage with happy hour and daily specials",
-      "source_url": "https://zubiesdrydock.com/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "View Happy Hour Menu",
-      "tags": [
-        "dollar_amount",
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday",
-        "saturday",
-        "sunday"
-      ],
-      "candidate_text": "Daily Specials Discounted Apps & Bites View Happy Hour Menu Every Day of the Week We feature a different delicious special every day for both lunch and dinner. There's always something new to try at Zubie's.",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Discounted Apps & Bites",
-        "View Happy Hour Menu",
-        "Every Day of the Week",
-        "We feature a different delicious special every day for both lunch and dinner. There's always something new to try at Zubie's."
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "039dafef6c3a4b99",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "9059 Adams Ave, Huntington Beach, CA 92646",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ]
-        },
-        "latitude": 33.6722,
-        "longitude": -117.9704,
-        "phone": "(714) 916-5862"
-      },
-      "restaurant": "Zubie's Dry Dock",
-      "source_notes": "Official homepage with happy hour and daily specials",
-      "source_url": "https://zubiesdrydock.com/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Daily Specials",
-      "tags": [
-        "happy_hour",
-        "weekday_special",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Every day"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday",
-        "saturday",
-        "sunday"
-      ],
-      "candidate_text": "Every Day of the Week $6 Well Drinks & House Wines Discounted Apps & Bites View Happy Hour Menu",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "$6 Well Drinks & House Wines",
-        "Discounted Apps & Bites",
-        "View Happy Hour Menu"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "b41943259cbd2366",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "9059 Adams Ave, Huntington Beach, CA 92646",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ]
-        },
-        "latitude": 33.6722,
-        "longitude": -117.9704,
-        "phone": "(714) 916-5862"
-      },
-      "restaurant": "Zubie's Dry Dock",
-      "source_notes": "Official homepage with happy hour and daily specials",
-      "source_url": "https://zubiesdrydock.com/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Every Day of the Week",
-      "tags": [
-        "dollar_amount",
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Every day"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday",
-        "saturday",
-        "sunday"
-      ],
-      "candidate_text": "We feature a different delicious special every day for both lunch and dinner. There's always something new to try at Zubie's. View Happy Hour Menu Every Day of the Week",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "View Happy Hour Menu",
-        "Every Day of the Week"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "07ad6575ac5c47b8",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "9059 Adams Ave, Huntington Beach, CA 92646",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ]
-        },
-        "latitude": 33.6722,
-        "longitude": -117.9704,
-        "phone": "(714) 916-5862"
-      },
-      "restaurant": "Zubie's Dry Dock",
-      "source_notes": "Official homepage with happy hour and daily specials",
-      "source_url": "https://zubiesdrydock.com/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "We feature a different delicious special every day for both lunch and dinner. There's always something new to try at Zubie's.",
-      "tags": [
-        "happy_hour",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Every day"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "$6 Well Drinks & House Wines Happy Hour Join us every weekday afternoon for great deals on draft beers, well drinks, house wines, and delicious appetizers.",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy Hour",
-        "Join us every weekday afternoon for great deals on draft beers, well drinks, house wines, and delicious appetizers."
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "52ac83e812e74a4f",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "9059 Adams Ave, Huntington Beach, CA 92646",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ]
-        },
-        "latitude": 33.6722,
-        "longitude": -117.9704,
-        "phone": "(714) 916-5862"
-      },
-      "restaurant": "Zubie's Dry Dock",
-      "source_notes": "Official homepage with happy hour and daily specials",
-      "source_url": "https://zubiesdrydock.com/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "$6 Well Drinks & House Wines",
-      "tags": [
-        "dollar_amount",
-        "happy_hour",
-        "weekday_special",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Mon-Fri"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "About Us Happy Hour (Mon - Fri) 1:00 PM - 6:00 PM Quick Links Sports Large Groups VIP Club Reviews Blog",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy Hour (Mon - Fri)",
-        "1:00 PM - 6:00 PM",
-        "Quick Links",
-        "Sports",
-        "Large Groups",
-        "VIP Club",
-        "Reviews",
-        "Blog"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "38e28c40f75fa5a1",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "9059 Adams Ave, Huntington Beach, CA 92646",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ]
-        },
-        "latitude": 33.6722,
-        "longitude": -117.9704,
-        "phone": "(714) 916-5862"
-      },
-      "restaurant": "Zubie's Dry Dock",
-      "source_notes": "Official homepage with happy hour and daily specials",
-      "source_url": "https://zubiesdrydock.com/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "About Us",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": "1:00 PM - 6:00 PM",
-      "validity": "Mon-Fri, 1:00 PM - 6:00 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "Happy Hour 16-inch large pizza with your choice of three toppings. See Full Menu Monday - Friday \u2022 1:00 PM - 6:00 PM Join us every weekday afternoon for great deals on draft beers, well drinks, house wines, and delicious appetizers.",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "16-inch large pizza with your choice of three toppings.",
-        "See Full Menu",
-        "Monday - Friday \u2022 1:00 PM - 6:00 PM",
-        "Join us every weekday afternoon for great deals on draft beers, well drinks, house wines, and delicious appetizers."
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "6f2f5581c6752aaa",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "9059 Adams Ave, Huntington Beach, CA 92646",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ]
-        },
-        "latitude": 33.6722,
-        "longitude": -117.9704,
-        "phone": "(714) 916-5862"
-      },
-      "restaurant": "Zubie's Dry Dock",
-      "source_notes": "Official homepage with happy hour and daily specials",
-      "source_url": "https://zubiesdrydock.com/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Happy Hour",
-      "tags": [
-        "happy_hour",
-        "weekday_special",
-        "deal_language"
-      ],
-      "time_window": "1:00 PM - 6:00 PM",
-      "validity": "Mon-Fri, 1:00 PM - 6:00 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "Happy Hour (Mon - Fri) 9:00 AM - 9:00 PM Sunday Breakfast 9:00 AM - 12:00 PM 1:00 PM - 6:00 PM Quick Links About Us Sports Large Groups",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "9:00 AM - 9:00 PM",
-        "Sunday Breakfast",
-        "9:00 AM - 12:00 PM",
-        "1:00 PM - 6:00 PM",
-        "Quick Links",
-        "About Us",
-        "Sports",
-        "Large Groups"
-      ],
-      "first_seen": "2026-09-10T00:11:27Z",
-      "id": "bb96f5b8431d6879",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:11:27Z",
-      "location": {
-        "address": "9059 Adams Ave, Huntington Beach, CA 92646",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "monday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "22:00",
-              "open": "11:30"
-            }
-          ]
-        },
-        "latitude": 33.6722,
-        "longitude": -117.9704,
-        "phone": "(714) 916-5862"
-      },
-      "restaurant": "Zubie's Dry Dock",
-      "source_notes": "Official homepage with happy hour and daily specials",
-      "source_url": "https://zubiesdrydock.com/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Happy Hour (Mon - Fri)",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "9:00 AM - 9:00 PM",
-      "validity": "Mon-Fri, 9:00 AM - 9:00 PM"
     }
   ],
-  "generated_at": "2026-09-10T00:14:30Z",
+  "generated_at": "2026-09-10T00:16:48Z",
   "scope": {
     "cities": [
       "Fountain Valley",
@@ -6236,7 +3587,7 @@
   "sources": [
     {
       "candidate_count": 0,
-      "checked_at": "2026-09-10T00:14:30Z",
+      "checked_at": "2026-09-10T00:16:48Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18033 Magnolia St, Fountain Valley, CA 92708",
@@ -6296,7 +3647,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T00:14:30Z",
+      "checked_at": "2026-09-10T00:16:48Z",
       "city": "Huntington Beach",
       "location": {
         "address": "807 E Adams Ave, Huntington Beach, CA 92648",
@@ -6356,7 +3707,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T00:14:30Z",
+      "checked_at": "2026-09-10T00:16:48Z",
       "city": "Fountain Valley",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
@@ -6416,7 +3767,7 @@
     },
     {
       "candidate_count": 8,
-      "checked_at": "2026-09-10T00:14:30Z",
+      "checked_at": "2026-09-10T00:16:48Z",
       "city": "Huntington Beach",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
@@ -6476,7 +3827,7 @@
     },
     {
       "candidate_count": 4,
-      "checked_at": "2026-09-10T00:14:30Z",
+      "checked_at": "2026-09-10T00:16:48Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
@@ -6536,7 +3887,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T00:14:30Z",
+      "checked_at": "2026-09-10T00:16:48Z",
       "city": "Huntington Beach",
       "location": {
         "address": "215 Main St, Huntington Beach, CA 92648",
@@ -6596,7 +3947,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T00:14:30Z",
+      "checked_at": "2026-09-10T00:16:48Z",
       "city": "Huntington Beach",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
@@ -6656,7 +4007,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T00:14:30Z",
+      "checked_at": "2026-09-10T00:16:48Z",
       "city": "Huntington Beach",
       "location": {
         "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
@@ -6716,7 +4067,7 @@
     },
     {
       "candidate_count": 9,
-      "checked_at": "2026-09-10T00:14:30Z",
+      "checked_at": "2026-09-10T00:16:48Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
@@ -6780,7 +4131,7 @@
     },
     {
       "candidate_count": 0,
-      "checked_at": "2026-09-10T00:14:30Z",
+      "checked_at": "2026-09-10T00:16:48Z",
       "city": "Fountain Valley",
       "location": {
         "address": "10201 Slater Ave, Fountain Valley, CA 92708",
@@ -6840,7 +4191,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T00:14:30Z",
+      "checked_at": "2026-09-10T00:16:48Z",
       "city": "Huntington Beach",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
@@ -6900,7 +4251,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T00:14:30Z",
+      "checked_at": "2026-09-10T00:16:48Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
@@ -6960,7 +4311,7 @@
     },
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-10T00:14:30Z",
+      "checked_at": "2026-09-10T00:16:48Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
@@ -7020,7 +4371,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T00:14:30Z",
+      "checked_at": "2026-09-10T00:16:48Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
@@ -7080,7 +4431,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T00:14:30Z",
+      "checked_at": "2026-09-10T00:16:48Z",
       "city": "Huntington Beach",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
@@ -7143,7 +4494,7 @@
     "active_deals": 42,
     "failed_sources": 0,
     "healthy_sources": 15,
-    "stale_deals": 32,
-    "total_deals": 74
+    "stale_deals": 0,
+    "total_deals": 42
   }
 }
