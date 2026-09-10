@@ -133,7 +133,7 @@ def api_request(api_key: str, point: dict[str, Any], config: dict[str, Any]) -> 
         except HTTPError as exc:
             message = exc.read().decode("utf-8", errors="replace")[:500]
             last_error = RuntimeError(f"Places API HTTP {exc.code}: {message}")
-            if exc.code not in {429, 500, 502, 503, 504}:
+            if exc.code not in {429, 500, 502, 503, 504} or (exc.code == 429 and "per day" in message.lower()):
                 break
         except (OSError, URLError, json.JSONDecodeError) as exc:
             last_error = exc
@@ -413,6 +413,9 @@ def main() -> int:
                     found[normalized["place_id"]] = normalized
         except Exception as exc:
             failures.append(f'{point["latitude"]},{point["longitude"]}: {exc}')
+            if "per day" in str(exc).lower() and "429" in str(exc):
+                print("Daily Places quota is exhausted; deferring this city without changing restaurant data")
+                return 0
         if index % 25 == 0:
             print(f"Scanned {index}/{len(points)} map cells; found {len(found)} restaurants")
 
