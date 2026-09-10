@@ -2,6 +2,1076 @@
   "crawler_version": 15,
   "deals": [
     {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "Lunch Specials ranging from $4.99 to $14.99 Available 11:00 AM - 4:00 PM Includes various lunch combos with pizza, subs, pasta, and salads.",
+      "categories": [
+        "food",
+        "drink",
+        "general"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Available 11:00 AM - 4:00 PM",
+        "Includes various lunch combos with pizza, subs, pasta, and salads."
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "6d649be8bb6423a9",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "restaurant": "Ameci Pizza & Pasta",
+      "source_evidence": [
+        "Lunch Specials",
+        "Only available 11:00 AM - 4:00 PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "status": "active",
+      "summary": "Lunch Specials ranging from $4.99 to $14.99",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": "11:00 AM - 4:00 PM",
+      "valid_through": null,
+      "validity": "11:00 AM - 4:00 PM"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "$5 off on purchases of $35 or more Purchase $35 or More on Regular Menu Price and Get $5",
+      "categories": [
+        "general"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Purchase $35 or More on Regular Menu Price and Get $5"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "71643361b5ac647e",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "restaurant": "Ameci Pizza & Pasta",
+      "source_evidence": [
+        "Purchase $35 or More on Regular Menu Price and Get $5",
+        "$5.00"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "status": "active",
+      "summary": "$5 off on purchases of $35 or more",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "Lasagna Dinner Combo for $26.99 Two Lasagna Dinner One Dinner Salad One Garlic Bread Price: $26.99",
+      "categories": [
+        "food",
+        "general"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Two Lasagna Dinner",
+        "One Dinner Salad",
+        "One Garlic Bread",
+        "Price: $26.99"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "f41b4a3101150c62",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "restaurant": "Ameci Pizza & Pasta",
+      "source_evidence": [
+        "Two Lasagna Dinner, One Dinner Salad, One Garlic Bread",
+        "$26.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "status": "active",
+      "summary": "Lasagna Dinner Combo for $26.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "Manager Special Bundle for $39.99 Two 14'' Large Pizza with 1-Topping each 9 Pieces Chicken Wings 2-Liter of Coke Price: $39.99",
+      "categories": [
+        "food",
+        "drink",
+        "general"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Two 14'' Large Pizza with 1-Topping each",
+        "9 Pieces Chicken Wings",
+        "2-Liter of Coke",
+        "Price: $39.99"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "58da1736eb665ff7",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "restaurant": "Ameci Pizza & Pasta",
+      "source_evidence": [
+        "Manager Special",
+        "Two 14'' Large Pizza with 1-Topping each, 9 Pieces Chicken Wings & 2-Liter of Coke",
+        "$39.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "status": "active",
+      "summary": "Manager Special Bundle for $39.99",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "One Large One Topping 14\" Pizza Pickup Special Only available for pickup One Large One Topping 14\" Pizza Price: $10.99",
+      "categories": [
+        "food",
+        "general"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Only available for pickup",
+        "One Large One Topping 14\" Pizza",
+        "Price: $10.99"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "2a6aaa0414a774fa",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "restaurant": "Ameci Pizza & Pasta",
+      "source_evidence": [
+        "Pick Up Specials",
+        "Only available for pickup",
+        "One Large One Topping 14\" Pizza Pick Up Special",
+        "$10.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "status": "active",
+      "summary": "One Large One Topping 14\" Pizza Pickup Special",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "Pizza Twins Deal for $28.99 Two large 14'' pizzas One topping each Price: $28.99",
+      "categories": [
+        "food",
+        "general"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Two large 14'' pizzas",
+        "One topping each",
+        "Price: $28.99"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "37ff626ec9805dde",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "restaurant": "Ameci Pizza & Pasta",
+      "source_evidence": [
+        "Pizza Twins",
+        "Two large 14'' pizzas, One topping each.",
+        "$28.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "status": "active",
+      "summary": "Pizza Twins Deal for $28.99",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "Spaghetti and Salads Combo for $26.99 Two Spaghetti With Meatballs One Dinner Salad One Garlic Bread Price: $26.99",
+      "categories": [
+        "food",
+        "general"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Two Spaghetti With Meatballs",
+        "One Dinner Salad",
+        "One Garlic Bread",
+        "Price: $26.99"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "c6e5548ee583e66c",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "restaurant": "Ameci Pizza & Pasta",
+      "source_evidence": [
+        "Two Spaghetti With Meatballs, One Dinner Salad, One Garlic Bread",
+        "$26.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "status": "active",
+      "summary": "Spaghetti and Salads Combo for $26.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "The Great Meal Bundle for $29.99 1 large 14'' cheese pizza 1 Spaghetti with meatballs 1 antipasto salad Price: $29.99",
+      "categories": [
+        "food",
+        "general"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "1 large 14'' cheese pizza",
+        "1 Spaghetti with meatballs",
+        "1 antipasto salad",
+        "Price: $29.99"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "b46602e307b0ec2a",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "restaurant": "Ameci Pizza & Pasta",
+      "source_evidence": [
+        "The Great Meal",
+        "1 large 14'' cheese pizza,1 Spaghetti with meatballs,1 antipasto salad.",
+        "$29.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "status": "active",
+      "summary": "The Great Meal Bundle for $29.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "Two Jumbo 16'' Pizzas Deal for $32.99 Two Jumbo 16'' Pizzas with One Topping Price: $32.99",
+      "categories": [
+        "food",
+        "general"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Two Jumbo 16'' Pizzas with One Topping",
+        "Price: $32.99"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "22a706f44379cb4c",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "restaurant": "Ameci Pizza & Pasta",
+      "source_evidence": [
+        "Two Jumbo 16'' Pizzas with One Topping",
+        "$32.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.orderamecipizzapasta.com/?utm_source=gbp",
+      "status": "active",
+      "summary": "Two Jumbo 16'' Pizzas Deal for $32.99",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "Free Delivery on Orders Over $50 Free delivery applies to orders over $50",
+      "categories": [
+        "food",
+        "general"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Free delivery applies to orders over $50"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "140c32b29baaf88d",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "6522 Bolsa Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=2479962722401340317&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7441805,
+        "longitude": -118.01504109999999,
+        "phone": "(657) 507-1967",
+        "place_id": "ChIJs2w_GAAn3YARnUvx5PSYaiI"
+      },
+      "restaurant": "Anatolia Mediterranean Grill & Breakfast",
+      "source_evidence": [
+        "Free Delivery on Orders Over $50!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://anatoliamediterranean.com/products/anatolia-special-mix-kebab",
+      "status": "active",
+      "summary": "Free Delivery on Orders Over $50",
+      "tags": [
+        "dollar_amount",
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "sunday"
+      ],
+      "candidate_text": "$5 Limoncello Bellinis Made with Premium Prosecco and Limoncello, garnished with Fresh Raspberries and Mint Leaf",
+      "categories": [
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Made with Premium Prosecco and Limoncello, garnished with Fresh Raspberries and Mint Leaf"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "1cfa46057cf0b8dd",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "21501 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12801993322218689148&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "16:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "16:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "16:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "12:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "16:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "16:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "16:30"
+            }
+          ]
+        },
+        "latitude": 33.6501638,
+        "longitude": -117.95419659999997,
+        "phone": "(714) 963-7980",
+        "place_id": "ChIJ71mZpion3YARfJLEQxnRqbE"
+      },
+      "restaurant": "Basilico's Pasta e Vino",
+      "source_evidence": [
+        "$5 LIMONCELLO BELLINI SUNDAYS",
+        "Every Sunday, 12:00 PM to 4:00 PM",
+        "Limoncello Bellinis made with Premium Prosecco and Limoncello, garnished with Fresh Raspberries and Mint Leaf."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.basilicospastavino.com/specials-events",
+      "status": "active",
+      "summary": "$5 Limoncello Bellinis",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": "12:00 PM - 4:00 PM",
+      "valid_through": null,
+      "validity": "Sun, 12:00 PM - 4:00 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "sunday"
+      ],
+      "candidate_text": "Italian Sandwich Lunch Special for $15 with side and soda Homemade Meatball or Chicken Parmesan Sandwich on Fresh Baked Ciabatta Bread Comes with a side of Garlic Parmesan Potato Wedges or Romaine and Mixed Greens House Salad Includes a soda Add a glass of house Red or White Vino or a Beer for $5",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Homemade Meatball or Chicken Parmesan Sandwich on Fresh Baked Ciabatta Bread",
+        "Comes with a side of Garlic Parmesan Potato Wedges or Romaine and Mixed Greens House Salad",
+        "Includes a soda",
+        "Add a glass of house Red or White Vino or a Beer for $5"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "16c74a986388d0cf",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "21501 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12801993322218689148&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "16:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "16:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "16:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "12:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "16:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "16:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "16:30"
+            }
+          ]
+        },
+        "latitude": 33.6501638,
+        "longitude": -117.95419659999997,
+        "phone": "(714) 963-7980",
+        "place_id": "ChIJ71mZpion3YARfJLEQxnRqbE"
+      },
+      "restaurant": "Basilico's Pasta e Vino",
+      "source_evidence": [
+        "ITALIAN SANDWICH LUNCH SPECIAL",
+        "Every Sunday",
+        "$15",
+        "FROM 12 PM TIL 4PM."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.basilicospastavino.com/specials-events",
+      "status": "active",
+      "summary": "Italian Sandwich Lunch Special for $15 with side and soda",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": "12:00 PM - 4:00 PM",
+      "valid_through": null,
+      "validity": "Sun, 12:00 PM - 4:00 PM"
+    },
+    {
       "ai_confidence": null,
       "applies_days": [
         "monday",
@@ -25,7 +1095,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "a3e409f79a150a97",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -117,7 +1187,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "184f74070521c82d",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -203,7 +1273,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "ca3e67494d5c9c6e",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -289,7 +1359,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "0bbca70d61eb1130",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -375,7 +1445,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "dd66f6a6cf244601",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -445,6 +1515,514 @@
     },
     {
       "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "2 Top Pizza and 16oz Fountain Drink One 11-inch 2-Top pizza One 16oz Fountain Drink Pickup Only",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "One 11-inch 2-Top pizza",
+        "One 16oz Fountain Drink",
+        "Pickup Only"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "08b5669193ac63bc",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "17150 Brookhurst St #D, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10735232304953417645&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.714076,
+        "longitude": -117.9540937,
+        "phone": "(714) 587-1672",
+        "place_id": "ChIJMRDQWBEn3YARrd8LVuc0-5Q"
+      },
+      "restaurant": "Blaze Pizza",
+      "source_evidence": [
+        "2 Top + Drink - Pickup Only",
+        "BLAZIN\u2019 DEAL: Get one 11-inch 2-Top pizza and a 16oz Fountain Drink."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://locations.blazepizza.com/us/ca/fountain-valley/blazepizza-1264",
+      "status": "active",
+      "summary": "2 Top Pizza and 16oz Fountain Drink",
+      "tags": [],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "One Large 1-Top Pizza One Large Pizza with choice of sauce, cheese and 1 topping Online Only",
+      "categories": [
+        "food"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "One Large Pizza with choice of sauce, cheese and 1 topping",
+        "Online Only"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "8e5fb7ff3e78d545",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "17150 Brookhurst St #D, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10735232304953417645&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.714076,
+        "longitude": -117.9540937,
+        "phone": "(714) 587-1672",
+        "place_id": "ChIJMRDQWBEn3YARrd8LVuc0-5Q"
+      },
+      "restaurant": "Blaze Pizza",
+      "source_evidence": [
+        "One Large 1-Top Pizza",
+        "Get one Large Pizza with your choice of sauce, cheese and 1 topping. Online Only."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://locations.blazepizza.com/us/ca/fountain-valley/blazepizza-1264",
+      "status": "active",
+      "summary": "One Large 1-Top Pizza",
+      "tags": [],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday"
+      ],
+      "candidate_text": "Pizza Party for One One 11 inch 1-Top pizza One 16oz House-made lemonade, tea, or Coca-Cola fountain drink Online pick up only",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "One 11 inch 1-Top pizza",
+        "One 16oz House-made lemonade, tea, or Coca-Cola fountain drink",
+        "Online pick up only"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "3d17084dacb8562d",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "17150 Brookhurst St #D, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10735232304953417645&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.714076,
+        "longitude": -117.9540937,
+        "phone": "(714) 587-1672",
+        "place_id": "ChIJMRDQWBEn3YARrd8LVuc0-5Q"
+      },
+      "restaurant": "Blaze Pizza",
+      "source_evidence": [
+        "Pizza Party for One",
+        "Get one 11 inch 1-Top and a 16oz House-made lemonade, tea, or Coca-Cola\u00ae fountain drink."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://locations.blazepizza.com/us/ca/fountain-valley/blazepizza-1264",
+      "status": "active",
+      "summary": "Pizza Party for One",
+      "tags": [],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Mon"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday"
+      ],
+      "candidate_text": "Gnocchi Day BOGO: Buy one get one free Buy one gnocchi, get one free Valid every 29th of the month",
+      "categories": [
+        "food"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Buy one gnocchi, get one free",
+        "Valid every 29th of the month"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "4f82018ecd2f3007",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=9498211700790055897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7152463,
+        "longitude": -117.9758035,
+        "phone": "(714) 375-3305",
+        "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM"
+      },
+      "restaurant": "Cambalache Grill Argentine & Italian Cuisine",
+      "source_evidence": [
+        "Every 29th of the month is Gnocchi Day, buy one get one free!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cambalachegrill.com/fountain-valley-fountain-valley-cambalache-grill-argentine-and-italian-cuisine-happy-hours-specials",
+      "status": "active",
+      "summary": "Gnocchi Day BOGO: Buy one get one free",
+      "tags": [
+        "bogo",
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Mon"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "candidate_text": "Empanada Tuesday: All cooked empanadas are half price All cooked empanadas are 1/2 price",
+      "categories": [
+        "food"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "All cooked empanadas are 1/2 price"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "9b0c4b6bb5bb2a66",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=9498211700790055897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7152463,
+        "longitude": -117.9758035,
+        "phone": "(714) 375-3305",
+        "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM"
+      },
+      "restaurant": "Cambalache Grill Argentine & Italian Cuisine",
+      "source_evidence": [
+        "Tuesday",
+        "Empanada Tuesday- All cooked empanadas are 1/2 price!",
+        "11:00 AM - 08:00 PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cambalachegrill.com/fountain-valley-fountain-valley-cambalache-grill-argentine-and-italian-cuisine-happy-hours-specials",
+      "status": "active",
+      "summary": "Empanada Tuesday: All cooked empanadas are half price",
+      "tags": [
+        "percent_off",
+        "weekday_special"
+      ],
+      "time_window": "11:00 AM - 08:00 PM",
+      "valid_through": null,
+      "validity": "Tue, 11:00 AM - 08:00 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "candidate_text": "Pizza BOGO: Buy one get one free Buy one pizza, get one free Free pizza will be the lesser price",
+      "categories": [
+        "food"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Buy one pizza, get one free",
+        "Free pizza will be the lesser price"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "4526c12b0adcb827",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=9498211700790055897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7152463,
+        "longitude": -117.9758035,
+        "phone": "(714) 375-3305",
+        "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM"
+      },
+      "restaurant": "Cambalache Grill Argentine & Italian Cuisine",
+      "source_evidence": [
+        "Wednesday",
+        "Pizza Bogo- Buy one, get one free!",
+        "(Free pizza will be the lessor price)",
+        "11:00 AM - 08:00 PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.cambalachegrill.com/fountain-valley-fountain-valley-cambalache-grill-argentine-and-italian-cuisine-happy-hours-specials",
+      "status": "active",
+      "summary": "Pizza BOGO: Buy one get one free",
+      "tags": [
+        "bogo",
+        "free"
+      ],
+      "time_window": "11:00 AM - 08:00 PM",
+      "valid_through": null,
+      "validity": "Wed, 11:00 AM - 08:00 PM"
+    },
+    {
+      "ai_confidence": 0.95,
       "applies_days": [
         "monday",
         "tuesday",
@@ -468,7 +2046,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "4528337bf42f2c04",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "19881 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -568,8 +2146,200 @@
         "deal_language"
       ],
       "time_window": "Monday 4PM- CLOSE, Tuesday- Friday 4PM-6PM",
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Mon-Fri, Monday 4PM- CLOSE, Tuesday- Friday 4PM-6PM"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "candidate_text": "Pizza Combo #1: Giant slice, lunch salad, and drink for 9.40 Includes 1 giant pizza slice, lunch salad & fountain drink Specialty slice add $1.00 Price: 9.4",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Includes 1 giant pizza slice, lunch salad & fountain drink",
+        "Specialty slice add $1.00",
+        "Price: 9.4"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "afc8c05c805686cf",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "18671 Brookhurst St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17733244684733818473&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6914778,
+        "longitude": -117.95523329999999,
+        "phone": "(714) 964-4800",
+        "place_id": "ChIJK3yO9jMn3YARaaakBBYkGfY"
+      },
+      "restaurant": "First Class Pizza",
+      "source_evidence": [
+        "Lunch Specials served 11:00am - 3:00pm \u2022 Monday - Friday",
+        "Pizza Combo #1",
+        "Includes 1 giant pizza slice, lunch salad & fountain drink.",
+        "9.4"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://ilovefcp.com/specials/",
+      "status": "active",
+      "summary": "Pizza Combo #1: Giant slice, lunch salad, and drink for 9.40",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": "11:00am - 3:00pm",
+      "valid_through": null,
+      "validity": "Mon-Fri, 11:00am - 3:00pm"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "candidate_text": "Pizza Combo #2: 2 giant pizza slices and fountain drink for 10.99 Includes 2 giant pizza slices & fountain drink Specialty slice add $1.00 Price: 10.99",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Fountain Valley",
+      "days_since_seen": 0,
+      "details": [
+        "Includes 2 giant pizza slices & fountain drink",
+        "Specialty slice add $1.00",
+        "Price: 10.99"
+      ],
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "578fe76990e6b815",
+      "is_stale": false,
+      "last_seen": "2026-09-10T02:24:01Z",
+      "location": {
+        "address": "18671 Brookhurst St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17733244684733818473&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6914778,
+        "longitude": -117.95523329999999,
+        "phone": "(714) 964-4800",
+        "place_id": "ChIJK3yO9jMn3YARaaakBBYkGfY"
+      },
+      "restaurant": "First Class Pizza",
+      "source_evidence": [
+        "Lunch Specials served 11:00am - 3:00pm \u2022 Monday - Friday",
+        "Pizza Combo #2",
+        "Includes 2 giant pizza slices & fountain drink.",
+        "10.99"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://ilovefcp.com/specials/",
+      "status": "active",
+      "summary": "Pizza Combo #2: 2 giant pizza slices and fountain drink for 10.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": "11:00am - 3:00pm",
+      "valid_through": null,
+      "validity": "Mon-Fri, 11:00am - 3:00pm"
     },
     {
       "ai_confidence": null,
@@ -599,7 +2369,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "6a8211372a6ecd7b",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "807 Adams Ave, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -685,7 +2455,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "e4d0c5f9b28fd58e",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -780,7 +2550,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "7ad5f67f6d0e8602",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -875,7 +2645,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "4bbe95bd0ffd47e9",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -962,7 +2732,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "cdf9967358604fce",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1041,7 +2811,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "92146b0ee6a404ad",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -1125,7 +2895,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "8fed335514a3bbde",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -1211,7 +2981,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "9d96ca0a186d956b",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -1295,7 +3065,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "aba3039f4cdbb4bb",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -1389,7 +3159,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "e8551543f33b54a8",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "215 Main St, Huntington Beach, CA 92648",
         "hours": {
@@ -1478,7 +3248,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "1d66a1074ac1c416",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1546,7 +3316,7 @@
         "happy_hour"
       ],
       "time_window": "2-5pm",
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Mon-Fri, 2-5pm"
     },
     {
@@ -1566,7 +3336,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "e27f6b7fa88e2bd7",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1635,7 +3405,7 @@
         "weekday_special"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Sun"
     },
     {
@@ -1655,7 +3425,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "48b944860daf26cc",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1723,7 +3493,7 @@
         "weekday_special"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Thu"
     },
     {
@@ -1743,7 +3513,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "16a66e088961b9ff",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1811,7 +3581,7 @@
         "weekday_special"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Tue"
     },
     {
@@ -1831,7 +3601,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "700c6792e34172e3",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1900,7 +3670,7 @@
         "weekday_special"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Wed"
     },
     {
@@ -1922,7 +3692,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "45b705f2a2037e85",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1991,7 +3761,7 @@
         "dollar_amount"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Weekend"
     },
     {
@@ -2012,7 +3782,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "36ecd3379921c78a",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2080,7 +3850,7 @@
         "weekday_special"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Weekend"
     },
     {
@@ -2110,7 +3880,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "254934ce9aae95bd",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -2198,7 +3968,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "51d8300f03acb8d3",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -2289,7 +4059,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "b669d1f87691b6e5",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -2378,7 +4148,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "c02c9eb945d74125",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
         "hours": {
@@ -2461,7 +4231,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "79e2a9d4263feb0e",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -2548,7 +4318,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "3abe2ff4397a0831",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -2635,7 +4405,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "907d61616f750b6d",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -2722,7 +4492,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "a32902cab24d4160",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -2810,7 +4580,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "700d259c156747f0",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2897,7 +4667,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "628ac54d6ba762ca",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -2986,7 +4756,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "49d67dceb970ac15",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -3072,7 +4842,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "51411e16e9f61c14",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -3159,7 +4929,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "35f90d80e5b76dd4",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -3245,7 +5015,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "633770d6bfd63f33",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -3311,7 +5081,7 @@
         "dollar_amount"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Check source"
     },
     {
@@ -3332,7 +5102,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "8cd3b5ae6a071da7",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -3398,7 +5168,7 @@
         "dollar_amount"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Check source"
     },
     {
@@ -3418,7 +5188,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "12e57aec1b98fac4",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -3484,7 +5254,7 @@
         "dollar_amount"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Check source"
     },
     {
@@ -3504,7 +5274,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "90f5669191475d78",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -3570,7 +5340,7 @@
         "dollar_amount"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Check source"
     },
     {
@@ -3590,7 +5360,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "f13e2b63b85986c3",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -3656,7 +5426,7 @@
         "dollar_amount"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Check source"
     },
     {
@@ -3676,7 +5446,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "ce945e94109cf24c",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -3742,7 +5512,7 @@
         "dollar_amount"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Check source"
     },
     {
@@ -3762,7 +5532,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "831b6e255bedcba4",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -3828,7 +5598,7 @@
         "dollar_amount"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Check source"
     },
     {
@@ -3848,7 +5618,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "20e6c0719d4e4241",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -3914,7 +5684,7 @@
         "dollar_amount"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Check source"
     },
     {
@@ -3936,7 +5706,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "8b2bcd010f35bb3d",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -4005,7 +5775,7 @@
         "deal_language"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Fri"
     },
     {
@@ -4028,7 +5798,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "51acab68486ed33d",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -4094,7 +5864,7 @@
         "dollar_amount"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Mon"
     },
     {
@@ -4117,7 +5887,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "8890f3aae513f900",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -4188,7 +5958,7 @@
         "deal_language"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Tue"
     },
     {
@@ -4214,7 +5984,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "750174ec1c10ea87",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16391 Beach Blvd, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -4281,14 +6051,12 @@
         "deal_language"
       ],
       "time_window": "12pm-6pm",
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Every day, 12pm-6pm"
     },
     {
       "ai_confidence": 0.95,
-      "applies_days": [
-        "tuesday"
-      ],
+      "applies_days": [],
       "candidate_text": "$2 Off Drinks for Military, Police, and Firefighters $2 off drinks all day for military, police, and firefighters with ID",
       "categories": [
         "drink"
@@ -4301,7 +6069,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "16ef04592f4c103b",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16391 Beach Blvd, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -4369,14 +6137,12 @@
         "weekday_special"
       ],
       "time_window": "all day",
-      "valid_through": null,
-      "validity": "Tue, all day"
+      "valid_through": "None",
+      "validity": "all day"
     },
     {
       "ai_confidence": 0.95,
-      "applies_days": [
-        "wednesday"
-      ],
+      "applies_days": [],
       "candidate_text": "$6 Jack, Jameson, and Buffalo Trace $6 Jack, $6 Jameson, and $6 Buffalo Trace available all day",
       "categories": [
         "drink"
@@ -4389,7 +6155,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "35991ac389aa03b9",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16391 Beach Blvd, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -4456,8 +6222,8 @@
         "weekday_special"
       ],
       "time_window": "all day",
-      "valid_through": null,
-      "validity": "Wed, all day"
+      "valid_through": "None",
+      "validity": "all day"
     },
     {
       "ai_confidence": null,
@@ -4475,7 +6241,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "40ebc01c632ce4fa",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -4566,7 +6332,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "cc8d16cae580f858",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -4650,7 +6416,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "88f51558f931beae",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -4743,7 +6509,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "2049a4ccfac93784",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -4828,7 +6594,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "d5c0d77933076429",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -4921,7 +6687,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "4f35c0e6c25c4a82",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -5009,7 +6775,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "2b5c95f3f8fdac42",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -5098,7 +6864,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "7be23f68b6c1f3ae",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -5183,7 +6949,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "9625c427af7216ce",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -5268,7 +7034,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "07aabbde13e25352",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -5365,7 +7131,7 @@
       "first_seen": "2026-09-10T02:14:52Z",
       "id": "7aa74b0e229c0b32",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "714 Adams Ave Unit 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -5432,13 +7198,13 @@
         "happy_hour"
       ],
       "time_window": "4pm - 6pm",
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Mon-Fri, 4pm - 6pm"
     },
     {
       "ai_confidence": 0.9,
       "applies_days": [],
-      "candidate_text": "$3 Pretzel Bun Chili Dog Price: $3 Original Pretzel Bun Chili Dog only Cheese extra Coupon good for TWO orders on same visit Tax extra Must be surrendered at time of purchase Not valid with any other offer, discount or coupon Good at participating restaurants only",
+      "candidate_text": "$3 Pretzel Bun Chili Dog Coupon Price: $3 Original Pretzel Bun Chili Dog only Cheese extra Coupon good for TWO orders on same visit Must be surrendered at time of purchase Not valid with any other offer, discount or coupon Tax extra",
       "categories": [
         "food"
       ],
@@ -5449,67 +7215,66 @@
         "Original Pretzel Bun Chili Dog only",
         "Cheese extra",
         "Coupon good for TWO orders on same visit",
-        "Tax extra",
         "Must be surrendered at time of purchase",
         "Not valid with any other offer, discount or coupon",
-        "Good at participating restaurants only"
+        "Tax extra"
       ],
-      "first_seen": "2026-09-10T02:14:52Z",
-      "id": "c04b3d44a19da6d7",
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "711d506186f5f1c3",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
-        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "monday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "saturday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "sunday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "thursday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "tuesday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "wednesday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ]
         },
-        "latitude": 33.7009621,
-        "longitude": -117.9886627,
-        "phone": "(714) 596-0478",
-        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
       },
       "restaurant": "Wienerschnitzel",
       "source_evidence": [
@@ -5519,13 +7284,13 @@
       "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
       "source_url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/",
       "status": "active",
-      "summary": "$3 Pretzel Bun Chili Dog",
+      "summary": "$3 Pretzel Bun Chili Dog Coupon",
       "tags": [
         "dollar_amount",
         "deal_language"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Check source"
     },
     {
@@ -5533,7 +7298,7 @@
       "applies_days": [
         "friday"
       ],
-      "candidate_text": "Corn Dog, Small Fries and Small Soda for $5 Price: $5 Includes one corn dog, small fries, and small soda Coupon good for TWO orders on same visit Must be surrendered at time of purchase Tax extra Not valid with any other offer, discount or coupon Not valid in Sacramento, Stockton & Modesto areas",
+      "candidate_text": "$5 Corn Dog, Small Fries and Small Soda Deal Price: $5 Includes a corn dog, small fries, and small soda Coupon good for two orders on same visit Must be surrendered at time of purchase Tax extra Not valid with any other offer, discount or coupon Not valid in Sacramento, Stockton & Modesto areas",
       "categories": [
         "food",
         "drink"
@@ -5542,21 +7307,21 @@
       "days_since_seen": 0,
       "details": [
         "Price: $5",
-        "Includes one corn dog, small fries, and small soda",
-        "Coupon good for TWO orders on same visit",
+        "Includes a corn dog, small fries, and small soda",
+        "Coupon good for two orders on same visit",
         "Must be surrendered at time of purchase",
         "Tax extra",
         "Not valid with any other offer, discount or coupon",
         "Not valid in Sacramento, Stockton & Modesto areas"
       ],
-      "first_seen": "2026-09-10T02:14:52Z",
-      "id": "98cf092771223aba",
+      "first_seen": "2026-09-10T02:24:01Z",
+      "id": "05aa61974693c4c0",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
-        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
@@ -5601,10 +7366,10 @@
             }
           ]
         },
-        "latitude": 33.7009621,
-        "longitude": -117.9886627,
-        "phone": "(714) 596-0478",
-        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
       },
       "restaurant": "Wienerschnitzel",
       "source_evidence": [
@@ -5614,13 +7379,13 @@
       "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
       "source_url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/",
       "status": "active",
-      "summary": "Corn Dog, Small Fries and Small Soda for $5",
+      "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
       "tags": [
         "dollar_amount",
         "deal_language"
       ],
       "time_window": null,
-      "valid_through": null,
+      "valid_through": "None",
       "validity": "Fri"
     },
     {
@@ -5648,7 +7413,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "fee37a360eca1ab2",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -5741,7 +7506,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "06297b4e40cf6d49",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -5827,7 +7592,7 @@
       "first_seen": "2026-09-10T02:03:44Z",
       "id": "559826adabba5ded",
       "is_stale": false,
-      "last_seen": "2026-09-10T02:14:52Z",
+      "last_seen": "2026-09-10T02:24:01Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -5893,9 +7658,199 @@
       "time_window": "9 AM - 12 PM",
       "valid_through": null,
       "validity": "Sunday, 9 AM - noon"
+    },
+    {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "$3 Pretzel Bun Chili Dog Price: $3 Original Pretzel Bun Chili Dog only Cheese extra Coupon good for TWO orders on same visit Tax extra Must be surrendered at time of purchase Not valid with any other offer, discount or coupon Good at participating restaurants only",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $3",
+        "Original Pretzel Bun Chili Dog only",
+        "Cheese extra",
+        "Coupon good for TWO orders on same visit",
+        "Tax extra",
+        "Must be surrendered at time of purchase",
+        "Not valid with any other offer, discount or coupon",
+        "Good at participating restaurants only"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "c04b3d44a19da6d7",
+      "is_stale": true,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+      },
+      "restaurant": "Wienerschnitzel",
+      "source_evidence": [
+        "$3 - Pretzel Bun Chili Dog - 230",
+        "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$3 Pretzel Bun Chili Dog",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "friday"
+      ],
+      "candidate_text": "Corn Dog, Small Fries and Small Soda for $5 Price: $5 Includes one corn dog, small fries, and small soda Coupon good for TWO orders on same visit Must be surrendered at time of purchase Tax extra Not valid with any other offer, discount or coupon Not valid in Sacramento, Stockton & Modesto areas",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $5",
+        "Includes one corn dog, small fries, and small soda",
+        "Coupon good for TWO orders on same visit",
+        "Must be surrendered at time of purchase",
+        "Tax extra",
+        "Not valid with any other offer, discount or coupon",
+        "Not valid in Sacramento, Stockton & Modesto areas"
+      ],
+      "first_seen": "2026-09-10T02:14:52Z",
+      "id": "98cf092771223aba",
+      "is_stale": true,
+      "last_seen": "2026-09-10T02:14:52Z",
+      "location": {
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+      },
+      "restaurant": "Wienerschnitzel",
+      "source_evidence": [
+        "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+        "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "Corn Dog, Small Fries and Small Soda for $5",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Fri"
     }
   ],
-  "generated_at": "2026-09-10T02:14:52Z",
+  "generated_at": "2026-09-10T02:24:01Z",
   "scope": {
     "cities": [
       "Fountain Valley",
@@ -5903,13 +7858,13 @@
     ],
     "drop_after_days": 90,
     "restaurant_count": 693,
-    "source_count": 24,
+    "source_count": 30,
     "stale_after_days": 21
   },
   "sources": [
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
@@ -5972,7 +7927,7 @@
     },
     {
       "candidate_count": 0,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18033 Magnolia St, Fountain Valley, CA 92708, USA",
@@ -6035,7 +7990,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "807 Adams Ave, Huntington Beach, CA 92648, USA",
@@ -6098,7 +8053,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Fountain Valley",
       "location": {
         "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
@@ -6161,7 +8116,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
@@ -6221,7 +8176,7 @@
     },
     {
       "candidate_count": 4,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
@@ -6284,7 +8239,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "215 Main St, Huntington Beach, CA 92648",
@@ -6344,7 +8299,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
@@ -6404,7 +8359,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
@@ -6464,7 +8419,7 @@
     },
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
@@ -6527,7 +8482,7 @@
     },
     {
       "candidate_count": 0,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Fountain Valley",
       "location": {
         "address": "10201 Slater Ave, Fountain Valley, CA 92708",
@@ -6587,7 +8542,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
@@ -6647,7 +8602,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708, USA",
@@ -6710,7 +8665,7 @@
     },
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
@@ -6773,7 +8728,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
@@ -6836,7 +8791,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
@@ -6899,7 +8854,7 @@
     },
     {
       "candidate_count": 7,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
@@ -6962,7 +8917,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "19881 Brookhurst St, Huntington Beach, CA 92646, USA",
@@ -7053,7 +9008,7 @@
     },
     {
       "candidate_count": 4,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
@@ -7116,7 +9071,7 @@
     },
     {
       "candidate_count": 11,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
@@ -7179,7 +9134,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16391 Beach Blvd, Huntington Beach, CA 92647, USA",
@@ -7242,7 +9197,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "714 Adams Ave Unit 101, Huntington Beach, CA 92648, USA",
@@ -7305,60 +9260,60 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
-        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "monday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "saturday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "sunday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "thursday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "tuesday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "wednesday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ]
         },
-        "latitude": 33.7009621,
-        "longitude": -117.9886627,
-        "phone": "(714) 596-0478",
-        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
       },
       "mode": "ai_extracted",
       "name": "Wienerschnitzel",
@@ -7368,12 +9323,12 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T02:14:52Z",
+      "checked_at": "2026-09-10T02:24:01Z",
       "city": "Huntington Beach",
       "location": {
-        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
@@ -7418,23 +9373,395 @@
             }
           ]
         },
-        "latitude": 33.7009621,
-        "longitude": -117.9886627,
-        "phone": "(714) 596-0478",
-        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
       },
       "mode": "ai_extracted",
       "name": "Wienerschnitzel",
       "notes": "AI-extracted from an official restaurant page; source evidence checked",
       "ok": true,
       "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+    },
+    {
+      "candidate_count": 9,
+      "checked_at": "2026-09-10T02:24:01Z",
+      "city": "Fountain Valley",
+      "location": {
+        "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=5230696399930463212&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.702737899999995,
+        "longitude": -117.97054569999999,
+        "phone": "(714) 963-5790",
+        "place_id": "ChIJXWMDdSAn3YAR7BPFjakql0g"
+      },
+      "mode": "ai_extracted",
+      "name": "Ameci Pizza & Pasta",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://www.orderamecipizzapasta.com/?utm_source=gbp"
+    },
+    {
+      "candidate_count": 1,
+      "checked_at": "2026-09-10T02:24:01Z",
+      "city": "Huntington Beach",
+      "location": {
+        "address": "6522 Bolsa Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=2479962722401340317&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7441805,
+        "longitude": -118.01504109999999,
+        "phone": "(657) 507-1967",
+        "place_id": "ChIJs2w_GAAn3YARnUvx5PSYaiI"
+      },
+      "mode": "ai_extracted",
+      "name": "Anatolia Mediterranean Grill & Breakfast",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://anatoliamediterranean.com/products/anatolia-special-mix-kebab"
+    },
+    {
+      "candidate_count": 2,
+      "checked_at": "2026-09-10T02:24:01Z",
+      "city": "Huntington Beach",
+      "location": {
+        "address": "21501 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12801993322218689148&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "16:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "16:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "16:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "12:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "16:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "16:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "16:30"
+            }
+          ]
+        },
+        "latitude": 33.6501638,
+        "longitude": -117.95419659999997,
+        "phone": "(714) 963-7980",
+        "place_id": "ChIJ71mZpion3YARfJLEQxnRqbE"
+      },
+      "mode": "ai_extracted",
+      "name": "Basilico's Pasta e Vino",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://www.basilicospastavino.com/specials-events"
+    },
+    {
+      "candidate_count": 3,
+      "checked_at": "2026-09-10T02:24:01Z",
+      "city": "Fountain Valley",
+      "location": {
+        "address": "17150 Brookhurst St #D, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10735232304953417645&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.714076,
+        "longitude": -117.9540937,
+        "phone": "(714) 587-1672",
+        "place_id": "ChIJMRDQWBEn3YARrd8LVuc0-5Q"
+      },
+      "mode": "ai_extracted",
+      "name": "Blaze Pizza",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://locations.blazepizza.com/us/ca/fountain-valley/blazepizza-1264"
+    },
+    {
+      "candidate_count": 3,
+      "checked_at": "2026-09-10T02:24:01Z",
+      "city": "Fountain Valley",
+      "location": {
+        "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=9498211700790055897&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.7152463,
+        "longitude": -117.9758035,
+        "phone": "(714) 375-3305",
+        "place_id": "ChIJwddf-vwm3YAR2dMM2zdt0IM"
+      },
+      "mode": "ai_extracted",
+      "name": "Cambalache Grill Argentine & Italian Cuisine",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "http://www.cambalachegrill.com/fountain-valley-fountain-valley-cambalache-grill-argentine-and-italian-cuisine-happy-hours-specials"
+    },
+    {
+      "candidate_count": 2,
+      "checked_at": "2026-09-10T02:24:01Z",
+      "city": "Fountain Valley",
+      "location": {
+        "address": "18671 Brookhurst St, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=17733244684733818473&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6914778,
+        "longitude": -117.95523329999999,
+        "phone": "(714) 964-4800",
+        "place_id": "ChIJK3yO9jMn3YARaaakBBYkGfY"
+      },
+      "mode": "ai_extracted",
+      "name": "First Class Pizza",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://ilovefcp.com/specials/"
     }
   ],
   "summary": {
-    "active_deals": 66,
+    "active_deals": 86,
     "failed_sources": 0,
-    "healthy_sources": 24,
-    "stale_deals": 0,
-    "total_deals": 66
+    "healthy_sources": 30,
+    "stale_deals": 2,
+    "total_deals": 88
   }
 }
