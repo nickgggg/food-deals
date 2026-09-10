@@ -22,7 +22,7 @@ CONFIG_PATH = ROOT / "crawler" / "places_config.json"
 OUTPUT_PATH = ROOT / "docs" / "data" / "restaurants.json"
 PLACES_URL = "https://places.googleapis.com/v1/places:searchNearby"
 REQUEST_TIMEOUT = 15
-DISCOVERY_VERSION = 1
+DISCOVERY_VERSION = 2
 
 SPECIAL_LINK = re.compile(
     r"\b(?:happy[\s_-]*hour|daily[\s_-]*specials?|weekday[\s_-]*specials?|"
@@ -69,6 +69,8 @@ def should_refresh(refresh_days: int, force: bool) -> bool:
     if force:
         return True
     existing = load_json(OUTPUT_PATH, {})
+    if existing.get("discovery_version") != DISCOVERY_VERSION:
+        return True
     generated = parse_iso(existing.get("generated_at"))
     return not generated or utc_now() - generated >= timedelta(days=refresh_days)
 
@@ -95,7 +97,7 @@ def grid_points(config: dict[str, Any]) -> list[dict[str, Any]]:
 def api_request(api_key: str, point: dict[str, Any], config: dict[str, Any]) -> list[dict[str, Any]]:
     body = json.dumps(
         {
-            "includedTypes": config["included_types"],
+            "includedPrimaryTypes": config["included_types"],
             "maxResultCount": 20,
             "rankPreference": "DISTANCE",
             "locationRestriction": {

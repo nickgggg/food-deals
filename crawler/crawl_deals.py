@@ -13,6 +13,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Iterable, TypedDict
 from urllib.error import HTTPError, URLError
+from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 
 
@@ -23,7 +24,7 @@ OUTPUT_PATH = ROOT / "docs" / "data" / "deals.json"
 STALE_AFTER_DAYS = 21
 DROP_AFTER_DAYS = 90
 REQUEST_TIMEOUT = 25
-CRAWLER_VERSION = 13
+CRAWLER_VERSION = 14
 
 DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 DAY_LABELS = {
@@ -159,10 +160,19 @@ def inventory_location(restaurant: dict[str, Any], fallback: dict[str, Any] | No
     return location
 
 
+def website_host(url: str) -> str:
+    return (urlparse(url).hostname or "").lower().removeprefix("www.")
+
+
 def load_sources() -> list[Source]:
     raw_sources = [raw for raw in json.loads(SOURCES_PATH.read_text()) if not raw.get("retired")]
     inventory = load_restaurant_inventory()
     inventory_by_key = {restaurant_key(item["name"], item["city"]): item for item in inventory}
+    inventory_by_host = {
+        website_host(item.get("website_url", "")): item
+        for item in inventory
+        if website_host(item.get("website_url", ""))
+    }
     sources: list[Source] = []
     manual_keys: set[str] = set()
     seen_urls: set[str] = set()
@@ -171,7 +181,7 @@ def load_sources() -> list[Source]:
         key = restaurant_key(raw["name"], raw["city"])
         manual_keys.add(key)
         seen_urls.add(raw["url"].rstrip("/"))
-        matched = inventory_by_key.get(key)
+        matched = inventory_by_key.get(key) or inventory_by_host.get(website_host(raw["url"]))
         if matched:
             raw = dict(raw)
             raw["location"] = inventory_location(matched, raw.get("location"))
@@ -183,7 +193,7 @@ def load_sources() -> list[Source]:
             continue
         for page in restaurant.get("specials_pages", []):
             url = page.get("url", "").rstrip("/")
-            if page.get("confidence") != "high" or not url or url in seen_urls:
+            if not page.get("publish") or page.get("confidence") != "high" or not url or url in seen_urls:
                 continue
             seen_urls.add(url)
             sources.append(

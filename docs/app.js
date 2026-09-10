@@ -177,11 +177,6 @@ function renderFilterOptions() {
     if (deal.city) cities.add(deal.city);
     if (deal.restaurant) restaurants.add(deal.restaurant);
   }
-  for (const restaurant of state.restaurants?.restaurants || []) {
-    if (restaurant.business_status !== "OPERATIONAL") continue;
-    if (restaurant.city) cities.add(restaurant.city);
-    if (restaurant.name) restaurants.add(restaurant.name);
-  }
   renderSelectOptions(cityEl, [...cities].sort(), "All cities");
   renderSelectOptions(restaurantEl, [...restaurants].sort(), "All restaurants");
 }

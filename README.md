@@ -12,7 +12,7 @@ The project runs entirely on GitHub:
 
 ## Current Scope
 
-Curated sources live in `crawler/sources.json`. A weekly discovery pass scans the configured map grid, finds official websites and likely specials pages, and writes the restaurant inventory to `docs/data/restaurants.json`. High-confidence official specials pages can feed the deal crawler automatically; uncertain pages remain unpublished.
+Curated sources live in `crawler/sources.json`. A weekly discovery pass scans the configured map grid, finds official websites and likely specials pages, and writes the restaurant inventory to `docs/data/restaurants.json`. Discovered pages form a review queue; they publish only after a source-specific parser or explicit `publish` approval prevents generic page noise from reaching the site.
 
 The discovery job requires the repository Actions secret `GOOGLE_PLACES_API_KEY`, with Places API (New) enabled. Its map bounds and refresh interval live in `crawler/places_config.json`.
 
