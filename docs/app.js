@@ -302,8 +302,11 @@ function renderSummary(visibleDeals) {
 
   const locationText = state.locationMessage ? ` ${state.locationMessage}` : "";
   const dayText = state.day === "today" ? DAY_LABELS[todayKey()] : state.day ? tagLabel(state.day) : "any day";
+  const ageHours = generatedAt ? (Date.now() - new Date(generatedAt).getTime()) / 3600000 : Number.POSITIVE_INFINITY;
+  const delayed = ageHours > 36;
   metaEl.innerHTML = `
     <p><strong>${dayText}</strong> deals · Updated ${formatDate(generatedAt)}.${locationText}</p>
+    ${delayed ? '<p class="feed-warning"><strong>Refresh delayed.</strong> Deals may be out of date while the automated update recovers.</p>' : ""}
   `;
 }
 

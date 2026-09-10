@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Check whether fallback refresh is needed
         id: freshness
@@ -50,7 +50,7 @@ jobs:
 
       - name: Set up Python
         if: steps.freshness.outputs.should_run == 'true'
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -72,7 +72,26 @@ jobs:
 
       - name: Commit updated data
         if: steps.freshness.outputs.should_run == 'true'
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "Update deals data"
-          file_pattern: docs/data/deals.json docs/data/restaurants.json docs/data/ai_extractions.json
+        run: |
+          files=(docs/data/deals.json docs/data/restaurants.json docs/data/ai_extractions.json)
+          if git diff --quiet -- "${files[@]}"; then
+            echo "No data changes to publish"
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "${files[@]}"
+          git commit -m "Update deals data"
+
+          for attempt in 1 2 3; do
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "The branch changed while crawling; rebasing before retry $attempt"
+            git fetch origin main
+            git rebase origin/main
+            sleep $((attempt * 3))
+          done
+          echo "Could not publish refreshed data after three attempts"
+          exit 1

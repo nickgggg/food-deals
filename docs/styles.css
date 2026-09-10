@@ -300,6 +300,16 @@ button {
   margin: 0;
 }
 
+.meta .feed-warning {
+  margin-top: 7px;
+  padding: 7px 9px;
+  border-left: 3px solid var(--stale);
+  background: color-mix(in srgb, var(--amber) 12%, var(--surface));
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 0.72rem;
+}
+
 .project-status {
   margin: 0 0 10px;
   border: 1px solid var(--line);
