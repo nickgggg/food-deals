@@ -4,7 +4,7 @@ A lightweight, serverless tracker for local restaurant specials, beginning with 
 
 The project runs entirely on GitHub:
 
-- GitHub Actions runs the crawler every day at 14:37 UTC, plus manual `workflow_dispatch` runs.
+- GitHub Actions runs the crawler every day at 14:37 UTC, plus a 16:17 UTC fallback that exits when the feed is less than eight hours old and manual `workflow_dispatch` runs.
 - The crawler writes normalized JSON to `docs/data/deals.json`.
 - GitHub Pages serves the static frontend from `docs/`.
 - Google Places builds a staggered nearby-restaurant inventory and supplies current business details.

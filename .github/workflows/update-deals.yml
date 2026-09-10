@@ -9,10 +9,15 @@ on:
       - .github/workflows/update-deals.yml
   schedule:
     - cron: "37 14 * * *"
+    - cron: "17 16 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-deals
+  cancel-in-progress: false
 
 jobs:
   crawl:
@@ -21,25 +26,52 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
+      - name: Check whether fallback refresh is needed
+        id: freshness
+        env:
+          EVENT_SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from datetime import datetime, timedelta, timezone
+
+          should_run = True
+          if os.environ.get("EVENT_SCHEDULE") == "17 16 * * *":
+              try:
+                  payload = json.load(open("docs/data/deals.json"))
+                  generated = datetime.fromisoformat(payload["generated_at"].replace("Z", "+00:00"))
+                  should_run = datetime.now(timezone.utc) - generated >= timedelta(hours=8)
+              except (FileNotFoundError, KeyError, TypeError, ValueError, json.JSONDecodeError):
+                  pass
+          with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+              output.write(f"should_run={str(should_run).lower()}\n")
+          PY
+
       - name: Set up Python
+        if: steps.freshness.outputs.should_run == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: Refresh nearby restaurant coverage
+        if: steps.freshness.outputs.should_run == 'true'
         env:
           GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
         run: python crawler/discover_restaurants.py
 
       - name: Extract verified deals from candidate pages
+        if: steps.freshness.outputs.should_run == 'true'
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python crawler/extract_with_gemini.py
 
       - name: Crawl deals
+        if: steps.freshness.outputs.should_run == 'true'
         run: python crawler/crawl_deals.py
 
       - name: Commit updated data
+        if: steps.freshness.outputs.should_run == 'true'
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update deals data"
