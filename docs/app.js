@@ -25,7 +25,6 @@ const dealsEl = document.querySelector("#deals");
 const statsEl = document.querySelector("#stats");
 const metaEl = document.querySelector("#meta");
 const sourcesEl = document.querySelector("#sources");
-const jumpbarEl = document.querySelector("#jumpbar");
 const searchEl = document.querySelector("#search");
 const restaurantEl = document.querySelector("#restaurant");
 const cityEl = document.querySelector("#city");
@@ -191,8 +190,9 @@ function renderSummary() {
   `;
 
   const locationText = state.locationMessage ? ` ${state.locationMessage}` : "";
+  const dayText = state.day === "today" ? DAY_LABELS[todayKey()] : state.day ? tagLabel(state.day) : "any day";
   metaEl.innerHTML = `
-    <p>Updated <strong>${formatDate(generatedAt)}</strong>. Showing <strong>${state.day === "today" ? DAY_LABELS[todayKey()] : state.day || "any day"}</strong> deals.${locationText} Stale items drop after ${scope.drop_after_days} days.</p>
+    <p>Data refreshed <strong>${formatDate(generatedAt)}</strong>. Showing <strong>${dayText}</strong> deals.${locationText} Stale items drop after ${scope.drop_after_days} days.</p>
   `;
 }
 
@@ -203,8 +203,8 @@ function badge(text, className = "") {
   return span;
 }
 
-function mapsUrl(address) {
-  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(address)}`;
+function mapsUrl(name, address) {
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${name} ${address}`)}`;
 }
 
 function telUrl(phone) {
@@ -323,10 +323,10 @@ function renderDealRow(deal) {
 
   const side = document.createElement("div");
   side.className = "deal-side";
-  side.append(badge(deal.status, `status ${deal.status}`));
+  side.append(badge(deal.status === "stale" ? "Stale" : "Seen online", `status ${deal.status}`));
   const seen = document.createElement("span");
   seen.className = "seen";
-  seen.textContent = deal.status === "stale" ? `last ${formatDate(deal.last_seen)}` : formatDate(deal.last_seen);
+  seen.textContent = `${deal.status === "stale" ? "Last seen" : "Found"} ${formatDate(deal.last_seen)}`;
   side.append(seen);
 
   row.append(main, side);
@@ -360,7 +360,7 @@ function renderGroup(group) {
   actions.append(badge(`${group.deals.length}`, "count"));
   if (group.location?.address) {
     const directions = document.createElement("a");
-    directions.href = mapsUrl(group.location.address);
+    directions.href = mapsUrl(group.restaurant, group.location.address);
     directions.target = "_blank";
     directions.rel = "noopener";
     directions.textContent = "Directions";
@@ -371,6 +371,14 @@ function renderGroup(group) {
     call.href = telUrl(group.location.phone);
     call.textContent = "Call";
     actions.append(call);
+  }
+  for (const [index, url] of [...group.urls].entries()) {
+    const source = document.createElement("a");
+    source.href = url;
+    source.target = "_blank";
+    source.rel = "noopener";
+    source.textContent = group.urls.size > 1 ? `Source ${index + 1}` : "Source";
+    actions.append(source);
   }
 
   summary.append(titleWrap, preview, actions);
@@ -387,41 +395,14 @@ function renderGroup(group) {
   rows.className = "deal-list";
   for (const deal of group.deals) rows.append(renderDealRow(deal));
   body.append(rows);
-
-  const sourceRow = document.createElement("div");
-  sourceRow.className = "source-row";
-  for (const url of group.urls) {
-    const source = document.createElement("a");
-    source.href = url;
-    source.target = "_blank";
-    source.rel = "noopener";
-    source.textContent = "Source";
-    sourceRow.append(source);
-  }
-  body.append(sourceRow);
   section.append(body);
   return section;
-}
-
-function renderJumpbar(groups) {
-  jumpbarEl.innerHTML = "";
-  for (const group of groups) {
-    const link = document.createElement("a");
-    link.href = `#${locationSlug(group)}`;
-    link.textContent = group.restaurant;
-    link.addEventListener("click", () => {
-      const section = document.getElementById(locationSlug(group));
-      if (section) section.open = true;
-    });
-    jumpbarEl.append(link);
-  }
 }
 
 function renderDeals() {
   const deals = (state.payload.deals || []).filter(matchesFilters);
   const groups = groupDeals(deals);
   dealsEl.innerHTML = "";
-  renderJumpbar(groups);
   renderSummary();
 
   if (!groups.length) {
