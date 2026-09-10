@@ -120,6 +120,22 @@
     "options": { "static_deals": [{ "summary": "Weekday happy hour", "details": ["Monday-Friday", "3 PM-6 PM", "Bottled beer, craft beer, well drinks, wine, and food specials", "Not available on holidays"], "categories": ["food", "drink"], "applies_days": ["monday", "tuesday", "wednesday", "thursday", "friday"], "time_window": "3 PM - 6 PM", "validity": "Mon-Fri, 3 PM - 6 PM", "tags": ["happy_hour", "weekday_special"] }] }
   },
   {
+    "name": "Surf Dog's Sports Grill",
+    "city": "Huntington Beach",
+    "url": "https://www.surfdogshb.com/weekday-lunch",
+    "notes": "Official image-based weekday lunch specials page",
+    "location": { "address": "5932 Warner Ave, Huntington Beach, CA 92649", "phone": "(714) 846-5700", "latitude": 33.71526, "longitude": -118.02494, "hours": { "monday": [{ "open": "12:00", "close": "23:00" }], "tuesday": [{ "open": "12:00", "close": "23:00" }], "wednesday": [{ "open": "12:00", "close": "23:00" }], "thursday": [{ "open": "12:00", "close": "00:30" }], "friday": [{ "open": "12:00", "close": "02:00" }], "saturday": [{ "open": "12:00", "close": "02:00" }], "sunday": [{ "open": "12:00", "close": "22:30" }] } },
+    "options": { "static_deals": [{ "summary": "Weekday lunch specials from $8.99", "details": ["$8.99 appetizers, burgers, and sandwiches", "$9.99 cheese flatbread; most additional toppings $1 each"], "categories": ["food"], "applies_days": ["monday", "tuesday", "wednesday", "thursday", "friday"], "time_window": "12 PM - 3 PM", "validity": "Mon-Fri, 12 PM - 3 PM", "tags": ["dollar_amount", "weekday_special"] }] }
+  },
+  {
+    "name": "Surf Dog's Sports Grill",
+    "city": "Huntington Beach",
+    "url": "https://www.surfdogshb.com/dailyspecials",
+    "notes": "Official image-based daily specials page",
+    "location": { "address": "5932 Warner Ave, Huntington Beach, CA 92649", "phone": "(714) 846-5700", "latitude": 33.71526, "longitude": -118.02494, "hours": { "monday": [{ "open": "12:00", "close": "23:00" }], "tuesday": [{ "open": "12:00", "close": "23:00" }], "wednesday": [{ "open": "12:00", "close": "23:00" }], "thursday": [{ "open": "12:00", "close": "00:30" }], "friday": [{ "open": "12:00", "close": "02:00" }], "saturday": [{ "open": "12:00", "close": "02:00" }], "sunday": [{ "open": "12:00", "close": "22:30" }] } },
+    "options": { "static_deals": [{ "summary": "$6 happy-hour bites and $5 draft beers", "details": ["$6 fried pickles, jalapeno poppers, onion rings, and hot potato chips", "$8 cheese flatbread; most toppings $1 each", "$5 Bud Light, Coors Light, and PBR drafts"], "categories": ["food", "drink"], "applies_days": ["monday", "tuesday", "wednesday", "thursday", "friday"], "time_window": "3 PM - 6 PM", "validity": "Mon-Fri, 3 PM - 6 PM", "tags": ["happy_hour", "dollar_amount", "weekday_special"] }, { "summary": "Monday Pizza Day: 20% off any large pizza", "details": ["Purchase of any draft beer or cocktail required"], "categories": ["food", "drink"], "applies_days": ["monday"], "validity": "Monday", "tags": ["percent_off", "weekday_special"] }, { "summary": "Fish & Chip Friday from $14.99", "details": ["Battered cod with french fries", "Two pieces $14.99; three pieces $17.99"], "categories": ["food"], "applies_days": ["friday"], "validity": "Friday", "tags": ["dollar_amount", "weekday_special"] }, { "summary": "Industry night: 20% off after 3pm", "details": ["Show employee ID or a recent pay stub"], "categories": ["food", "drink"], "applies_days": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"], "time_window": "After 3 PM", "validity": "Every day after 3 PM", "tags": ["percent_off"] }] }
+  },
+  {
     "name": "Zubie's Dry Dock",
     "retired": true,
     "city": "Huntington Beach",

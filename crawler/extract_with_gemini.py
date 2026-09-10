@@ -62,6 +62,10 @@ class VisibleTextParser(HTMLParser):
     def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
         if tag in {"script", "style", "noscript", "svg", "iframe"}:
             self.hidden += 1
+        if tag == "img" and not self.hidden:
+            alt = dict(attrs).get("alt")
+            if alt:
+                self.parts.extend(["\n", alt, "\n"])
         if tag in {"br", "p", "div", "li", "section", "article", "h1", "h2", "h3", "h4", "tr"}:
             self.parts.append("\n")
 

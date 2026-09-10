@@ -22,12 +22,13 @@ CONFIG_PATH = ROOT / "crawler" / "places_config.json"
 OUTPUT_PATH = ROOT / "docs" / "data" / "restaurants.json"
 PLACES_URL = "https://places.googleapis.com/v1/places:searchNearby"
 REQUEST_TIMEOUT = 15
-DISCOVERY_VERSION = 2
+DISCOVERY_VERSION = 3
 
 SPECIAL_LINK = re.compile(
     r"\b(?:happy[\s_-]*hour|daily[\s_-]*specials?|weekday[\s_-]*specials?|"
     r"weekly[\s_-]*specials?|food[\s_-]*specials?|drink[\s_-]*specials?|"
-    r"restaurant[\s_-]*specials?|promotions?|coupons?|deals?)\b",
+    r"restaurant[\s_-]*specials?|lunch[\s_-]*specials?|weekday[\s_-]*(?:lunch|dinner)|"
+    r"team[\s_-]*specials?|promotions?|coupons?|deals?)\b",
     re.I,
 )
 WEAK_SPECIAL_LINK = re.compile(r"\bspecials?\b", re.I)
@@ -65,16 +66,6 @@ def load_json(path: Path, fallback: Any) -> Any:
         return fallback
 
 
-def should_refresh(refresh_days: int, force: bool) -> bool:
-    if force:
-        return True
-    existing = load_json(OUTPUT_PATH, {})
-    if existing.get("discovery_version") != DISCOVERY_VERSION:
-        return True
-    generated = parse_iso(existing.get("generated_at"))
-    return not generated or utc_now() - generated >= timedelta(days=refresh_days)
-
-
 def axis_values(start: float, end: float, step: float) -> Iterable[float]:
     current = start
     while current <= end + 0.000001:
@@ -82,11 +73,11 @@ def axis_values(start: float, end: float, step: float) -> Iterable[float]:
         current += step
 
 
-def grid_points(config: dict[str, Any]) -> list[dict[str, Any]]:
+def grid_points(config: dict[str, Any], areas: list[dict[str, Any]] | None = None) -> list[dict[str, Any]]:
     lat_step = config["grid"]["latitude_step"]
     lon_step = config["grid"]["longitude_step"]
     points: list[dict[str, Any]] = []
-    for area in config["areas"]:
+    for area in areas or config["areas"]:
         bounds = area["bounds"]
         for latitude in axis_values(bounds["south"], bounds["north"], lat_step):
             for longitude in axis_values(bounds["west"], bounds["east"], lon_step):
@@ -150,11 +141,10 @@ def api_request(api_key: str, point: dict[str, Any], config: dict[str, Any]) -> 
     raise RuntimeError(str(last_error or "Places API request failed"))
 
 
-def city_from_address(address: str, fallback: str) -> str | None:
-    for city in ("Huntington Beach", "Fountain Valley"):
-        if re.search(rf"\b{re.escape(city)}\s*,\s*CA\b", address, re.I):
-            return city
-    return None if address else fallback
+def city_from_address(address: str, expected: str) -> str | None:
+    if re.search(rf"\b{re.escape(expected)}\s*,\s*CA\b", address, re.I):
+        return expected
+    return expected if not address else None
 
 
 def normalize_hours(raw: dict[str, Any] | None) -> dict[str, list[dict[str, str]]]:
@@ -277,20 +267,38 @@ def discover_specials_pages(restaurant: dict[str, Any]) -> list[dict[str, Any]]:
     parser.feed(page)
     home_host = host_key(homepage)
     candidates: dict[str, dict[str, Any]] = {}
-    for href, label in parser.links:
-        absolute = canonical_url(urljoin(homepage, href))
-        if host_key(absolute) != home_host or urlparse(absolute).scheme not in {"http", "https"}:
+
+    def collect_links(links: list[tuple[str, str]], base_url: str) -> None:
+        for href, label in links:
+            absolute = canonical_url(urljoin(base_url, href))
+            if host_key(absolute) != home_host or urlparse(absolute).scheme not in {"http", "https"}:
+                continue
+            evidence = f"{label} {urlparse(absolute).path.replace('-', ' ').replace('_', ' ')}"
+            if SPECIAL_LINK.search(evidence):
+                candidates[absolute] = {"url": absolute, "label": label.strip() or "Specials", "confidence": "high"}
+            elif WEAK_SPECIAL_LINK.search(evidence) and not re.search(r"menu|catering|gift", evidence, re.I):
+                candidates[absolute] = {"url": absolute, "label": label.strip() or "Specials", "confidence": "medium"}
+
+    collect_links(parser.links, homepage)
+    hub_urls = [
+        item["url"]
+        for item in candidates.values()
+        if re.search(r"menus?[\s_-]*(?:and|&)?[\s_-]*specials?|specials?[\s_-]*menu", f'{item["label"]} {item["url"]}', re.I)
+    ][:2]
+    for hub_url in hub_urls:
+        try:
+            hub_page = fetch_homepage(hub_url)
+        except Exception:
             continue
-        evidence = f"{label} {urlparse(absolute).path.replace('-', ' ').replace('_', ' ')}"
-        if SPECIAL_LINK.search(evidence):
-            candidates[absolute] = {"url": absolute, "label": label.strip() or "Specials", "confidence": "high"}
-        elif WEAK_SPECIAL_LINK.search(evidence) and not re.search(r"menu|catering|gift", evidence, re.I):
-            candidates[absolute] = {"url": absolute, "label": label.strip() or "Specials", "confidence": "medium"}
+        hub_parser = LinkParser()
+        hub_parser.feed(hub_page)
+        collect_links(hub_parser.links, hub_url)
+
     visible_text = " ".join(parser.text)
     if SPECIAL_LINK.search(visible_text):
         absolute = canonical_url(homepage)
         candidates.setdefault(absolute, {"url": absolute, "label": "Website specials", "confidence": "medium"})
-    return sorted(candidates.values(), key=lambda item: (item["confidence"] != "high", item["url"]))[:3]
+    return sorted(candidates.values(), key=lambda item: (item["confidence"] != "high", item["url"]))[:5]
 
 
 def add_specials_pages(restaurants: list[dict[str, Any]]) -> None:
@@ -301,6 +309,77 @@ def add_specials_pages(restaurants: list[dict[str, Any]]) -> None:
             futures[future]["specials_pages"] = future.result()
 
 
+def build_area_status(config: dict[str, Any], existing: dict[str, Any]) -> tuple[dict[str, dict[str, Any]], bool]:
+    saved = existing.get("area_status")
+    migration = not isinstance(saved, dict)
+    statuses = dict(saved or {})
+    previous_cities = set(existing.get("coverage", {}).get("cities", []))
+    previous_cities.update(item.get("city") for item in existing.get("restaurants", []) if item.get("city"))
+    previous_generated = existing.get("generated_at")
+    for area in config["areas"]:
+        city = area["city"]
+        if city in statuses:
+            continue
+        if city in previous_cities:
+            statuses[city] = {
+                "status": "active",
+                "activated_at": previous_generated,
+                "last_refreshed": previous_generated,
+            }
+        else:
+            statuses[city] = {"status": "queued", "activated_at": None, "last_refreshed": None}
+    return statuses, migration
+
+
+def select_areas(config: dict[str, Any], existing: dict[str, Any], force: bool) -> tuple[list[dict[str, Any]], dict[str, dict[str, Any]]]:
+    statuses, migration = build_area_status(config, existing)
+    limit = max(1, int(config.get("max_areas_per_run", 1)))
+    queued = [area for area in config["areas"] if statuses[area["city"]]["status"] == "queued"]
+    active = [area for area in config["areas"] if statuses[area["city"]]["status"] == "active"]
+    if force:
+        return (queued or active)[:limit], statuses
+    if migration and queued:
+        return queued[:limit], statuses
+
+    now = utc_now()
+    activation_interval = timedelta(days=int(config.get("queue_activation_days", 7)))
+    activation_dates = [
+        parse_iso(status.get("activated_at"))
+        for status in statuses.values()
+        if status.get("status") == "active"
+    ]
+    latest_activation = max((value for value in activation_dates if value), default=None)
+    if queued and (not latest_activation or now - latest_activation >= activation_interval):
+        return queued[:limit], statuses
+
+    refresh_interval = timedelta(days=int(config.get("area_refresh_days", 35)))
+    due = sorted(
+        active,
+        key=lambda area: parse_iso(statuses[area["city"]].get("last_refreshed")) or datetime.min.replace(tzinfo=timezone.utc),
+    )
+    due = [
+        area
+        for area in due
+        if not parse_iso(statuses[area["city"]].get("last_refreshed"))
+        or now - parse_iso(statuses[area["city"]]["last_refreshed"]) >= refresh_interval
+    ]
+    return due[:limit], statuses
+
+
+def next_refresh_at(config: dict[str, Any], statuses: dict[str, dict[str, Any]], now: datetime) -> datetime:
+    candidates: list[datetime] = []
+    queued = any(status.get("status") == "queued" for status in statuses.values())
+    activation_dates = [parse_iso(status.get("activated_at")) for status in statuses.values() if status.get("status") == "active"]
+    latest_activation = max((value for value in activation_dates if value), default=None)
+    if queued:
+        candidates.append((latest_activation or now) + timedelta(days=int(config.get("queue_activation_days", 7))))
+    for status in statuses.values():
+        refreshed = parse_iso(status.get("last_refreshed"))
+        if status.get("status") == "active" and refreshed:
+            candidates.append(refreshed + timedelta(days=int(config.get("area_refresh_days", 35))))
+    return min(candidates, default=now + timedelta(days=1))
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--force", action="store_true")
@@ -308,15 +387,22 @@ def main() -> int:
     config = load_json(CONFIG_PATH, {})
     if not config:
         raise RuntimeError(f"Missing discovery configuration: {CONFIG_PATH}")
-    if not should_refresh(int(config.get("refresh_days", 7)), args.force):
-        print("Restaurant inventory is fresh; skipping Places refresh")
+    existing = load_json(OUTPUT_PATH, {})
+    selected_areas, area_status = select_areas(config, existing, args.force)
+    if not selected_areas:
+        print("No city is due for activation or refresh; skipping Places requests")
         return 0
 
     api_key = os.environ.get("GOOGLE_PLACES_API_KEY", "").strip()
     if not api_key:
         raise RuntimeError("GOOGLE_PLACES_API_KEY is not available to this GitHub Actions workflow")
 
-    points = grid_points(config)
+    points = grid_points(config, selected_areas)
+    cell_limit = int(config.get("max_map_cells_per_area", 180))
+    for area in selected_areas:
+        area_cells = len(grid_points(config, [area]))
+        if area_cells > cell_limit:
+            raise RuntimeError(f'{area["city"]} requires {area_cells} map cells, above the configured limit of {cell_limit}')
     found: dict[str, dict[str, Any]] = {}
     failures: list[str] = []
     for index, point in enumerate(points, start=1):
@@ -335,16 +421,32 @@ def main() -> int:
         sample = failures[0] if failures else "unknown error"
         raise RuntimeError(f"Places discovery failed for too many map cells ({success_count}/{len(points)} succeeded): {sample}")
 
-    restaurants = sorted(found.values(), key=lambda item: (item["name"].casefold(), item["address"].casefold()))
-    add_specials_pages(restaurants)
+    refreshed_restaurants = list(found.values())
+    add_specials_pages(refreshed_restaurants)
     now = utc_now()
+    selected_cities = {area["city"] for area in selected_areas}
+    retained = [item for item in existing.get("restaurants", []) if item.get("city") not in selected_cities]
+    restaurants = sorted([*retained, *refreshed_restaurants], key=lambda item: (item["name"].casefold(), item["address"].casefold()))
+    for city in selected_cities:
+        status = area_status[city]
+        status["status"] = "active"
+        status["activated_at"] = status.get("activated_at") or iso(now)
+        status["last_refreshed"] = iso(now)
+        status["restaurant_count"] = sum(item.get("city") == city for item in restaurants)
+    active_cities = [area["city"] for area in config["areas"] if area_status[area["city"]]["status"] == "active"]
+    queued_cities = [area["city"] for area in config["areas"] if area_status[area["city"]]["status"] == "queued"]
+    active_areas = [area for area in config["areas"] if area["city"] in active_cities]
     payload = {
         "discovery_version": DISCOVERY_VERSION,
         "generated_at": iso(now),
-        "refresh_after": iso(now + timedelta(days=int(config.get("refresh_days", 7)))),
+        "refresh_after": iso(next_refresh_at(config, area_status, now)),
+        "area_status": area_status,
         "coverage": {
-            "cities": [area["city"] for area in config["areas"]],
-            "map_cells": len(points),
+            "cities": active_cities,
+            "queued_cities": queued_cities,
+            "last_scanned_cities": sorted(selected_cities),
+            "map_cells": len(grid_points(config, active_areas)),
+            "last_scan_map_cells": len(points),
             "successful_map_cells": success_count,
             "failed_map_cells": len(failures),
             "restaurant_count": len(restaurants),
@@ -357,7 +459,7 @@ def main() -> int:
     }
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT_PATH.write_text(json.dumps(payload, indent=2, sort_keys=True) + "\n")
-    print(f"Wrote {len(restaurants)} restaurants to {OUTPUT_PATH}")
+    print(f'Wrote {len(restaurants)} restaurants after scanning {", ".join(sorted(selected_cities))}')
     return 0
 
 

@@ -14,7 +14,7 @@ const state = {
   restaurants: null,
   query: "",
   restaurant: "",
-  city: "",
+  cities: new Set(),
   day: "today",
   category: "",
   kind: "",
@@ -29,7 +29,9 @@ const metaEl = document.querySelector("#meta");
 const sourcesEl = document.querySelector("#sources");
 const searchEl = document.querySelector("#search");
 const restaurantEl = document.querySelector("#restaurant");
-const cityEl = document.querySelector("#city");
+const cityPickerEl = document.querySelector("#city-picker");
+const citySummaryEl = document.querySelector("#city-summary");
+const cityOptionsEl = document.querySelector("#city-options");
 const dayEl = document.querySelector("#day");
 const categoryEl = document.querySelector("#category");
 const kindEl = document.querySelector("#kind");
@@ -54,14 +56,15 @@ function selectedDay() {
 function renderFilterSummary() {
   const labels = [];
   labels.push(state.day === "today" ? "Today" : state.day ? DAY_LABELS[state.day] : "Any day");
-  labels.push(state.restaurant || state.city || "All restaurants");
+  const cityLabel = state.cities.size === 1 ? [...state.cities][0] : state.cities.size ? `${state.cities.size} cities` : "";
+  labels.push(state.restaurant || cityLabel || "All restaurants");
   if (state.category) labels.push(categoryEl.options[categoryEl.selectedIndex]?.text || state.category);
   if (state.kind) labels.push(kindEl.options[kindEl.selectedIndex]?.text || state.kind);
 
   const activeCount = [
     state.query,
     state.restaurant,
-    state.city,
+    state.cities.size ? "cities" : "",
     state.day !== "today" ? state.day || "any" : "",
     state.category,
     state.kind,
@@ -173,7 +176,7 @@ function matchesDay(deal) {
   const day = selectedDay();
   if (!day) return true;
   const days = deal.applies_days || [];
-  return days.includes(day) || DAYS.every((item) => days.includes(item));
+  return !days.length || days.includes(day) || DAYS.every((item) => days.includes(item));
 }
 
 function matchesFilters(deal) {
@@ -182,7 +185,7 @@ function matchesFilters(deal) {
   return (
     (!state.query || dealText(deal).includes(state.query.toLowerCase())) &&
     (!state.restaurant || deal.restaurant === state.restaurant) &&
-    (!state.city || deal.city === state.city) &&
+    (!state.cities.size || state.cities.has(deal.city)) &&
     (!state.status || deal.status === state.status) &&
     (!state.category || categories.includes(state.category)) &&
     (!state.kind || (state.kind === "happy_hour" ? isHappyHour : !isHappyHour)) &&
@@ -240,6 +243,34 @@ function renderSelectOptions(select, values, firstLabel) {
   }
 }
 
+function updateCitySummary() {
+  citySummaryEl.textContent = state.cities.size === 0
+    ? "All cities"
+    : state.cities.size === 1
+      ? [...state.cities][0]
+      : `${state.cities.size} cities`;
+}
+
+function renderCityOptions(values) {
+  cityOptionsEl.innerHTML = "";
+  for (const city of values) {
+    const label = document.createElement("label");
+    label.className = "city-option";
+    const input = document.createElement("input");
+    input.type = "checkbox";
+    input.value = city;
+    input.checked = state.cities.has(city);
+    label.append(input, document.createTextNode(city));
+    cityOptionsEl.append(label);
+  }
+  const clear = document.createElement("button");
+  clear.className = "city-clear";
+  clear.type = "button";
+  clear.textContent = "All cities";
+  cityOptionsEl.append(clear);
+  updateCitySummary();
+}
+
 function renderFilterOptions() {
   const cities = new Set(state.payload.scope?.cities || []);
   const restaurants = new Set();
@@ -251,7 +282,7 @@ function renderFilterOptions() {
     if (deal.city) cities.add(deal.city);
     if (deal.restaurant) restaurants.add(deal.restaurant);
   }
-  renderSelectOptions(cityEl, [...cities].sort(), "All cities");
+  renderCityOptions([...cities].sort());
   renderSelectOptions(restaurantEl, [...restaurants].sort(), "All restaurants");
 }
 
@@ -607,10 +638,26 @@ restaurantEl.addEventListener("change", (event) => {
   }
 });
 
-cityEl.addEventListener("change", (event) => {
-  state.city = event.target.value;
+cityOptionsEl.addEventListener("change", (event) => {
+  if (!event.target.matches('input[type="checkbox"]')) return;
+  if (event.target.checked) state.cities.add(event.target.value);
+  else state.cities.delete(event.target.value);
+  updateCitySummary();
   renderFilterSummary();
   rerender();
+});
+
+cityOptionsEl.addEventListener("click", (event) => {
+  if (!event.target.matches(".city-clear")) return;
+  state.cities.clear();
+  for (const input of cityOptionsEl.querySelectorAll('input[type="checkbox"]')) input.checked = false;
+  updateCitySummary();
+  renderFilterSummary();
+  rerender();
+});
+
+document.addEventListener("click", (event) => {
+  if (!cityPickerEl.contains(event.target)) cityPickerEl.open = false;
 });
 
 dayEl.addEventListener("change", (event) => {

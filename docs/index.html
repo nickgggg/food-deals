@@ -4,10 +4,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Restaurant Deals</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <script>
       document.documentElement.dataset.theme = localStorage.getItem("theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
     </script>
-    <link rel="stylesheet" href="styles.css?v=5">
+    <link rel="stylesheet" href="styles.css?v=6">
   </head>
   <body>
     <header class="topbar">
@@ -40,12 +41,13 @@
             <option value="">All restaurants</option>
           </select>
           </label>
-          <label>
-          City
-          <select id="city">
-            <option value="">All cities</option>
-          </select>
-          </label>
+          <div class="city-control">
+            <span class="control-label">City</span>
+            <details id="city-picker" class="multi-select">
+              <summary id="city-summary">All cities</summary>
+              <div id="city-options" class="multi-select-options"></div>
+            </details>
+          </div>
           <label>
           Day
           <select id="day">
@@ -93,11 +95,11 @@
       <section class="deals" id="deals" aria-live="polite"></section>
       <section class="sources" id="sources"></section>
       <footer>
-        <p>Deals refresh daily at 14:37 UTC (6:37 or 7:37 AM Pacific). Restaurant coverage refreshes weekly.</p>
+        <p>Deals refresh daily at 14:37 UTC (6:37 or 7:37 AM Pacific). One queued city activates each week; active cities are rediscovered about every five weeks.</p>
         <p>Restaurant details supplied by Google Maps. Deal terms come from linked restaurant sources.</p>
       </footer>
     </main>
 
-    <script src="app.js?v=4"></script>
+    <script src="app.js?v=6"></script>
   </body>
 </html>

@@ -7,17 +7,17 @@ The project runs entirely on GitHub:
 - GitHub Actions runs the crawler every day at 14:37 UTC, plus manual `workflow_dispatch` runs.
 - The crawler writes normalized JSON to `docs/data/deals.json`.
 - GitHub Pages serves the static frontend from `docs/`.
-- Google Places builds a weekly nearby-restaurant inventory and supplies current business details.
+- Google Places builds a staggered nearby-restaurant inventory and supplies current business details.
 - Gemini extracts structured offers from likely specials pages; source-evidence checks keep uncertain results unpublished.
 - The crawler uses only the Python standard library, so there are no package installs.
 
 ## Current Scope
 
-Curated sources live in `crawler/sources.json`. A weekly discovery pass scans the configured map grid, finds official websites and likely specials pages, and writes the restaurant inventory to `docs/data/restaurants.json`. Gemini extracts structured offers from candidate pages; exact source-evidence checks, schedule validation, and value-signal rules keep generic menu content and unsupported claims out of the feed.
+Curated sources live in `crawler/sources.json`. Discovery scans one configured city at a time, finds official websites and likely specials pages, and writes the merged restaurant inventory to `docs/data/restaurants.json`. A queued city activates every seven days; active cities are rescanned after 35 days. Each run is capped at one city and 180 Places map cells. Gemini extracts structured offers from candidate pages; exact source-evidence checks, schedule validation, and value-signal rules keep generic menu content and unsupported claims out of the feed.
 
 The discovery job requires the repository Actions secret `GOOGLE_PLACES_API_KEY`, with Places API (New) enabled. Its map bounds and refresh interval live in `crawler/places_config.json`.
 
-AI extraction requires the Actions secret `GEMINI_API_KEY`. It processes at most 30 changed pages per run, stores content fingerprints in `docs/data/ai_extractions.json`, and reuses cached results while a page remains unchanged.
+AI extraction requires the Actions secret `GEMINI_API_KEY`. It processes at most 30 changed pages per daily run, stores content fingerprints in `docs/data/ai_extractions.json`, and reuses cached results while a page remains unchanged. City activation does not raise that daily Gemini cap.
 
 ## What It Finds
 

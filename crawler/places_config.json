@@ -1,5 +1,8 @@
 {
-  "refresh_days": 7,
+  "queue_activation_days": 7,
+  "area_refresh_days": 35,
+  "max_areas_per_run": 1,
+  "max_map_cells_per_area": 180,
   "areas": [
     {
       "city": "Huntington Beach",
@@ -17,6 +20,51 @@
         "north": 33.731,
         "west": -117.976,
         "east": -117.908
+      }
+    },
+    {
+      "city": "Costa Mesa",
+      "bounds": {
+        "south": 33.628,
+        "north": 33.706,
+        "west": -117.955,
+        "east": -117.858
+      }
+    },
+    {
+      "city": "Westminster",
+      "bounds": {
+        "south": 33.731,
+        "north": 33.792,
+        "west": -118.043,
+        "east": -117.929
+      }
+    },
+    {
+      "city": "Seal Beach",
+      "bounds": {
+        "south": 33.726,
+        "north": 33.802,
+        "west": -118.132,
+        "east": -118.052
+      }
+    },
+    {
+      "city": "Newport Beach",
+      "bounds": {
+        "south": 33.566,
+        "north": 33.674,
+        "west": -117.968,
+        "east": -117.806
+      }
+    },
+    {
+      "city": "Garden Grove",
+      "bounds": {
+        "south": 33.746,
+        "north": 33.823,
+        "west": -118.008,
+        "east": -117.890
       }
     }
   ],
