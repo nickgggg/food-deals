@@ -1,5 +1,5 @@
 {
-  "crawler_version": 11,
+  "crawler_version": 12,
   "deals": [
     {
       "applies_days": [
@@ -25,10 +25,10 @@
         "Drink specials include draft beer and margaritas",
         "Food specials include tacos and chips/salsa"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "6a8211372a6ecd7b",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "807 E Adams Ave, Huntington Beach, CA 92648",
         "hours": {
@@ -105,10 +105,10 @@
         "Lunch combo menu includes pizza slices, sandwiches, salads, wings, spaghetti, and drinks",
         "Most listed combos run about $8.50-$14; open source for the exact item list"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "e4d0c5f9b28fd58e",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
         "hours": {
@@ -194,10 +194,10 @@
         "$4 off table kegs, bottles of wine, and 5 lb wings",
         "Dine-in only; not valid with any other offer"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "7ad5f67f6d0e8602",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
         "hours": {
@@ -283,10 +283,10 @@
         "$14 classic cocktails",
         "20% off draft beers and select house wines"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "4bbe95bd0ffd47e9",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -367,10 +367,10 @@
         "Saturday-Sunday, 7 AM-3 PM",
         "Brunch favorites, drinks, and live music"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "cdf9967358604fce",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -444,10 +444,10 @@
       "details": [
         "Offers"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "92146b0ee6a404ad",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -525,10 +525,10 @@
         "CCPA",
         "This error message is only visible to WordPress admins"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "8fed335514a3bbde",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -608,10 +608,10 @@
         "Offers",
         "Tuesday & Saturday"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "9d96ca0a186d956b",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -689,10 +689,10 @@
         "Kids Eat Free",
         "Tuesday & Saturday"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "aba3039f4cdbb4bb",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -779,10 +779,10 @@
         "Examples include chicken nachos, sliders, tacos, quesadilla, and tempura",
         "Drink specials include well drinks, wine, Mai Tai, and beer"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "e8551543f33b54a8",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "215 Main St, Huntington Beach, CA 92648",
         "hours": {
@@ -870,10 +870,10 @@
         "ahi tuna, lemon ponzu, green onion, avocado, cilantro, serrano",
         "Brioche Sliders (2) $8"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "254934ce9aae95bd",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -958,10 +958,10 @@
         "EATS",
         "Chips and Salsa $8"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "51d8300f03acb8d3",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1049,10 +1049,10 @@
         "chips, beans, cheese sauce, sour cream, pico de gallo, guacamole",
         "Tuna Tostada $8"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "b669d1f87691b6e5",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1137,10 +1137,10 @@
         "Mini golf special",
         "Draft beer, well drink, wine, and appetizer specials"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "c02c9eb945d74125",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
         "hours": {
@@ -1206,789 +1206,6 @@
     },
     {
       "applies_days": [],
-      "candidate_text": "5 oz. filet mignon, mashed potatoes, seasonal veggies, choice of peppercorn or garlic butter sauce 50% off all wine bottles (dine-in only) FILLET SPECIAL",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "50% off all wine bottles (dine-in only)",
-        "FILLET SPECIAL"
-      ],
-      "first_seen": "2026-09-10T00:25:53Z",
-      "id": "f19aaa29324a04de",
-      "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
-      "location": {
-        "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "14:00",
-              "open": "10:30"
-            },
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ]
-        },
-        "latitude": 33.7165,
-        "longitude": -118.0504,
-        "phone": "(714) 846-4700"
-      },
-      "restaurant": "Red Table Restaurant",
-      "source_notes": "Official daily specials page",
-      "source_url": "https://redtablerestaurants.com/daily-specials/",
-      "status": "active",
-      "summary": "5 oz. filet mignon, mashed potatoes, seasonal veggies, choice of peppercorn or garlic butter sauce",
-      "tags": [
-        "percent_off",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Quick Links 50% off all beer (dine-in only) 714 - 846 - 4700 info@redtablerestaurants.com Our Story Make a Reservation Banquet/Catering Follow More Links",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "50% off all beer (dine-in only)",
-        "714 - 846 - 4700",
-        "info@redtablerestaurants.com",
-        "Our Story",
-        "Make a Reservation",
-        "Banquet/Catering",
-        "Follow",
-        "More Links"
-      ],
-      "first_seen": "2026-09-10T00:25:53Z",
-      "id": "932d25342edf58f1",
-      "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
-      "location": {
-        "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "14:00",
-              "open": "10:30"
-            },
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ]
-        },
-        "latitude": 33.7165,
-        "longitude": -118.0504,
-        "phone": "(714) 846-4700"
-      },
-      "restaurant": "Red Table Restaurant",
-      "source_notes": "Official daily specials page",
-      "source_url": "https://redtablerestaurants.com/daily-specials/",
-      "status": "active",
-      "summary": "Quick Links",
-      "tags": [
-        "percent_off"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday",
-        "saturday",
-        "sunday"
-      ],
-      "candidate_text": "$28.00 Daily Specials MONDAY (All Day Happy Hour) PASTA BOLOGNESE Ground beef, garlic, butter, Italian herbs TUESDAY (Taco Tuesday)",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Daily Specials",
-        "MONDAY (All Day Happy Hour)",
-        "PASTA BOLOGNESE",
-        "Ground beef, garlic, butter, Italian herbs",
-        "TUESDAY (Taco Tuesday)"
-      ],
-      "first_seen": "2026-09-10T00:25:53Z",
-      "id": "74739de9b87c3387",
-      "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
-      "location": {
-        "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "14:00",
-              "open": "10:30"
-            },
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ]
-        },
-        "latitude": 33.7165,
-        "longitude": -118.0504,
-        "phone": "(714) 846-4700"
-      },
-      "restaurant": "Red Table Restaurant",
-      "source_notes": "Official daily specials page",
-      "source_url": "https://redtablerestaurants.com/daily-specials/",
-      "status": "active",
-      "summary": "$28.00",
-      "tags": [
-        "dollar_amount",
-        "happy_hour",
-        "weekday_special",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Every day"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday",
-        "saturday",
-        "sunday"
-      ],
-      "candidate_text": "Daily Specials Rushable Make a Reservation Banquet/Catering MONDAY (All Day Happy Hour) PASTA BOLOGNESE",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Rushable",
-        "Make a Reservation",
-        "Banquet/Catering",
-        "MONDAY (All Day Happy Hour)",
-        "PASTA BOLOGNESE"
-      ],
-      "first_seen": "2026-09-10T00:25:53Z",
-      "id": "51a4cb974fe9fbc8",
-      "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
-      "location": {
-        "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "14:00",
-              "open": "10:30"
-            },
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ]
-        },
-        "latitude": 33.7165,
-        "longitude": -118.0504,
-        "phone": "(714) 846-4700"
-      },
-      "restaurant": "Red Table Restaurant",
-      "source_notes": "Official daily specials page",
-      "source_url": "https://redtablerestaurants.com/daily-specials/",
-      "status": "active",
-      "summary": "Daily Specials",
-      "tags": [
-        "happy_hour",
-        "weekday_special",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Every day"
-    },
-    {
-      "applies_days": [
-        "monday"
-      ],
-      "candidate_text": "Ground beef, garlic, butter, Italian herbs MONDAY (All Day Happy Hour) PASTA BOLOGNESE",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "MONDAY (All Day Happy Hour)",
-        "PASTA BOLOGNESE"
-      ],
-      "first_seen": "2026-09-10T00:25:53Z",
-      "id": "04df59eb735fd1b5",
-      "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
-      "location": {
-        "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "14:00",
-              "open": "10:30"
-            },
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ]
-        },
-        "latitude": 33.7165,
-        "longitude": -118.0504,
-        "phone": "(714) 846-4700"
-      },
-      "restaurant": "Red Table Restaurant",
-      "source_notes": "Official daily specials page",
-      "source_url": "https://redtablerestaurants.com/daily-specials/",
-      "status": "active",
-      "summary": "Ground beef, garlic, butter, Italian herbs",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": null,
-      "validity": "Mon"
-    },
-    {
-      "applies_days": [
-        "monday"
-      ],
-      "candidate_text": "Happy Hour Monthly Specials Dinner Menu",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Monthly Specials",
-        "Dinner Menu"
-      ],
-      "first_seen": "2026-09-10T00:25:53Z",
-      "id": "196adad505509c2a",
-      "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
-      "location": {
-        "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "14:00",
-              "open": "10:30"
-            },
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ]
-        },
-        "latitude": 33.7165,
-        "longitude": -118.0504,
-        "phone": "(714) 846-4700"
-      },
-      "restaurant": "Red Table Restaurant",
-      "source_notes": "Official daily specials page",
-      "source_url": "https://redtablerestaurants.com/daily-specials/",
-      "status": "active",
-      "summary": "Happy Hour",
-      "tags": [
-        "happy_hour",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Mon"
-    },
-    {
-      "applies_days": [
-        "monday"
-      ],
-      "candidate_text": "MONDAY (All Day Happy Hour) Make a Reservation Banquet/Catering",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Make a Reservation",
-        "Banquet/Catering"
-      ],
-      "first_seen": "2026-09-10T00:25:53Z",
-      "id": "ad4b9f62c95dbbf1",
-      "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
-      "location": {
-        "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "14:00",
-              "open": "10:30"
-            },
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ]
-        },
-        "latitude": 33.7165,
-        "longitude": -118.0504,
-        "phone": "(714) 846-4700"
-      },
-      "restaurant": "Red Table Restaurant",
-      "source_notes": "Official daily specials page",
-      "source_url": "https://redtablerestaurants.com/daily-specials/",
-      "status": "active",
-      "summary": "MONDAY (All Day Happy Hour)",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": null,
-      "validity": "Mon"
-    },
-    {
-      "applies_days": [
-        "thursday"
-      ],
-      "candidate_text": "50% off all beer (dine-in only) THURSDAY (Thirsty Thursday) THIRSTY THURSDAY 714 - 846 - 4700 info@redtablerestaurants.com Quick Links Our Story Make a Reservation",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "THURSDAY (Thirsty Thursday)",
-        "THIRSTY THURSDAY",
-        "714 - 846 - 4700",
-        "info@redtablerestaurants.com",
-        "Quick Links",
-        "Our Story",
-        "Make a Reservation"
-      ],
-      "first_seen": "2026-09-10T00:25:53Z",
-      "id": "b45a577e58b57c7d",
-      "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
-      "location": {
-        "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "14:00",
-              "open": "10:30"
-            },
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ]
-        },
-        "latitude": 33.7165,
-        "longitude": -118.0504,
-        "phone": "(714) 846-4700"
-      },
-      "restaurant": "Red Table Restaurant",
-      "source_notes": "Official daily specials page",
-      "source_url": "https://redtablerestaurants.com/daily-specials/",
-      "status": "active",
-      "summary": "50% off all beer (dine-in only)",
-      "tags": [
-        "percent_off",
-        "weekday_special"
-      ],
-      "time_window": null,
-      "validity": "Thu"
-    },
-    {
-      "applies_days": [
-        "wednesday"
-      ],
-      "candidate_text": "50% off all wine bottles (dine-in only) Mexican-style lager, spice, floral, clean WEDNESDAY (Wine Wednesday)",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Mexican-style lager, spice, floral, clean",
-        "WEDNESDAY (Wine Wednesday)"
-      ],
-      "first_seen": "2026-09-10T00:25:53Z",
-      "id": "d4462a7e95fd1872",
-      "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
-      "location": {
-        "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "14:00",
-              "open": "10:30"
-            },
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "16:00"
-            }
-          ]
-        },
-        "latitude": 33.7165,
-        "longitude": -118.0504,
-        "phone": "(714) 846-4700"
-      },
-      "restaurant": "Red Table Restaurant",
-      "source_notes": "Official daily specials page",
-      "source_url": "https://redtablerestaurants.com/daily-specials/",
-      "status": "active",
-      "summary": "50% off all wine bottles (dine-in only)",
-      "tags": [
-        "percent_off",
-        "weekday_special"
-      ],
-      "time_window": null,
-      "validity": "Wed"
-    },
-    {
-      "applies_days": [],
       "candidate_text": "Email club free appetizer Free appetizer for signing up for the mailing list Birthday surprise on your birthday",
       "categories": [
         "food"
@@ -1999,10 +1216,10 @@
         "Free appetizer for signing up for the mailing list",
         "Birthday surprise on your birthday"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "40ebc01c632ce4fa",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -2087,10 +1304,10 @@
         "Available Monday-Friday, 3 PM-6 PM",
         "Huntington Beach also has late-night happy hour Sunday-Thursday, 8 PM-close"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "cc8d16cae580f858",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -2168,10 +1385,10 @@
         "Lunch special menu with optional beverage add-on",
         "Open source page for current items and prices"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "88f51558f931beae",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -2255,10 +1472,10 @@
         "Examples include salads, personal pizzas, pulled pork, and chicken breast meals",
         "Open source page for current item list"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "2049a4ccfac93784",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -2334,10 +1551,10 @@
       "details": [
         "Prime rib dinner available after 5 PM with potatoes and veggies"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "d5c0d77933076429",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -2421,10 +1638,10 @@
         "Bottled beer, craft beer, well drinks, wine, and food specials",
         "Not available on holidays"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "4f35c0e6c25c4a82",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -2503,10 +1720,10 @@
         "Buy one, get one free meatloaf sandwiches or dinners with purchase of two drinks",
         "$8 martinis all day"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "2b5c95f3f8fdac42",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -2586,10 +1803,10 @@
         "Chicken, steak, or fish street tacos for $2.75 each",
         "$8 house margaritas all day"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "7be23f68b6c1f3ae",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -2665,10 +1882,10 @@
       "details": [
         "Special spaghetti meals"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "9625c427af7216ce",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -2744,10 +1961,10 @@
       "details": [
         "Special fried fish dishes"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "07aabbde13e25352",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -2831,10 +2048,10 @@
         "Lunch specials Mon-Fri, 11:30 AM-5 PM",
         "Dinner specials every day, 5 PM-close"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "fee37a360eca1ab2",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -2918,10 +2135,10 @@
         "$6 well drinks and house wines",
         "Discounted apps and bites"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "06297b4e40cf6d49",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -2998,10 +2215,10 @@
       "details": [
         "Sunday breakfast menu served 9 AM-noon"
       ],
-      "first_seen": "2026-09-10T00:25:53Z",
+      "first_seen": "2026-09-10T00:50:01Z",
       "id": "559826adabba5ded",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:25:53Z",
+      "last_seen": "2026-09-10T00:50:01Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -3064,7 +2281,7 @@
       "validity": "Sunday, 9 AM - noon"
     }
   ],
-  "generated_at": "2026-09-10T00:25:53Z",
+  "generated_at": "2026-09-10T00:50:01Z",
   "scope": {
     "cities": [
       "Fountain Valley",
@@ -3077,7 +2294,7 @@
   "sources": [
     {
       "candidate_count": 0,
-      "checked_at": "2026-09-10T00:25:53Z",
+      "checked_at": "2026-09-10T00:50:01Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18033 Magnolia St, Fountain Valley, CA 92708",
@@ -3137,7 +2354,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T00:25:53Z",
+      "checked_at": "2026-09-10T00:50:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "807 E Adams Ave, Huntington Beach, CA 92648",
@@ -3197,7 +2414,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T00:25:53Z",
+      "checked_at": "2026-09-10T00:50:01Z",
       "city": "Fountain Valley",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
@@ -3257,7 +2474,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T00:25:53Z",
+      "checked_at": "2026-09-10T00:50:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
@@ -3317,7 +2534,7 @@
     },
     {
       "candidate_count": 4,
-      "checked_at": "2026-09-10T00:25:53Z",
+      "checked_at": "2026-09-10T00:50:01Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
@@ -3377,7 +2594,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T00:25:53Z",
+      "checked_at": "2026-09-10T00:50:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "215 Main St, Huntington Beach, CA 92648",
@@ -3437,7 +2654,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T00:25:53Z",
+      "checked_at": "2026-09-10T00:50:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
@@ -3497,7 +2714,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T00:25:53Z",
+      "checked_at": "2026-09-10T00:50:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
@@ -3556,8 +2773,8 @@
       "url": "https://playgroundhb.com/pages/food-menu"
     },
     {
-      "candidate_count": 9,
-      "checked_at": "2026-09-10T00:25:53Z",
+      "candidate_count": 0,
+      "checked_at": "2026-09-10T00:50:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
@@ -3621,7 +2838,7 @@
     },
     {
       "candidate_count": 0,
-      "checked_at": "2026-09-10T00:25:53Z",
+      "checked_at": "2026-09-10T00:50:01Z",
       "city": "Fountain Valley",
       "location": {
         "address": "10201 Slater Ave, Fountain Valley, CA 92708",
@@ -3681,7 +2898,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T00:25:53Z",
+      "checked_at": "2026-09-10T00:50:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
@@ -3741,7 +2958,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T00:25:53Z",
+      "checked_at": "2026-09-10T00:50:01Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
@@ -3801,7 +3018,7 @@
     },
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-10T00:25:53Z",
+      "checked_at": "2026-09-10T00:50:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
@@ -3861,7 +3078,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T00:25:53Z",
+      "checked_at": "2026-09-10T00:50:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
@@ -3921,7 +3138,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T00:25:53Z",
+      "checked_at": "2026-09-10T00:50:01Z",
       "city": "Huntington Beach",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
@@ -3981,10 +3198,10 @@
     }
   ],
   "summary": {
-    "active_deals": 36,
+    "active_deals": 27,
     "failed_sources": 0,
     "healthy_sources": 15,
     "stale_deals": 0,
-    "total_deals": 36
+    "total_deals": 27
   }
 }
