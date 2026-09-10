@@ -1,0 +1,36 @@
+{
+  "refresh_days": 7,
+  "areas": [
+    {
+      "city": "Huntington Beach",
+      "bounds": {
+        "south": 33.628,
+        "north": 33.749,
+        "west": -118.086,
+        "east": -117.953
+      }
+    },
+    {
+      "city": "Fountain Valley",
+      "bounds": {
+        "south": 33.684,
+        "north": 33.731,
+        "west": -117.976,
+        "east": -117.908
+      }
+    }
+  ],
+  "grid": {
+    "latitude_step": 0.012,
+    "longitude_step": 0.014,
+    "radius_meters": 1100
+  },
+  "included_types": [
+    "restaurant",
+    "bar",
+    "cafe",
+    "coffee_shop",
+    "bakery",
+    "brewpub"
+  ]
+}

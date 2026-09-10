@@ -1,17 +1,20 @@
 # HB + Fountain Valley Food Deals
 
-A lightweight, serverless deals aggregator for Huntington Beach and Fountain Valley restaurant specials.
+A lightweight, serverless deals aggregator for local restaurant specials, beginning with Huntington Beach and Fountain Valley.
 
 The project runs entirely on GitHub:
 
 - GitHub Actions runs the crawler every day at 14:37 UTC, plus manual `workflow_dispatch` runs.
 - The crawler writes normalized JSON to `docs/data/deals.json`.
 - GitHub Pages serves the static frontend from `docs/`.
-- The crawler uses only the Python standard library, so there are no package installs or paid services.
+- Google Places builds a weekly nearby-restaurant inventory and supplies current business details.
+- The crawler uses only the Python standard library, so there are no package installs.
 
 ## Current Scope
 
-The initial source list lives in `crawler/sources.json` and covers Huntington Beach plus a smaller Fountain Valley seed set. To expand, add another object with `name`, `city`, `url`, and optional `notes`.
+Curated sources live in `crawler/sources.json`. A weekly discovery pass scans the configured map grid, finds official websites and likely specials pages, and writes the restaurant inventory to `docs/data/restaurants.json`. High-confidence official specials pages can feed the deal crawler automatically; uncertain pages remain unpublished.
+
+The discovery job requires the repository Actions secret `GOOGLE_PLACES_API_KEY`, with Places API (New) enabled. Its map bounds and refresh interval live in `crawler/places_config.json`.
 
 ## What It Finds
 

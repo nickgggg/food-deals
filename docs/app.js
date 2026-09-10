@@ -11,6 +11,7 @@ const DAY_LABELS = {
 
 const state = {
   payload: null,
+  restaurants: null,
   query: "",
   restaurant: "",
   city: "",
@@ -176,6 +177,11 @@ function renderFilterOptions() {
     if (deal.city) cities.add(deal.city);
     if (deal.restaurant) restaurants.add(deal.restaurant);
   }
+  for (const restaurant of state.restaurants?.restaurants || []) {
+    if (restaurant.business_status !== "OPERATIONAL") continue;
+    if (restaurant.city) cities.add(restaurant.city);
+    if (restaurant.name) restaurants.add(restaurant.name);
+  }
   renderSelectOptions(cityEl, [...cities].sort(), "All cities");
   renderSelectOptions(restaurantEl, [...restaurants].sort(), "All restaurants");
 }
@@ -184,15 +190,15 @@ function renderSummary() {
   const { summary, generated_at: generatedAt, scope } = state.payload;
   const activeGroups = groupDeals((state.payload.deals || []).filter((deal) => deal.status === "active"));
   statsEl.innerHTML = `
-    <span><strong>${activeGroups.length}</strong> spots</span>
+    <span><strong>${state.restaurants?.coverage?.operational_count || activeGroups.length}</strong> nearby</span>
+    <span><strong>${activeGroups.length}</strong> with deals</span>
     <span><strong>${summary.active_deals}</strong> deals</span>
-    <span><strong>${summary.healthy_sources}</strong> ok</span>
   `;
 
   const locationText = state.locationMessage ? ` ${state.locationMessage}` : "";
   const dayText = state.day === "today" ? DAY_LABELS[todayKey()] : state.day ? tagLabel(state.day) : "any day";
   metaEl.innerHTML = `
-    <p>Data refreshed <strong>${formatDate(generatedAt)}</strong>. Showing <strong>${dayText}</strong> deals.${locationText} Stale items drop after ${scope.drop_after_days} days.</p>
+    <p>Checked <strong>${state.restaurants?.coverage?.official_websites || summary.healthy_sources}</strong> official sites. Showing verified <strong>${dayText}</strong> deals.${locationText} Refreshed ${formatDate(generatedAt)}.</p>
   `;
 }
 
@@ -203,7 +209,8 @@ function badge(text, className = "") {
   return span;
 }
 
-function mapsUrl(name, address) {
+function mapsUrl(name, address, googleMapsUrl) {
+  if (googleMapsUrl) return googleMapsUrl;
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${name} ${address}`)}`;
 }
 
@@ -360,7 +367,7 @@ function renderGroup(group) {
   actions.append(badge(`${group.deals.length}`, "count"));
   if (group.location?.address) {
     const directions = document.createElement("a");
-    directions.href = mapsUrl(group.restaurant, group.location.address);
+    directions.href = mapsUrl(group.restaurant, group.location.address, group.location.google_maps_url);
     directions.target = "_blank";
     directions.rel = "noopener";
     directions.textContent = "Directions";
@@ -406,7 +413,15 @@ function renderDeals() {
   renderSummary();
 
   if (!groups.length) {
-    dealsEl.innerHTML = '<p class="empty">No matching deals found yet.</p>';
+    const selected = (state.restaurants?.restaurants || []).find((item) => item.name === state.restaurant);
+    if (selected) {
+      const link = selected.website_url
+        ? ` <a href="${selected.website_url}" target="_blank" rel="noopener">Check its official site</a>.`
+        : "";
+      dealsEl.innerHTML = `<p class="empty"><strong>No verified special found for ${selected.name} yet.</strong>${link}</p>`;
+    } else {
+      dealsEl.innerHTML = '<p class="empty">No matching verified deals found.</p>';
+    }
     return;
   }
 
@@ -469,8 +484,12 @@ function requestLocation() {
 }
 
 async function init() {
-  const response = await fetch("data/deals.json", { cache: "no-store" });
-  state.payload = await response.json();
+  const [dealsResponse, restaurantsResponse] = await Promise.all([
+    fetch("data/deals.json", { cache: "no-store" }),
+    fetch("data/restaurants.json", { cache: "no-store" }).catch(() => null),
+  ]);
+  state.payload = await dealsResponse.json();
+  state.restaurants = restaurantsResponse?.ok ? await restaurantsResponse.json() : null;
   renderFilterOptions();
   renderDeals();
 }

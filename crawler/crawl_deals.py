@@ -6,6 +6,7 @@ import json
 import re
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from html.parser import HTMLParser
@@ -17,11 +18,12 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCES_PATH = ROOT / "crawler" / "sources.json"
+RESTAURANTS_PATH = ROOT / "docs" / "data" / "restaurants.json"
 OUTPUT_PATH = ROOT / "docs" / "data" / "deals.json"
 STALE_AFTER_DAYS = 21
 DROP_AFTER_DAYS = 90
 REQUEST_TIMEOUT = 25
-CRAWLER_VERSION = 12
+CRAWLER_VERSION = 13
 
 DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 DAY_LABELS = {
@@ -133,9 +135,68 @@ def normalize_line(line: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(line)).strip(" -|\u2022\t")
 
 
+def restaurant_key(name: str, city: str) -> str:
+    clean_name = re.sub(r"[^a-z0-9]+", " ", name.lower()).strip()
+    clean_name = re.sub(r"\b(?:restaurant|bar|grill|cafe|the)\b", "", clean_name)
+    return f'{re.sub(r"\s+", " ", clean_name).strip()}|{city.lower()}'
+
+
+def load_restaurant_inventory() -> list[dict[str, Any]]:
+    try:
+        payload = json.loads(RESTAURANTS_PATH.read_text())
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+    return payload.get("restaurants", [])
+
+
+def inventory_location(restaurant: dict[str, Any], fallback: dict[str, Any] | None = None) -> dict[str, Any]:
+    location = dict(fallback or {})
+    for key in ("address", "phone", "latitude", "longitude", "hours", "google_maps_url", "business_status", "place_id"):
+        source_key = "place_id" if key == "place_id" else key
+        value = restaurant.get(source_key)
+        if value not in (None, "", {}, []):
+            location[key] = value
+    return location
+
+
 def load_sources() -> list[Source]:
-    raw_sources = json.loads(SOURCES_PATH.read_text())
-    return [Source(**raw) for raw in raw_sources if not raw.get("retired")]
+    raw_sources = [raw for raw in json.loads(SOURCES_PATH.read_text()) if not raw.get("retired")]
+    inventory = load_restaurant_inventory()
+    inventory_by_key = {restaurant_key(item["name"], item["city"]): item for item in inventory}
+    sources: list[Source] = []
+    manual_keys: set[str] = set()
+    seen_urls: set[str] = set()
+
+    for raw in raw_sources:
+        key = restaurant_key(raw["name"], raw["city"])
+        manual_keys.add(key)
+        seen_urls.add(raw["url"].rstrip("/"))
+        matched = inventory_by_key.get(key)
+        if matched:
+            raw = dict(raw)
+            raw["location"] = inventory_location(matched, raw.get("location"))
+        sources.append(Source(**raw))
+
+    for restaurant in inventory:
+        key = restaurant_key(restaurant["name"], restaurant["city"])
+        if key in manual_keys or restaurant.get("business_status") != "OPERATIONAL":
+            continue
+        for page in restaurant.get("specials_pages", []):
+            url = page.get("url", "").rstrip("/")
+            if page.get("confidence") != "high" or not url or url in seen_urls:
+                continue
+            seen_urls.add(url)
+            sources.append(
+                Source(
+                    name=restaurant["name"],
+                    city=restaurant["city"],
+                    url=page["url"],
+                    notes="Official specials page found during restaurant discovery",
+                    location=inventory_location(restaurant),
+                    options={"discovered": True, "strict": True, "exclude_menu_prices": True, "max_deals": 8},
+                )
+            )
+    return sources
 
 
 def load_existing() -> dict[str, dict]:
@@ -376,7 +437,7 @@ def is_quality_candidate(text: str, summary: str, tags: list[str]) -> bool:
         return False
     if LOW_VALUE_SUMMARY.search(summary):
         return False
-    if len(summary.split()) < 2 and not summary.startswith("$"):
+    if len(summary.split()) < 2 and not summary.startswith("$") and not extract_days(summary):
         return False
     if len(text) > 320:
         return False
@@ -393,13 +454,32 @@ def has_explicit_discount(deal: dict) -> bool:
     return bool(tags.intersection({"percent_off", "bogo", "happy_hour", "free"}) or re.search(r"\b(?:off|coupon|limited time|starting at|happy hour|2-4-1|half price|with purchase|kids eat free)\b", text, re.I))
 
 
+def is_publishable_discovered(deal: dict) -> bool:
+    if has_explicit_discount(deal):
+        return True
+    tags = set(deal.get("tags", []))
+    categories = set(deal.get("categories", []))
+    return bool(
+        deal.get("applies_days")
+        and "dollar_amount" in tags
+        and categories.intersection({"food", "drink"})
+        and PROMO_CONTEXT.search(deal.get("candidate_text", ""))
+    )
+
+
 def aggregate_deals(source: Source, deals: list[dict], now: datetime, existing: dict[str, dict]) -> list[dict]:
     if source.options.get("exclude_menu_prices"):
-        deals = [deal for deal in deals if has_explicit_discount(deal)]
+        deals = [
+            deal
+            for deal in deals
+            if has_explicit_discount(deal) or (source.options.get("discovered") and is_publishable_discovered(deal))
+        ]
     compact: list[dict] = []
     seen: set[str] = set()
     for deal in deals:
-        if source.options.get("strict") and not has_explicit_discount(deal):
+        if source.options.get("discovered") and not is_publishable_discovered(deal):
+            continue
+        if source.options.get("strict") and not has_explicit_discount(deal) and not is_publishable_discovered(deal):
             continue
         key = re.sub(r"\W+", " ", deal["summary"].lower()).strip()
         if key in seen:
@@ -466,12 +546,20 @@ def main() -> int:
     all_deals: list[dict] = []
     source_statuses: list[dict] = []
 
-    for source in sources:
-        try:
-            deals, status = crawl_source(source, now, existing)
-        except Exception as exc:
-            deals = []
-            status = source_status(source, False, 0, now, mode="failed", error=f"{type(exc).__name__}: {exc}")
+    results: list[tuple[list[dict], dict] | None] = [None] * len(sources)
+    with ThreadPoolExecutor(max_workers=12) as executor:
+        futures = {executor.submit(crawl_source, source, now, existing): (index, source) for index, source in enumerate(sources)}
+        for future in as_completed(futures):
+            index, source = futures[future]
+            try:
+                results[index] = future.result()
+            except Exception as exc:
+                results[index] = ([], source_status(source, False, 0, now, mode="failed", error=f"{type(exc).__name__}: {exc}"))
+
+    for result in results:
+        if result is None:
+            continue
+        deals, status = result
         all_deals.extend(deals)
         source_statuses.append(status)
 
@@ -487,6 +575,7 @@ def main() -> int:
             "source_count": len(sources),
             "stale_after_days": STALE_AFTER_DAYS,
             "drop_after_days": DROP_AFTER_DAYS,
+            "restaurant_count": len(load_restaurant_inventory()),
         },
         "summary": {
             "active_deals": active_count,
