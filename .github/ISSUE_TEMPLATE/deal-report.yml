@@ -1,0 +1,50 @@
+name: Report a missing or incorrect deal
+description: Help improve a restaurant deal or source.
+title: "[Deal report] "
+labels:
+  - deal-report
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping keep the feed useful. Reports are checked automatically, then reviewed before public data changes.
+  - type: input
+    id: restaurant
+    attributes:
+      label: Restaurant
+      placeholder: Restaurant name and location
+    validations:
+      required: true
+  - type: input
+    id: city
+    attributes:
+      label: City
+      placeholder: Huntington Beach
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What needs attention?
+      options:
+        - Missing deal
+        - Incorrect deal
+        - Expired deal
+        - Wrong hours or location
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source URL
+      description: Link to the restaurant page, menu, or post that supports the report.
+      placeholder: https://restaurant.example/specials
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Include the correct price, days, times, or other useful context.
+    validations:
+      required: true

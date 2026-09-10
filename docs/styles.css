@@ -310,6 +310,87 @@ button {
   font-size: 0.72rem;
 }
 
+.results-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 0 0 10px;
+}
+
+.quick-filters,
+.view-controls,
+.view-switch {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.quick-toggle,
+.view-switch button,
+.toolbar-icon {
+  display: inline-flex;
+  width: auto;
+  min-height: 32px;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 5px 9px;
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
+.quick-toggle svg,
+.view-switch svg,
+.toolbar-icon svg {
+  width: 15px;
+  height: 15px;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2;
+}
+
+.quick-toggle[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 12%, var(--surface));
+  color: var(--accent);
+}
+
+.quick-toggle[aria-pressed="true"] svg,
+.location-actions .is-active svg {
+  fill: currentColor;
+}
+
+.view-switch {
+  gap: 0;
+  padding: 2px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--surface);
+}
+
+.view-switch button {
+  min-height: 27px;
+  padding: 3px 8px;
+  border: 0;
+  border-radius: 5px;
+  background: transparent;
+}
+
+.view-switch button[aria-pressed="true"] {
+  background: var(--ink);
+  color: var(--surface);
+}
+
+.toolbar-icon {
+  width: 32px;
+  padding: 0;
+  border-radius: 50%;
+}
+
 .project-status {
   margin: 0 0 10px;
   border: 1px solid var(--line);
@@ -491,7 +572,8 @@ button {
   color: var(--fresh);
 }
 
-.location-actions a {
+.location-actions a,
+.location-actions button {
   border: 1px solid var(--line);
   border-radius: 999px;
   background: var(--surface);
@@ -513,6 +595,10 @@ button {
   border-radius: 50%;
 }
 
+.location-actions button.icon-action {
+  min-height: 30px;
+}
+
 .icon-action svg,
 .disclosure svg {
   width: 16px;
@@ -524,9 +610,114 @@ button {
   stroke-width: 2;
 }
 
-.location-actions a:hover {
+.location-actions a:hover,
+.location-actions button:hover,
+.location-actions .is-active {
   border-color: var(--accent);
   color: var(--accent);
+}
+
+.map-panel {
+  position: relative;
+  height: min(68vh, 680px);
+  min-height: 430px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--wash);
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+}
+
+.map-message {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  width: min(300px, calc(100% - 30px));
+  margin: 0;
+  padding: 12px;
+  transform: translate(-50%, -50%);
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--surface);
+  color: var(--muted);
+  text-align: center;
+}
+
+.deal-marker {
+  width: 31px;
+  min-height: 31px;
+  padding: 0;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.28);
+  color: #fff;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+}
+
+.deal-marker.is-favorite {
+  background: var(--amber);
+  color: #15191f;
+}
+
+.maplibregl-popup-content {
+  width: min(270px, 72vw);
+  padding: 0;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--surface);
+  box-shadow: 0 10px 28px var(--shadow);
+  color: var(--ink);
+}
+
+.deal-map-popup {
+  display: grid;
+  gap: 5px;
+  padding: 11px;
+}
+
+.deal-map-popup > strong {
+  font-size: 0.88rem;
+}
+
+.deal-map-popup > span {
+  color: var(--muted);
+  font-family: var(--mono);
+  font-size: 0.64rem;
+}
+
+.deal-map-popup p {
+  margin: 0;
+  font-size: 0.75rem;
+}
+
+.deal-map-popup button {
+  min-height: 30px;
+  margin-top: 3px;
+  padding: 5px 8px;
+  background: var(--ink);
+  color: var(--surface);
+  font-size: 0.68rem;
+}
+
+.toast {
+  position: fixed;
+  z-index: 100;
+  right: 16px;
+  bottom: 16px;
+  max-width: min(360px, calc(100vw - 32px));
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--ink);
+  box-shadow: 0 8px 24px var(--shadow);
+  color: var(--surface);
+  font-family: var(--mono);
+  font-size: 0.7rem;
 }
 
 .deals {
@@ -957,6 +1148,40 @@ footer p {
 
   .deal-meta {
     align-items: flex-start;
+  }
+
+  .results-toolbar {
+    align-items: stretch;
+    flex-wrap: wrap;
+  }
+
+  .quick-filters {
+    min-width: 0;
+  }
+
+  .view-controls {
+    margin-left: auto;
+  }
+
+  .quick-toggle {
+    min-width: 0;
+    overflow: hidden;
+    padding: 5px 7px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .view-switch button {
+    padding: 3px 6px;
+  }
+
+  .view-switch button svg {
+    display: none;
+  }
+
+  .map-panel {
+    height: calc(100svh - 150px);
+    min-height: 480px;
   }
 
   .project-status > summary {

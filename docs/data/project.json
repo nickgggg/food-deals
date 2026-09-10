@@ -9,8 +9,13 @@
   "roadmap": [
     {
       "status": "working",
-      "title": "Broader source discovery",
-      "detail": "Follow likely happy-hour, specials, lunch, menu, and promotion pages so fewer official offers are missed."
+      "title": "Browser-rendered source fallback",
+      "detail": "Render JavaScript-heavy restaurant pages only when the lightweight crawler cannot recover useful text."
+    },
+    {
+      "status": "next",
+      "title": "Image and PDF specials",
+      "detail": "Use local OCR first, then Gemini only for difficult menu images that appear to contain offers."
     },
     {
       "status": "next",
@@ -18,14 +23,9 @@
       "detail": "Keep tightening day, time, price, and evidence matching while suppressing ordinary menu items."
     },
     {
-      "status": "next",
-      "title": "Open-now filter and favorites",
-      "detail": "Quick mobile filters and device-only saved restaurants require no account or paid service."
-    },
-    {
       "status": "later",
-      "title": "Shareable deal links",
-      "detail": "Open a restaurant directly from a copied link without adding a backend."
+      "title": "Report follow-through",
+      "detail": "Safely promote reviewed community reports into the curated source list."
     },
     {
       "status": "later",

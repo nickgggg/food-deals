@@ -10,6 +10,7 @@ The project runs entirely on GitHub:
 - Google Places builds a staggered nearby-restaurant inventory and supplies current business details.
 - Gemini extracts structured offers from likely specials pages; source-evidence checks keep uncertain results unpublished.
 - The crawler uses only the Python standard library, so there are no package installs.
+- MapLibre and OpenFreeMap provide the optional custom map without an API key.
 
 ## Current Scope
 
@@ -61,6 +62,12 @@ Enable Pages in the repo settings:
 4. Save.
 
 Once enabled, the frontend will read the latest `docs/data/deals.json` and show active/stale filters, city filtering, search, source links, and failed-source notices.
+
+The frontend also supports current-time filtering, device-only favorites, restorable filter URLs, restaurant sharing, and list/map views. Favorites use browser storage and may disappear when a private-browsing session closes.
+
+## Deal Reports
+
+Each restaurant has a report action that opens a prefilled GitHub Issue Form. `.github/workflows/triage-deal-report.yml` validates report completeness, labels the issue, and replies automatically. Reports from trusted repository collaborators can trigger an immediate refresh; public reports always wait for review so an anonymous visitor cannot spend API quota or change published data.
 
 ## Running Manually
 

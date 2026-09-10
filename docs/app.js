@@ -8,6 +8,9 @@ const DAY_LABELS = {
   saturday: "Sat",
   sunday: "Sun",
 };
+const FAVORITES_KEY = "restaurant-deals:favorites";
+const MAPLIBRE_URL = "https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.js";
+const MAPLIBRE_CSS_URL = "https://unpkg.com/maplibre-gl@5/dist/maplibre-gl.css";
 
 const state = {
   payload: null,
@@ -20,8 +23,15 @@ const state = {
   category: "",
   kind: "",
   status: "active",
+  availableNow: false,
+  favoritesOnly: false,
+  favorites: loadFavorites(),
+  view: "list",
+  spot: "",
   userLocation: null,
   locationMessage: "",
+  map: null,
+  mapMarkers: [],
 };
 
 const dealsEl = document.querySelector("#deals");
@@ -48,6 +58,17 @@ const coverageCitiesEl = document.querySelector("#coverage-cities");
 const coverageMetricsEl = document.querySelector("#coverage-metrics");
 const costNoteEl = document.querySelector("#cost-note");
 const roadmapListEl = document.querySelector("#roadmap-list");
+const availableNowEl = document.querySelector("#available-now");
+const favoritesOnlyEl = document.querySelector("#favorites-only");
+const listViewEl = document.querySelector("#list-view");
+const mapViewEl = document.querySelector("#map-view");
+const shareViewEl = document.querySelector("#share-view");
+const mapPanelEl = document.querySelector("#map-panel");
+const mapMessageEl = document.querySelector("#map-message");
+const toastEl = document.querySelector("#toast");
+
+let mapLibraryPromise = null;
+let toastTimer = null;
 
 dayEl.value = "today";
 
@@ -59,6 +80,33 @@ function selectedDay() {
   return state.day === "today" ? todayKey() : state.day;
 }
 
+function loadFavorites() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(FAVORITES_KEY) || "[]");
+    return new Set(Array.isArray(saved) ? saved : []);
+  } catch (_) {
+    return new Set();
+  }
+}
+
+function saveFavorites() {
+  try {
+    localStorage.setItem(FAVORITES_KEY, JSON.stringify([...state.favorites]));
+    return true;
+  } catch (_) {
+    return false;
+  }
+}
+
+function showToast(message) {
+  clearTimeout(toastTimer);
+  toastEl.textContent = message;
+  toastEl.hidden = false;
+  toastTimer = setTimeout(() => {
+    toastEl.hidden = true;
+  }, 3200);
+}
+
 function renderFilterSummary() {
   const labels = [];
   labels.push(state.day === "today" ? "Today" : state.day ? DAY_LABELS[state.day] : "Any day");
@@ -66,6 +114,8 @@ function renderFilterSummary() {
   labels.push(state.restaurant || cityLabel || "All restaurants");
   if (state.category) labels.push(categoryEl.options[categoryEl.selectedIndex]?.text || state.category);
   if (state.kind) labels.push(kindEl.options[kindEl.selectedIndex]?.text || state.kind);
+  if (state.availableNow) labels.push("Available now");
+  if (state.favoritesOnly) labels.push("Favorites");
 
   const activeCount = [
     state.query,
@@ -75,6 +125,8 @@ function renderFilterSummary() {
     state.category,
     state.kind,
     state.status !== "active" ? state.status || "all" : "",
+    state.availableNow ? "now" : "",
+    state.favoritesOnly ? "favorites" : "",
     state.userLocation ? "location" : "",
   ].filter(Boolean).length;
 
@@ -185,6 +237,84 @@ function matchesDay(deal) {
   return !days.length || days.includes(day) || DAYS.every((item) => days.includes(item));
 }
 
+function daysInSegment(value = "") {
+  const labels = DAYS.map((day) => DAY_LABELS[day].toLowerCase());
+  const result = new Set();
+  const text = value.toLowerCase();
+  const range = text.match(/\b(mon|tue|wed|thu|fri|sat|sun)\s*[-–—]\s*(mon|tue|wed|thu|fri|sat|sun)\b/);
+  if (range) {
+    const start = labels.indexOf(range[1]);
+    const end = labels.indexOf(range[2]);
+    if (start >= 0 && end >= 0) {
+      for (let index = start; index <= end; index += 1) result.add(DAYS[index]);
+    }
+  }
+  for (const day of DAYS) {
+    if (new RegExp(`\\b${DAY_LABELS[day]}(?:day)?\\b`, "i").test(text)) result.add(day);
+  }
+  return result;
+}
+
+function clockMinutes(hourText, minuteText, period, inferredPeriod = "") {
+  let hour = Number(hourText);
+  const minute = Number(minuteText || 0);
+  const marker = (period || inferredPeriod || "").toLowerCase();
+  if (marker === "pm" && hour < 12) hour += 12;
+  if (marker === "am" && hour === 12) hour = 0;
+  return hour * 60 + minute;
+}
+
+function timeRanges(value = "", location = {}) {
+  const ranges = [];
+  const pattern = /(\d{1,2})(?::(\d{2}))?\s*(am|pm)?\s*(?:-|to|–|—)\s*(?:(\d{1,2})(?::(\d{2}))?\s*(am|pm)?|(close))/gi;
+  for (const match of value.matchAll(pattern)) {
+    let startPeriod = match[3] || "";
+    const endPeriod = match[6] || "";
+    if (!startPeriod && /^(?:am|pm)$/i.test(endPeriod)) {
+      startPeriod = Number(match[1]) > Number(match[4]) && endPeriod.toLowerCase() === "pm" ? "am" : endPeriod;
+    }
+    const start = clockMinutes(match[1], match[2], startPeriod);
+    let end;
+    if (match[7]) {
+      const todayHours = location.hours?.[todayKey()] || [];
+      end = todayHours.length ? parseClock(todayHours[todayHours.length - 1].close) : 24 * 60;
+    } else {
+      end = clockMinutes(match[4], match[5], endPeriod, startPeriod);
+    }
+    ranges.push({ start, end: end <= start ? end + 24 * 60 : end });
+  }
+  return ranges;
+}
+
+function dealAvailableNow(deal) {
+  const currentDay = todayKey();
+  const applies = deal.applies_days || [];
+  if (applies.length && !applies.includes(currentDay) && !DAYS.every((day) => applies.includes(day))) return false;
+  const business = openStatus(deal.location || {});
+  if (business.startsWith("Closed")) return false;
+
+  const windowText = deal.time_window || "";
+  if (!windowText || /\ball day\b/i.test(windowText)) return true;
+  const now = new Date();
+  const minute = now.getHours() * 60 + now.getMinutes();
+  const segments = windowText.split(/\s*;\s*/);
+  let foundApplicableSchedule = false;
+  let parsedApplicableRange = false;
+  for (const segment of segments) {
+    const segmentDays = daysInSegment(segment);
+    if (segmentDays.size) {
+      foundApplicableSchedule = true;
+      if (!segmentDays.has(currentDay)) continue;
+    }
+    const ranges = timeRanges(segment, deal.location || {});
+    if (!ranges.length) continue;
+    parsedApplicableRange = true;
+    if (ranges.some((range) => minute >= range.start && minute < range.end)) return true;
+  }
+  if (parsedApplicableRange || foundApplicableSchedule) return false;
+  return true;
+}
+
 function matchesFilters(deal) {
   const categories = deal.categories || ["general"];
   const isHappyHour = (deal.tags || []).includes("happy_hour") || /happy\s*hour/i.test(dealText(deal));
@@ -195,6 +325,8 @@ function matchesFilters(deal) {
     (!state.status || deal.status === state.status) &&
     (!state.category || categories.includes(state.category)) &&
     (!state.kind || (state.kind === "happy_hour" ? isHappyHour : !isHappyHour)) &&
+    (!state.availableNow || dealAvailableNow(deal)) &&
+    (!state.favoritesOnly || state.favorites.has(locationKeyForDeal(deal))) &&
     matchesDay(deal)
   );
 }
@@ -321,6 +453,9 @@ const ICONS = {
   directions: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.1 7-13a7 7 0 1 0-14 0c0 6.9 7 13 7 13Z"></path><circle cx="12" cy="9" r="2.3"></circle></svg>',
   phone: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"></path></svg>',
   source: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7"></path><path d="M10 14 21 3"></path><path d="M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"></path></svg>',
+  star: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-2.9-5.6 2.9 1.1-6.2L3 9.6l6.2-.9L12 3Z"></path></svg>',
+  share: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.5"></circle><circle cx="6" cy="12" r="2.5"></circle><circle cx="18" cy="19" r="2.5"></circle><path d="m8.2 10.8 7.6-4.5M8.2 13.2l7.6 4.5"></path></svg>',
+  report: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 21V4"></path><path d="M5 5h11l-1 4 3 3H5"></path></svg>',
   chevron: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>',
 };
 
@@ -337,6 +472,32 @@ function actionLink(href, label, iconName, external = false) {
   }
   link.addEventListener("click", (event) => event.stopPropagation());
   return link;
+}
+
+function actionButton(label, iconName, handler, active = false) {
+  const button = document.createElement("button");
+  button.className = `icon-action${active ? " is-active" : ""}`;
+  button.type = "button";
+  button.title = label;
+  button.setAttribute("aria-label", label);
+  button.setAttribute("aria-pressed", String(active));
+  button.innerHTML = ICONS[iconName];
+  button.addEventListener("click", (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    handler();
+  });
+  return button;
+}
+
+function reportUrl(group) {
+  const params = new URLSearchParams({
+    template: "deal-report.yml",
+    restaurant: restaurantLabel(group.restaurant, group.city),
+    city: group.city,
+    source: [...group.urls][0] || "",
+  });
+  return `https://github.com/nickgggg/restaurant-deals/issues/new?${params}`;
 }
 
 function mapsUrl(name, address, googleMapsUrl) {
@@ -432,6 +593,68 @@ function scoreDeal(deal) {
   return score;
 }
 
+function shareUrl(spot = "") {
+  const params = new URLSearchParams();
+  if (state.query) params.set("q", state.query);
+  if (state.restaurant) params.set("restaurant", state.restaurant);
+  if (state.cities.size) params.set("cities", [...state.cities].sort().join(","));
+  if (state.day !== "today") params.set("day", state.day || "any");
+  if (state.category) params.set("type", state.category);
+  if (state.kind) params.set("offer", state.kind);
+  if (state.status !== "active") params.set("status", state.status || "all");
+  if (state.availableNow) params.set("now", "1");
+  if (state.view === "map") params.set("view", "map");
+  if (spot) params.set("spot", spot);
+  const query = params.toString();
+  return `${location.origin}${location.pathname}${query ? `?${query}` : ""}`;
+}
+
+function syncUrl() {
+  history.replaceState(null, "", shareUrl(state.spot));
+}
+
+async function shareResults(url = shareUrl(), title = "Restaurant Deals") {
+  try {
+    if (navigator.share) {
+      await navigator.share({ title, url });
+      return;
+    }
+    await navigator.clipboard.writeText(url);
+    showToast("Link copied");
+  } catch (error) {
+    if (error.name !== "AbortError") showToast("Could not share this link");
+  }
+}
+
+function readUrlState() {
+  const params = new URLSearchParams(location.search);
+  state.query = params.get("q") || "";
+  state.restaurant = params.get("restaurant") || "";
+  state.cities = new Set((params.get("cities") || "").split(",").filter(Boolean));
+  const day = params.get("day");
+  state.day = day === "any" ? "" : day && DAYS.includes(day) ? day : "today";
+  state.category = ["food", "drink", "general"].includes(params.get("type")) ? params.get("type") : "";
+  state.kind = ["happy_hour", "other"].includes(params.get("offer")) ? params.get("offer") : "";
+  const status = params.get("status");
+  state.status = status === "all" ? "" : status === "stale" ? "stale" : "active";
+  state.availableNow = params.get("now") === "1";
+  state.view = params.get("view") === "map" ? "map" : "list";
+  state.spot = params.get("spot") || "";
+}
+
+function syncControls() {
+  searchEl.value = state.query;
+  restaurantEl.value = state.restaurant;
+  dayEl.value = state.day;
+  categoryEl.value = state.category;
+  kindEl.value = state.kind;
+  statusEl.value = state.status;
+  availableNowEl.setAttribute("aria-pressed", String(state.availableNow));
+  favoritesOnlyEl.setAttribute("aria-pressed", String(state.favoritesOnly));
+  listViewEl.setAttribute("aria-pressed", String(state.view === "list"));
+  mapViewEl.setAttribute("aria-pressed", String(state.view === "map"));
+}
+
 function renderDealRow(deal) {
   const row = document.createElement("article");
   row.className = "deal-row";
@@ -507,6 +730,18 @@ function renderGroup(group, needsQualifier = false) {
   const actions = document.createElement("div");
   actions.className = "location-actions";
   actions.append(badge(`${group.deals.length} ${group.deals.length === 1 ? "deal" : "deals"}`, "deal-count"));
+  const favorite = state.favorites.has(group.key);
+  actions.append(actionButton(favorite ? "Remove favorite" : "Save favorite", "star", () => {
+    if (favorite) state.favorites.delete(group.key);
+    else state.favorites.add(group.key);
+    const persisted = saveFavorites();
+    showToast(favorite
+      ? "Favorite removed"
+      : persisted
+        ? "Saved on this device; private sessions may clear it"
+        : "Saved for this session only");
+    rerender();
+  }, favorite));
   if (group.location?.address) {
     actions.append(actionLink(mapsUrl(group.restaurant, group.location.address, group.location.google_maps_url), "Directions", "directions", true));
   }
@@ -517,6 +752,10 @@ function renderGroup(group, needsQualifier = false) {
     const label = group.urls.size > 1 ? `Official source ${index + 1}` : "Official source";
     actions.append(actionLink(url, label, "source", true));
   }
+  actions.append(actionButton("Share restaurant", "share", () => {
+    shareResults(shareUrl(locationSlug(group)), `${baseLabel} deals`);
+  }));
+  actions.append(actionLink(reportUrl(group), "Report missing or incorrect deal", "report", true));
 
   const disclosure = document.createElement("span");
   disclosure.className = "disclosure";
@@ -535,12 +774,119 @@ function renderGroup(group, needsQualifier = false) {
   return section;
 }
 
+function loadMapLibrary() {
+  if (window.maplibregl) return Promise.resolve(window.maplibregl);
+  if (mapLibraryPromise) return mapLibraryPromise;
+  mapLibraryPromise = new Promise((resolve, reject) => {
+    if (!document.querySelector(`link[href="${MAPLIBRE_CSS_URL}"]`)) {
+      const link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = MAPLIBRE_CSS_URL;
+      document.head.append(link);
+    }
+    const script = document.createElement("script");
+    script.src = MAPLIBRE_URL;
+    script.onload = () => resolve(window.maplibregl);
+    script.onerror = () => reject(new Error("Map library could not load"));
+    document.head.append(script);
+  });
+  return mapLibraryPromise;
+}
+
+function mapStyle() {
+  return document.documentElement.dataset.theme === "dark"
+    ? "https://tiles.openfreemap.org/styles/dark"
+    : "https://tiles.openfreemap.org/styles/positron";
+}
+
+function openSpot(group) {
+  state.view = "list";
+  state.spot = locationSlug(group);
+  syncControls();
+  syncUrl();
+  renderDeals();
+  requestAnimationFrame(() => {
+    const section = document.getElementById(state.spot);
+    if (!section) return;
+    section.open = true;
+    section.scrollIntoView({ behavior: "smooth", block: "center" });
+  });
+}
+
+function mapPopup(group) {
+  const popup = document.createElement("article");
+  popup.className = "deal-map-popup";
+  const title = document.createElement("strong");
+  title.textContent = restaurantLabel(group.restaurant, group.city);
+  const meta = document.createElement("span");
+  meta.textContent = [group.city, openStatus(group.location), `${group.deals.length} ${group.deals.length === 1 ? "deal" : "deals"}`].join(" · ");
+  const preview = document.createElement("p");
+  preview.textContent = normalizeScheduleText(bestDeals(group)[0]?.summary || "View current deals");
+  const button = document.createElement("button");
+  button.type = "button";
+  button.textContent = "View deals";
+  button.addEventListener("click", () => openSpot(group));
+  popup.append(title, meta, preview, button);
+  return popup;
+}
+
+async function renderMap(groups) {
+  mapMessageEl.hidden = true;
+  const mappable = groups.filter((group) => Number.isFinite(group.location?.latitude) && Number.isFinite(group.location?.longitude));
+  if (!mappable.length) {
+    mapMessageEl.textContent = "No mapped restaurants match these filters.";
+    mapMessageEl.hidden = false;
+    return;
+  }
+  try {
+    const maplibregl = await loadMapLibrary();
+    if (!state.map) {
+      state.map = new maplibregl.Map({
+        container: "map",
+        style: mapStyle(),
+        center: [-117.98, 33.69],
+        zoom: 10.5,
+        attributionControl: true,
+      });
+      state.map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+    }
+    for (const marker of state.mapMarkers) marker.remove();
+    state.mapMarkers = [];
+    const bounds = new maplibregl.LngLatBounds();
+    for (const group of mappable) {
+      const element = document.createElement("button");
+      element.type = "button";
+      element.className = `deal-marker${state.favorites.has(group.key) ? " is-favorite" : ""}`;
+      element.textContent = group.deals.length;
+      element.title = `${restaurantLabel(group.restaurant, group.city)} · ${group.deals.length} ${group.deals.length === 1 ? "deal" : "deals"}`;
+      const popup = new maplibregl.Popup({ offset: 18, closeButton: false }).setDOMContent(mapPopup(group));
+      const marker = new maplibregl.Marker({ element })
+        .setLngLat([group.location.longitude, group.location.latitude])
+        .setPopup(popup)
+        .addTo(state.map);
+      state.mapMarkers.push(marker);
+      bounds.extend([group.location.longitude, group.location.latitude]);
+    }
+    state.map.resize();
+    state.map.fitBounds(bounds, { padding: 48, maxZoom: 14, duration: 350 });
+  } catch (error) {
+    mapMessageEl.textContent = "The custom map could not load. The deal list is still available.";
+    mapMessageEl.hidden = false;
+  }
+}
+
 function renderDeals() {
   const deals = (state.payload.deals || []).filter(matchesFilters);
   const groups = groupDeals(deals);
   const nameCounts = groups.reduce((counts, group) => counts.set(group.restaurant, (counts.get(group.restaurant) || 0) + 1), new Map());
   dealsEl.innerHTML = "";
   renderSummary(deals);
+  syncControls();
+  syncUrl();
+  const mapActive = state.view === "map";
+  dealsEl.hidden = mapActive;
+  mapPanelEl.hidden = !mapActive;
+  if (mapActive) renderMap(groups);
 
   if (!groups.length) {
     const selected = (state.restaurants?.restaurants || []).find((item) => item.name === state.restaurant);
@@ -556,6 +902,12 @@ function renderDeals() {
   }
 
   for (const group of groups) dealsEl.append(renderGroup(group, nameCounts.get(group.restaurant) > 1));
+  if (state.spot) {
+    requestAnimationFrame(() => {
+      const section = document.getElementById(state.spot);
+      if (section) section.open = true;
+    });
+  }
 }
 
 function renderSources() {
@@ -693,19 +1045,24 @@ async function init() {
   state.payload = await dealsResponse.json();
   state.restaurants = restaurantsResponse?.ok ? await restaurantsResponse.json() : null;
   state.project = projectResponse?.ok ? await projectResponse.json() : null;
+  readUrlState();
   renderFilterOptions();
+  syncControls();
+  renderFilterSummary();
   renderProjectStatus();
   renderDeals();
 }
 
 searchEl.addEventListener("input", (event) => {
   state.query = event.target.value.trim();
+  state.spot = "";
   renderFilterSummary();
   rerender();
 });
 
 restaurantEl.addEventListener("change", (event) => {
   state.restaurant = event.target.value;
+  state.spot = "";
   renderFilterSummary();
   rerender();
   if (state.restaurant) {
@@ -724,6 +1081,7 @@ cityOptionsEl.addEventListener("change", (event) => {
   if (!event.target.matches('input[type="checkbox"]')) return;
   if (event.target.checked) state.cities.add(event.target.value);
   else state.cities.delete(event.target.value);
+  state.spot = "";
   updateCitySummary();
   renderFilterSummary();
   rerender();
@@ -732,6 +1090,7 @@ cityOptionsEl.addEventListener("change", (event) => {
 cityOptionsEl.addEventListener("click", (event) => {
   if (!event.target.matches(".city-clear")) return;
   state.cities.clear();
+  state.spot = "";
   for (const input of cityOptionsEl.querySelectorAll('input[type="checkbox"]')) input.checked = false;
   updateCitySummary();
   renderFilterSummary();
@@ -744,27 +1103,62 @@ document.addEventListener("click", (event) => {
 
 dayEl.addEventListener("change", (event) => {
   state.day = event.target.value;
+  state.spot = "";
   renderFilterSummary();
   rerender();
 });
 
 categoryEl.addEventListener("change", (event) => {
   state.category = event.target.value;
+  state.spot = "";
   renderFilterSummary();
   rerender();
 });
 
 kindEl.addEventListener("change", (event) => {
   state.kind = event.target.value;
+  state.spot = "";
   renderFilterSummary();
   rerender();
 });
 
 statusEl.addEventListener("change", (event) => {
   state.status = event.target.value;
+  state.spot = "";
   renderFilterSummary();
   rerender();
 });
+
+availableNowEl.addEventListener("click", () => {
+  state.availableNow = !state.availableNow;
+  state.spot = "";
+  if (state.availableNow) {
+    state.day = "today";
+    dayEl.value = "today";
+  }
+  renderFilterSummary();
+  rerender();
+});
+
+favoritesOnlyEl.addEventListener("click", () => {
+  state.favoritesOnly = !state.favoritesOnly;
+  state.spot = "";
+  renderFilterSummary();
+  rerender();
+});
+
+listViewEl.addEventListener("click", () => {
+  state.view = "list";
+  rerender();
+});
+
+mapViewEl.addEventListener("click", () => {
+  state.view = "map";
+  state.spot = "";
+  rerender();
+});
+
+shareViewEl.addEventListener("click", () => shareResults());
 
 filterToggleEl.addEventListener("click", () => {
   const expanded = filtersEl.classList.toggle("is-open");
@@ -784,6 +1178,7 @@ themeToggleEl.addEventListener("click", () => {
   const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
   document.documentElement.dataset.theme = next;
   localStorage.setItem("theme", next);
+  if (state.map) state.map.setStyle(mapStyle());
   syncThemeButton();
 });
 

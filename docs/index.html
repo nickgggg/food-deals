@@ -8,7 +8,7 @@
     <script>
       document.documentElement.dataset.theme = localStorage.getItem("theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
     </script>
-    <link rel="stylesheet" href="styles.css?v=8">
+    <link rel="stylesheet" href="styles.css?v=9">
   </head>
   <body>
     <header class="topbar">
@@ -92,6 +92,33 @@
       </section>
 
       <section class="meta" id="meta"></section>
+      <section class="results-toolbar" aria-label="Result controls">
+        <div class="quick-filters">
+          <button id="available-now" class="quick-toggle" type="button" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
+            Available now
+          </button>
+          <button id="favorites-only" class="quick-toggle" type="button" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-2.9-5.6 2.9 1.1-6.2L3 9.6l6.2-.9L12 3Z"></path></svg>
+            Favorites
+          </button>
+        </div>
+        <div class="view-controls">
+          <div class="view-switch" role="group" aria-label="Results view">
+            <button id="list-view" type="button" aria-pressed="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6h13M8 12h13M8 18h13"></path><circle cx="3.5" cy="6" r=".5"></circle><circle cx="3.5" cy="12" r=".5"></circle><circle cx="3.5" cy="18" r=".5"></circle></svg>
+              List
+            </button>
+            <button id="map-view" type="button" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 6 5-3 8 3 5-3v15l-5 3-8-3-5 3V6Z"></path><path d="M8 3v15M16 6v15"></path></svg>
+              Map
+            </button>
+          </div>
+          <button id="share-view" class="toolbar-icon" type="button" aria-label="Share these results" title="Share these results">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2.5"></circle><circle cx="6" cy="12" r="2.5"></circle><circle cx="18" cy="19" r="2.5"></circle><path d="m8.2 10.8 7.6-4.5M8.2 13.2l7.6 4.5"></path></svg>
+          </button>
+        </div>
+      </section>
       <details class="project-status" id="project-status">
         <summary>
           <span class="project-status-title">Coverage</span>
@@ -114,14 +141,21 @@
           </section>
         </div>
       </details>
+      <section class="map-panel" id="map-panel" aria-label="Restaurant deal map" hidden>
+        <div id="map"></div>
+        <p id="map-message" class="map-message" hidden></p>
+      </section>
       <section class="deals" id="deals" aria-live="polite"></section>
       <section class="sources" id="sources"></section>
       <footer>
         <p>Deals refresh each morning at 14:37 UTC, with a freshness-checked fallback at 16:17 UTC. One queued city activates each week; active cities are rediscovered about every five weeks.</p>
         <p>Restaurant details supplied by Google Maps. Deal terms come from linked restaurant sources.</p>
+        <p>Favorites stay on this device. Private browsing may remove them when the private session ends.</p>
       </footer>
     </main>
 
-    <script src="app.js?v=8"></script>
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+    <script src="app.js?v=9"></script>
   </body>
 </html>
