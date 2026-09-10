@@ -533,10 +533,6 @@ footer p {
     gap: 4px;
   }
 
-  .stats span:first-child {
-    display: none;
-  }
-
   .stats span {
     border: 0;
     background: transparent;
