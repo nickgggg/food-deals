@@ -1,6 +1,6 @@
 {
   "extraction_version": 1,
-  "generated_at": "2026-09-10T02:58:33Z",
+  "generated_at": "2026-09-10T03:32:01Z",
   "model": "gemini-3.5-flash-lite",
   "pages": [
     {
@@ -2699,108 +2699,6 @@
     {
       "content_hash": "277d092044d60ee9da3760a036d9e9b72b5f06c3eb4627b8e2e88f5c80b70c82",
       "deals": [],
-      "extracted_at": "2026-09-10T02:13:26Z",
-      "key": "a3ff1d2a0f58f65098fd",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "http://www.wienerschnitzel.com/coupons/"
-      },
-      "rejected_candidates": [],
-      "restaurant": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "no_deals"
-    },
-    {
-      "content_hash": "277d092044d60ee9da3760a036d9e9b72b5f06c3eb4627b8e2e88f5c80b70c82",
-      "deals": [],
       "extracted_at": "2026-09-10T02:13:41Z",
       "key": "4fbfe542f3af8ec669fc",
       "model": "gemini-3.5-flash-lite",
@@ -2897,6 +2795,108 @@
           "establishment"
         ],
         "website_url": "http://www.wienerschnitzel.com/location/239-beach-blvd-talbert-huntington-beach-18012-beach-blvd-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "no_deals"
+    },
+    {
+      "content_hash": "277d092044d60ee9da3760a036d9e9b72b5f06c3eb4627b8e2e88f5c80b70c82",
+      "deals": [],
+      "extracted_at": "2026-09-10T02:13:26Z",
+      "key": "a3ff1d2a0f58f65098fd",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "http://www.wienerschnitzel.com/coupons/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "no_deals"
     },
@@ -3386,7 +3386,7 @@
       "content_hash": "cf602e88a841f032ceb9db45a7f93894a5bb22f67cdc9cc2d7235a0e1f3125e4",
       "deals": [
         {
-          "ai_confidence": 0.95,
+          "ai_confidence": 0.85,
           "applies_days": [],
           "categories": [
             "food",
@@ -3394,11 +3394,11 @@
           ],
           "details": [
             "Price: $5",
-            "Includes a corn dog, small fries, and small soda",
-            "Coupon good for two orders on same visit",
-            "Must be surrendered at time of purchase",
+            "Includes one corn dog, small fries, and small soda",
+            "Coupon good for two orders on same visit and must be surrendered at time of purchase",
             "Tax extra",
             "Not valid with any other offer, discount or coupon",
+            "Good at participating restaurants only",
             "Not valid in Sacramento, Stockton & Modesto areas"
           ],
           "source_evidence": [
@@ -3410,8 +3410,8 @@
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-10T02:14:26Z",
-      "key": "4d95ceb6a3c19f22d9ce",
+      "extracted_at": "2026-09-10T02:14:19Z",
+      "key": "b722649edfad301a9018",
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
@@ -3420,59 +3420,59 @@
       },
       "rejected_candidates": [],
       "restaurant": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
         "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "monday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "saturday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "sunday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "thursday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "tuesday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "wednesday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ]
         },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
         "name": "Wienerschnitzel",
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0",
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
         "primary_type": "fast_food_restaurant",
         "specials_pages": [
           {
@@ -3505,7 +3505,7 @@
           "point_of_interest",
           "establishment"
         ],
-        "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
     },
@@ -3640,7 +3640,7 @@
       "content_hash": "cf602e88a841f032ceb9db45a7f93894a5bb22f67cdc9cc2d7235a0e1f3125e4",
       "deals": [
         {
-          "ai_confidence": 0.85,
+          "ai_confidence": 0.95,
           "applies_days": [],
           "categories": [
             "food",
@@ -3648,11 +3648,11 @@
           ],
           "details": [
             "Price: $5",
-            "Includes one corn dog, small fries, and small soda",
-            "Coupon good for two orders on same visit and must be surrendered at time of purchase",
+            "Includes a corn dog, small fries, and small soda",
+            "Coupon good for two orders on same visit",
+            "Must be surrendered at time of purchase",
             "Tax extra",
             "Not valid with any other offer, discount or coupon",
-            "Good at participating restaurants only",
             "Not valid in Sacramento, Stockton & Modesto areas"
           ],
           "source_evidence": [
@@ -3664,8 +3664,8 @@
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-10T02:14:19Z",
-      "key": "b722649edfad301a9018",
+      "extracted_at": "2026-09-10T02:14:26Z",
+      "key": "4d95ceb6a3c19f22d9ce",
       "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "high",
@@ -3674,59 +3674,59 @@
       },
       "rejected_candidates": [],
       "restaurant": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
         "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "monday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "saturday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "sunday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "thursday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "tuesday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "wednesday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ]
         },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
+        "latitude": 33.715162,
+        "longitude": -118.024705,
         "name": "Wienerschnitzel",
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0",
         "primary_type": "fast_food_restaurant",
         "specials_pages": [
           {
@@ -3759,7 +3759,7 @@
           "point_of_interest",
           "establishment"
         ],
-        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+        "website_url": "http://www.wienerschnitzel.com/location/351-warner-springdale-huntington-bch-5966-warner-avenue-huntington-bch-ca-92649/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
     },
@@ -5422,6 +5422,96 @@
     {
       "content_hash": "1ef5a756012eaa07f977344a2a69be2bbedf165164c34aadbcfff2f501b666d1",
       "deals": [],
+      "extracted_at": "2026-09-10T02:21:06Z",
+      "key": "19cec4e1074e8465423c",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "medium",
+        "label": "Website specials",
+        "url": "http://www.carlitosdiner.com/"
+      },
+      "rejected_candidates": [
+        "Menudo & Pozole Everyday",
+        "Taco Tuesday",
+        "Daily Specials"
+      ],
+      "restaurant": {
+        "address": "7451 Warner Ave G, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=436858277318907960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "16:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.716098,
+        "longitude": -117.99848000000001,
+        "name": "Carlitos Diner",
+        "phone": "(714) 841-9966",
+        "place_id": "ChIJB5cwb4om3YAROFjI5EkIEAY",
+        "primary_type": "mexican_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "medium",
+            "label": "Website specials",
+            "url": "http://www.carlitosdiner.com/"
+          }
+        ],
+        "types": [
+          "mexican_restaurant",
+          "american_restaurant",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.carlitosdiner.com/"
+      },
+      "status": "no_deals"
+    },
+    {
+      "content_hash": "1ef5a756012eaa07f977344a2a69be2bbedf165164c34aadbcfff2f501b666d1",
+      "deals": [],
       "extracted_at": "2026-09-10T02:21:13Z",
       "key": "a48cca227805c135b5be",
       "model": "gemini-3.5-flash-lite",
@@ -5500,96 +5590,6 @@
           "diner",
           "breakfast_restaurant",
           "hamburger_restaurant",
-          "american_restaurant",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.carlitosdiner.com/"
-      },
-      "status": "no_deals"
-    },
-    {
-      "content_hash": "1ef5a756012eaa07f977344a2a69be2bbedf165164c34aadbcfff2f501b666d1",
-      "deals": [],
-      "extracted_at": "2026-09-10T02:21:06Z",
-      "key": "19cec4e1074e8465423c",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "medium",
-        "label": "Website specials",
-        "url": "http://www.carlitosdiner.com/"
-      },
-      "rejected_candidates": [
-        "Menudo & Pozole Everyday",
-        "Taco Tuesday",
-        "Daily Specials"
-      ],
-      "restaurant": {
-        "address": "7451 Warner Ave G, Huntington Beach, CA 92647, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=436858277318907960&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "16:00",
-              "open": "08:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.716098,
-        "longitude": -117.99848000000001,
-        "name": "Carlitos Diner",
-        "phone": "(714) 841-9966",
-        "place_id": "ChIJB5cwb4om3YAROFjI5EkIEAY",
-        "primary_type": "mexican_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "medium",
-            "label": "Website specials",
-            "url": "http://www.carlitosdiner.com/"
-          }
-        ],
-        "types": [
-          "mexican_restaurant",
           "american_restaurant",
           "restaurant",
           "food",
@@ -8123,9 +8123,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "48a83ff9df69c4f55aca482f079e98ee96bff36ea6bf0a00946ad035f0090f97",
+      "content_hash": "63cff9341c12e703d3e8f322f4391d7c73a2c6abc4b80fd8d68491517b221944",
       "deals": [],
-      "extracted_at": "2026-09-10T02:55:27Z",
+      "extracted_at": "2026-09-10T03:28:18Z",
       "key": "589825ac47de20879b9c",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -12557,9 +12557,7 @@
         "label": "Website specials",
         "url": "https://www.riip.com/locations/pizzeria-south-hb-location?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=googlemybusiness"
       },
-      "rejected_candidates": [
-        "Cask & Crust: Cask Conditioned Beer Release & Free House Made Bread"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "19171 Magnolia St #12, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -13052,12 +13050,15 @@
     {
       "content_hash": "5cbc98be081544f73ad0394b119e38bfdda1eb83dabe3df8ae6a1f9ce53802cb",
       "deals": [],
+      "extracted_at": "2026-09-10T03:28:25Z",
       "key": "0a843a8f21c07bcd5892",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://santamariabbqgrill.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "7144 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -13139,17 +13140,20 @@
         ],
         "website_url": "https://santamariabbqgrill.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "ec4714268e3c7033c995cb3f222957a55898191fe45395390b4c51bad5986dd5",
       "deals": [],
+      "extracted_at": "2026-09-10T03:28:32Z",
       "key": "1fba8a8ca1f8b2eba24f",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://seasaltatthebeach.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "18751 Pacific Coast Hwy Unit 3, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -13198,17 +13202,45 @@
         ],
         "website_url": "https://seasaltatthebeach.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "a5b90dd9ade8b7bd639298e04ea40966292d90e28f1aa3507590136153d4b1b4",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Choose one salad: Large House, Large Caeser, Large Spinach (+2), Large Caprese (+3)",
+            "Choose two pastas: Spaghetti Marinara, Angel hair with Pink Sauce, Spaghetti with Meat Sauce, Fettuccine Sebastiani, Vienna's Rigatoni, Penne Arrabiatta",
+            "Price: $35",
+            "Add any dessert for $6.00"
+          ],
+          "source_evidence": [
+            "Tuesday September 15th",
+            "Take out Tuesday Special",
+            "$35",
+            "04:30 PM - 08:00 PM"
+          ],
+          "summary": "Take out Tuesday Special: Choice of salad and two pastas for $35",
+          "time_window": "04:30 PM - 08:00 PM",
+          "valid_through": "2020-09-15"
+        }
+      ],
+      "extracted_at": "2026-09-10T03:28:40Z",
       "key": "9c54f8a3fa87892ce2e4",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Specials",
         "url": "http://www.sebastianis.net/huntington-beach-sebastianis-italian-bistro-happy-hours-specials"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "6078 Warner Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -13275,17 +13307,83 @@
         ],
         "website_url": "http://www.sebastianis.net/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "735a0c40ad834a9c17602b379ec507dae116562802faee079f118528835fea57",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "tuesday",
+            "wednesday",
+            "thursday",
+            "friday",
+            "saturday",
+            "sunday"
+          ],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "Consistent drink specials available during happy hour"
+          ],
+          "source_evidence": [
+            "happy hour everyday 12pm-6pm"
+          ],
+          "summary": "Happy hour everyday from 12pm to 6pm with consistent drink specials",
+          "time_window": "12pm-6pm",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "$2 OFF Drinks ALL DAY",
+            "Requires Military Police Firefighters ID"
+          ],
+          "source_evidence": [
+            "Military Police Firefighters with ID",
+            "$2 OFF Drinks ALL DAY"
+          ],
+          "summary": "$2 off drinks all day for military, police, and firefighters with ID",
+          "time_window": "ALL DAY",
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "drink"
+          ],
+          "details": [
+            "$6 Jack",
+            "$6 Jameson",
+            "$6 buffalo trace ALL DAY"
+          ],
+          "source_evidence": [
+            "$6 Jack $6 Jameson $6 buffalo trace ALL DAY"
+          ],
+          "summary": "$6 Jack, $6 Jameson, and $6 Buffalo Trace all day on Wednesday",
+          "time_window": "ALL DAY",
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T03:28:48Z",
       "key": "8339686545cd996f8094",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "http://www.shanghaidroom.com/"
       },
+      "rejected_candidates": [
+        "Industry Night drink discounts on special menu for bartenders and servers"
+      ],
       "restaurant": {
         "address": "16391 Beach Blvd, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -13360,17 +13458,20 @@
         ],
         "website_url": "http://www.shanghaidroom.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "161ae4499902e0319cf8abdc224e6f00dca834b66a25de17cd9b97622674cefa",
       "deals": [],
+      "extracted_at": "2026-09-10T03:28:55Z",
       "key": "822c7057cc1a48429586",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://www.shimajapaneserestaurants.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "10076 Adams Ave Unit 9, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -13449,17 +13550,41 @@
         ],
         "website_url": "https://www.shimajapaneserestaurants.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "d414382453aef2733cd0827954be46639edea973d4afeaa94317b8d0f2d068b5",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "general"
+          ],
+          "details": [
+            "Free shipping applies to orders over $30."
+          ],
+          "source_evidence": [
+            "Free shipping on orders over $30"
+          ],
+          "summary": "Free shipping on orders over $30",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T03:29:04Z",
       "key": "f6190cc4ca4a411befa4",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://www.solidcoffeeroasters.com/"
       },
+      "rejected_candidates": [
+        "Get 15% off your first order by signing up",
+        "Subscribe to an individual coffee to save 20%",
+        "Save 20% on a Bean Bundle when you add any combination of three coffees"
+      ],
       "restaurant": {
         "address": "7862 Warner Ave #106, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -13533,7 +13658,7 @@
         ],
         "website_url": "https://www.solidcoffeeroasters.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "",
@@ -13626,12 +13751,15 @@
     {
       "content_hash": "70467a329506bfc1a84acafe9638eceabdfc1b9801a2be441a320bf2bbce1767",
       "deals": [],
+      "extracted_at": "2026-09-10T03:29:11Z",
       "key": "5719f8bafa8b3c61c61e",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "*",
         "url": "http://www.sticksandstoneshb.com/specials"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "21058 Pacific Coast Hwy Ste M130, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -13708,17 +13836,20 @@
         ],
         "website_url": "http://www.sticksandstoneshb.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "550a80f004c0b2b1d732a84e9ba2d950448f1b826130e6e9c2c558989e9a89ba",
       "deals": [],
+      "extracted_at": "2026-09-10T03:29:18Z",
       "key": "dcaceadd06d5e501e0a7",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "http://www.stonefiregrill.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -13799,17 +13930,68 @@
         ],
         "website_url": "http://www.stonefiregrill.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
-      "content_hash": "177d6bdf828465fdba088347191a70d8bc7657a485e1b91629447e71bb39572f",
-      "deals": [],
+      "content_hash": "14ced0cb93838c07c1182efc003bc784cd33fa426a92281040a7163cc1abc418",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "saturday",
+            "sunday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Includes one large pizza, garden salad, and garlic knots",
+            "Price: $29.99"
+          ],
+          "source_evidence": [
+            "Rainy Day Specials",
+            "Only available Sunday, Saturday",
+            "Rainy Day Special",
+            "One large pizza, garden salad & garlic knots.",
+            "$29.99"
+          ],
+          "summary": "Rainy Day Special bundle",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "monday",
+            "thursday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Buy one large cheese pie, get second large cheese pie half off",
+            "Price: $17.99"
+          ],
+          "source_evidence": [
+            "Thursday & Monday Night Football Special",
+            "Only available Monday, Thursday",
+            "Buy One Large Cheese Pie, Get Second Large Cheese Pie Half Off",
+            "$17.99"
+          ],
+          "summary": "Thursday & Monday Night Football Special - Buy One Get Second Half Off",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T03:29:26Z",
       "key": "5400d18f6af555a77c1d",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "http://www.stoneyspizzamenu.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "17210 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -13886,17 +14068,20 @@
         ],
         "website_url": "http://www.stoneyspizzamenu.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "22e352b71c678b81d15274979bd7a5cb7b59a19b4e4a8e4edcd7d031b70b965f",
       "deals": [],
+      "extracted_at": "2026-09-10T03:29:33Z",
       "key": "e10aa9273a4cbf8e0538",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/fountain-valley/16373-harbor-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=1276&utm_campaign=evergreen-2020&y_source=1_MTQ5MTQyNTAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "16373 S Harbor Blvd, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -13930,17 +14115,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/fountain-valley/16373-harbor-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=1276&utm_campaign=evergreen-2020&y_source=1_MTQ5MTQyNTAtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "d39e54203811b90e6b92cb89e1e3f02caf61cc4820271ec1df8f8f11f2379555",
       "deals": [],
+      "extracted_at": "2026-09-10T03:29:40Z",
       "key": "02a956ef014e128b88e2",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/fountain-valley/17900-magnolia-street?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=23749&utm_campaign=evergreen-2020&y_source=1_MTQ5MDA2NzUtNzE1LWxvY2F0aW9uLndlYnNpdGU="
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "17900 Magnolia St Unit B, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -14017,17 +14205,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/fountain-valley/17900-magnolia-street?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=23749&utm_campaign=evergreen-2020&y_source=1_MTQ5MDA2NzUtNzE1LWxvY2F0aW9uLndlYnNpdGU="
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "f987c3ccb487d89deab120feb239482f754cf70479cecca91d4fdc661194af51",
       "deals": [],
+      "extracted_at": "2026-09-10T03:29:48Z",
       "key": "8e8e01662de89c29d454",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/fountain-valley/9985-ellis-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=3265&utm_campaign=evergreen-2020&y_source=1_MTQ4OTQ0NTktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "9985 Ellis Ave Suite 5, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -14104,17 +14295,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/fountain-valley/9985-ellis-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=3265&utm_campaign=evergreen-2020&y_source=1_MTQ4OTQ0NTktNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "440f1b825f26608c8625045829a5ebcc68bca62bc008bbd062e8975f0052c2a1",
       "deals": [],
+      "extracted_at": "2026-09-10T03:29:55Z",
       "key": "27a4824bb85fda105802",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/huntington-beach/16055-bolsa-chica-street?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=38347&utm_campaign=evergreen-2020&y_source=1_MTQ5MDk1NDYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "16055 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -14191,17 +14385,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/huntington-beach/16055-bolsa-chica-street?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=38347&utm_campaign=evergreen-2020&y_source=1_MTQ5MDk1NDYtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "552bf34222925c57e6873ff88d314dfff8613e20223147dd043caa6159abd7f7",
       "deals": [],
+      "extracted_at": "2026-09-10T03:30:03Z",
       "key": "2048f95998bf2d349753",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/huntington-beach/16502-beach-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=32574&utm_campaign=evergreen-2020&y_source=1_MTQ5MTU5NjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "16502 Beach Blvd, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -14278,17 +14475,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/huntington-beach/16502-beach-blvd?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=32574&utm_campaign=evergreen-2020&y_source=1_MTQ5MTU5NjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "e7541794b4a724d68a623555164eb6b26925539b1a0c5955ab1176ff41626926",
       "deals": [],
+      "extracted_at": "2026-09-10T03:30:10Z",
       "key": "8b3c6974e4e139c43626",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/huntington-beach/6014-warner-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=46616&utm_campaign=evergreen-2020&y_source=1_MTQ5MDI0MTctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "6014 Warner Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -14365,17 +14565,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/huntington-beach/6014-warner-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=46616&utm_campaign=evergreen-2020&y_source=1_MTQ5MDI0MTctNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "0c636e196603cb29e10fa6344cf12b8cdf0568ab834cec70223cb2e3c8ff35f0",
       "deals": [],
+      "extracted_at": "2026-09-10T03:30:17Z",
       "key": "9dee23481239ea38c518",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/huntington-beach/6490-edinger-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=2288&utm_campaign=evergreen-2020&y_source=1_MTQ5MTA5NTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "6490 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -14452,17 +14655,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/huntington-beach/6490-edinger-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=2288&utm_campaign=evergreen-2020&y_source=1_MTQ5MTA5NTgtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "96f5b3c6c0484b1b459961d855cccb2605d1474591f4207af07dab3120e3dcfb",
       "deals": [],
+      "extracted_at": "2026-09-10T03:30:24Z",
       "key": "856dec2f10c2ffafddac",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://restaurants.subway.com/united-states/ca/huntington-beach/9025-e-adams-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=46691&utm_campaign=evergreen-2020&y_source=1_MTQ4OTM2NTItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "9025 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -14539,18 +14745,20 @@
         ],
         "website_url": "https://restaurants.subway.com/united-states/ca/huntington-beach/9025-e-adams-ave?utm_source=yxt-goog&utm_medium=local&utm_term=acq&utm_content=46691&utm_campaign=evergreen-2020&y_source=1_MTQ4OTM2NTItNzE1LWxvY2F0aW9uLndlYnNpdGU%3D"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
-      "content_hash": "",
+      "content_hash": "738680d71069d0b32eba03c4ccd56cea79d7173a495e2dd649730be9a61878be",
       "deals": [],
-      "error": "No promotion text found",
+      "extracted_at": "2026-09-10T03:30:31Z",
       "key": "93619113bba7677908b0",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "http://www.sushionfire.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "301 Main St #103, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -14623,17 +14831,20 @@
         ],
         "website_url": "http://www.sushionfire.com/"
       },
-      "status": "fetch_failed"
+      "status": "no_deals"
     },
     {
       "content_hash": "3d56c4a283b643e5535e5faad767d93bac1ee7d5fd58ba01ce25057d46be0cd8",
       "deals": [],
+      "extracted_at": "2026-09-10T03:30:38Z",
       "key": "46394c6c722f3d98f74e",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://yukitheoddy.wixsite.com/sushi-plus"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "18856 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -14724,17 +14935,37 @@
         ],
         "website_url": "https://yukitheoddy.wixsite.com/sushi-plus"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "b9877e41a5b55d1848a949fd74ccc1071c8b4d01e051ac1f63c9bc732ef1f921",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Features 10 favorites each priced at $3 or less."
+          ],
+          "source_evidence": [
+            "The new Luxe Value Menu brings 10 favorites, each $3 or less."
+          ],
+          "summary": "Luxe Value Menu featuring 10 favorites for $3 or less",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T03:30:46Z",
       "key": "a7598c1d3384b7cc4a45",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://locations.tacobell.com/ca/fountain-valley/11291-talbert.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=039616&utm_content=website&y_source=1_NjE0Njk2My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "11291 Talbert Ave, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -14810,17 +15041,38 @@
         ],
         "website_url": "https://locations.tacobell.com/ca/fountain-valley/11291-talbert.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=039616&utm_content=website&y_source=1_NjE0Njk2My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "b9877e41a5b55d1848a949fd74ccc1071c8b4d01e051ac1f63c9bc732ef1f921",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.9,
+          "applies_days": [],
+          "categories": [
+            "food",
+            "general"
+          ],
+          "details": [
+            "Features 10 favorites each priced at $3 or less."
+          ],
+          "source_evidence": [
+            "The new Luxe Value Menu brings 10 favorites, each $3 or less."
+          ],
+          "summary": "Luxe Value Menu featuring 10 favorites for $3 or less",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T03:30:53Z",
       "key": "0c24a3ac96a66dd09f0b",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://locations.tacobell.com/ca/fountain-valley/9925-warner-ave.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=039617&utm_content=website&y_source=1_NjE0MTU1MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "9925 Warner Ave, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -14898,17 +15150,20 @@
         ],
         "website_url": "https://locations.tacobell.com/ca/fountain-valley/9925-warner-ave.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=039617&utm_content=website&y_source=1_NjE0MTU1MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "a88291cc346f3d88bb4b7fcb6683858df392620432f73234446b01fec833ccf3",
       "deals": [],
+      "extracted_at": "2026-09-10T03:31:00Z",
       "key": "89c8af1d52e16096e984",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://locations.tacobell.com/ca/huntington-beach/16431-bolsa-chica-st-.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=028716&utm_content=website&y_source=1_NjE0NTkzNi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "16431 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -14988,17 +15243,38 @@
         ],
         "website_url": "https://locations.tacobell.com/ca/huntington-beach/16431-bolsa-chica-st-.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=028716&utm_content=website&y_source=1_NjE0NTkzNi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "c8bc16c6fc4950311deffeeca62e22aab65097e3ba193a82210dde2cb1345e7b",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food",
+            "general"
+          ],
+          "details": [
+            "Includes 10 favorite items priced at $3 or less"
+          ],
+          "source_evidence": [
+            "The new Luxe Value Menu brings 10 favorites, each $3 or less."
+          ],
+          "summary": "Luxe Value Menu featuring 10 favorites for $3 or less",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T03:31:12Z",
       "key": "0aad1b324fb417cc8ccc",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://locations.tacobell.com/ca/huntington-beach/17182-beach-blvd.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=028705&utm_content=website&y_source=1_NjE0NTgwMy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "17182 Beach Blvd, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -15074,17 +15350,20 @@
         ],
         "website_url": "https://locations.tacobell.com/ca/huntington-beach/17182-beach-blvd.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=028705&utm_content=website&y_source=1_NjE0NTgwMy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "c8bc16c6fc4950311deffeeca62e22aab65097e3ba193a82210dde2cb1345e7b",
       "deals": [],
+      "extracted_at": "2026-09-10T03:31:19Z",
       "key": "bbef84dd537f4ae22e1d",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://locations.tacobell.com/ca/huntington-beach/19002-beach-blvd.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=028708&utm_content=website&y_source=1_NjE0NTU2Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "19002 Beach Blvd, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -15162,17 +15441,22 @@
         ],
         "website_url": "https://locations.tacobell.com/ca/huntington-beach/19002-beach-blvd.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=028708&utm_content=website&y_source=1_NjE0NTU2Ni03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "a88291cc346f3d88bb4b7fcb6683858df392620432f73234446b01fec833ccf3",
       "deals": [],
+      "extracted_at": "2026-09-10T03:31:26Z",
       "key": "22869fffe8cb4ccf530e",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://locations.tacobell.com/ca/huntington-beach/19051-magnolia-st-.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=028730&utm_content=website&y_source=1_NjE0NTU1Mi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
+      "rejected_candidates": [
+        "Luxe Value Menu with 10 favorites for $3 or less"
+      ],
       "restaurant": {
         "address": "19051 Magnolia St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -15250,17 +15534,20 @@
         ],
         "website_url": "https://locations.tacobell.com/ca/huntington-beach/19051-magnolia-st-.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=028730&utm_content=website&y_source=1_NjE0NTU1Mi03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "c8bc16c6fc4950311deffeeca62e22aab65097e3ba193a82210dde2cb1345e7b",
       "deals": [],
+      "extracted_at": "2026-09-10T03:31:34Z",
       "key": "573c1832889f5a3f6637",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://locations.tacobell.com/ca/huntington-beach/7480-edinger-ave.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=002529&utm_content=website&y_source=1_NjE0MjI1OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "7480 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -15338,17 +15625,20 @@
         ],
         "website_url": "https://locations.tacobell.com/ca/huntington-beach/7480-edinger-ave.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=002529&utm_content=website&y_source=1_NjE0MjI1OS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "c455145324a40d20e4139dc81f4d6341c41178d92b714f86b78a5d268c3805bb",
       "deals": [],
+      "extracted_at": "2026-09-10T03:31:41Z",
       "key": "8d18f6d25d616e563622",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://themenustar1.com/webspace/menus.php?code=tasteofindiacali.com"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "8890 Warner Ave, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -15420,17 +15710,20 @@
         ],
         "website_url": "https://themenustar1.com/webspace/menus.php?code=tasteofindiacali.com"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "eaa84702c2fa2bfd06eef494c1f421cd046dd8496fbe86a0c5a4be0d6e359481",
       "deals": [],
+      "extracted_at": "2026-09-10T03:31:48Z",
       "key": "63706ccfadb4d3a75a2b",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://teriyakimadness.com/locations/ca-huntington/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "20100 Magnolia St Unit 103, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -15511,18 +15804,20 @@
         ],
         "website_url": "https://teriyakimadness.com/locations/ca-huntington/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
-      "content_hash": "",
+      "content_hash": "75a3ac0fcc2cf668d71bfc7a08651891f7bc838ab9a86ac161603a162fe8aeec",
       "deals": [],
-      "error": "No promotion text found",
+      "extracted_at": "2026-09-10T03:31:55Z",
       "key": "f48d3292b7f50228e21d",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://thaipepper.net/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "18023 Beach Blvd, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -15608,7 +15903,7 @@
         ],
         "website_url": "https://thaipepper.net/"
       },
-      "status": "fetch_failed"
+      "status": "no_deals"
     },
     {
       "content_hash": "9faab12b76d84bea8cc9dcd338cea0523fca2ed1d702b3e93f18fd697a7ff56e",
@@ -18232,57 +18527,57 @@
     {
       "city": "Huntington Beach",
       "location": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "monday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "saturday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "sunday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "thursday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "tuesday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "wednesday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ]
         },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
       },
       "name": "Wienerschnitzel",
       "notes": "AI-extracted from an official restaurant page; source evidence checked",
@@ -18290,7 +18585,7 @@
         "ai_extracted": true,
         "static_deals": [
           {
-            "ai_confidence": 0.95,
+            "ai_confidence": 0.85,
             "applies_days": [],
             "categories": [
               "food",
@@ -18298,11 +18593,11 @@
             ],
             "details": [
               "Price: $5",
-              "Includes a corn dog, small fries, and small soda",
-              "Coupon good for two orders on same visit",
-              "Must be surrendered at time of purchase",
+              "Includes one corn dog, small fries, and small soda",
+              "Coupon good for two orders on same visit and must be surrendered at time of purchase",
               "Tax extra",
               "Not valid with any other offer, discount or coupon",
+              "Good at participating restaurants only",
               "Not valid in Sacramento, Stockton & Modesto areas"
             ],
             "source_evidence": [
@@ -18408,57 +18703,57 @@
     {
       "city": "Huntington Beach",
       "location": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "monday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "saturday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "sunday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "thursday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "tuesday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "wednesday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ]
         },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
       },
       "name": "Wienerschnitzel",
       "notes": "AI-extracted from an official restaurant page; source evidence checked",
@@ -18466,7 +18761,7 @@
         "ai_extracted": true,
         "static_deals": [
           {
-            "ai_confidence": 0.85,
+            "ai_confidence": 0.95,
             "applies_days": [],
             "categories": [
               "food",
@@ -18474,11 +18769,11 @@
             ],
             "details": [
               "Price: $5",
-              "Includes one corn dog, small fries, and small soda",
-              "Coupon good for two orders on same visit and must be surrendered at time of purchase",
+              "Includes a corn dog, small fries, and small soda",
+              "Coupon good for two orders on same visit",
+              "Must be surrendered at time of purchase",
               "Tax extra",
               "Not valid with any other offer, discount or coupon",
-              "Good at participating restaurants only",
               "Not valid in Sacramento, Stockton & Modesto areas"
             ],
             "source_evidence": [
@@ -21658,14 +21953,529 @@
         ]
       },
       "url": "https://www.riip.com/locations/pizzeria-south-hb-location?utm_source=googlemybusiness&utm_medium=organic&utm_campaign=googlemybusiness"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "6078 Warner Ave, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=15391955725450032162&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:30",
+              "open": "16:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:30",
+              "open": "16:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:30",
+              "open": "16:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "16:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:30",
+              "open": "16:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:30",
+              "open": "16:30"
+            }
+          ]
+        },
+        "latitude": 33.714515999999996,
+        "longitude": -118.0224656,
+        "phone": "(714) 841-3619",
+        "place_id": "ChIJ415xatQl3YARIjT9pS42m9U"
+      },
+      "name": "Sebastiani's Italian Bistro",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "tuesday"
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Choose one salad: Large House, Large Caeser, Large Spinach (+2), Large Caprese (+3)",
+              "Choose two pastas: Spaghetti Marinara, Angel hair with Pink Sauce, Spaghetti with Meat Sauce, Fettuccine Sebastiani, Vienna's Rigatoni, Penne Arrabiatta",
+              "Price: $35",
+              "Add any dessert for $6.00"
+            ],
+            "source_evidence": [
+              "Tuesday September 15th",
+              "Take out Tuesday Special",
+              "$35",
+              "04:30 PM - 08:00 PM"
+            ],
+            "summary": "Take out Tuesday Special: Choice of salad and two pastas for $35",
+            "time_window": "04:30 PM - 08:00 PM",
+            "valid_through": "2020-09-15"
+          }
+        ]
+      },
+      "url": "http://www.sebastianis.net/huntington-beach-sebastianis-italian-bistro-happy-hours-specials"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "7862 Warner Ave #106, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=16677943837730328305&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "19:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "19:00",
+              "open": "07:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "07:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "19:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.7152357,
+        "longitude": -117.990448,
+        "phone": "(562) 316-0606",
+        "place_id": "ChIJDZFwUJMn3YAR8c7Uj471c-c"
+      },
+      "name": "Solid Coffee Roasters - Huntington Beach",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "general"
+            ],
+            "details": [
+              "Free shipping applies to orders over $30."
+            ],
+            "source_evidence": [
+              "Free shipping on orders over $30"
+            ],
+            "summary": "Free shipping on orders over $30",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.solidcoffeeroasters.com/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "17210 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=10304571258044845499&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:30",
+              "open": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:30",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "19:30",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:30",
+              "open": "12:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:30",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.712897999999996,
+        "longitude": -118.06346769999999,
+        "phone": "(714) 596-0024",
+        "place_id": "ChIJcyzeXkAl3YARu412lvYwAY8"
+      },
+      "name": "Stoney's Pizza",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "saturday",
+              "sunday"
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Includes one large pizza, garden salad, and garlic knots",
+              "Price: $29.99"
+            ],
+            "source_evidence": [
+              "Rainy Day Specials",
+              "Only available Sunday, Saturday",
+              "Rainy Day Special",
+              "One large pizza, garden salad & garlic knots.",
+              "$29.99"
+            ],
+            "summary": "Rainy Day Special bundle",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "monday",
+              "thursday"
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Buy one large cheese pie, get second large cheese pie half off",
+              "Price: $17.99"
+            ],
+            "source_evidence": [
+              "Thursday & Monday Night Football Special",
+              "Only available Monday, Thursday",
+              "Buy One Large Cheese Pie, Get Second Large Cheese Pie Half Off",
+              "$17.99"
+            ],
+            "summary": "Thursday & Monday Night Football Special - Buy One Get Second Half Off",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "http://www.stoneyspizzamenu.com/"
+    },
+    {
+      "city": "Fountain Valley",
+      "location": {
+        "address": "11291 Talbert Ave, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=15074207167481801340&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:00",
+              "open": "07:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "23:00",
+              "open": "07:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "23:00",
+              "open": "07:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "23:00",
+              "open": "07:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "23:00",
+              "open": "07:00"
+            }
+          ]
+        },
+        "latitude": 33.7022592,
+        "longitude": -117.93293680000001,
+        "phone": "(714) 540-8736",
+        "place_id": "ChIJCYPHlVAn3YARfGpmYI1XMtE"
+      },
+      "name": "Taco Bell",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Features 10 favorites each priced at $3 or less."
+            ],
+            "source_evidence": [
+              "The new Luxe Value Menu brings 10 favorites, each $3 or less."
+            ],
+            "summary": "Luxe Value Menu featuring 10 favorites for $3 or less",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://locations.tacobell.com/ca/fountain-valley/11291-talbert.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=039616&utm_content=website&y_source=1_NjE0Njk2My03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    },
+    {
+      "city": "Fountain Valley",
+      "location": {
+        "address": "9925 Warner Ave, Fountain Valley, CA 92708, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11875172644638851984&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "01:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:00",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "01:00",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "01:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "01:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.7166675,
+        "longitude": -117.95587060000001,
+        "phone": "(714) 968-0029",
+        "place_id": "ChIJafDMvREn3YARkIMiWpoWzaQ"
+      },
+      "name": "Taco Bell",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.9,
+            "applies_days": [],
+            "categories": [
+              "food",
+              "general"
+            ],
+            "details": [
+              "Features 10 favorites each priced at $3 or less."
+            ],
+            "source_evidence": [
+              "The new Luxe Value Menu brings 10 favorites, each $3 or less."
+            ],
+            "summary": "Luxe Value Menu featuring 10 favorites for $3 or less",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://locations.tacobell.com/ca/fountain-valley/9925-warner-ave.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=039617&utm_content=website&y_source=1_NjE0MTU1MS03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "17182 Beach Blvd, Huntington Beach, CA 92647, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1509792479050440715&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "03:30",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "01:30",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "03:30",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "01:30",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "01:30",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "01:30",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7128947,
+        "longitude": -117.9886177,
+        "phone": "(714) 842-8261",
+        "place_id": "ChIJyaS-e_Em3YARC6BbrkLc8xQ"
+      },
+      "name": "Taco Bell",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food",
+              "general"
+            ],
+            "details": [
+              "Includes 10 favorite items priced at $3 or less"
+            ],
+            "source_evidence": [
+              "The new Luxe Value Menu brings 10 favorites, each $3 or less."
+            ],
+            "summary": "Luxe Value Menu featuring 10 favorites for $3 or less",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://locations.tacobell.com/ca/huntington-beach/17182-beach-blvd.html?utm_source=yext&utm_campaign=googlelistings&utm_medium=referral&utm_term=028705&utm_content=website&y_source=1_NjE0NTgwMy03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D"
     }
   ],
   "summary": {
     "candidate_pages": 158,
-    "failed_pages": 7,
-    "pending_pages": 37,
-    "processed_pages": 114,
-    "published_deals": 111,
-    "published_sources": 42
+    "failed_pages": 5,
+    "pending_pages": 10,
+    "processed_pages": 143,
+    "published_deals": 118,
+    "published_sources": 48
   }
 }
