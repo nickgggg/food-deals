@@ -42,7 +42,8 @@ PROMO_SIGNAL = re.compile(
     re.I,
 )
 VALUE_SIGNAL = re.compile(
-    r"(?:\$\s*\d|\d{1,3}%\s*off|\b(?:free|bogo|buy one|get one|half price|happy\s*hour|with purchase)\b)",
+    r"(?:\$\s*\d|\d{1,3}%\s*off|\b(?:free|bogo|half price|happy\s*hour|with purchase)\b|"
+    r"\bbuy\s+one\b.{0,50}\bget\s+one\b)",
     re.I,
 )
 NOISE_SUMMARY = re.compile(
@@ -290,18 +291,18 @@ def validate_deals(raw: dict[str, Any], context: str) -> tuple[list[dict[str, An
     rejected: list[str] = []
     context_key = normalized_key(context)
     for deal in raw.get("deals", [])[:12]:
-        summary = normalize(deal.get("summary", ""))[:100]
+        summary = normalize(deal.get("summary") or "")[:100]
         details = [normalize(item) for item in deal.get("details", []) if normalize(item)][:8]
         evidence = [normalize(item) for item in deal.get("evidence", []) if normalize(item)][:5]
         confidence = float(deal.get("confidence", 0))
         days = [day for day in deal.get("applies_days", []) if day in DAYS]
         categories = [item for item in deal.get("categories", []) if item in {"food", "drink", "general"}]
-        valid_through = normalize(deal.get("valid_through", ""))
+        valid_through = normalize(deal.get("valid_through") or "")
         expires = parse_date(valid_through)
         evidence_matches = evidence and all(normalized_key(item) in context_key for item in evidence)
         supported_days = evidence_days(evidence)
         days = [day for day in days if day in supported_days]
-        time_window = normalize(deal.get("time_window", "")) if evidence_has_time(evidence) else ""
+        time_window = normalize(deal.get("time_window") or "") if evidence_has_time(evidence) else ""
         useful_text = " ".join([summary, *details, *evidence])
         has_value = bool(VALUE_SIGNAL.search(useful_text))
         has_schedule = bool(days or time_window)

@@ -25,7 +25,7 @@ OUTPUT_PATH = ROOT / "docs" / "data" / "deals.json"
 STALE_AFTER_DAYS = 21
 DROP_AFTER_DAYS = 90
 REQUEST_TIMEOUT = 25
-CRAWLER_VERSION = 15
+CRAWLER_VERSION = 16
 
 DAYS = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 DAY_LABELS = {
@@ -308,7 +308,7 @@ def extract_days(text: str) -> list[str]:
             si, ei = DAYS.index(start), DAYS.index(end)
             span = DAYS[si : ei + 1] if si <= ei else DAYS[si:] + DAYS[: ei + 1]
             found.extend(day for day in span if day not in found)
-    for match in re.finditer(day_pattern, lower, re.I):
+    for match in re.finditer(rf"\b{day_pattern}\b", lower, re.I):
         day = aliases.get(match.group(1))
         if day and day not in found:
             found.append(day)
@@ -398,8 +398,8 @@ def build_static_deal(source: Source, raw: dict[str, Any], now: datetime, existi
     text = normalize_line(" ".join([raw["summary"], *details]))
     did = deal_id(source, text)
     previous = existing.get(did, {})
-    days = raw.get("applies_days") or extract_days(text)
-    time_window = raw.get("time_window") or extract_time_window(text)
+    days = raw["applies_days"] if "applies_days" in raw else extract_days(text)
+    time_window = raw["time_window"] if "time_window" in raw else extract_time_window(text)
     tags = dedupe([*raw.get("tags", []), *detect_tags(text)])
     categories = raw.get("categories") or category_for(text)
     return {
