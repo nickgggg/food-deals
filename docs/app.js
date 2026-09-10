@@ -33,6 +33,10 @@ const dayEl = document.querySelector("#day");
 const categoryEl = document.querySelector("#category");
 const statusEl = document.querySelector("#status");
 const locateEl = document.querySelector("#locate");
+const filtersEl = document.querySelector("#filters");
+const filterToggleEl = document.querySelector("#filter-toggle");
+const filterCountEl = document.querySelector("#filter-count");
+const filterSummaryEl = document.querySelector("#filter-summary");
 
 dayEl.value = "today";
 
@@ -42,6 +46,27 @@ function todayKey() {
 
 function selectedDay() {
   return state.day === "today" ? todayKey() : state.day;
+}
+
+function renderFilterSummary() {
+  const labels = [];
+  labels.push(state.day === "today" ? "Today" : state.day ? DAY_LABELS[state.day] : "Any day");
+  labels.push(state.restaurant || state.city || "All restaurants");
+  if (state.category) labels.push(categoryEl.options[categoryEl.selectedIndex]?.text || state.category);
+
+  const activeCount = [
+    state.query,
+    state.restaurant,
+    state.city,
+    state.day !== "today" ? state.day || "any" : "",
+    state.category,
+    state.status !== "active" ? state.status || "all" : "",
+    state.userLocation ? "location" : "",
+  ].filter(Boolean).length;
+
+  filterSummaryEl.textContent = labels.join(" · ");
+  filterCountEl.textContent = activeCount;
+  filterCountEl.hidden = activeCount === 0;
 }
 
 function formatDate(value) {
@@ -466,6 +491,7 @@ function requestLocation() {
       };
       state.locationMessage = "Sorted by distance.";
       locateEl.textContent = "Distance on";
+      renderFilterSummary();
       rerender();
     },
     () => {
@@ -491,11 +517,13 @@ async function init() {
 
 searchEl.addEventListener("input", (event) => {
   state.query = event.target.value.trim();
+  renderFilterSummary();
   rerender();
 });
 
 restaurantEl.addEventListener("change", (event) => {
   state.restaurant = event.target.value;
+  renderFilterSummary();
   rerender();
   if (state.restaurant) {
     requestAnimationFrame(() => {
@@ -511,25 +539,36 @@ restaurantEl.addEventListener("change", (event) => {
 
 cityEl.addEventListener("change", (event) => {
   state.city = event.target.value;
+  renderFilterSummary();
   rerender();
 });
 
 dayEl.addEventListener("change", (event) => {
   state.day = event.target.value;
+  renderFilterSummary();
   rerender();
 });
 
 categoryEl.addEventListener("change", (event) => {
   state.category = event.target.value;
+  renderFilterSummary();
   rerender();
 });
 
 statusEl.addEventListener("change", (event) => {
   state.status = event.target.value;
+  renderFilterSummary();
   rerender();
 });
 
+filterToggleEl.addEventListener("click", () => {
+  const expanded = filtersEl.classList.toggle("is-open");
+  filterToggleEl.setAttribute("aria-expanded", String(expanded));
+});
+
 locateEl.addEventListener("click", requestLocation);
+
+renderFilterSummary();
 
 init().catch((error) => {
   dealsEl.innerHTML = `<p class="empty">Could not load deals: ${error.message}</p>`;

@@ -16,24 +16,31 @@
     </header>
 
     <main>
-      <section class="controls" aria-label="Deal filters">
-        <label class="search-control">
+      <section class="controls" id="filters" aria-label="Deal filters">
+        <div class="filter-toolbar">
+          <button id="filter-toggle" class="filter-toggle" type="button" aria-expanded="false" aria-controls="filter-fields">
+            Filters <span id="filter-count" class="filter-count" hidden></span>
+          </button>
+          <span id="filter-summary" class="filter-summary">Today · All restaurants</span>
+        </div>
+        <div class="filter-fields" id="filter-fields">
+          <label class="search-control">
           Search
           <input id="search" type="search" placeholder="happy hour, tacos, beer">
-        </label>
-        <label>
+          </label>
+          <label>
           Restaurant
           <select id="restaurant">
             <option value="">All restaurants</option>
           </select>
-        </label>
-        <label>
+          </label>
+          <label>
           City
           <select id="city">
             <option value="">All cities</option>
           </select>
-        </label>
-        <label>
+          </label>
+          <label>
           Day
           <select id="day">
             <option value="today">Today</option>
@@ -46,8 +53,8 @@
             <option value="saturday">Saturday</option>
             <option value="sunday">Sunday</option>
           </select>
-        </label>
-        <label>
+          </label>
+          <label>
           Type
           <select id="category">
             <option value="">Food + drink</option>
@@ -55,16 +62,17 @@
             <option value="drink">Drink</option>
             <option value="general">General</option>
           </select>
-        </label>
-        <label>
+          </label>
+          <label>
           Status
           <select id="status">
             <option value="active">Active</option>
             <option value="">Active + stale</option>
             <option value="stale">Stale only</option>
           </select>
-        </label>
-        <button id="locate" class="locate-button" type="button">Use my location</button>
+          </label>
+          <button id="locate" class="locate-button" type="button">Use my location</button>
+        </div>
       </section>
 
       <section class="meta" id="meta"></section>

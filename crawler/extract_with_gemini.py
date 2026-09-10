@@ -19,7 +19,7 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 RESTAURANTS_PATH = ROOT / "docs" / "data" / "restaurants.json"
 OUTPUT_PATH = ROOT / "docs" / "data" / "ai_extractions.json"
-MODEL = "gemini-2.5-flash-lite"
+MODEL = "gemini-3.5-flash-lite"
 GEMINI_URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
 REQUEST_TIMEOUT = 25
 MAX_PAGES_PER_RUN = 30
