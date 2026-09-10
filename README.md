@@ -1,6 +1,6 @@
-# HB + Fountain Valley Food Deals
+# Restaurant Deals
 
-A lightweight, serverless deals aggregator for local restaurant specials, beginning with Huntington Beach and Fountain Valley.
+A lightweight, serverless tracker for local restaurant specials, beginning with Huntington Beach and Fountain Valley and designed to expand.
 
 The project runs entirely on GitHub:
 
@@ -13,7 +13,7 @@ The project runs entirely on GitHub:
 
 ## Current Scope
 
-Curated sources live in `crawler/sources.json`. A weekly discovery pass scans the configured map grid, finds official websites and likely specials pages, and writes the restaurant inventory to `docs/data/restaurants.json`. Discovered pages form a review queue; they publish only after a source-specific parser or explicit `publish` approval prevents generic page noise from reaching the site.
+Curated sources live in `crawler/sources.json`. A weekly discovery pass scans the configured map grid, finds official websites and likely specials pages, and writes the restaurant inventory to `docs/data/restaurants.json`. Gemini extracts structured offers from candidate pages; exact source-evidence checks, schedule validation, and value-signal rules keep generic menu content and unsupported claims out of the feed.
 
 The discovery job requires the repository Actions secret `GOOGLE_PLACES_API_KEY`, with Places API (New) enabled. Its map bounds and refresh interval live in `crawler/places_config.json`.
 

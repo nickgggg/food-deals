@@ -298,6 +298,8 @@ def validate_deals(raw: dict[str, Any], context: str) -> tuple[list[dict[str, An
         days = [day for day in deal.get("applies_days", []) if day in DAYS]
         categories = [item for item in deal.get("categories", []) if item in {"food", "drink", "general"}]
         valid_through = normalize(deal.get("valid_through") or "")
+        if valid_through.lower() in {"none", "null", "n/a", "unknown"}:
+            valid_through = ""
         expires = parse_date(valid_through)
         evidence_matches = evidence and all(normalized_key(item) in context_key for item in evidence)
         supported_days = evidence_days(evidence)
@@ -388,7 +390,9 @@ def build_sources(pages: list[dict[str, Any]]) -> list[dict[str, Any]]:
         restaurant = page["restaurant"]
         unique: list[dict[str, Any]] = []
         for deal in page["deals"]:
-            key = f"{restaurant['place_id']}|{normalized_key(deal['summary'])}|{','.join(deal.get('applies_days', []))}"
+            evidence_key = "|".join(sorted(normalized_key(item) for item in deal.get("source_evidence", [])))
+            identity = evidence_key or normalized_key(deal["summary"])
+            key = f"{restaurant['place_id']}|{identity}"
             if key in seen_deals:
                 continue
             seen_deals.add(key)

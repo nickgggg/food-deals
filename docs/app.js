@@ -17,6 +17,7 @@ const state = {
   city: "",
   day: "today",
   category: "",
+  kind: "",
   status: "active",
   userLocation: null,
   locationMessage: "",
@@ -31,6 +32,7 @@ const restaurantEl = document.querySelector("#restaurant");
 const cityEl = document.querySelector("#city");
 const dayEl = document.querySelector("#day");
 const categoryEl = document.querySelector("#category");
+const kindEl = document.querySelector("#kind");
 const statusEl = document.querySelector("#status");
 const locateEl = document.querySelector("#locate");
 const filtersEl = document.querySelector("#filters");
@@ -53,6 +55,7 @@ function renderFilterSummary() {
   labels.push(state.day === "today" ? "Today" : state.day ? DAY_LABELS[state.day] : "Any day");
   labels.push(state.restaurant || state.city || "All restaurants");
   if (state.category) labels.push(categoryEl.options[categoryEl.selectedIndex]?.text || state.category);
+  if (state.kind) labels.push(kindEl.options[kindEl.selectedIndex]?.text || state.kind);
 
   const activeCount = [
     state.query,
@@ -60,6 +63,7 @@ function renderFilterSummary() {
     state.city,
     state.day !== "today" ? state.day || "any" : "",
     state.category,
+    state.kind,
     state.status !== "active" ? state.status || "all" : "",
     state.userLocation ? "location" : "",
   ].filter(Boolean).length;
@@ -91,6 +95,11 @@ function categoryLabel(categories = []) {
   if (categories.includes("food")) return "Food";
   if (categories.includes("drink")) return "Drink";
   return "General";
+}
+
+function restaurantLabel(name, city) {
+  const suffix = ` - ${city}`;
+  return city && name.endsWith(suffix) ? name.slice(0, -suffix.length) : name;
 }
 
 function locationKeyForDeal(deal) {
@@ -131,12 +140,14 @@ function matchesDay(deal) {
 
 function matchesFilters(deal) {
   const categories = deal.categories || ["general"];
+  const isHappyHour = (deal.tags || []).includes("happy_hour") || /happy\s*hour/i.test(dealText(deal));
   return (
     (!state.query || dealText(deal).includes(state.query.toLowerCase())) &&
     (!state.restaurant || deal.restaurant === state.restaurant) &&
     (!state.city || deal.city === state.city) &&
     (!state.status || deal.status === state.status) &&
     (!state.category || categories.includes(state.category)) &&
+    (!state.kind || (state.kind === "happy_hour" ? isHappyHour : !isHappyHour)) &&
     matchesDay(deal)
   );
 }
@@ -218,7 +229,7 @@ function renderSummary() {
   const locationText = state.locationMessage ? ` ${state.locationMessage}` : "";
   const dayText = state.day === "today" ? DAY_LABELS[todayKey()] : state.day ? tagLabel(state.day) : "any day";
   metaEl.innerHTML = `
-    <p>Checked <strong>${state.restaurants?.coverage?.official_websites || summary.healthy_sources}</strong> official sites. Showing verified <strong>${dayText}</strong> deals.${locationText} Refreshed ${formatDate(generatedAt)}.</p>
+    <p><strong>${dayText}</strong> deals · Updated ${formatDate(generatedAt)}.${locationText}</p>
   `;
 }
 
@@ -227,6 +238,28 @@ function badge(text, className = "") {
   span.className = className;
   span.textContent = text;
   return span;
+}
+
+const ICONS = {
+  directions: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s7-6.1 7-13a7 7 0 1 0-14 0c0 6.9 7 13 7 13Z"></path><circle cx="12" cy="9" r="2.3"></circle></svg>',
+  phone: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.4 19.4 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2Z"></path></svg>',
+  source: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7"></path><path d="M10 14 21 3"></path><path d="M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"></path></svg>',
+  chevron: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>',
+};
+
+function actionLink(href, label, iconName, external = false) {
+  const link = document.createElement("a");
+  link.className = "icon-action";
+  link.href = href;
+  link.title = label;
+  link.setAttribute("aria-label", label);
+  link.innerHTML = ICONS[iconName];
+  if (external) {
+    link.target = "_blank";
+    link.rel = "noopener";
+  }
+  link.addEventListener("click", (event) => event.stopPropagation());
+  return link;
 }
 
 function mapsUrl(name, address, googleMapsUrl) {
@@ -345,18 +378,19 @@ function renderDealRow(deal) {
   meta.className = "deal-meta";
   meta.append(badge(deal.validity || "Check source", "validity"));
   meta.append(badge(categoryLabel(deal.categories), "category"));
-  for (const tag of (deal.tags || []).slice(0, 2)) meta.append(badge(tagLabel(tag)));
+  const visibleTags = new Set(["happy_hour", "bogo", "percent_off", "free"]);
+  const displayTags = (deal.tags || []).filter((tag) => visibleTags.has(tag)).slice(0, 1);
+  for (const tag of displayTags) meta.append(badge(tagLabel(tag)));
   main.append(meta);
 
-  const side = document.createElement("div");
-  side.className = "deal-side";
-  side.append(badge(deal.status === "stale" ? "Stale" : "Seen online", `status ${deal.status}`));
-  const seen = document.createElement("span");
-  seen.className = "seen";
-  seen.textContent = `${deal.status === "stale" ? "Last seen" : "Found"} ${formatDate(deal.last_seen)}`;
-  side.append(seen);
+  if (deal.status === "stale") {
+    const stale = document.createElement("p");
+    stale.className = "stale-note";
+    stale.textContent = `Not found in the latest check · Last seen ${formatDate(deal.last_seen)}`;
+    main.append(stale);
+  }
 
-  row.append(main, side);
+  row.append(main);
   return row;
 }
 
@@ -364,7 +398,7 @@ function renderGroup(group) {
   const section = document.createElement("details");
   section.className = "location";
   section.id = locationSlug(group);
-  section.open = Boolean(state.restaurant || state.query || state.day !== "today" || state.category);
+  section.open = Boolean(state.restaurant || state.query);
 
   const summary = document.createElement("summary");
   summary.className = "location-heading";
@@ -372,7 +406,7 @@ function renderGroup(group) {
   const titleWrap = document.createElement("div");
   titleWrap.className = "location-title";
   const title = document.createElement("h2");
-  title.textContent = group.restaurant;
+  title.textContent = restaurantLabel(group.restaurant, group.city);
   const sub = document.createElement("p");
   const bits = [group.city, distanceLabel(group), openStatus(group.location)].filter(Boolean);
   sub.textContent = bits.join(" · ");
@@ -384,40 +418,27 @@ function renderGroup(group) {
 
   const actions = document.createElement("div");
   actions.className = "location-actions";
-  actions.append(badge(`${group.deals.length}`, "count"));
+  actions.append(badge(`${group.deals.length} ${group.deals.length === 1 ? "deal" : "deals"}`, "deal-count"));
   if (group.location?.address) {
-    const directions = document.createElement("a");
-    directions.href = mapsUrl(group.restaurant, group.location.address, group.location.google_maps_url);
-    directions.target = "_blank";
-    directions.rel = "noopener";
-    directions.textContent = "Directions";
-    actions.append(directions);
+    actions.append(actionLink(mapsUrl(group.restaurant, group.location.address, group.location.google_maps_url), "Directions", "directions", true));
   }
   if (group.location?.phone) {
-    const call = document.createElement("a");
-    call.href = telUrl(group.location.phone);
-    call.textContent = "Call";
-    actions.append(call);
+    actions.append(actionLink(telUrl(group.location.phone), `Call ${group.location.phone}`, "phone"));
   }
   for (const [index, url] of [...group.urls].entries()) {
-    const source = document.createElement("a");
-    source.href = url;
-    source.target = "_blank";
-    source.rel = "noopener";
-    source.textContent = group.urls.size > 1 ? `Source ${index + 1}` : "Source";
-    actions.append(source);
+    const label = group.urls.size > 1 ? `Official source ${index + 1}` : "Official source";
+    actions.append(actionLink(url, label, "source", true));
   }
 
-  summary.append(titleWrap, preview, actions);
+  const disclosure = document.createElement("span");
+  disclosure.className = "disclosure";
+  disclosure.innerHTML = ICONS.chevron;
+
+  summary.append(titleWrap, preview, actions, disclosure);
   section.append(summary);
 
   const body = document.createElement("div");
   body.className = "location-body";
-  const address = document.createElement("div");
-  address.className = "address-line";
-  address.textContent = group.location?.address || "Address not loaded yet";
-  body.append(address);
-
   const rows = document.createElement("div");
   rows.className = "deal-list";
   for (const deal of group.deals) rows.append(renderDealRow(deal));
@@ -551,6 +572,12 @@ dayEl.addEventListener("change", (event) => {
 
 categoryEl.addEventListener("change", (event) => {
   state.category = event.target.value;
+  renderFilterSummary();
+  rerender();
+});
+
+kindEl.addEventListener("change", (event) => {
+  state.kind = event.target.value;
   renderFilterSummary();
   rerender();
 });

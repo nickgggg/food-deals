@@ -3,15 +3,12 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Deal Radar</title>
+    <title>Restaurant Deals</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="topbar">
-      <div>
-        <p class="eyebrow">Local specials tracker</p>
-        <h1>Deal Radar</h1>
-      </div>
+      <h1>Restaurant Deals</h1>
       <div class="stats" id="stats" aria-live="polite"></div>
     </header>
 
@@ -61,6 +58,14 @@
             <option value="food">Food</option>
             <option value="drink">Drink</option>
             <option value="general">General</option>
+          </select>
+          </label>
+          <label>
+          Offer
+          <select id="kind">
+            <option value="">All deals</option>
+            <option value="happy_hour">Happy hour</option>
+            <option value="other">Other specials</option>
           </select>
           </label>
           <label>
