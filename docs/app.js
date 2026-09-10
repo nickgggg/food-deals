@@ -12,6 +12,7 @@ const DAY_LABELS = {
 const state = {
   payload: null,
   restaurants: null,
+  project: null,
   query: "",
   restaurant: "",
   cities: new Set(),
@@ -42,6 +43,11 @@ const filterToggleEl = document.querySelector("#filter-toggle");
 const filterCountEl = document.querySelector("#filter-count");
 const filterSummaryEl = document.querySelector("#filter-summary");
 const themeToggleEl = document.querySelector("#theme-toggle");
+const coverageSummaryEl = document.querySelector("#coverage-summary");
+const coverageCitiesEl = document.querySelector("#coverage-cities");
+const coverageMetricsEl = document.querySelector("#coverage-metrics");
+const costNoteEl = document.querySelector("#cost-note");
+const roadmapListEl = document.querySelector("#roadmap-list");
 
 dayEl.value = "today";
 
@@ -571,6 +577,76 @@ function renderSources() {
   `;
 }
 
+function compactNumber(value) {
+  return new Intl.NumberFormat(undefined, { notation: "compact", maximumFractionDigits: 1 }).format(value || 0);
+}
+
+function dateOnly(value) {
+  if (!value) return "Pending";
+  return new Intl.DateTimeFormat(undefined, { month: "short", day: "numeric" }).format(new Date(value));
+}
+
+function estimatedActivation(statuses, city, queuedCities) {
+  const interval = state.project?.queue_activation_days || 7;
+  const activeDates = Object.values(statuses)
+    .filter((item) => item.status === "active" && item.activated_at)
+    .map((item) => new Date(item.activated_at).getTime());
+  const latest = Math.max(...activeDates);
+  const queueIndex = queuedCities.indexOf(city);
+  if (!Number.isFinite(latest) || queueIndex < 0) return null;
+  return new Date(latest + (queueIndex + 1) * interval * 86400000);
+}
+
+function renderProjectStatus() {
+  const coverage = state.restaurants?.coverage || {};
+  const statuses = state.restaurants?.area_status || {};
+  const activeCities = coverage.cities || [];
+  const queuedCities = coverage.queued_cities || [];
+  coverageSummaryEl.textContent = `${activeCities.length} live · ${queuedCities.length} queued · next ${dateOnly(state.restaurants?.refresh_after)}`;
+
+  coverageCitiesEl.innerHTML = "";
+  for (const city of [...activeCities, ...queuedCities]) {
+    const info = statuses[city] || {};
+    const active = info.status === "active";
+    const row = document.createElement("div");
+    row.className = "coverage-row";
+    const name = document.createElement("strong");
+    name.textContent = city;
+    const status = badge(active ? "Live" : "Queued", `coverage-state ${active ? "live" : "queued"}`);
+    const note = document.createElement("span");
+    note.className = "coverage-date";
+    const estimate = estimatedActivation(statuses, city, queuedCities);
+    const cityCount = info.restaurant_count ?? (state.restaurants?.restaurants || []).filter((item) => item.city === city).length;
+    note.textContent = active
+      ? `${compactNumber(cityCount)} spots · scanned ${dateOnly(info.last_refreshed)}`
+      : `Est. ${dateOnly(estimate)}`;
+    row.append(name, status, note);
+    coverageCitiesEl.append(row);
+  }
+
+  const metrics = [
+    ["Restaurants found", compactNumber(coverage.restaurant_count)],
+    ["Official websites", compactNumber(coverage.official_websites)],
+    ["Specials pages", compactNumber(coverage.specials_pages_found)],
+    ["Gemini batch", `${state.project?.gemini_pages_per_run || 30}/run`],
+    ["City activation", `1/${state.project?.queue_activation_days || 7} days`],
+    ["City rescan", `${state.project?.area_refresh_days || 35} days`],
+  ];
+  coverageMetricsEl.innerHTML = metrics
+    .map(([label, value]) => `<div><strong>${value}</strong><span>${label}</span></div>`)
+    .join("");
+  costNoteEl.textContent = state.project?.cost_note || "The pipeline is configured around free-tier limits.";
+
+  roadmapListEl.innerHTML = (state.project?.roadmap || [])
+    .map((item) => `
+      <article>
+        <span class="roadmap-state ${item.status}">${item.status}</span>
+        <div><strong>${item.title}</strong><p>${item.detail}</p></div>
+      </article>
+    `)
+    .join("");
+}
+
 function rerender() {
   renderDeals();
   renderSources();
@@ -606,13 +682,16 @@ function requestLocation() {
 }
 
 async function init() {
-  const [dealsResponse, restaurantsResponse] = await Promise.all([
+  const [dealsResponse, restaurantsResponse, projectResponse] = await Promise.all([
     fetch("data/deals.json", { cache: "no-store" }),
     fetch("data/restaurants.json", { cache: "no-store" }).catch(() => null),
+    fetch("data/project.json", { cache: "no-store" }).catch(() => null),
   ]);
   state.payload = await dealsResponse.json();
   state.restaurants = restaurantsResponse?.ok ? await restaurantsResponse.json() : null;
+  state.project = projectResponse?.ok ? await projectResponse.json() : null;
   renderFilterOptions();
+  renderProjectStatus();
   renderDeals();
 }
 

@@ -8,7 +8,7 @@
     <script>
       document.documentElement.dataset.theme = localStorage.getItem("theme") || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
     </script>
-    <link rel="stylesheet" href="styles.css?v=6">
+    <link rel="stylesheet" href="styles.css?v=7">
   </head>
   <body>
     <header class="topbar">
@@ -92,6 +92,28 @@
       </section>
 
       <section class="meta" id="meta"></section>
+      <details class="project-status" id="project-status">
+        <summary>
+          <span class="project-status-title">Coverage</span>
+          <span class="project-status-summary" id="coverage-summary">Loading pipeline status...</span>
+          <svg class="project-status-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg>
+        </summary>
+        <div class="project-status-body">
+          <section aria-labelledby="coverage-heading">
+            <h2 id="coverage-heading">City rollout</h2>
+            <div class="coverage-list" id="coverage-cities"></div>
+          </section>
+          <section aria-labelledby="pipeline-heading">
+            <h2 id="pipeline-heading">Pipeline</h2>
+            <div class="pipeline-metrics" id="coverage-metrics"></div>
+            <p class="cost-note" id="cost-note"></p>
+          </section>
+          <section class="roadmap" aria-labelledby="roadmap-heading">
+            <h2 id="roadmap-heading">Backburner</h2>
+            <div class="roadmap-list" id="roadmap-list"></div>
+          </section>
+        </div>
+      </details>
       <section class="deals" id="deals" aria-live="polite"></section>
       <section class="sources" id="sources"></section>
       <footer>
@@ -100,6 +122,6 @@
       </footer>
     </main>
 
-    <script src="app.js?v=6"></script>
+    <script src="app.js?v=7"></script>
   </body>
 </html>
