@@ -4,21 +4,7 @@
     "city": "Fountain Valley",
     "url": "https://www.carlitosdiner.com/",
     "notes": "Official homepage with Taco Tuesday and daily specials",
-    "location": {
-      "address": "18033 Magnolia St, Fountain Valley, CA 92708",
-      "phone": "(714) 593-5350",
-      "latitude": 33.7016,
-      "longitude": -117.972,
-      "hours": {
-        "monday": [{ "open": "08:00", "close": "21:00" }],
-        "tuesday": [{ "open": "08:00", "close": "21:00" }],
-        "wednesday": [{ "open": "08:00", "close": "21:00" }],
-        "thursday": [{ "open": "08:00", "close": "21:00" }],
-        "friday": [{ "open": "08:00", "close": "21:00" }],
-        "saturday": [{ "open": "08:00", "close": "21:00" }],
-        "sunday": [{ "open": "08:00", "close": "21:00" }]
-      }
-    },
+    "location": { "address": "18033 Magnolia St, Fountain Valley, CA 92708", "phone": "(714) 593-5350", "latitude": 33.7016, "longitude": -117.972, "hours": { "monday": [{ "open": "08:00", "close": "21:00" }], "tuesday": [{ "open": "08:00", "close": "21:00" }], "wednesday": [{ "open": "08:00", "close": "21:00" }], "thursday": [{ "open": "08:00", "close": "21:00" }], "friday": [{ "open": "08:00", "close": "21:00" }], "saturday": [{ "open": "08:00", "close": "21:00" }], "sunday": [{ "open": "08:00", "close": "21:00" }] } },
     "options": { "strict": true, "max_deals": 8 }
   },
   {
@@ -26,43 +12,19 @@
     "city": "Huntington Beach",
     "url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
     "notes": "Official Huntington Beach happy hour page",
-    "location": {
-      "address": "807 E Adams Ave, Huntington Beach, CA 92648",
-      "phone": "(714) 374-0342",
-      "latitude": 33.6728,
-      "longitude": -117.9982,
-      "hours": {
-        "monday": [{ "open": "12:00", "close": "21:00" }],
-        "tuesday": [{ "open": "12:00", "close": "21:00" }],
-        "wednesday": [{ "open": "12:00", "close": "21:00" }],
-        "thursday": [{ "open": "12:00", "close": "21:00" }],
-        "friday": [{ "open": "12:00", "close": "22:00" }],
-        "saturday": [{ "open": "12:00", "close": "22:00" }],
-        "sunday": [{ "open": "12:00", "close": "21:00" }]
-      }
-    },
-    "options": { "max_deals": 18 }
+    "location": { "address": "807 E Adams Ave, Huntington Beach, CA 92648", "phone": "(714) 374-0342", "latitude": 33.6728, "longitude": -117.9982, "hours": { "monday": [{ "open": "12:00", "close": "21:00" }], "tuesday": [{ "open": "12:00", "close": "21:00" }], "wednesday": [{ "open": "12:00", "close": "21:00" }], "thursday": [{ "open": "12:00", "close": "21:00" }], "friday": [{ "open": "12:00", "close": "22:00" }], "saturday": [{ "open": "12:00", "close": "22:00" }], "sunday": [{ "open": "12:00", "close": "21:00" }] } },
+    "options": {
+      "static_deals": [
+        { "summary": "Happy hour", "details": ["Bar and patio side only", "2 PM-6 PM Sun-Fri; Tuesday ends 5 PM", "One hour before close every day", "Drink specials include draft beer and margaritas", "Food specials include tacos and chips/salsa"], "categories": ["food", "drink"], "applies_days": ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"], "time_window": "2 PM - 6 PM", "validity": "Sun-Fri 2-6 PM; Tue ends 5 PM; daily last hour", "tags": ["happy_hour"] }
+      ]
+    }
   },
   {
     "name": "Lamppost Pizza",
     "city": "Fountain Valley",
     "url": "https://www.bestpizzafountainvalleyca.com/pizza-restaurant-specials",
     "notes": "Official specials, coupons, and happy hour page",
-    "location": {
-      "address": "10130 Warner Ave, Fountain Valley, CA 92708",
-      "phone": "(714) 968-6128",
-      "latitude": 33.7159,
-      "longitude": -117.953,
-      "hours": {
-        "monday": [{ "open": "11:00", "close": "21:00" }],
-        "tuesday": [{ "open": "11:00", "close": "21:00" }],
-        "wednesday": [{ "open": "11:00", "close": "21:00" }],
-        "thursday": [{ "open": "11:00", "close": "21:00" }],
-        "friday": [{ "open": "11:00", "close": "22:00" }],
-        "saturday": [{ "open": "11:00", "close": "22:00" }],
-        "sunday": [{ "open": "11:00", "close": "21:00" }]
-      }
-    },
+    "location": { "address": "10130 Warner Ave, Fountain Valley, CA 92708", "phone": "(714) 968-6128", "latitude": 33.7159, "longitude": -117.953, "hours": { "monday": [{ "open": "11:00", "close": "21:00" }], "tuesday": [{ "open": "11:00", "close": "21:00" }], "wednesday": [{ "open": "11:00", "close": "21:00" }], "thursday": [{ "open": "11:00", "close": "21:00" }], "friday": [{ "open": "11:00", "close": "22:00" }], "saturday": [{ "open": "11:00", "close": "22:00" }], "sunday": [{ "open": "11:00", "close": "21:00" }] } },
     "options": { "strict": true, "max_deals": 10 }
   },
   {
@@ -70,21 +32,7 @@
     "city": "Huntington Beach",
     "url": "https://loreahb.com/",
     "notes": "Official restaurant homepage with happenings and happy hour",
-    "location": {
-      "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
-      "phone": "(714) 698-6130",
-      "latitude": 33.6537,
-      "longitude": -117.9956,
-      "hours": {
-        "monday": [{ "open": "07:00", "close": "22:00" }],
-        "tuesday": [{ "open": "07:00", "close": "22:00" }],
-        "wednesday": [{ "open": "07:00", "close": "22:00" }],
-        "thursday": [{ "open": "07:00", "close": "22:00" }],
-        "friday": [{ "open": "07:00", "close": "22:00" }],
-        "saturday": [{ "open": "07:00", "close": "22:00" }],
-        "sunday": [{ "open": "07:00", "close": "22:00" }]
-      }
-    },
+    "location": { "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648", "phone": "(714) 698-6130", "latitude": 33.6537, "longitude": -117.9956, "hours": { "monday": [{ "open": "07:00", "close": "22:00" }], "tuesday": [{ "open": "07:00", "close": "22:00" }], "wednesday": [{ "open": "07:00", "close": "22:00" }], "thursday": [{ "open": "07:00", "close": "22:00" }], "friday": [{ "open": "07:00", "close": "22:00" }], "saturday": [{ "open": "07:00", "close": "22:00" }], "sunday": [{ "open": "07:00", "close": "22:00" }] } },
     "options": { "strict": true, "max_deals": 8 }
   },
   {
@@ -92,21 +40,7 @@
     "city": "Fountain Valley",
     "url": "https://www.mariecallenders.com/store/fountain-valley/",
     "notes": "Official Fountain Valley location page with offers",
-    "location": {
-      "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
-      "phone": "(714) 963-6791",
-      "latitude": 33.6863,
-      "longitude": -117.9545,
-      "hours": {
-        "monday": [{ "open": "11:00", "close": "20:00" }],
-        "tuesday": [{ "open": "11:00", "close": "20:00" }],
-        "wednesday": [{ "open": "11:00", "close": "20:00" }],
-        "thursday": [{ "open": "11:00", "close": "20:00" }],
-        "friday": [{ "open": "11:00", "close": "21:00" }],
-        "saturday": [{ "open": "11:00", "close": "21:00" }],
-        "sunday": [{ "open": "11:00", "close": "20:00" }]
-      }
-    },
+    "location": { "address": "18889 Brookhurst St, Fountain Valley, CA 92708", "phone": "(714) 963-6791", "latitude": 33.6863, "longitude": -117.9545, "hours": { "monday": [{ "open": "11:00", "close": "20:00" }], "tuesday": [{ "open": "11:00", "close": "20:00" }], "wednesday": [{ "open": "11:00", "close": "20:00" }], "thursday": [{ "open": "11:00", "close": "20:00" }], "friday": [{ "open": "11:00", "close": "21:00" }], "saturday": [{ "open": "11:00", "close": "21:00" }], "sunday": [{ "open": "11:00", "close": "20:00" }] } },
     "options": { "strict": true, "max_deals": 6 }
   },
   {
@@ -114,21 +48,7 @@
     "city": "Huntington Beach",
     "url": "https://www.nokaoihb.com/happyhour",
     "notes": "Official happy hour page",
-    "location": {
-      "address": "215 Main St, Huntington Beach, CA 92648",
-      "phone": "(714) 960-8300",
-      "latitude": 33.6587,
-      "longitude": -118.0,
-      "hours": {
-        "monday": [{ "open": "08:00", "close": "21:00" }],
-        "tuesday": [{ "open": "08:00", "close": "21:00" }],
-        "wednesday": [{ "open": "08:00", "close": "21:00" }],
-        "thursday": [{ "open": "08:00", "close": "21:00" }],
-        "friday": [{ "open": "08:00", "close": "21:00" }],
-        "saturday": [{ "open": "07:30", "close": "21:00" }],
-        "sunday": [{ "open": "07:30", "close": "21:00" }]
-      }
-    },
+    "location": { "address": "215 Main St, Huntington Beach, CA 92648", "phone": "(714) 960-8300", "latitude": 33.6587, "longitude": -118.0, "hours": { "monday": [{ "open": "08:00", "close": "21:00" }], "tuesday": [{ "open": "08:00", "close": "21:00" }], "wednesday": [{ "open": "08:00", "close": "21:00" }], "thursday": [{ "open": "08:00", "close": "21:00" }], "friday": [{ "open": "08:00", "close": "21:00" }], "saturday": [{ "open": "07:30", "close": "21:00" }], "sunday": [{ "open": "07:30", "close": "21:00" }] } },
     "options": { "max_deals": 14 }
   },
   {
@@ -136,21 +56,7 @@
     "city": "Huntington Beach",
     "url": "https://www.surfcityusa.com/coupon/pacific-hideaway-happy-hour/227/print/",
     "notes": "Visit Huntington Beach coupon page",
-    "location": {
-      "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
-      "phone": "(714) 965-4448",
-      "latitude": 33.6572,
-      "longitude": -117.9993,
-      "hours": {
-        "monday": [{ "open": "07:00", "close": "22:00" }],
-        "tuesday": [{ "open": "07:00", "close": "22:00" }],
-        "wednesday": [{ "open": "07:00", "close": "22:00" }],
-        "thursday": [{ "open": "07:00", "close": "22:00" }],
-        "friday": [{ "open": "07:00", "close": "23:00" }],
-        "saturday": [{ "open": "07:00", "close": "23:00" }],
-        "sunday": [{ "open": "07:00", "close": "22:00" }]
-      }
-    },
+    "location": { "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648", "phone": "(714) 965-4448", "latitude": 33.6572, "longitude": -117.9993, "hours": { "monday": [{ "open": "07:00", "close": "22:00" }], "tuesday": [{ "open": "07:00", "close": "22:00" }], "wednesday": [{ "open": "07:00", "close": "22:00" }], "thursday": [{ "open": "07:00", "close": "22:00" }], "friday": [{ "open": "07:00", "close": "23:00" }], "saturday": [{ "open": "07:00", "close": "23:00" }], "sunday": [{ "open": "07:00", "close": "22:00" }] } },
     "options": { "strict": true, "max_deals": 8 }
   },
   {
@@ -158,43 +64,19 @@
     "city": "Huntington Beach",
     "url": "https://playgroundhb.com/pages/food-menu",
     "notes": "Official menu page with weekday specials",
-    "location": {
-      "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
-      "phone": "(657) 733-2774",
-      "latitude": 33.6564,
-      "longitude": -117.9986,
-      "hours": {
-        "monday": [{ "open": "11:00", "close": "23:00" }],
-        "tuesday": [{ "open": "11:00", "close": "23:00" }],
-        "wednesday": [{ "open": "11:00", "close": "23:00" }],
-        "thursday": [{ "open": "11:00", "close": "23:00" }],
-        "friday": [{ "open": "11:00", "close": "01:00" }],
-        "saturday": [{ "open": "11:00", "close": "01:00" }],
-        "sunday": [{ "open": "11:00", "close": "23:00" }]
-      }
-    },
-    "options": { "strict": true, "max_deals": 10 }
+    "location": { "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648", "phone": "(657) 733-2774", "latitude": 33.6564, "longitude": -117.9986, "hours": { "monday": [{ "open": "11:00", "close": "23:00" }], "tuesday": [{ "open": "11:00", "close": "23:00" }], "wednesday": [{ "open": "11:00", "close": "23:00" }], "thursday": [{ "open": "11:00", "close": "23:00" }], "friday": [{ "open": "11:00", "close": "01:00" }], "saturday": [{ "open": "11:00", "close": "01:00" }], "sunday": [{ "open": "11:00", "close": "23:00" }] } },
+    "options": {
+      "static_deals": [
+        { "summary": "Weekday happy hour", "details": ["Monday-Friday", "3 PM-6 PM", "Mini golf special", "Draft beer, well drink, wine, and appetizer specials"], "categories": ["food", "drink"], "applies_days": ["monday", "tuesday", "wednesday", "thursday", "friday"], "time_window": "3 PM - 6 PM", "validity": "Mon-Fri, 3 PM - 6 PM", "tags": ["happy_hour", "weekday_special"] }
+      ]
+    }
   },
   {
     "name": "Red Table Restaurant",
     "city": "Huntington Beach",
     "url": "https://redtablerestaurants.com/daily-specials/",
     "notes": "Official daily specials page",
-    "location": {
-      "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
-      "phone": "(714) 846-4700",
-      "latitude": 33.7165,
-      "longitude": -118.0504,
-      "hours": {
-        "monday": [{ "open": "16:00", "close": "21:00" }],
-        "tuesday": [{ "open": "16:00", "close": "21:00" }],
-        "wednesday": [{ "open": "16:00", "close": "21:00" }],
-        "thursday": [{ "open": "16:00", "close": "21:00" }],
-        "friday": [{ "open": "16:00", "close": "21:00" }],
-        "saturday": [{ "open": "16:00", "close": "21:00" }],
-        "sunday": [{ "open": "10:30", "close": "14:00" }, { "open": "16:00", "close": "21:00" }]
-      }
-    },
+    "location": { "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649", "phone": "(714) 846-4700", "latitude": 33.7165, "longitude": -118.0504, "hours": { "monday": [{ "open": "16:00", "close": "21:00" }], "tuesday": [{ "open": "16:00", "close": "21:00" }], "wednesday": [{ "open": "16:00", "close": "21:00" }], "thursday": [{ "open": "16:00", "close": "21:00" }], "friday": [{ "open": "16:00", "close": "21:00" }], "saturday": [{ "open": "16:00", "close": "21:00" }], "sunday": [{ "open": "10:30", "close": "14:00" }, { "open": "16:00", "close": "21:00" }] } },
     "options": { "strict": true, "max_deals": 10 }
   },
   {
@@ -202,43 +84,15 @@
     "city": "Fountain Valley",
     "url": "https://www.silkysullivans.com/menu/specials/",
     "notes": "Official specials menu",
-    "location": {
-      "address": "10201 Slater Ave, Fountain Valley, CA 92708",
-      "phone": "(714) 963-2718",
-      "latitude": 33.7083,
-      "longitude": -117.9533,
-      "hours": {
-        "monday": [{ "open": "15:30", "close": "02:00" }],
-        "tuesday": [{ "open": "11:00", "close": "02:00" }],
-        "wednesday": [{ "open": "11:00", "close": "02:00" }],
-        "thursday": [{ "open": "11:00", "close": "02:00" }],
-        "friday": [{ "open": "11:00", "close": "02:00" }],
-        "saturday": [{ "open": "09:00", "close": "02:00" }],
-        "sunday": [{ "open": "09:00", "close": "02:00" }]
-      }
-    },
-    "options": { "exclude_menu_prices": true, "strict": true, "max_deals": 8 }
+    "location": { "address": "10201 Slater Ave, Fountain Valley, CA 92708", "phone": "(714) 963-2718", "latitude": 33.7083, "longitude": -117.9533, "hours": { "monday": [{ "open": "15:30", "close": "02:00" }], "tuesday": [{ "open": "11:00", "close": "02:00" }], "wednesday": [{ "open": "11:00", "close": "02:00" }], "thursday": [{ "open": "11:00", "close": "02:00" }], "friday": [{ "open": "11:00", "close": "02:00" }], "saturday": [{ "open": "09:00", "close": "02:00" }], "sunday": [{ "open": "09:00", "close": "02:00" }] } },
+    "options": { "exclude_menu_prices": true, "strict": true, "max_deals": 4 }
   },
   {
     "name": "Solita Tacos",
     "city": "Huntington Beach",
     "url": "https://solitatacos.com/promotions/happy-hour/",
     "notes": "Official happy hour promotion page",
-    "location": {
-      "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
-      "phone": "(714) 894-2792",
-      "latitude": 33.7332,
-      "longitude": -117.9946,
-      "hours": {
-        "monday": [{ "open": "11:00", "close": "22:00" }],
-        "tuesday": [{ "open": "11:00", "close": "22:00" }],
-        "wednesday": [{ "open": "11:00", "close": "22:00" }],
-        "thursday": [{ "open": "11:00", "close": "22:00" }],
-        "friday": [{ "open": "11:00", "close": "23:00" }],
-        "saturday": [{ "open": "10:00", "close": "23:00" }],
-        "sunday": [{ "open": "10:00", "close": "22:00" }]
-      }
-    },
+    "location": { "address": "7631 Edinger Ave, Huntington Beach, CA 92647", "phone": "(714) 894-2792", "latitude": 33.7332, "longitude": -117.9946, "hours": { "monday": [{ "open": "11:00", "close": "22:00" }], "tuesday": [{ "open": "11:00", "close": "22:00" }], "wednesday": [{ "open": "11:00", "close": "22:00" }], "thursday": [{ "open": "11:00", "close": "22:00" }], "friday": [{ "open": "11:00", "close": "23:00" }], "saturday": [{ "open": "10:00", "close": "23:00" }], "sunday": [{ "open": "10:00", "close": "22:00" }] } },
     "options": { "max_deals": 14 }
   },
   {
@@ -246,87 +100,48 @@
     "city": "Fountain Valley",
     "url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
     "notes": "Official meal deals and lunch specials page",
-    "location": {
-      "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
-      "phone": "(714) 968-8300",
-      "latitude": 33.6896,
-      "longitude": -117.9544,
-      "hours": {
-        "monday": [{ "open": "11:00", "close": "20:30" }],
-        "tuesday": [{ "open": "11:00", "close": "20:30" }],
-        "wednesday": [{ "open": "11:00", "close": "20:30" }],
-        "thursday": [{ "open": "11:00", "close": "20:30" }],
-        "friday": [{ "open": "11:00", "close": "21:00" }],
-        "saturday": [{ "open": "11:00", "close": "21:00" }],
-        "sunday": [{ "open": "11:00", "close": "20:30" }]
-      }
-    },
-    "options": { "aggregate_meal_deals": true, "strict": true, "max_deals": 8 }
+    "location": { "address": "18727 Brookhurst St, Fountain Valley, CA 92708", "phone": "(714) 968-8300", "latitude": 33.6896, "longitude": -117.9544, "hours": { "monday": [{ "open": "11:00", "close": "20:30" }], "tuesday": [{ "open": "11:00", "close": "20:30" }], "wednesday": [{ "open": "11:00", "close": "20:30" }], "thursday": [{ "open": "11:00", "close": "20:30" }], "friday": [{ "open": "11:00", "close": "21:00" }], "saturday": [{ "open": "11:00", "close": "21:00" }], "sunday": [{ "open": "11:00", "close": "20:30" }] } },
+    "options": {
+      "static_deals": [
+        { "summary": "Meal deals starting at $13", "details": ["Selected entree meal plus side-style pairings", "Examples include salads, personal pizzas, pulled pork, and chicken breast meals", "Open source page for current item list"], "categories": ["food"], "applies_days": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"], "validity": "Every day; check source for item list", "tags": ["dollar_amount", "deal_language"] },
+        { "summary": "Lunch specials", "details": ["Lunch special menu with optional beverage add-on", "Open source page for current items and prices"], "categories": ["food", "drink"], "applies_days": [], "validity": "Check source", "tags": ["dollar_amount", "deal_language"] }
+      ]
+    }
   },
   {
     "name": "The Hangout",
     "city": "Huntington Beach",
     "url": "https://www.thehangoutrestaurant.com/daily-specials",
     "notes": "Official daily weekday specials page",
-    "location": {
-      "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-      "phone": "(657) 204-9306",
-      "latitude": 33.7242,
-      "longitude": -118.0427,
-      "hours": {
-        "monday": [{ "open": "07:00", "close": "21:30" }],
-        "tuesday": [{ "open": "07:00", "close": "21:30" }],
-        "wednesday": [{ "open": "07:00", "close": "21:30" }],
-        "thursday": [{ "open": "07:00", "close": "21:30" }],
-        "friday": [{ "open": "07:00", "close": "22:00" }],
-        "saturday": [{ "open": "07:00", "close": "22:00" }],
-        "sunday": [{ "open": "07:00", "close": "21:30" }]
-      }
-    },
-    "options": { "strict": true, "max_deals": 12 }
+    "location": { "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649", "phone": "(657) 204-9306", "latitude": 33.7242, "longitude": -118.0427, "hours": { "monday": [{ "open": "07:00", "close": "21:30" }], "tuesday": [{ "open": "07:00", "close": "21:30" }], "wednesday": [{ "open": "07:00", "close": "21:30" }], "thursday": [{ "open": "07:00", "close": "21:30" }], "friday": [{ "open": "07:00", "close": "22:00" }], "saturday": [{ "open": "07:00", "close": "22:00" }], "sunday": [{ "open": "07:00", "close": "21:30" }] } },
+    "options": {
+      "static_deals": [
+        { "summary": "Meatloaf & Martini Monday", "details": ["Buy one, get one free meatloaf sandwiches or dinners with purchase of two drinks", "$8 martinis all day"], "categories": ["food", "drink"], "applies_days": ["monday"], "validity": "Monday, all day", "tags": ["bogo", "weekday_special"] },
+        { "summary": "Spaghetti Tuesday", "details": ["Special spaghetti meals"], "categories": ["food"], "applies_days": ["tuesday"], "validity": "Tuesday", "tags": ["weekday_special", "deal_language"] },
+        { "summary": "Fish Fry Wednesday", "details": ["Special fried fish dishes"], "categories": ["food"], "applies_days": ["wednesday"], "validity": "Wednesday", "tags": ["weekday_special", "deal_language"] },
+        { "summary": "Street Taco Thursday", "details": ["Chicken, steak, or fish street tacos for $2.75 each", "$8 house margaritas all day"], "categories": ["food", "drink"], "applies_days": ["thursday"], "validity": "Thursday, all day", "tags": ["dollar_amount", "weekday_special"] },
+        { "summary": "Prime Rib Friday", "details": ["Prime rib dinner available after 5 PM with potatoes and veggies"], "categories": ["food"], "applies_days": ["friday"], "time_window": "After 5 PM", "validity": "Friday, after 5 PM", "tags": ["weekday_special", "deal_language"] }
+      ]
+    }
   },
   {
     "name": "The Hangout",
     "city": "Huntington Beach",
     "url": "https://www.thehangoutrestaurant.com/happy-hour",
     "notes": "Official weekday happy hour page",
-    "location": {
-      "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-      "phone": "(657) 204-9306",
-      "latitude": 33.7242,
-      "longitude": -118.0427,
-      "hours": {
-        "monday": [{ "open": "07:00", "close": "21:30" }],
-        "tuesday": [{ "open": "07:00", "close": "21:30" }],
-        "wednesday": [{ "open": "07:00", "close": "21:30" }],
-        "thursday": [{ "open": "07:00", "close": "21:30" }],
-        "friday": [{ "open": "07:00", "close": "22:00" }],
-        "saturday": [{ "open": "07:00", "close": "22:00" }],
-        "sunday": [{ "open": "07:00", "close": "21:30" }]
-      }
-    },
-    "options": { "strict": true, "max_deals": 12 }
+    "location": { "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649", "phone": "(657) 204-9306", "latitude": 33.7242, "longitude": -118.0427, "hours": { "monday": [{ "open": "07:00", "close": "21:30" }], "tuesday": [{ "open": "07:00", "close": "21:30" }], "wednesday": [{ "open": "07:00", "close": "21:30" }], "thursday": [{ "open": "07:00", "close": "21:30" }], "friday": [{ "open": "07:00", "close": "22:00" }], "saturday": [{ "open": "07:00", "close": "22:00" }], "sunday": [{ "open": "07:00", "close": "21:30" }] } },
+    "options": {
+      "static_deals": [
+        { "summary": "Weekday happy hour", "details": ["Monday-Friday", "3 PM-6 PM", "Bottled beer, craft beer, well drinks, wine, and food specials", "Not available on holidays"], "categories": ["food", "drink"], "applies_days": ["monday", "tuesday", "wednesday", "thursday", "friday"], "time_window": "3 PM - 6 PM", "validity": "Mon-Fri, 3 PM - 6 PM", "tags": ["happy_hour", "weekday_special"] }
+      ]
+    }
   },
   {
     "name": "Zubie's Dry Dock",
     "city": "Huntington Beach",
     "url": "https://zubiesdrydock.com/",
     "notes": "Official homepage with happy hour and daily specials",
-    "location": {
-      "address": "9059 Adams Ave, Huntington Beach, CA 92646",
-      "phone": "(714) 916-5862",
-      "latitude": 33.6722,
-      "longitude": -117.9704,
-      "hours": {
-        "monday": [{ "open": "11:30", "close": "22:00" }],
-        "tuesday": [{ "open": "11:30", "close": "22:00" }],
-        "wednesday": [{ "open": "11:30", "close": "22:00" }],
-        "thursday": [{ "open": "11:30", "close": "22:00" }],
-        "friday": [{ "open": "11:30", "close": "22:00" }],
-        "saturday": [{ "open": "11:30", "close": "22:00" }],
-        "sunday": [{ "open": "09:00", "close": "21:00" }]
-      }
-    },
+    "location": { "address": "9059 Adams Ave, Huntington Beach, CA 92646", "phone": "(714) 916-5862", "latitude": 33.6722, "longitude": -117.9704, "hours": { "monday": [{ "open": "11:30", "close": "22:00" }], "tuesday": [{ "open": "11:30", "close": "22:00" }], "wednesday": [{ "open": "11:30", "close": "22:00" }], "thursday": [{ "open": "11:30", "close": "22:00" }], "friday": [{ "open": "11:30", "close": "22:00" }], "saturday": [{ "open": "11:30", "close": "22:00" }], "sunday": [{ "open": "09:00", "close": "21:00" }] } },
     "options": { "strict": true, "max_deals": 10 }
   }
 ]
