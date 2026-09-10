@@ -2,6 +2,186 @@
   "crawler_version": 16,
   "deals": [
     {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "Happy Hour: half price wines and beers, plus $5 appetizers All wines by the glass and beers at half price $5 appetizers",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "All wines by the glass and beers at half price",
+        "$5 appetizers"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "a2081bd3d7e610fd",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1525 Mesa Verde Dr E, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12138422850964316223&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:30",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:30",
+              "open": "16:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.6697799,
+        "longitude": -117.92050370000001,
+        "phone": "(657) 232-0100",
+        "place_id": "ChIJwcln2GPf3IARP2A2VUVXdKg"
+      },
+      "restaurant": "Al Forno Caffe",
+      "source_evidence": [
+        "Happy Hour",
+        "Enjoy all our wines by the glass and beers at half price, plus $5 appetizers."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://alfornocaffe.com/specials",
+      "status": "active",
+      "summary": "Happy Hour: half price wines and beers, plus $5 appetizers",
+      "tags": [
+        "percent_off",
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "candidate_text": "All Night Happy Hour specials every Tuesday Enjoy our happy hour specials all night",
+      "categories": [
+        "food",
+        "drink",
+        "general"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Enjoy our happy hour specials all night"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "b5e39c671802172d",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1525 Mesa Verde Dr E, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12138422850964316223&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:30",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:30",
+              "open": "16:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.6697799,
+        "longitude": -117.92050370000001,
+        "phone": "(657) 232-0100",
+        "place_id": "ChIJwcln2GPf3IARP2A2VUVXdKg"
+      },
+      "restaurant": "Al Forno Caffe",
+      "source_evidence": [
+        "All Night Happy Hour",
+        "Every Tuesday enjoy our happy hour specials all night."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://alfornocaffe.com/specials",
+      "status": "active",
+      "summary": "All Night Happy Hour specials every Tuesday",
+      "tags": [
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Tue"
+    },
+    {
       "ai_confidence": 0.9,
       "applies_days": [],
       "candidate_text": "10'' Cold Sub Lunch House salad and medium drink Price: $13.99",
@@ -18,7 +198,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "cff205e1a6c3ffd7",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -108,7 +288,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "66c34d8d47013c73",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -198,7 +378,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "8341dd33afcdeb15",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -288,7 +468,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "1b47db4f440781f4",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -376,7 +556,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "f585dbf1dfe598ab",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "6522 Bolsa Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -463,7 +643,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "1cfa46057cf0b8dd",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "21501 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -554,7 +734,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "16c74a986388d0cf",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "21501 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -651,7 +831,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "a3e409f79a150a97",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -743,7 +923,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "184f74070521c82d",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -829,7 +1009,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "ca3e67494d5c9c6e",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -915,7 +1095,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "0bbca70d61eb1130",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1001,7 +1181,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "dd66f6a6cf244601",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -1072,6 +1252,789 @@
     {
       "ai_confidence": 0.95,
       "applies_days": [],
+      "candidate_text": "$10 Craft Cocktails on Thursday and Sunday nights Enjoy $10 craft cocktails all night long",
+      "categories": [
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Enjoy $10 craft cocktails all night long"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "4ef58bde26750fa2",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "source_evidence": [
+        "Enjoy $10 Craft Cocktails All Night Long!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-costa-mesa/",
+      "status": "active",
+      "summary": "$10 Craft Cocktails on Thursday and Sunday nights",
+      "tags": [
+        "dollar_amount",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "15% off food bill for active and retired military members and their families Must show Military ID Dine-in only Not valid with any other offer or promotion",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Must show Military ID",
+        "Dine-in only",
+        "Not valid with any other offer or promotion"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "059025cfcd6dfd84",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "source_evidence": [
+        "we offer active and retired military members and their families 15% off their food bill."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-san-diego/",
+      "status": "active",
+      "summary": "15% off food bill for active and retired military members and their families",
+      "tags": [
+        "percent_off",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "15% off food bill for military service members Active and retired military members and families receive 15% off food bill Requires Military ID Offer not valid with any other offer or promotion Dine-in only",
+      "categories": [
+        "food",
+        "general"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Active and retired military members and families receive 15% off food bill",
+        "Requires Military ID",
+        "Offer not valid with any other offer or promotion",
+        "Dine-in only"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "cdca3785c86278d4",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "source_evidence": [
+        "offer active and retired military members and their families 15% off their food bill."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-costa-mesa/",
+      "status": "active",
+      "summary": "15% off food bill for military service members",
+      "tags": [
+        "percent_off",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "Thursday Date Night 5-Course Journey Through Spain for $40 per person Couples enjoy 5-Course Journey Through Spain shared menu for $40 per person (normally $99) Beverage discount not included Dine-in patrons only",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Couples enjoy 5-Course Journey Through Spain shared menu for $40 per person (normally $99)",
+        "Beverage discount not included",
+        "Dine-in patrons only"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "6fa713108bc9dfcf",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "source_evidence": [
+        "Couples can enjoy our 5-Course \"Journey Through Spain\" shared menu for just $40 per person (normally $99)!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-costa-mesa/",
+      "status": "active",
+      "summary": "Thursday Date Night 5-Course Journey Through Spain for $40 per person",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "candidate_text": "Happy Hour daily from 4:30pm to 6:30pm with discounted drinks and tapas starting at $5.50 Local residents only with valid ID $7 beers, $7 wines, $8 sangrias, $8 well drinks, $11 craft cocktails Tapas & tacos starting at just $5.50",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Local residents only with valid ID",
+        "$7 beers, $7 wines, $8 sangrias, $8 well drinks, $11 craft cocktails",
+        "Tapas & tacos starting at just $5.50"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "d2f14b339816682b",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "source_evidence": [
+        "HAPPY HOUR: DAILY 4:30PM-6:30PM",
+        "Come enjoy the HAPPIEST of hours where you can enjoy $7 beers, $7 wines, $8 sangrias, $8 well drinks and $11 craft cocktails as well as tapas & tacos starting at just $5.50!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-san-diego/",
+      "status": "active",
+      "summary": "Happy Hour daily from 4:30pm to 6:30pm with discounted drinks and tapas starting at $5.50",
+      "tags": [
+        "dollar_amount",
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "4:30PM-6:30PM",
+      "valid_through": null,
+      "validity": "Every day, 4:30PM-6:30PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "sunday"
+      ],
+      "candidate_text": "Half priced paella every Sunday Enjoy 1/2 OFF all Spanish paellas Dine-in only Can be combined with happy hour",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Enjoy 1/2 OFF all Spanish paellas",
+        "Dine-in only",
+        "Can be combined with happy hour"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "04cdd1abf1ae7f0b",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "source_evidence": [
+        "Enjoy 1/2 OFF all Spanish paellas every Sunday at Cafe Sevilla!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-costa-mesa/",
+      "status": "active",
+      "summary": "Half priced paella every Sunday",
+      "tags": [
+        "percent_off",
+        "happy_hour",
+        "weekday_special"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Sun"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday"
+      ],
+      "candidate_text": "Taco Tuesday Happy Hour specials with taco plates and discounted drinks $8.50, $9.50 & $10.50 taco plates $7 beers & wines $8 sangrias & well drinks $11 craft margaritas",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "$8.50, $9.50 & $10.50 taco plates",
+        "$7 beers & wines",
+        "$8 sangrias & well drinks",
+        "$11 craft margaritas"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "468084cb9bc300fb",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "source_evidence": [
+        "Enjoy Happy Hour specials every Tuesday from 4:30pm-6:30 including:"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-san-diego/",
+      "status": "active",
+      "summary": "Taco Tuesday Happy Hour specials with taco plates and discounted drinks",
+      "tags": [
+        "dollar_amount",
+        "happy_hour",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "4:30pm-6:30pm",
+      "valid_through": null,
+      "validity": "Tue, 4:30pm-6:30pm"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "candidate_text": "Happy Hour with half off tapas and discounted drinks Half off all 26 tapas from dinner menu $7 beers, $7 wines, $8 sangrias, $8 well drinks, and select $10 craft cocktails",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Half off all 26 tapas from dinner menu",
+        "$7 beers, $7 wines, $8 sangrias, $8 well drinks, and select $10 craft cocktails"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "aee537b1cf680914",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "source_evidence": [
+        "TUESDAY 50% OFF TAPAS HAPPY HOUR ALL NIGHT | HAPPY HOUR PRICING ON DRINKS 5-7PM",
+        "WEDNESDAY-SUNDAY 5-7PM"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-costa-mesa/",
+      "status": "active",
+      "summary": "Happy Hour with half off tapas and discounted drinks",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "Tuesday all night for tapas and 5-7pm for drinks; Wednesday-Sunday 5-7pm",
+      "valid_through": null,
+      "validity": "Tue, Wed, Thu, Fri, Sat, Sun, Tuesday all night for tapas and 5-7pm for drinks; Wednesday-Sunday 5-7pm"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "candidate_text": "50% off all wine bottles, glasses, and flights on Wednesdays 50% off all bottles, glasses and flights of wine Bring your own bottle for a $20 corkage fee Dine-in patrons only Includes live Latin music",
+      "categories": [
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "50% off all bottles, glasses and flights of wine",
+        "Bring your own bottle for a $20 corkage fee",
+        "Dine-in patrons only",
+        "Includes live Latin music"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "b136955813a23f32",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "source_evidence": [
+        "Every Wednesday, enjoy 50% off all bottles, glasses and flights of wine accompanied by live Latin music."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-costa-mesa/",
+      "status": "active",
+      "summary": "50% off all wine bottles, glasses, and flights on Wednesdays",
+      "tags": [
+        "percent_off",
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Wed"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday",
+        "thursday"
+      ],
+      "candidate_text": "50% off tapas on Wednesdays and Thursdays Get 50% OFF tapas in Costa Mesa",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Get 50% OFF tapas in Costa Mesa"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "27bce40f2e92c564",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "restaurant": "Cafe Sevilla of Costa Mesa",
+      "source_evidence": [
+        "Get 50% OFF tapas Wednesdays & Thursdays in Costa Mesa!"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.cafesevilla.com/promos-costa-mesa/",
+      "status": "active",
+      "summary": "50% off tapas on Wednesdays and Thursdays",
+      "tags": [
+        "percent_off"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Wed, Thu"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
       "candidate_text": "Gnocchi Day BOGO: Buy one get one free Buy one gnocchi, get one free Valid every 29th of the month",
       "categories": [
         "food"
@@ -1085,7 +2048,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "4f82018ecd2f3007",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -1166,7 +2129,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "9b0c4b6bb5bb2a66",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -1250,7 +2213,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "4526c12b0adcb827",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -1326,6 +2289,187 @@
         "thursday",
         "friday"
       ],
+      "candidate_text": "Onda Hour Happy Hour drinks and food specials Dine-in and bar area only Casa Margarita $10 La Crema Chardonnay $9 Starmont Cabernet $9 Elote Corn Riblets $10 Onda Nachos $9 with protein add-ons available",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Dine-in and bar area only",
+        "Casa Margarita $10",
+        "La Crema Chardonnay $9",
+        "Starmont Cabernet $9",
+        "Elote Corn Riblets $10",
+        "Onda Nachos $9 with protein add-ons available"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "3bf9ce2f31e38f47",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1870 Harbor Blvd Second Level, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7139973431767252856&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6425997,
+        "longitude": -117.9181264,
+        "phone": "(949) 612-2349",
+        "place_id": "ChIJzyWFaRXf3IAReL82ygFIFmM"
+      },
+      "restaurant": "Casa de Onda",
+      "source_evidence": [
+        "Monday through Friday, 4:00 to 6:00 pm",
+        "Casa Margarita \u2014 $10",
+        "La Crema Chardonnay \u2014 $9",
+        "Starmont Cabernet \u2014 $9",
+        "Elote Corn Riblets \u2014 $10"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://casadeondarestaurant.com/happy-hour/",
+      "status": "active",
+      "summary": "Onda Hour Happy Hour drinks and food specials",
+      "tags": [
+        "dollar_amount",
+        "happy_hour",
+        "deal_language"
+      ],
+      "time_window": "4:00 PM \u2013 6:00 PM",
+      "valid_through": null,
+      "validity": "Mon-Fri, 4:00 PM \u2013 6:00 PM"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "Buy One Lobster Breakfast Burrito Get Second 50% Off Buy one Lobster Breakfast burrito and get another for 50 percent off",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Buy one Lobster Breakfast burrito and get another for 50 percent off"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "8913ac3cb8db6f24",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "670 W 17th St, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=13944574590675920597&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.636548,
+        "longitude": -117.9267203,
+        "phone": "(949) 645-8873",
+        "place_id": "ChIJk1zHxXUg3YAR1SYtbbUUhcE"
+      },
+      "restaurant": "Catalina Fish Kitchen & Seafood Deli",
+      "source_evidence": [
+        "Buy One \"LOBSTER BREAKFAST BURRITO\" get another for 50% off! Breakfast 9:00-10:00am"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://catalinafishkitchenmenu.com/",
+      "status": "active",
+      "summary": "Buy One Lobster Breakfast Burrito Get Second 50% Off",
+      "tags": [
+        "percent_off",
+        "bogo"
+      ],
+      "time_window": "09:00-10:00",
+      "valid_through": null,
+      "validity": "09:00-10:00"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
       "candidate_text": "Happy Hour Food and Drink Specials Bruschetta, Cheesy Garlic Bread, and Mozzarella Carrozza for $7 Calamari Fritti, Sausage Calabrese, Meatball Calabrese, Heirloom Tomato Caprese, Antipasto Misto, and Romaine Heart Salad for $8 Shrimp Crivello, Steamed Mussels or Clams, Melizana Siciliana, Veggie Pizza, Meat Lovers Pizza, Spinach Ravioli Macchiata, Spaghetti Carbonara, and Rigatoni Calabrese for $9 House Wine for $6, Well Drinks for $7, Beer for $5 Aperol Spritz and Italian Margarita for $8 Lemon Drop Martini, Raspberry Martini, Salted Pear Martini, and Espresso Martini for $9",
       "categories": [
         "food",
@@ -1344,7 +2488,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "e7ade72f93bf56ca",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "19881 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -1470,7 +2614,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "4528337bf42f2c04",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "19881 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -1574,6 +2718,191 @@
       "validity": "Mon-Fri, Monday 4PM-CLOSE, Tuesday-Friday 4PM-6PM"
     },
     {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "The $20 Lunchbox Deal Includes any pair of sliders plus two sides, or one side and a drink.",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Includes any pair of sliders plus two sides, or one side and a drink."
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "49a86a86972c2601",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1525 Mesa Verde Dr E Ste 117, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1827828436789330286&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.669763599999996,
+        "longitude": -117.9208274,
+        "phone": "(714) 486-1777",
+        "place_id": "ChIJYRZbxcLf3IARboEvbUfAXRk"
+      },
+      "restaurant": "Deli Nerds",
+      "source_evidence": [
+        "The $20 Lunchbox \u2014 any pair of sliders + two sides (or a side & a drink)."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.delinerds.com/lunch-costa-mesa",
+      "status": "active",
+      "summary": "The $20 Lunchbox Deal",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday"
+      ],
+      "candidate_text": "Happy Hour: $5 Beers, $9 Wines & Margaritas, $10 Taco Skillets, $11 and Under Apps Beers for $5 Wines by the Glass for $9 Margaritas for $9 Taco Skillets for $10 Apps for $11 and under",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Beers for $5",
+        "Wines by the Glass for $9",
+        "Margaritas for $9",
+        "Taco Skillets for $10",
+        "Apps for $11 and under"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "f06ac88d3d416145",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1555 Adams Ave #103, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=15377075434389627601&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:30",
+              "open": "11:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:30",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6729489,
+        "longitude": -117.92126099999999,
+        "phone": "(714) 486-3798",
+        "place_id": "ChIJr7Nswz7f3IAR0eIt56JYZtU"
+      },
+      "restaurant": "Descanso Restaurant",
+      "source_evidence": [
+        "Happy Hour | Monday-Friday 3pm-6pm",
+        "$5 Beers",
+        "$9 Wines by the Glass",
+        "$9 Margaritas",
+        "$10 Taco Skillets"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.descansorestaurant.com/happyhour",
+      "status": "active",
+      "summary": "Happy Hour: $5 Beers, $9 Wines & Margaritas, $10 Taco Skillets, $11 and Under Apps",
+      "tags": [
+        "dollar_amount",
+        "happy_hour"
+      ],
+      "time_window": "3pm-6pm",
+      "valid_through": null,
+      "validity": "Mon-Fri, 3pm-6pm"
+    },
+    {
       "ai_confidence": 0.9,
       "applies_days": [
         "monday",
@@ -1597,7 +2926,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "afc8c05c805686cf",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18671 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -1693,7 +3022,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "578fe76990e6b815",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18671 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -1766,6 +3095,452 @@
       "validity": "Mon-Fri, 11:00am - 3:00pm"
     },
     {
+      "ai_confidence": 0.9,
+      "applies_days": [],
+      "candidate_text": "Rolling Rock Pitchers & Mugs Special $9 Rolling Rock Pitchers $3 Mugs of Rolling Rock & Other Domestic Beers $15/Pitcher or $4/mug",
+      "categories": [
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "$9 Rolling Rock Pitchers",
+        "$3 Mugs of Rolling Rock & Other Domestic Beers",
+        "$15/Pitcher or $4/mug"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "213575e6d97d2eba",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1830 Newport Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=8009638561140126999&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "02:00",
+              "open": "13:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "02:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "02:00",
+              "open": "13:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "02:00",
+              "open": "13:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "02:00",
+              "open": "13:00"
+            }
+          ]
+        },
+        "latitude": 33.6412435,
+        "longitude": -117.9181838,
+        "phone": "(949) 548-8428",
+        "place_id": "ChIJGZdoxY7f3IARFzUHoNXzJ28"
+      },
+      "restaurant": "Goat Hill Tavern",
+      "source_evidence": [
+        "$9 Rolling Rock Pitchers",
+        "Plus $3 Mugs of Rolling Rock & Other Domestic Beers Only $15/Pitcher ($4/mug)"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "http://www.goathilltavern.com/drink-specials/",
+      "status": "active",
+      "summary": "Rolling Rock Pitchers & Mugs Special",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "Pasta and meatballs meal for $1.99 Six ounces of penne pasta served with plant or traditional Swedish meatballs Valid in-store only at IKEA Burbank, IKEA Carson, IKEA Costa Mesa, and IKEA Covina",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Six ounces of penne pasta served with plant or traditional Swedish meatballs",
+        "Valid in-store only at IKEA Burbank, IKEA Carson, IKEA Costa Mesa, and IKEA Covina"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "3b1cd3f458d7bd72",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "restaurant": "IKEA Restaurant",
+      "source_evidence": [
+        "Lunch or dinner for just $1.99*",
+        "Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs for $1.99."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa",
+      "status": "active",
+      "summary": "Pasta and meatballs meal for $1.99",
+      "tags": [
+        "dollar_amount"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "candidate_text": "Free kids meals on Wednesdays for IKEA Family members Free kids meals in the IKEA Swedish Restaurant Exclusive to IKEA Family members Available on Wednesdays only",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Free kids meals in the IKEA Swedish Restaurant",
+        "Exclusive to IKEA Family members",
+        "Available on Wednesdays only"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "171fc6d8501c2b8a",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "restaurant": "IKEA Restaurant",
+      "source_evidence": [
+        "Kids eat free on Wednesdays",
+        "Delicious, fun and free! IKEA Family members enjoy free kids\u2019 meals on Wednesdays only at the IKEA Swedish Restaurant. Now thru 9/30."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa",
+      "status": "active",
+      "summary": "Free kids meals on Wednesdays for IKEA Family members",
+      "tags": [
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-30",
+      "validity": "Wed"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "wednesday"
+      ],
+      "candidate_text": "Kids eat free every Wednesday Kids eat free Valid every Wednesday through 9/30",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Kids eat free",
+        "Valid every Wednesday through 9/30"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "f363d2c3105c67e4",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "restaurant": "IKEA Restaurant",
+      "source_evidence": [
+        "Kids eat free every Wednesday thru 9/30"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ikea.com/us/en/offers/",
+      "status": "active",
+      "summary": "Kids eat free every Wednesday",
+      "tags": [
+        "weekday_special",
+        "free"
+      ],
+      "time_window": null,
+      "valid_through": "2026-09-30",
+      "validity": "Wed"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "monday",
+        "tuesday",
+        "wednesday",
+        "thursday",
+        "friday",
+        "saturday",
+        "sunday"
+      ],
+      "candidate_text": "Breakfast Burrito Free Drink or Coffee Options include Bacon, Ham, Hotdog Links, or Chorizo. Includes a FREE 16oz drink or coffee.",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Options include Bacon, Ham, Hotdog Links, or Chorizo.",
+        "Includes a FREE 16oz drink or coffee."
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "52489687707f9a0d",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "745 W 19th St Ste b, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14684051447708196191&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ]
+        },
+        "latitude": 33.6431383,
+        "longitude": -117.9297037,
+        "phone": "(949) 722-8513",
+        "place_id": "ChIJZQBi6Xkg3YARXx01BP46yMs"
+      },
+      "restaurant": "Jugos Acapulco",
+      "source_evidence": [
+        "EVERYDAY*: Breakfast Burrito",
+        "*From 6am to 11am: Includes a FREE 16oz drink or coffee."
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.jugosacapulco.com/daily-specials/",
+      "status": "active",
+      "summary": "Breakfast Burrito Free Drink or Coffee",
+      "tags": [
+        "free"
+      ],
+      "time_window": "6am to 11am",
+      "valid_through": null,
+      "validity": "Every day, 6am to 11am"
+    },
+    {
       "ai_confidence": 0.95,
       "applies_days": [],
       "candidate_text": "Taste of KFC Deals starting at just $5 Classic fried chicken meals for one, two or a few Available for delivery or pick up Promotional pricing is not available on KFC delivery orders",
@@ -1782,7 +3557,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "8bfef2ff94abd8b8",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "17239 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -1870,7 +3645,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "58b0e0f19ddd42d7",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "19091 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -1959,7 +3734,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "59deb4ea1259f8aa",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "8142 Talbert Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -2045,7 +3820,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "22f69e04e98a684f",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16185 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -2142,7 +3917,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "6a8211372a6ecd7b",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "807 Adams Ave, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -2228,7 +4003,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "e4d0c5f9b28fd58e",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -2323,7 +4098,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "7ad5f67f6d0e8602",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -2394,6 +4169,286 @@
       "validity": "Mon-Fri, 3 PM - 6 PM"
     },
     {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "Happy Hour Drink Specials Draft Beers: $5 Specialty Craft Beers: $6 House Wine: $5 Well Cocktails: $5 Not available through room service or to-go orders",
+      "categories": [
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Draft Beers: $5",
+        "Specialty Craft Beers: $6",
+        "House Wine: $5",
+        "Well Cocktails: $5",
+        "Not available through room service or to-go orders"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "4991e7043af67f06",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "325 Bristol St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7008442839293773772&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ]
+        },
+        "latitude": 33.665504999999996,
+        "longitude": -117.88192299999999,
+        "phone": "(714) 549-0300 ext. 406",
+        "place_id": "ChIJ0zuQ7gDf3IARzEe8SKH9QmE"
+      },
+      "restaurant": "Le Chateau Garden Bistro",
+      "source_evidence": [
+        "Hours: 3:30 pm - 6:30 pm",
+        "Draft Beers | 5",
+        "Specialty Craft Beers | 6",
+        "House Wine | 5",
+        "Well Cocktails | 5"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ayreshotels.com/ayres-hotel-costa-mesa-newport-beach/dining/happy-hour-menu",
+      "status": "active",
+      "summary": "Happy Hour Drink Specials",
+      "tags": [
+        "dollar_amount",
+        "happy_hour",
+        "deal_language"
+      ],
+      "time_window": "3:30 pm - 6:30 pm",
+      "valid_through": null,
+      "validity": "3:30 pm - 6:30 pm"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "Happy Hour Food Specials BBQ Chicken Flatbread: $9 Buffalo Chicken Wings: $7 Street Tacos (2): $6 Chicken Taquitos: $5 served with Sour Cream & Salsa Not available through room service or to-go orders",
+      "categories": [
+        "food"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "BBQ Chicken Flatbread: $9",
+        "Buffalo Chicken Wings: $7",
+        "Street Tacos (2): $6",
+        "Chicken Taquitos: $5 served with Sour Cream & Salsa",
+        "Not available through room service or to-go orders"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "cd7c48c89a8a5fe9",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "325 Bristol St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7008442839293773772&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ]
+        },
+        "latitude": 33.665504999999996,
+        "longitude": -117.88192299999999,
+        "phone": "(714) 549-0300 ext. 406",
+        "place_id": "ChIJ0zuQ7gDf3IARzEe8SKH9QmE"
+      },
+      "restaurant": "Le Chateau Garden Bistro",
+      "source_evidence": [
+        "Hours: 3:30 pm - 6:30 pm",
+        "BBQ Chicken Flatbread | 9",
+        "Buffalo Chicken Wings | 7",
+        "Street Tacos (2) | 6",
+        "Chicken Taquitos | 5"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ayreshotels.com/ayres-hotel-costa-mesa-newport-beach/dining/happy-hour-menu",
+      "status": "active",
+      "summary": "Happy Hour Food Specials",
+      "tags": [
+        "dollar_amount",
+        "happy_hour",
+        "deal_language"
+      ],
+      "time_window": "3:30 pm - 6:30 pm",
+      "valid_through": null,
+      "validity": "3:30 pm - 6:30 pm"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [
+        "saturday",
+        "sunday"
+      ],
+      "candidate_text": "Weekend Brunch Drinks Special Bloody Mary: $5 Mimosas: $5",
+      "categories": [
+        "drink"
+      ],
+      "city": "Costa Mesa",
+      "days_since_seen": 0,
+      "details": [
+        "Bloody Mary: $5",
+        "Mimosas: $5"
+      ],
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "f0168249fd8a706a",
+      "is_stale": false,
+      "last_seen": "2026-09-10T16:36:17Z",
+      "location": {
+        "address": "325 Bristol St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7008442839293773772&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ]
+        },
+        "latitude": 33.665504999999996,
+        "longitude": -117.88192299999999,
+        "phone": "(714) 549-0300 ext. 406",
+        "place_id": "ChIJ0zuQ7gDf3IARzEe8SKH9QmE"
+      },
+      "restaurant": "Le Chateau Garden Bistro",
+      "source_evidence": [
+        "Saturday & Sunday: 10 am - 2 pm",
+        "Bloody Mary | 5",
+        "Mimosas | 5"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.ayreshotels.com/ayres-hotel-costa-mesa-newport-beach/dining/happy-hour-menu",
+      "status": "active",
+      "summary": "Weekend Brunch Drinks Special",
+      "tags": [
+        "dollar_amount",
+        "weekday_special",
+        "deal_language"
+      ],
+      "time_window": "10 am - 2 pm",
+      "valid_through": null,
+      "validity": "Weekend, 10 am - 2 pm"
+    },
+    {
       "ai_confidence": null,
       "applies_days": [
         "monday",
@@ -2418,7 +4473,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "4bbe95bd0ffd47e9",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -2505,7 +4560,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "cdf9967358604fce",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -2584,7 +4639,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "92146b0ee6a404ad",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -2668,7 +4723,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "8fed335514a3bbde",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -2754,7 +4809,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "9d96ca0a186d956b",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -2838,7 +4893,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "aba3039f4cdbb4bb",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -2919,7 +4974,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "43f816d43acf1734",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9895 Warner Ave A, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -3005,7 +5060,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "3c3791c9b6d53eef",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9895 Warner Ave A, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -3105,7 +5160,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "3b99ef84b9fe9b1d",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -3204,7 +5259,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "79a85cae3ae73d41",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -3299,7 +5354,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "b9969e830d23cfff",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -3392,7 +5447,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "63c36b75ab9ff7ed",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -3488,7 +5543,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "6e3baca3288178e5",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "5452 Commercial Dr, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -3588,7 +5643,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "1460d501d4b4e602",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "5452 Commercial Dr, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -3683,7 +5738,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "5342321918fec7b4",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "5452 Commercial Dr, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -3775,7 +5830,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "e5669157ca0f3b55",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "7561 Center Ave #6, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -3870,7 +5925,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "af0f74c95ff72d26",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "19072 Beach Blvd Ste A & B, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -3965,7 +6020,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "16e3a589759932b6",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "19072 Beach Blvd Ste A & B, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -4068,7 +6123,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "e8551543f33b54a8",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "215 Main St, Huntington Beach, CA 92648",
         "hours": {
@@ -4152,7 +6207,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "4170cc2750f98437",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "21100 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -4240,7 +6295,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "c13623f686545d16",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "21100 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -4333,7 +6388,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "1d66a1074ac1c416",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -4421,7 +6476,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "e27f6b7fa88e2bd7",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -4510,7 +6565,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "48b944860daf26cc",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -4598,7 +6653,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "16a66e088961b9ff",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -4686,7 +6741,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "700c6792e34172e3",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -4777,7 +6832,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "45b705f2a2037e85",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -4867,7 +6922,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "36ecd3379921c78a",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -4965,7 +7020,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "254934ce9aae95bd",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -5053,7 +7108,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "51d8300f03acb8d3",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -5144,7 +7199,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "b669d1f87691b6e5",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -5233,7 +7288,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "c02c9eb945d74125",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
         "hours": {
@@ -5317,7 +7372,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "a544e5820c7e7fbf",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "327 11th St, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -5406,7 +7461,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "714bb898e37e7284",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "327 11th St, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -5495,7 +7550,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "9b80df250643beb1",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "327 11th St, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -5584,7 +7639,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "f52adecc5ac31ebf",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "327 11th St, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -5674,7 +7729,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "e157123504e866fc",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "327 11th St, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -5763,7 +7818,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "83ecd92c6dca6255",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "327 11th St, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -5852,7 +7907,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "37eb87cc1bc3f476",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "327 11th St, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -5940,7 +7995,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "b2a58077316f9a47",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -6026,7 +8081,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "b0f6ec480de98e8e",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -6112,7 +8167,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "01ddee8b6afa0175",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -6198,7 +8253,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "e3f3057993db80cc",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -6283,7 +8338,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "c3b2cdd48b4b8e24",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16561 Bolsa Chica St Unit 113, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -6369,7 +8424,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "535aad223482d017",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16561 Bolsa Chica St Unit 113, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -6455,7 +8510,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "6b6113a730cbf2f7",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16561 Bolsa Chica St Unit 113, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -6543,7 +8598,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "82e594f7191db88e",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16561 Bolsa Chica St Unit 113, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -6634,7 +8689,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "b1ca1a29d31b2331",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16561 Bolsa Chica St Unit 113, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -6723,7 +8778,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "d8998bb2e18e2bfc",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16561 Bolsa Chica St Unit 113, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -6816,7 +8871,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "0ec0ccc6e7b79f08",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16561 Bolsa Chica St Unit 113, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -6906,7 +8961,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "2eab8668fed3dc88",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "15471 Edwards St, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -6991,7 +9046,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "29e8493fc8c81db1",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "21028 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -7079,7 +9134,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "700d259c156747f0",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -7166,7 +9221,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "628ac54d6ba762ca",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -7255,7 +9310,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "49d67dceb970ac15",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -7341,7 +9396,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "51411e16e9f61c14",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -7428,7 +9483,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "35f90d80e5b76dd4",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -7515,7 +9570,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "f48889228ee93c46",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "17236 CA-1, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -7605,7 +9660,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "b2651b9b164fe7b1",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "19171 Magnolia St #12, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -7692,7 +9747,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "25e85762eb4aa6e2",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "17236 CA-1, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -7783,7 +9838,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "baceee29f1eb3be5",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "17236 CA-1, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -7878,7 +9933,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "7a3688ac8186bd66",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -7966,7 +10021,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "f1797a90f69a0d34",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -8056,7 +10111,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "01468f98a71bd0c2",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -8147,7 +10202,7 @@
       "first_seen": "2026-09-10T03:32:01Z",
       "id": "879b67a3c93b87c3",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "6078 Warner Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -8238,7 +10293,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "2d1f90bb57783fc3",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16391 Beach Blvd, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -8323,7 +10378,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "c73876c88e28e4b0",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16391 Beach Blvd, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -8408,7 +10463,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "9ef568e86d50be1a",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16391 Beach Blvd, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -8495,7 +10550,7 @@
       "first_seen": "2026-09-10T03:32:01Z",
       "id": "e54c19f877f3beee",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "7862 Warner Ave #106, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -8581,7 +10636,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "40ebc01c632ce4fa",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -8672,7 +10727,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "cc8d16cae580f858",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -8756,7 +10811,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "88f51558f931beae",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -8849,7 +10904,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "2049a4ccfac93784",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -8936,7 +10991,7 @@
       "first_seen": "2026-09-10T03:32:01Z",
       "id": "ed51f95d35c9fde4",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "17210 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -9030,7 +11085,7 @@
       "first_seen": "2026-09-10T03:32:01Z",
       "id": "fb127dfbd422c2f7",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "17210 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -9128,7 +11183,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "04c9bb032ad73d56",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "5932 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -9213,7 +11268,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "03a7a26abcfbfbbe",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "5932 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -9303,7 +11358,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "990b1c3db2a10210",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "5932 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -9396,7 +11451,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "6bcb9a83999bc7d1",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "5932 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -9483,7 +11538,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "e8be290b425ce708",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "5932 Warner Ave, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -9566,7 +11621,7 @@
       "first_seen": "2026-09-10T03:32:01Z",
       "id": "b2cd2ee2e0c3e667",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "11291 Talbert Ave, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -9651,7 +11706,7 @@
       "first_seen": "2026-09-10T03:32:01Z",
       "id": "a96e7bbc197391a4",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9925 Warner Ave, Fountain Valley, CA 92708, USA",
         "business_status": "OPERATIONAL",
@@ -9736,7 +11791,7 @@
       "first_seen": "2026-09-10T03:32:01Z",
       "id": "d9063c8fb7618a48",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "17182 Beach Blvd, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -9822,7 +11877,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "d5c0d77933076429",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -9915,7 +11970,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "4f35c0e6c25c4a82",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -10003,7 +12058,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "2b5c95f3f8fdac42",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -10092,7 +12147,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "7be23f68b6c1f3ae",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -10177,7 +12232,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "9625c427af7216ce",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -10262,7 +12317,7 @@
       "first_seen": "2026-09-10T02:35:18Z",
       "id": "07aabbde13e25352",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -10356,7 +12411,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "f2ff0f2668a5fa9e",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "714 Adams Ave Unit 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -10452,7 +12507,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "124d63013458966f",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "714 Adams Ave Unit 101, Huntington Beach, CA 92648, USA",
         "business_status": "OPERATIONAL",
@@ -10543,7 +12598,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "e983ef887b682213",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -10630,7 +12685,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "72b7a8e8b290ec82",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -10717,7 +12772,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "2af76ecfbe8a30a8",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -10804,7 +12859,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "9d2655fb279c15b3",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -10877,86 +12932,87 @@
     {
       "ai_confidence": 0.95,
       "applies_days": [],
-      "candidate_text": "$3 Pretzel Bun Chili Dog Price is $3 Original Pretzel Bun Chili Dog only Cheese extra Coupon good for TWO orders on same visit Must be surrendered at time of purchase Tax extra",
+      "candidate_text": "$3 Pretzel Bun Chili Dog coupon Price: $3 Item: Original Pretzel Bun Chili Dog Cheese is extra Coupon good for TWO orders on same visit and must be surrendered at time of purchase Tax extra Not valid with any other offer, discount or coupon Good at participating restaurants only",
       "categories": [
         "food"
       ],
       "city": "Huntington Beach",
       "days_since_seen": 0,
       "details": [
-        "Price is $3",
-        "Original Pretzel Bun Chili Dog only",
-        "Cheese extra",
-        "Coupon good for TWO orders on same visit",
-        "Must be surrendered at time of purchase",
-        "Tax extra"
+        "Price: $3",
+        "Item: Original Pretzel Bun Chili Dog",
+        "Cheese is extra",
+        "Coupon good for TWO orders on same visit and must be surrendered at time of purchase",
+        "Tax extra",
+        "Not valid with any other offer, discount or coupon",
+        "Good at participating restaurants only"
       ],
-      "first_seen": "2026-09-10T04:24:01Z",
-      "id": "d9f3b5732975b650",
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "f670126628e96f3d",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "monday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "saturday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "sunday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "thursday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "tuesday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ],
           "wednesday": [
             {
               "close": "00:00",
-              "open": "10:00"
+              "open": "09:00"
             }
           ]
         },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
       },
       "restaurant": "Wienerschnitzel",
       "source_evidence": [
         "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
-        "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+        "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
       ],
       "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
       "source_url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/",
       "status": "active",
-      "summary": "$3 Pretzel Bun Chili Dog",
+      "summary": "$3 Pretzel Bun Chili Dog coupon",
       "tags": [
         "dollar_amount",
         "deal_language"
@@ -10983,7 +13039,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "71369c4f96135533",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -11056,7 +13112,7 @@
     {
       "ai_confidence": 0.95,
       "applies_days": [],
-      "candidate_text": "$5 Corn Dog, Small Fries and Small Soda Deal Price: $5 Includes a corn dog, small fries, and a small soda Coupon good for TWO orders on same visit Tax extra Not valid with any other offer, discount or coupon Not valid in Sacramento, Stockton & Modesto areas",
+      "candidate_text": "$5 Corn Dog, Small Fries and Small Soda Deal Includes a corn dog, small fries, and small soda for $5 Tax extra Good for two orders on same visit Must be surrendered at time of purchase Not valid with any other offer, discount or coupon Not valid in Sacramento, Stockton & Modesto areas",
       "categories": [
         "food",
         "drink"
@@ -11064,69 +13120,69 @@
       "city": "Huntington Beach",
       "days_since_seen": 0,
       "details": [
-        "Price: $5",
-        "Includes a corn dog, small fries, and a small soda",
-        "Coupon good for TWO orders on same visit",
+        "Includes a corn dog, small fries, and small soda for $5",
         "Tax extra",
+        "Good for two orders on same visit",
+        "Must be surrendered at time of purchase",
         "Not valid with any other offer, discount or coupon",
         "Not valid in Sacramento, Stockton & Modesto areas"
       ],
-      "first_seen": "2026-09-10T04:24:01Z",
-      "id": "260ba6163cef8bf4",
+      "first_seen": "2026-09-10T16:36:17Z",
+      "id": "10114babb472275b",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
         "hours": {
           "friday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "monday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "saturday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "sunday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "thursday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "tuesday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ],
           "wednesday": [
             {
               "close": "00:00",
-              "open": "09:00"
+              "open": "10:00"
             }
           ]
         },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
       },
       "restaurant": "Wienerschnitzel",
       "source_evidence": [
@@ -11162,7 +13218,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "dd7436481acad78d",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -11249,7 +13305,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "9a36562992176916",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -11336,7 +13392,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "2d73dd53b1bf3563",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -11423,7 +13479,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "38596e15aeaca52f",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -11510,7 +13566,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "0f545725ba72a02b",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -11598,7 +13654,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "340c357134f83c71",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -11686,7 +13742,7 @@
       "first_seen": "2026-09-10T04:24:01Z",
       "id": "f3eab6d68bf68e74",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -11773,7 +13829,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "0a8ea00a661f836b",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -11863,7 +13919,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "6a8e55a7719348cd",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -11953,7 +14009,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "0eb56c513585b55b",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -12043,7 +14099,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "078ce8bcda1f8cb1",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -12144,7 +14200,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "95e564522c11c28a",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -12231,7 +14287,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "7daec1f1a96b8262",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -12322,7 +14378,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "832e54c1029ef677",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -12412,7 +14468,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "c2d58b15928c5a8f",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -12502,7 +14558,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "4a5fed740e0bac1d",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -12592,7 +14648,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "59708f11c02d4de9",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -12682,7 +14738,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "cf526c590dd53add",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -12772,7 +14828,7 @@
       "first_seen": "2026-09-10T02:58:33Z",
       "id": "c6830c0ff2067d2f",
       "is_stale": false,
-      "last_seen": "2026-09-10T04:24:01Z",
+      "last_seen": "2026-09-10T16:36:17Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -15621,6 +17677,98 @@
       "validity": "Mon-Fri, 4pm - 6pm"
     },
     {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "$3 Pretzel Bun Chili Dog Price is $3 Original Pretzel Bun Chili Dog only Cheese extra Coupon good for TWO orders on same visit Must be surrendered at time of purchase Tax extra",
+      "categories": [
+        "food"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price is $3",
+        "Original Pretzel Bun Chili Dog only",
+        "Cheese extra",
+        "Coupon good for TWO orders on same visit",
+        "Must be surrendered at time of purchase",
+        "Tax extra"
+      ],
+      "first_seen": "2026-09-10T04:24:01Z",
+      "id": "d9f3b5732975b650",
+      "is_stale": true,
+      "last_seen": "2026-09-10T04:24:01Z",
+      "location": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
+      },
+      "restaurant": "Wienerschnitzel",
+      "source_evidence": [
+        "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
+        "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$3 Pretzel Bun Chili Dog",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
       "ai_confidence": 0.9,
       "applies_days": [],
       "candidate_text": "$3 Pretzel Bun Chili Dog Price: $3 Original Pretzel Bun Chili Dog only Cheese extra Coupon good for TWO orders on same visit Tax extra Must be surrendered at time of purchase Not valid with any other offer, discount or coupon Good at participating restaurants only",
@@ -15799,6 +17947,99 @@
       "stale_after_days": 21,
       "status": "stale",
       "summary": "$3 Pretzel Bun Chili Dog Coupon",
+      "tags": [
+        "dollar_amount",
+        "deal_language"
+      ],
+      "time_window": null,
+      "valid_through": null,
+      "validity": "Check source"
+    },
+    {
+      "ai_confidence": 0.95,
+      "applies_days": [],
+      "candidate_text": "$5 Corn Dog, Small Fries and Small Soda Deal Price: $5 Includes a corn dog, small fries, and a small soda Coupon good for TWO orders on same visit Tax extra Not valid with any other offer, discount or coupon Not valid in Sacramento, Stockton & Modesto areas",
+      "categories": [
+        "food",
+        "drink"
+      ],
+      "city": "Huntington Beach",
+      "days_since_seen": 0,
+      "details": [
+        "Price: $5",
+        "Includes a corn dog, small fries, and a small soda",
+        "Coupon good for TWO orders on same visit",
+        "Tax extra",
+        "Not valid with any other offer, discount or coupon",
+        "Not valid in Sacramento, Stockton & Modesto areas"
+      ],
+      "first_seen": "2026-09-10T04:24:01Z",
+      "id": "260ba6163cef8bf4",
+      "is_stale": true,
+      "last_seen": "2026-09-10T04:24:01Z",
+      "location": {
+        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.715162,
+        "longitude": -118.024705,
+        "phone": "(714) 846-4353",
+        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
+      },
+      "restaurant": "Wienerschnitzel",
+      "source_evidence": [
+        "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+        "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
+      ],
+      "source_notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "source_url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/",
+      "stale_after_days": 21,
+      "status": "stale",
+      "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
       "tags": [
         "dollar_amount",
         "deal_language"
@@ -16270,21 +18511,22 @@
       "validity": "Sunday, 9 AM - noon"
     }
   ],
-  "generated_at": "2026-09-10T04:24:01Z",
+  "generated_at": "2026-09-10T16:36:17Z",
   "scope": {
     "cities": [
+      "Costa Mesa",
       "Fountain Valley",
       "Huntington Beach"
     ],
     "drop_after_days": 90,
-    "restaurant_count": 693,
-    "source_count": 58,
+    "restaurant_count": 1050,
+    "source_count": 70,
     "stale_after_days": 21
   },
   "sources": [
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "5205 Warner Ave, Huntington Beach, CA 92649, USA",
@@ -16347,7 +18589,7 @@
     },
     {
       "candidate_count": 0,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18033 Magnolia St, Fountain Valley, CA 92708, USA",
@@ -16410,7 +18652,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "807 Adams Ave, Huntington Beach, CA 92648, USA",
@@ -16473,7 +18715,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Fountain Valley",
       "location": {
         "address": "10130 Warner Ave H, Fountain Valley, CA 92708, USA",
@@ -16536,7 +18778,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
@@ -16596,7 +18838,7 @@
     },
     {
       "candidate_count": 4,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
@@ -16659,7 +18901,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "215 Main St, Huntington Beach, CA 92648",
@@ -16719,7 +18961,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
@@ -16779,7 +19021,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
@@ -16839,7 +19081,7 @@
     },
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16821 Algonquin St, Huntington Beach, CA 92649, USA",
@@ -16902,7 +19144,7 @@
     },
     {
       "candidate_count": 0,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Fountain Valley",
       "location": {
         "address": "10201 Slater Ave, Fountain Valley, CA 92708",
@@ -16962,7 +19204,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
@@ -17022,7 +19264,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708, USA",
@@ -17085,7 +19327,7 @@
     },
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
@@ -17148,7 +19390,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649, USA",
@@ -17211,7 +19453,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "5932 Warner Ave, Huntington Beach, CA 92649, USA",
@@ -17274,7 +19516,7 @@
     },
     {
       "candidate_count": 4,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "5932 Warner Ave, Huntington Beach, CA 92649, USA",
@@ -17337,7 +19579,7 @@
     },
     {
       "candidate_count": 7,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16365 Bolsa Chica St, Huntington Beach, CA 92649, USA",
@@ -17399,8 +19641,230 @@
       "url": "http://www.olivepitgrill.com/"
     },
     {
+      "candidate_count": 7,
+      "checked_at": "2026-09-10T16:36:17Z",
+      "city": "Costa Mesa",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "mode": "ai_extracted",
+      "name": "Cafe Sevilla of Costa Mesa",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://www.cafesevilla.com/promos-costa-mesa/"
+    },
+    {
+      "candidate_count": 3,
+      "checked_at": "2026-09-10T16:36:17Z",
+      "city": "Costa Mesa",
+      "location": {
+        "address": "1870 Harbor Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14174387949944365081&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "23:00",
+              "open": "15:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "01:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.642087599999996,
+        "longitude": -117.91863719999999,
+        "phone": "(949) 688-1555",
+        "place_id": "ChIJoSlAT4Xf3IARGeACyb2KtcQ"
+      },
+      "mode": "ai_extracted",
+      "name": "Cafe Sevilla of Costa Mesa",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://www.cafesevilla.com/promos-san-diego/"
+    },
+    {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
+      "city": "Costa Mesa",
+      "location": {
+        "address": "1870 Harbor Blvd Second Level, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7139973431767252856&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "23:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.6425997,
+        "longitude": -117.9181264,
+        "phone": "(949) 612-2349",
+        "place_id": "ChIJzyWFaRXf3IAReL82ygFIFmM"
+      },
+      "mode": "ai_extracted",
+      "name": "Casa de Onda",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://casadeondarestaurant.com/happy-hour/"
+    },
+    {
+      "candidate_count": 1,
+      "checked_at": "2026-09-10T16:36:17Z",
+      "city": "Costa Mesa",
+      "location": {
+        "address": "670 W 17th St, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=13944574590675920597&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "11:00"
+            }
+          ]
+        },
+        "latitude": 33.636548,
+        "longitude": -117.9267203,
+        "phone": "(949) 645-8873",
+        "place_id": "ChIJk1zHxXUg3YAR1SYtbbUUhcE"
+      },
+      "mode": "ai_extracted",
+      "name": "Catalina Fish Kitchen & Seafood Deli",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "http://catalinafishkitchenmenu.com/"
+    },
+    {
+      "candidate_count": 1,
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "19881 Brookhurst St, Huntington Beach, CA 92646, USA",
@@ -17491,7 +19955,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "19881 Brookhurst St, Huntington Beach, CA 92646, USA",
@@ -17581,8 +20045,449 @@
       "url": "http://www.crivelloristorante.com/happy-hour-menu"
     },
     {
+      "candidate_count": 1,
+      "checked_at": "2026-09-10T16:36:17Z",
+      "city": "Costa Mesa",
+      "location": {
+        "address": "1525 Mesa Verde Dr E Ste 117, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=1827828436789330286&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "19:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "19:00",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.669763599999996,
+        "longitude": -117.9208274,
+        "phone": "(714) 486-1777",
+        "place_id": "ChIJYRZbxcLf3IARboEvbUfAXRk"
+      },
+      "mode": "ai_extracted",
+      "name": "Deli Nerds",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://www.delinerds.com/lunch-costa-mesa"
+    },
+    {
+      "candidate_count": 1,
+      "checked_at": "2026-09-10T16:36:17Z",
+      "city": "Costa Mesa",
+      "location": {
+        "address": "1555 Adams Ave #103, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=15377075434389627601&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:30",
+              "open": "11:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "15:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:30",
+              "open": "11:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "11:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "11:30"
+            }
+          ]
+        },
+        "latitude": 33.6729489,
+        "longitude": -117.92126099999999,
+        "phone": "(714) 486-3798",
+        "place_id": "ChIJr7Nswz7f3IAR0eIt56JYZtU"
+      },
+      "mode": "ai_extracted",
+      "name": "Descanso Restaurant",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "http://www.descansorestaurant.com/happyhour"
+    },
+    {
+      "candidate_count": 1,
+      "checked_at": "2026-09-10T16:36:17Z",
+      "city": "Costa Mesa",
+      "location": {
+        "address": "1830 Newport Blvd, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=8009638561140126999&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "02:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "02:00",
+              "open": "13:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "02:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "02:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "02:00",
+              "open": "13:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "02:00",
+              "open": "13:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "02:00",
+              "open": "13:00"
+            }
+          ]
+        },
+        "latitude": 33.6412435,
+        "longitude": -117.9181838,
+        "phone": "(949) 548-8428",
+        "place_id": "ChIJGZdoxY7f3IARFzUHoNXzJ28"
+      },
+      "mode": "ai_extracted",
+      "name": "Goat Hill Tavern",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "http://www.goathilltavern.com/drink-specials/"
+    },
+    {
+      "candidate_count": 1,
+      "checked_at": "2026-09-10T16:36:17Z",
+      "city": "Costa Mesa",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "mode": "ai_extracted",
+      "name": "IKEA Restaurant",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://www.ikea.com/us/en/offers/"
+    },
+    {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
+      "city": "Costa Mesa",
+      "location": {
+        "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=501105390991656463&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:00",
+              "open": "09:30"
+            }
+          ]
+        },
+        "latitude": 33.6910441,
+        "longitude": -117.91629560000001,
+        "phone": "(888) 888-4532",
+        "place_id": "ChIJqeNMTibf3IARD0YXubJI9AY"
+      },
+      "mode": "ai_extracted",
+      "name": "IKEA Restaurant",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa"
+    },
+    {
+      "candidate_count": 1,
+      "checked_at": "2026-09-10T16:36:17Z",
+      "city": "Costa Mesa",
+      "location": {
+        "address": "745 W 19th St Ste b, Costa Mesa, CA 92627, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=14684051447708196191&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "05:30"
+            }
+          ]
+        },
+        "latitude": 33.6431383,
+        "longitude": -117.9297037,
+        "phone": "(949) 722-8513",
+        "place_id": "ChIJZQBi6Xkg3YARXx01BP46yMs"
+      },
+      "mode": "ai_extracted",
+      "name": "Jugos Acapulco",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://www.jugosacapulco.com/daily-specials/"
+    },
+    {
+      "candidate_count": 3,
+      "checked_at": "2026-09-10T16:36:17Z",
+      "city": "Costa Mesa",
+      "location": {
+        "address": "325 Bristol St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7008442839293773772&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ]
+        },
+        "latitude": 33.665504999999996,
+        "longitude": -117.88192299999999,
+        "phone": "(714) 549-0300 ext. 406",
+        "place_id": "ChIJ0zuQ7gDf3IARzEe8SKH9QmE"
+      },
+      "mode": "ai_extracted",
+      "name": "Le Chateau Garden Bistro",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://www.ayreshotels.com/ayres-hotel-costa-mesa-newport-beach/dining/happy-hour-menu"
+    },
+    {
+      "candidate_count": 2,
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "5452 Commercial Dr, Huntington Beach, CA 92649, USA",
@@ -17645,7 +20550,7 @@
     },
     {
       "candidate_count": 4,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "9791 Adams Ave, Huntington Beach, CA 92646, USA",
@@ -17708,7 +20613,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "19035 Goldenwest St Ste 101, Huntington Beach, CA 92648, USA",
@@ -17771,7 +20676,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16391 Beach Blvd, Huntington Beach, CA 92647, USA",
@@ -17834,7 +20739,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "714 Adams Ave Unit 101, Huntington Beach, CA 92648, USA",
@@ -17897,7 +20802,7 @@
     },
     {
       "candidate_count": 12,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
@@ -17960,7 +20865,70 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
+      "city": "Huntington Beach",
+      "location": {
+        "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "09:00"
+            }
+          ]
+        },
+        "latitude": 33.7009621,
+        "longitude": -117.9886627,
+        "phone": "(714) 596-0478",
+        "place_id": "ChIJu35Njekm3YARZC5wi_x7FrQ"
+      },
+      "mode": "ai_extracted",
+      "name": "Wienerschnitzel",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+    },
+    {
+      "candidate_count": 1,
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
@@ -18019,74 +20987,11 @@
       "name": "Wienerschnitzel",
       "notes": "AI-extracted from an official restaurant page; source evidence checked",
       "ok": true,
-      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-    },
-    {
-      "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
-      "city": "Huntington Beach",
-      "location": {
-        "address": "5966 Warner Ave, Huntington Beach, CA 92649, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=3250908010173443824&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "09:00"
-            }
-          ]
-        },
-        "latitude": 33.715162,
-        "longitude": -118.024705,
-        "phone": "(714) 846-4353",
-        "place_id": "ChIJP6qT9NMl3YAR8C7cd5yLHS0"
-      },
-      "mode": "ai_extracted",
-      "name": "Wienerschnitzel",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "ok": true,
       "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
     },
     {
       "candidate_count": 12,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646, USA",
@@ -18148,8 +21053,71 @@
       "url": "https://zubiesdrydock.com/happy-hour"
     },
     {
+      "candidate_count": 2,
+      "checked_at": "2026-09-10T16:36:17Z",
+      "city": "Costa Mesa",
+      "location": {
+        "address": "1525 Mesa Verde Dr E, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=12138422850964316223&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:30",
+              "open": "16:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:30",
+              "open": "16:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "21:00",
+              "open": "16:00"
+            }
+          ]
+        },
+        "latitude": 33.6697799,
+        "longitude": -117.92050370000001,
+        "phone": "(657) 232-0100",
+        "place_id": "ChIJwcln2GPf3IARP2A2VUVXdKg"
+      },
+      "mode": "ai_extracted",
+      "name": "Al Forno Caffe",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "ok": true,
+      "url": "https://alfornocaffe.com/specials"
+    },
+    {
       "candidate_count": 4,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Fountain Valley",
       "location": {
         "address": "17910 Magnolia St, Fountain Valley, CA 92708, USA",
@@ -18212,7 +21180,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "6522 Bolsa Ave, Huntington Beach, CA 92647, USA",
@@ -18275,7 +21243,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "21501 Brookhurst St, Huntington Beach, CA 92646, USA",
@@ -18338,7 +21306,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Fountain Valley",
       "location": {
         "address": "8780 Warner Ave #15, Fountain Valley, CA 92708, USA",
@@ -18395,7 +21363,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18671 Brookhurst St, Fountain Valley, CA 92708, USA",
@@ -18458,7 +21426,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Fountain Valley",
       "location": {
         "address": "17239 Brookhurst St, Fountain Valley, CA 92708, USA",
@@ -18521,7 +21489,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "19091 Brookhurst St, Huntington Beach, CA 92646, USA",
@@ -18584,7 +21552,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "8142 Talbert Ave, Huntington Beach, CA 92646, USA",
@@ -18647,7 +21615,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Fountain Valley",
       "location": {
         "address": "16185 Brookhurst St, Fountain Valley, CA 92708, USA",
@@ -18710,7 +21678,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Fountain Valley",
       "location": {
         "address": "9895 Warner Ave A, Fountain Valley, CA 92708, USA",
@@ -18773,7 +21741,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
@@ -18836,7 +21804,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
@@ -18899,7 +21867,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "5452 Commercial Dr, Huntington Beach, CA 92649, USA",
@@ -18962,7 +21930,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "7561 Center Ave #6, Huntington Beach, CA 92647, USA",
@@ -19025,7 +21993,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "19072 Beach Blvd Ste A & B, Huntington Beach, CA 92648, USA",
@@ -19088,7 +22056,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "19072 Beach Blvd Ste A & B, Huntington Beach, CA 92648, USA",
@@ -19151,7 +22119,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "21100 Pacific Coast Hwy, Huntington Beach, CA 92648, USA",
@@ -19214,7 +22182,7 @@
     },
     {
       "candidate_count": 7,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "327 11th St, Huntington Beach, CA 92648, USA",
@@ -19277,7 +22245,7 @@
     },
     {
       "candidate_count": 7,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16561 Bolsa Chica St Unit 113, Huntington Beach, CA 92649, USA",
@@ -19340,7 +22308,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "15471 Edwards St, Huntington Beach, CA 92647, USA",
@@ -19403,7 +22371,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "21028 Brookhurst St, Huntington Beach, CA 92646, USA",
@@ -19466,7 +22434,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "17236 CA-1, Huntington Beach, CA 92649, USA",
@@ -19529,7 +22497,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "19171 Magnolia St #12, Huntington Beach, CA 92646, USA",
@@ -19592,7 +22560,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "6078 Warner Ave, Huntington Beach, CA 92647, USA",
@@ -19649,7 +22617,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "7862 Warner Ave #106, Huntington Beach, CA 92647, USA",
@@ -19712,7 +22680,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "17210 Pacific Coast Hwy, Huntington Beach, CA 92649, USA",
@@ -19775,7 +22743,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Fountain Valley",
       "location": {
         "address": "11291 Talbert Ave, Fountain Valley, CA 92708, USA",
@@ -19838,7 +22806,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Fountain Valley",
       "location": {
         "address": "9925 Warner Ave, Fountain Valley, CA 92708, USA",
@@ -19901,7 +22869,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T04:24:01Z",
+      "checked_at": "2026-09-10T16:36:17Z",
       "city": "Huntington Beach",
       "location": {
         "address": "17182 Beach Blvd, Huntington Beach, CA 92647, USA",
@@ -19964,10 +22932,10 @@
     }
   ],
   "summary": {
-    "active_deals": 143,
+    "active_deals": 167,
     "failed_sources": 0,
-    "healthy_sources": 58,
-    "stale_deals": 38,
-    "total_deals": 181
+    "healthy_sources": 70,
+    "stale_deals": 40,
+    "total_deals": 207
   }
 }
