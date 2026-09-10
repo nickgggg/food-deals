@@ -1,5 +1,5 @@
 {
-  "crawler_version": 7,
+  "crawler_version": 8,
   "deals": [
     {
       "applies_days": [
@@ -25,10 +25,10 @@
         "Drink specials include draft beer and margaritas",
         "Food specials include tacos and chips/salsa"
       ],
-      "first_seen": "2026-09-10T00:04:51Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "6a8211372a6ecd7b",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "807 E Adams Ave, Huntington Beach, CA 92648",
         "hours": {
@@ -104,10 +104,10 @@
       "details": [
         "HAPPY HOUR"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "6aecdfb1e1697495",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
         "hours": {
@@ -186,10 +186,10 @@
         "EXPIRED",
         "Tweet"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "86ccf1c0b7fb7c20",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
         "hours": {
@@ -262,10 +262,10 @@
       "details": [
         "Fountain Valley Coupon!"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "08ba30fd00b9d8a0",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
         "hours": {
@@ -339,10 +339,10 @@
         "Coupons",
         "Fountain Valley Coupon!"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "49629b4e5fa305e3",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
         "hours": {
@@ -418,10 +418,10 @@
         "Coupons",
         "Fountain Valley Coupon!"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "491869a4eaaaa98f",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
         "hours": {
@@ -495,10 +495,10 @@
       "details": [
         "Specials"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "42f8b3488717466c",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
         "hours": {
@@ -579,10 +579,10 @@
         "Share",
         "EXPIRED"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "d3cfebcad1813d96",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
         "hours": {
@@ -659,10 +659,10 @@
         "Coupons",
         "Fountain Valley Coupon!"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "eb58cfc277ef8d3e",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
         "hours": {
@@ -742,10 +742,10 @@
         "Share",
         "EXPIRED"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "2821f88b665f6da9",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
         "hours": {
@@ -818,10 +818,10 @@
       "details": [
         "Free Soda"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "fe8b3cba280948b6",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
         "hours": {
@@ -901,10 +901,10 @@
         "Find Your Table",
         "Learn More"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "662bfb8c579525f3",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -983,10 +983,10 @@
         "L\u014drea Soundwaves Music Series",
         "Mondays \u2013 Fridays, 3:00PM - 5:00PM"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "fc7a3d6d62e861af",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1063,10 +1063,10 @@
       "details": [
         "Mondays \u2013 Fridays, 3:00PM - 5:00PM"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "8479d74643b9c295",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1152,10 +1152,10 @@
         "Press Room",
         "Loyalty"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "d43bf96fc6a5b67c",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1242,10 +1242,10 @@
         "21080 Pacific Coast Highway",
         "Huntington Beach, CA 92648"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "6463a12be8ee9c62",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1332,10 +1332,10 @@
         "Huntington Beach, CA 92648",
         "714 698 6130"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "a3d5b1faa265f33c",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1417,10 +1417,10 @@
         "Weekend Brunch at L\u014drea",
         "Private Events"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "9cecd762723240db",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1498,10 +1498,10 @@
         "$12 select food items, $14 Classic cocktails, 20% off draft beers and select house wines.",
         "Learn More"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "7b9572c48d470a2a",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -1575,10 +1575,10 @@
       "details": [
         "Offers"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "92146b0ee6a404ad",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -1656,10 +1656,10 @@
         "CCPA",
         "This error message is only visible to WordPress admins"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "8fed335514a3bbde",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -1739,10 +1739,10 @@
         "Offers",
         "Tuesday & Saturday"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "9d96ca0a186d956b",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -1820,10 +1820,10 @@
         "Kids Eat Free",
         "Tuesday & Saturday"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "aba3039f4cdbb4bb",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -1910,10 +1910,10 @@
         "Examples include chicken nachos, sliders, tacos, quesadilla, and tempura",
         "Drink specials include well drinks, wine, Mai Tai, and beer"
       ],
-      "first_seen": "2026-09-10T00:07:18Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "e8551543f33b54a8",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "215 Main St, Huntington Beach, CA 92648",
         "hours": {
@@ -2001,10 +2001,10 @@
         "ahi tuna, lemon ponzu, green onion, avocado, cilantro, serrano",
         "Brioche Sliders (2) $8"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "254934ce9aae95bd",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -2089,10 +2089,10 @@
         "EATS",
         "Chips and Salsa $8"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "51d8300f03acb8d3",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -2180,10 +2180,10 @@
         "chips, beans, cheese sauce, sour cream, pico de gallo, guacamole",
         "Tuna Tostada $8"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "b669d1f87691b6e5",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
         "hours": {
@@ -2268,10 +2268,10 @@
         "Mini golf special",
         "Draft beer, well drink, wine, and appetizer specials"
       ],
-      "first_seen": "2026-09-10T00:04:51Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "c02c9eb945d74125",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
         "hours": {
@@ -2347,10 +2347,10 @@
         "50% off all wine bottles (dine-in only)",
         "FILLET SPECIAL"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "f19aaa29324a04de",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2435,10 +2435,10 @@
         "Follow",
         "More Links"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "932d25342edf58f1",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2527,10 +2527,10 @@
         "Ground beef, garlic, butter, Italian herbs",
         "TUESDAY (Taco Tuesday)"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "74739de9b87c3387",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2622,10 +2622,10 @@
         "MONDAY (All Day Happy Hour)",
         "PASTA BOLOGNESE"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "51a4cb974fe9fbc8",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2707,10 +2707,10 @@
         "MONDAY (All Day Happy Hour)",
         "PASTA BOLOGNESE"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "04df59eb735fd1b5",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2791,10 +2791,10 @@
         "Monthly Specials",
         "Dinner Menu"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "196adad505509c2a",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2875,10 +2875,10 @@
         "Make a Reservation",
         "Banquet/Catering"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "ad4b9f62c95dbbf1",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -2964,10 +2964,10 @@
         "Our Story",
         "Make a Reservation"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "b45a577e58b57c7d",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -3048,10 +3048,10 @@
         "Mexican-style lager, spice, floral, clean",
         "WEDNESDAY (Wine Wednesday)"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "d4462a7e95fd1872",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
         "hours": {
@@ -3136,10 +3136,10 @@
         "Catering & Private Events",
         "Taco truck"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "54a55c67040a5007",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -3218,10 +3218,10 @@
         "GET A FREE APPETIZER JUST FOR SIGNING UP, PLUS A BIRTHDAY",
         "SURPRISE ON YOUR BIRTHDAY."
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "4d4a6fdd3d019908",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -3299,10 +3299,10 @@
         "SURPRISE ON YOUR BIRTHDAY.",
         "SIGN UP"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "02867e8bd2dd8b68",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -3376,10 +3376,10 @@
       "details": [
         "CALL"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "e1456eb38bd523c4",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -3458,10 +3458,10 @@
         "Join us for Happy Hour and relax over deals for tacos and margaritas",
         "FEED YOUR SOL"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "deba16a0ad3ef2f1",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -3536,10 +3536,10 @@
         "Content",
         "CALL"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "913acd682dab1942",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -3618,10 +3618,10 @@
         "SURPRISE ON YOUR BIRTHDAY.",
         "SIGN UP"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "eb121553d300af17",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -3697,10 +3697,10 @@
       "details": [
         "Happy Hour"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "108a5d07d1939d02",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -3781,10 +3781,10 @@
         "Taco truck",
         "Our Story"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "5bfea46810bd561b",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -3860,10 +3860,10 @@
         "Valencia",
         "24201 Valencia Blvd. STE. 3470."
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "b6f4a4e8af1416a1",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -3941,10 +3941,10 @@
         "SURPRISE ON YOUR BIRTHDAY.",
         "SIGN UP"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "ce06c33bd5014ca8",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -4022,10 +4022,10 @@
         "SURPRISE ON YOUR BIRTHDAY.",
         "SIGN UP"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "ac45ea6b7140b7cc",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -4102,10 +4102,10 @@
         "SIGN UP",
         "Valencia"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "d4207f1f430edf83",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -4186,10 +4186,10 @@
         "Specials",
         "Catering & Private Events"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "d623cf372fe8af8c",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
         "hours": {
@@ -4264,10 +4264,10 @@
         "Lunch special menu with optional beverage add-on",
         "Open source page for current items and prices"
       ],
-      "first_seen": "2026-09-10T00:04:51Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "88f51558f931beae",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -4351,10 +4351,10 @@
         "Examples include salads, personal pizzas, pulled pork, and chicken breast meals",
         "Open source page for current item list"
       ],
-      "first_seen": "2026-09-10T00:04:51Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "2049a4ccfac93784",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
         "hours": {
@@ -4430,10 +4430,10 @@
       "details": [
         "Prime rib dinner available after 5 PM with potatoes and veggies"
       ],
-      "first_seen": "2026-09-10T00:04:51Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "d5c0d77933076429",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -4517,10 +4517,10 @@
         "Bottled beer, craft beer, well drinks, wine, and food specials",
         "Not available on holidays"
       ],
-      "first_seen": "2026-09-10T00:04:51Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "4f35c0e6c25c4a82",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -4599,10 +4599,10 @@
         "Buy one, get one free meatloaf sandwiches or dinners with purchase of two drinks",
         "$8 martinis all day"
       ],
-      "first_seen": "2026-09-10T00:04:51Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "2b5c95f3f8fdac42",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -4682,10 +4682,10 @@
         "Chicken, steak, or fish street tacos for $2.75 each",
         "$8 house margaritas all day"
       ],
-      "first_seen": "2026-09-10T00:04:51Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "7be23f68b6c1f3ae",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -4761,10 +4761,10 @@
       "details": [
         "Special spaghetti meals"
       ],
-      "first_seen": "2026-09-10T00:04:51Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "9625c427af7216ce",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -4840,10 +4840,10 @@
       "details": [
         "Special fried fish dishes"
       ],
-      "first_seen": "2026-09-10T00:04:51Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "07aabbde13e25352",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
         "hours": {
@@ -4917,10 +4917,10 @@
       "details": [
         "$5 Draft Beers"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "7c68619331ee7633",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -5005,10 +5005,10 @@
         "Every Day of the Week",
         "We feature a different delicious special every day for both lunch and dinner. There's always something new to try at Zubie's."
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "039dafef6c3a4b99",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -5094,10 +5094,10 @@
         "Discounted Apps & Bites",
         "View Happy Hour Menu"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "b41943259cbd2366",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -5180,10 +5180,10 @@
         "View Happy Hour Menu",
         "Every Day of the Week"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "07ad6575ac5c47b8",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -5264,10 +5264,10 @@
         "Happy Hour",
         "Join us every weekday afternoon for great deals on draft beers, well drinks, house wines, and delicious appetizers."
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "52ac83e812e74a4f",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -5356,10 +5356,10 @@
         "Reviews",
         "Blog"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "38e28c40f75fa5a1",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -5442,10 +5442,10 @@
         "Monday - Friday \u2022 1:00 PM - 6:00 PM",
         "Join us every weekday afternoon for great deals on draft beers, well drinks, house wines, and delicious appetizers."
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "6f2f5581c6752aaa",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -5533,10 +5533,10 @@
         "Sports",
         "Large Groups"
       ],
-      "first_seen": "2026-09-10T00:02:48Z",
+      "first_seen": "2026-09-10T00:11:27Z",
       "id": "bb96f5b8431d6879",
       "is_stale": false,
-      "last_seen": "2026-09-10T00:07:18Z",
+      "last_seen": "2026-09-10T00:11:27Z",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
         "hours": {
@@ -5598,5254 +5598,9 @@
       ],
       "time_window": "9:00 AM - 9:00 PM",
       "validity": "Mon-Fri, 9:00 AM - 9:00 PM"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "16oz Margarita Happy hour drink specials. Draft XX Lager, Coors Light or Pacifico",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy hour drink specials.",
-        "Draft XX Lager, Coors Light or Pacifico"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "db80e2c9250dee73",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "807 E Adams Ave, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ]
-        },
-        "latitude": 33.6728,
-        "longitude": -117.9982,
-        "phone": "(714) 374-0342"
-      },
-      "restaurant": "La Capilla Cantina",
-      "source_notes": "Official Huntington Beach happy hour page",
-      "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "16oz Margarita",
-      "tags": [
-        "happy_hour",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "HB Happy Hour | La Capilla Cantina Locations Locations Huntington Beach Torrance La Palma",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Locations",
-        "Huntington Beach",
-        "Torrance",
-        "La Palma"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "4e7a18ac87bb26c5",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "807 E Adams Ave, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ]
-        },
-        "latitude": 33.6728,
-        "longitude": -117.9982,
-        "phone": "(714) 374-0342"
-      },
-      "restaurant": "La Capilla Cantina",
-      "source_notes": "Official Huntington Beach happy hour page",
-      "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "HB Happy Hour | La Capilla Cantina",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Happy Hour House Rules $3.99 Chips & Salsa",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "$3.99",
-        "Chips & Salsa"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "fe32462374e1c1fc",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "807 E Adams Ave, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ]
-        },
-        "latitude": 33.6728,
-        "longitude": -117.9982,
-        "phone": "(714) 374-0342"
-      },
-      "restaurant": "La Capilla Cantina",
-      "source_notes": "Official Huntington Beach happy hour page",
-      "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Happy Hour House Rules",
-      "tags": [
-        "dollar_amount",
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Huntington Beach HB Happy Hour | La Capilla Cantina Locations Locations Torrance La Palma Merchandise About Us Contact",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "HB Happy Hour | La Capilla Cantina",
-        "Locations",
-        "Torrance",
-        "La Palma",
-        "Merchandise",
-        "About Us",
-        "Contact"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "be7206dffcb0f5ba",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "807 E Adams Ave, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ]
-        },
-        "latitude": 33.6728,
-        "longitude": -117.9982,
-        "phone": "(714) 374-0342"
-      },
-      "restaurant": "La Capilla Cantina",
-      "source_notes": "Official Huntington Beach happy hour page",
-      "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Huntington Beach",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Sign up for deals Happy Hour House Rules Prices and availability should match the current in-store promotion. name@example.com required \u00a9 2026, La Capilla Cantina Choosing a selection results in a full page refresh.",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy Hour House Rules",
-        "Prices and availability should match the current in-store promotion.",
-        "name@example.com",
-        "required",
-        "\u00a9 2026,",
-        "La Capilla Cantina",
-        "Choosing a selection results in a full page refresh."
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "aad967369ddc2150",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "807 E Adams Ave, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ]
-        },
-        "latitude": 33.6728,
-        "longitude": -117.9982,
-        "phone": "(714) 374-0342"
-      },
-      "restaurant": "La Capilla Cantina",
-      "source_notes": "Official Huntington Beach happy hour page",
-      "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Sign up for deals",
-      "tags": [
-        "happy_hour",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Tacos (2) Cabernet Sauvignon, Merlot, Chardonnay, Sauvignon Blanc. Food 1 complimentary basket of chips & salsa per table.",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Cabernet Sauvignon, Merlot, Chardonnay, Sauvignon Blanc.",
-        "Food",
-        "1 complimentary basket of chips & salsa per table."
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "64a044fc68570f4c",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "807 E Adams Ave, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ]
-        },
-        "latitude": 33.6728,
-        "longitude": -117.9982,
-        "phone": "(714) 374-0342"
-      },
-      "restaurant": "La Capilla Cantina",
-      "source_notes": "Official Huntington Beach happy hour page",
-      "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Tacos (2)",
-      "tags": [
-        "free"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "\u00a9 2026, Sign up for deals name@example.com required La Capilla Cantina Choosing a selection results in a full page refresh. Opens in a new window.",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Sign up for deals",
-        "name@example.com",
-        "required",
-        "La Capilla Cantina",
-        "Choosing a selection results in a full page refresh.",
-        "Opens in a new window."
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "29de0063ee8a15ac",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "807 E Adams Ave, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ]
-        },
-        "latitude": 33.6728,
-        "longitude": -117.9982,
-        "phone": "(714) 374-0342"
-      },
-      "restaurant": "La Capilla Cantina",
-      "source_notes": "Official Huntington Beach happy hour page",
-      "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "\u00a9 2026,",
-      "tags": [
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday",
-        "saturday",
-        "sunday"
-      ],
-      "candidate_text": "1 hour before close every day. Happy Hour Bar & Patio Side Only 2PM-6PM, Sun-Fri. Tuesday ends 5PM. Drinks",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy Hour",
-        "Bar & Patio Side Only",
-        "2PM-6PM, Sun-Fri. Tuesday ends 5PM.",
-        "Drinks"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "520350382c063216",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "807 E Adams Ave, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ]
-        },
-        "latitude": 33.6728,
-        "longitude": -117.9982,
-        "phone": "(714) 374-0342"
-      },
-      "restaurant": "La Capilla Cantina",
-      "source_notes": "Official Huntington Beach happy hour page",
-      "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "1 hour before close every day.",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "2 PM - 6 PM",
-      "validity": "Every day, 2 PM - 6 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday",
-        "saturday",
-        "sunday"
-      ],
-      "candidate_text": "Happy Hour Check out Continue shopping La Capilla Huntington Beach Bar & Patio Side Only 2PM-6PM, Sun-Fri. Tuesday ends 5PM. 1 hour before close every day. Drinks",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Check out",
-        "Continue shopping",
-        "La Capilla Huntington Beach",
-        "Bar & Patio Side Only",
-        "2PM-6PM, Sun-Fri. Tuesday ends 5PM.",
-        "1 hour before close every day.",
-        "Drinks"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "2a485d37b5b14d5e",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "807 E Adams Ave, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ]
-        },
-        "latitude": 33.6728,
-        "longitude": -117.9982,
-        "phone": "(714) 374-0342"
-      },
-      "restaurant": "La Capilla Cantina",
-      "source_notes": "Official Huntington Beach happy hour page",
-      "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Happy Hour",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "2 PM - 6 PM",
-      "validity": "Every day, 2 PM - 6 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday",
-        "saturday",
-        "sunday"
-      ],
-      "candidate_text": "Happy hour drink specials. 2PM-6PM, Sun-Fri. Tuesday ends 5PM. 1 hour before close every day. Drinks Draft XX Lager, Coors Light or Pacifico",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "2PM-6PM, Sun-Fri. Tuesday ends 5PM.",
-        "1 hour before close every day.",
-        "Drinks",
-        "Draft XX Lager, Coors Light or Pacifico"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "a053abec10d0d5e5",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "807 E Adams Ave, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ]
-        },
-        "latitude": 33.6728,
-        "longitude": -117.9982,
-        "phone": "(714) 374-0342"
-      },
-      "restaurant": "La Capilla Cantina",
-      "source_notes": "Official Huntington Beach happy hour page",
-      "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Happy hour drink specials.",
-      "tags": [
-        "happy_hour",
-        "weekday_special",
-        "deal_language"
-      ],
-      "time_window": "2 PM - 6 PM",
-      "validity": "Every day, 2 PM - 6 PM"
-    },
-    {
-      "applies_days": [
-        "sunday",
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "2PM-6PM, Sun-Fri. Tuesday ends 5PM. La Capilla Huntington Beach",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "La Capilla Huntington Beach"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "a730b96e95f9f251",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "807 E Adams Ave, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "12:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "12:00"
-            }
-          ]
-        },
-        "latitude": 33.6728,
-        "longitude": -117.9982,
-        "phone": "(714) 374-0342"
-      },
-      "restaurant": "La Capilla Cantina",
-      "source_notes": "Official Huntington Beach happy hour page",
-      "source_url": "https://lacapillarestaurant.com/pages/hb-happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "2PM-6PM, Sun-Fri. Tuesday ends 5PM.",
-      "tags": [
-        "weekday_special"
-      ],
-      "time_window": "2 PM - 6 PM",
-      "validity": "Sun, Mon, Tue, Wed, Thu, Fri, 2 PM - 6 PM"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Baby Killer Mai Tai 3.5 Pa'u Hana Cab or Chard 3.5 Well Drinks The following food items are served with your choice of a Baby Killer Mai Tai, bottled beer, or happy hour wine Shrimp & Vegetable Tempura Chicken Nachos",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "3.5",
-        "Pa'u Hana Cab or Chard",
-        "Well Drinks",
-        "The following food items are served with your choice of a Baby Killer Mai Tai, bottled beer, or happy hour wine",
-        "Shrimp & Vegetable Tempura",
-        "Chicken Nachos"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "b44edff09f3e369b",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:04:51Z",
-      "location": {
-        "address": "215 Main St, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.6587,
-        "longitude": -118.0,
-        "phone": "(714) 960-8300"
-      },
-      "restaurant": "No Ka Oi",
-      "source_notes": "Official happy hour page",
-      "source_url": "https://www.nokaoihb.com/happyhour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Baby Killer Mai Tai",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Chicken Nachos Well Drinks The following food items are served with your choice of a Baby Killer Mai Tai, bottled beer, or happy hour wine Shrimp & Vegetable Tempura 2 Kahlua Pork or Korean Chicken Sliders 2 Mahi Mahi or Carnitas Tacos Kahlua Pork Quesadilla 2 Carnitas Tostadas",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Well Drinks",
-        "The following food items are served with your choice of a Baby Killer Mai Tai, bottled beer, or happy hour wine",
-        "Shrimp & Vegetable Tempura",
-        "2 Kahlua Pork or Korean Chicken Sliders",
-        "2 Mahi Mahi or Carnitas Tacos",
-        "Kahlua Pork Quesadilla",
-        "2 Carnitas Tostadas"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "cf34941109a1d937",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:04:51Z",
-      "location": {
-        "address": "215 Main St, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.6587,
-        "longitude": -118.0,
-        "phone": "(714) 960-8300"
-      },
-      "restaurant": "No Ka Oi",
-      "source_notes": "Official happy hour page",
-      "source_url": "https://www.nokaoihb.com/happyhour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Chicken Nachos",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Close Menu Blog No\u2022Ka\u2022Oi Open Menu Specials",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Blog",
-        "No\u2022Ka\u2022Oi",
-        "Open Menu",
-        "Specials"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "c7c889dbea4d0882",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:04:51Z",
-      "location": {
-        "address": "215 Main St, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.6587,
-        "longitude": -118.0,
-        "phone": "(714) 960-8300"
-      },
-      "restaurant": "No Ka Oi",
-      "source_notes": "Official happy hour page",
-      "source_url": "https://www.nokaoihb.com/happyhour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Close Menu",
-      "tags": [
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Happy Hour No\u2022Ka\u2022Oi \u2014 Happy Hour in Huntington Beach Specials Drinks Our Story Contact Blog No\u2022Ka\u2022Oi",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "No\u2022Ka\u2022Oi \u2014 Happy Hour in Huntington Beach",
-        "Specials",
-        "Drinks",
-        "Our Story",
-        "Contact",
-        "Blog",
-        "No\u2022Ka\u2022Oi"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "d199842216aea4cc",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:04:51Z",
-      "location": {
-        "address": "215 Main St, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.6587,
-        "longitude": -118.0,
-        "phone": "(714) 960-8300"
-      },
-      "restaurant": "No Ka Oi",
-      "source_notes": "Official happy hour page",
-      "source_url": "https://www.nokaoihb.com/happyhour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Happy Hour",
-      "tags": [
-        "happy_hour",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "No\u2022Ka\u2022Oi \u2014 Happy Hour in Huntington Beach Specials",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Specials"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "2903db0a24bb1c83",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:04:51Z",
-      "location": {
-        "address": "215 Main St, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.6587,
-        "longitude": -118.0,
-        "phone": "(714) 960-8300"
-      },
-      "restaurant": "No Ka Oi",
-      "source_notes": "Official happy hour page",
-      "source_url": "https://www.nokaoihb.com/happyhour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "No\u2022Ka\u2022Oi \u2014 Happy Hour in Huntington Beach",
-      "tags": [
-        "happy_hour",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Open Menu Contact Blog No\u2022Ka\u2022Oi Close Menu Specials",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Contact",
-        "Blog",
-        "No\u2022Ka\u2022Oi",
-        "Close Menu",
-        "Specials"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "64204acd45416a4b",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:04:51Z",
-      "location": {
-        "address": "215 Main St, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.6587,
-        "longitude": -118.0,
-        "phone": "(714) 960-8300"
-      },
-      "restaurant": "No Ka Oi",
-      "source_notes": "Official happy hour page",
-      "source_url": "https://www.nokaoihb.com/happyhour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Open Menu",
-      "tags": [
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Our Story Specials",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Specials"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "029ffde1eb8cc927",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:04:51Z",
-      "location": {
-        "address": "215 Main St, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.6587,
-        "longitude": -118.0,
-        "phone": "(714) 960-8300"
-      },
-      "restaurant": "No Ka Oi",
-      "source_notes": "Official happy hour page",
-      "source_url": "https://www.nokaoihb.com/happyhour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Our Story",
-      "tags": [
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Pa'u Hana Cab or Chard Martini and Coconut Shrimp Bud Light 16 oz. Aluminum Can 3.5 3.5 Baby Killer Mai Tai Well Drinks The following food items are served with your choice of a Baby Killer Mai Tai, bottled beer, or happy hour wine Shrimp & Vegetable Tempura",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Martini and Coconut Shrimp",
-        "Bud Light 16 oz. Aluminum Can",
-        "3.5",
-        "Baby Killer Mai Tai",
-        "Well Drinks",
-        "The following food items are served with your choice of a Baby Killer Mai Tai, bottled beer, or happy hour wine",
-        "Shrimp & Vegetable Tempura"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "8fd69e71a2e32519",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:04:51Z",
-      "location": {
-        "address": "215 Main St, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.6587,
-        "longitude": -118.0,
-        "phone": "(714) 960-8300"
-      },
-      "restaurant": "No Ka Oi",
-      "source_notes": "Official happy hour page",
-      "source_url": "https://www.nokaoihb.com/happyhour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Pa'u Hana Cab or Chard",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Shrimp & Vegetable Tempura Baby Killer Mai Tai Well Drinks The following food items are served with your choice of a Baby Killer Mai Tai, bottled beer, or happy hour wine Chicken Nachos 2 Kahlua Pork or Korean Chicken Sliders 2 Mahi Mahi or Carnitas Tacos Kahlua Pork Quesadilla",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Baby Killer Mai Tai",
-        "Well Drinks",
-        "The following food items are served with your choice of a Baby Killer Mai Tai, bottled beer, or happy hour wine",
-        "Chicken Nachos",
-        "2 Kahlua Pork or Korean Chicken Sliders",
-        "2 Mahi Mahi or Carnitas Tacos",
-        "Kahlua Pork Quesadilla"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "d5f4d5b5e8b8ac55",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:04:51Z",
-      "location": {
-        "address": "215 Main St, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.6587,
-        "longitude": -118.0,
-        "phone": "(714) 960-8300"
-      },
-      "restaurant": "No Ka Oi",
-      "source_notes": "Official happy hour page",
-      "source_url": "https://www.nokaoihb.com/happyhour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Shrimp & Vegetable Tempura",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "The following food items are served with your choice of a Baby Killer Mai Tai, bottled beer, or happy hour wine 3.5 Baby Killer Mai Tai Well Drinks Shrimp & Vegetable Tempura Chicken Nachos 2 Kahlua Pork or Korean Chicken Sliders 2 Mahi Mahi or Carnitas Tacos",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "3.5",
-        "Baby Killer Mai Tai",
-        "Well Drinks",
-        "Shrimp & Vegetable Tempura",
-        "Chicken Nachos",
-        "2 Kahlua Pork or Korean Chicken Sliders",
-        "2 Mahi Mahi or Carnitas Tacos"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "7aa77c042753e8ac",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:04:51Z",
-      "location": {
-        "address": "215 Main St, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.6587,
-        "longitude": -118.0,
-        "phone": "(714) 960-8300"
-      },
-      "restaurant": "No Ka Oi",
-      "source_notes": "Official happy hour page",
-      "source_url": "https://www.nokaoihb.com/happyhour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "The following food items are served with your choice of a Baby Killer Mai Tai, bottled beer, or happy hour wine",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Well Drinks Pa'u Hana Cab or Chard 3.5 Baby Killer Mai Tai The following food items are served with your choice of a Baby Killer Mai Tai, bottled beer, or happy hour wine Shrimp & Vegetable Tempura Chicken Nachos 2 Kahlua Pork or Korean Chicken Sliders",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Pa'u Hana Cab or Chard",
-        "3.5",
-        "Baby Killer Mai Tai",
-        "The following food items are served with your choice of a Baby Killer Mai Tai, bottled beer, or happy hour wine",
-        "Shrimp & Vegetable Tempura",
-        "Chicken Nachos",
-        "2 Kahlua Pork or Korean Chicken Sliders"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "3c15983d1d062e19",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:04:51Z",
-      "location": {
-        "address": "215 Main St, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.6587,
-        "longitude": -118.0,
-        "phone": "(714) 960-8300"
-      },
-      "restaurant": "No Ka Oi",
-      "source_notes": "Official happy hour page",
-      "source_url": "https://www.nokaoihb.com/happyhour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Well Drinks",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday",
-        "saturday",
-        "sunday"
-      ],
-      "candidate_text": "Daily 3-7 PM Excluding Holidays Blog Pa'u Hana",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Blog",
-        "Pa'u Hana"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "1a22ff199ee4f325",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:04:51Z",
-      "location": {
-        "address": "215 Main St, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.6587,
-        "longitude": -118.0,
-        "phone": "(714) 960-8300"
-      },
-      "restaurant": "No Ka Oi",
-      "source_notes": "Official happy hour page",
-      "source_url": "https://www.nokaoihb.com/happyhour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Daily 3-7 PM Excluding Holidays",
-      "tags": [
-        "weekday_special"
-      ],
-      "time_window": "3 PM - 7 PM",
-      "validity": "Every day, 3 PM - 7 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday",
-        "saturday",
-        "sunday"
-      ],
-      "candidate_text": "Mahi Mahi Fish Taco Happy Hour Daily 3-7 PM Excluding Holidays Dine in Only Martini and Coconut Shrimp Bud Light 16 oz. Aluminum Can 3.5 Pa'u Hana Cab or Chard 3.5",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy Hour",
-        "Daily 3-7 PM Excluding Holidays",
-        "Dine in Only",
-        "Martini and Coconut Shrimp",
-        "Bud Light 16 oz. Aluminum Can",
-        "3.5",
-        "Pa'u Hana Cab or Chard"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "983069584e1fe847",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:04:51Z",
-      "location": {
-        "address": "215 Main St, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.6587,
-        "longitude": -118.0,
-        "phone": "(714) 960-8300"
-      },
-      "restaurant": "No Ka Oi",
-      "source_notes": "Official happy hour page",
-      "source_url": "https://www.nokaoihb.com/happyhour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Mahi Mahi Fish Taco",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "3 PM - 7 PM",
-      "validity": "Every day, 3 PM - 7 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday",
-        "saturday",
-        "sunday"
-      ],
-      "candidate_text": "Martini and Coconut Shrimp Daily 3-7 PM Excluding Holidays Dine in Only Mahi Mahi Fish Taco Bud Light 16 oz. Aluminum Can 3.5 Pa'u Hana Cab or Chard 3.5 Baby Killer Mai Tai",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Daily 3-7 PM Excluding Holidays",
-        "Dine in Only",
-        "Mahi Mahi Fish Taco",
-        "Bud Light 16 oz. Aluminum Can",
-        "3.5",
-        "Pa'u Hana Cab or Chard",
-        "Baby Killer Mai Tai"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "e1bf5331df15a1e8",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:04:51Z",
-      "location": {
-        "address": "215 Main St, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:00",
-              "open": "07:30"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "08:00"
-            }
-          ]
-        },
-        "latitude": 33.6587,
-        "longitude": -118.0,
-        "phone": "(714) 960-8300"
-      },
-      "restaurant": "No Ka Oi",
-      "source_notes": "Official happy hour page",
-      "source_url": "https://www.nokaoihb.com/happyhour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Martini and Coconut Shrimp",
-      "tags": [
-        "weekday_special"
-      ],
-      "time_window": "3 PM - 7 PM",
-      "validity": "Every day, 3 PM - 7 PM"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Continue shopping Contact More Total items in cart: 0 Mini Golf \u2022 Cocktails \u2022 Private Events Food & Drinks \u2022 Huntington Beach Chef-driven comfort food, cocktails, and a happy hour worth planning around Playground Menus",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Contact",
-        "More",
-        "Total items in cart: 0",
-        "Mini Golf \u2022 Cocktails \u2022 Private Events",
-        "Food & Drinks \u2022 Huntington Beach",
-        "Chef-driven comfort food, cocktails, and a happy hour worth planning around",
-        "Playground Menus"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "df00c01411919e10",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6564,
-        "longitude": -117.9986,
-        "phone": "(657) 733-2774"
-      },
-      "restaurant": "Playground Mini Golf",
-      "source_notes": "Official menu page with weekday specials",
-      "source_url": "https://playgroundhb.com/pages/food-menu",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Continue shopping",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Mini Golf \u2022 Cocktails \u2022 Private Events More Total items in cart: 0 Continue shopping Food & Drinks \u2022 Huntington Beach Chef-driven comfort food, cocktails, and a happy hour worth planning around Playground Menus Book Mini Golf",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "More",
-        "Total items in cart: 0",
-        "Continue shopping",
-        "Food & Drinks \u2022 Huntington Beach",
-        "Chef-driven comfort food, cocktails, and a happy hour worth planning around",
-        "Playground Menus",
-        "Book Mini Golf"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "bfe1d61f022d9796",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6564,
-        "longitude": -117.9986,
-        "phone": "(657) 733-2774"
-      },
-      "restaurant": "Playground Mini Golf",
-      "source_notes": "Official menu page with weekday specials",
-      "source_url": "https://playgroundhb.com/pages/food-menu",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Mini Golf \u2022 Cocktails \u2022 Private Events",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Total items in cart: 0 Date Night Contact More Continue shopping Mini Golf \u2022 Cocktails \u2022 Private Events Food & Drinks \u2022 Huntington Beach Chef-driven comfort food, cocktails, and a happy hour worth planning around Playground Menus",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Date Night",
-        "Contact",
-        "More",
-        "Continue shopping",
-        "Mini Golf \u2022 Cocktails \u2022 Private Events",
-        "Food & Drinks \u2022 Huntington Beach",
-        "Chef-driven comfort food, cocktails, and a happy hour worth planning around",
-        "Playground Menus"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "cd3a3f30be8f8ad5",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6564,
-        "longitude": -117.9986,
-        "phone": "(657) 733-2774"
-      },
-      "restaurant": "Playground Mini Golf",
-      "source_notes": "Official menu page with weekday specials",
-      "source_url": "https://playgroundhb.com/pages/food-menu",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Total items in cart: 0",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "Mon\u2013Fri \u2022 $2 off draft beer and well drinks \u2022 $3 off house wines \u2022 $5 appetizer samplers \u2022 $5 mini golf Private Events",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Private Events"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "4b74b80ffce2c5b3",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6564,
-        "longitude": -117.9986,
-        "phone": "(657) 733-2774"
-      },
-      "restaurant": "Playground Mini Golf",
-      "source_notes": "Official menu page with weekday specials",
-      "source_url": "https://playgroundhb.com/pages/food-menu",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Mon\u2013Fri \u2022 $2 off draft beer and well drinks \u2022 $3 off house wines \u2022 $5 appetizer samplers \u2022 $5 mini golf",
-      "tags": [
-        "dollar_amount"
-      ],
-      "time_window": null,
-      "validity": "Mon-Fri"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "The weekday lineup now has drink deals, snackable happy-hour portions, Red Bull, and a walk-in 9-hole mini golf special. Mon\u2013Fri \u2022 $2 off draft beer and well drinks \u2022 $3 off house wines \u2022 $5 appetizer samplers \u2022 $5 mini golf",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Mon\u2013Fri \u2022 $2 off draft beer and well drinks \u2022 $3 off house wines \u2022 $5 appetizer samplers \u2022 $5 mini golf"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "98b4922902437597",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6564,
-        "longitude": -117.9986,
-        "phone": "(657) 733-2774"
-      },
-      "restaurant": "Playground Mini Golf",
-      "source_notes": "Official menu page with weekday specials",
-      "source_url": "https://playgroundhb.com/pages/food-menu",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "The weekday lineup now has drink deals, snackable happy-hour portions, Red Bull, and a walk-in 9-hole mini golf special.",
-      "tags": [
-        "dollar_amount",
-        "weekday_special",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Mon-Fri"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "$2 off Mon\u2013Fri \u2022 3\u20136pm A quick round pairs well with a few specials. Draft beer and well drinks",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Mon\u2013Fri \u2022 3\u20136pm",
-        "A quick round pairs well with a few specials.",
-        "Draft beer and well drinks"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "17b8e64c44536e7b",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6564,
-        "longitude": -117.9986,
-        "phone": "(657) 733-2774"
-      },
-      "restaurant": "Playground Mini Golf",
-      "source_notes": "Official menu page with weekday specials",
-      "source_url": "https://playgroundhb.com/pages/food-menu",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "$2 off",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": "3 PM - 6 PM",
-      "validity": "Mon-Fri, 3 PM - 6 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "Before dinner, after work, or right before your round. Weekday happy hour is 3\u20136pm. Mon\u2013Fri \u2022 $2 off draft beer and well drinks \u2022 $3 off house wines \u2022 $5 appetizer samplers \u2022 $5 mini golf",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Weekday happy hour is 3\u20136pm.",
-        "Mon\u2013Fri \u2022 $2 off draft beer and well drinks \u2022 $3 off house wines \u2022 $5 appetizer samplers \u2022 $5 mini golf"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "4f7d8505103ce8da",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6564,
-        "longitude": -117.9986,
-        "phone": "(657) 733-2774"
-      },
-      "restaurant": "Playground Mini Golf",
-      "source_notes": "Official menu page with weekday specials",
-      "source_url": "https://playgroundhb.com/pages/food-menu",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Before dinner, after work, or right before your round.",
-      "tags": [
-        "dollar_amount",
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "3 PM - 6 PM",
-      "validity": "Mon-Fri, 3 PM - 6 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "Happy hour Book Mini Golf Private Events Weekday happy hour is 3\u20136pm. Mon\u2013Fri \u2022 $2 off draft beer and well drinks \u2022 $3 off house wines \u2022 $5 appetizer samplers \u2022 $5 mini golf",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Book Mini Golf",
-        "Private Events",
-        "Weekday happy hour is 3\u20136pm.",
-        "Mon\u2013Fri \u2022 $2 off draft beer and well drinks \u2022 $3 off house wines \u2022 $5 appetizer samplers \u2022 $5 mini golf"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "69fed25165452716",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6564,
-        "longitude": -117.9986,
-        "phone": "(657) 733-2774"
-      },
-      "restaurant": "Playground Mini Golf",
-      "source_notes": "Official menu page with weekday specials",
-      "source_url": "https://playgroundhb.com/pages/food-menu",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Happy hour",
-      "tags": [
-        "dollar_amount",
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "3 PM - 6 PM",
-      "validity": "Mon-Fri, 3 PM - 6 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "Mon\u2013Fri \u2022 3\u20136pm Happy hour menu Before dinner, after work, or right before your round. The weekday lineup now has drink deals, snackable happy-hour portions, Red Bull, and a walk-in 9-hole mini golf special. A quick round pairs well with a few specials.",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy hour menu",
-        "Before dinner, after work, or right before your round.",
-        "The weekday lineup now has drink deals, snackable happy-hour portions, Red Bull, and a walk-in 9-hole mini golf special.",
-        "A quick round pairs well with a few specials."
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "0b0f83821b7c5854",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6564,
-        "longitude": -117.9986,
-        "phone": "(657) 733-2774"
-      },
-      "restaurant": "Playground Mini Golf",
-      "source_notes": "Official menu page with weekday specials",
-      "source_url": "https://playgroundhb.com/pages/food-menu",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Mon\u2013Fri \u2022 3\u20136pm",
-      "tags": [
-        "happy_hour",
-        "weekday_special",
-        "deal_language"
-      ],
-      "time_window": "3 PM - 6 PM",
-      "validity": "Mon-Fri, 3 PM - 6 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "Weekday happy hour is 3\u20136pm. Book Mini Golf Private Events",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Book Mini Golf",
-        "Private Events"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "aabe55ba96c4384a",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
-        "hours": {
-          "friday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "01:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "23:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6564,
-        "longitude": -117.9986,
-        "phone": "(657) 733-2774"
-      },
-      "restaurant": "Playground Mini Golf",
-      "source_notes": "Official menu page with weekday specials",
-      "source_url": "https://playgroundhb.com/pages/food-menu",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Weekday happy hour is 3\u20136pm.",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "3 PM - 6 PM",
-      "validity": "Mon-Fri, 3 PM - 6 PM"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Family Four Pack Meal Deals - Starting at $13 Summer Grill Packages Stimulus Package Wood Fired Grill Wood Fired Grill Personal Meals Family Meals Family Meal Add-Ons",
-      "categories": [
-        "food"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "Meal Deals - Starting at $13",
-        "Summer Grill Packages",
-        "Stimulus Package",
-        "Wood Fired Grill",
-        "Personal Meals",
-        "Family Meals",
-        "Family Meal Add-Ons"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "c66a8d1582aff36c",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6896,
-        "longitude": -117.9544,
-        "phone": "(714) 968-8300"
-      },
-      "restaurant": "Stonefire Grill",
-      "source_notes": "Official meal deals and lunch specials page",
-      "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Family Four Pack",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "For a limited time only. Your choice of entr\u00e9e meal plus a personal slice of our incredible carrot cake, personal slice of original cheesecake, or two freshly baked cookies of one 35.99",
-      "categories": [
-        "food"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "35.99"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "95c8551dd51f4b8f",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6896,
-        "longitude": -117.9544,
-        "phone": "(714) 968-8300"
-      },
-      "restaurant": "Stonefire Grill",
-      "source_notes": "Official meal deals and lunch specials page",
-      "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "For a limited time only. Your choice of entr\u00e9e meal plus a personal slice of our incredible carrot cake, personal slice of original cheesecake, or two freshly baked cookies of one ",
-      "tags": [
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Limited-Time Offerings Rewards Stonefire Menu Categories Meals For Two \u00b7 Meal Deals - Starting at $13 \u00b7 Summer Grill Packages \u00b7 Stimulus Package \u00b7 Family Four Pack Wood Fired Grill",
-      "categories": [
-        "food"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "Rewards",
-        "Stonefire Menu",
-        "Categories",
-        "Meals For Two \u00b7 Meal Deals - Starting at $13 \u00b7 Summer Grill Packages \u00b7 Stimulus Package \u00b7 Family Four Pack",
-        "Wood Fired Grill"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "1155efd97882aa22",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6896,
-        "longitude": -117.9544,
-        "phone": "(714) 968-8300"
-      },
-      "restaurant": "Stonefire Grill",
-      "source_notes": "Official meal deals and lunch specials page",
-      "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Limited-Time Offerings",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Meal Deals - Starting at $13 Wine Limited-Time Offerings Meals For Two Summer Grill Packages Stimulus Package Family Four Pack Wood Fired Grill Wood Fired Grill",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "Wine",
-        "Limited-Time Offerings",
-        "Meals For Two",
-        "Summer Grill Packages",
-        "Stimulus Package",
-        "Family Four Pack",
-        "Wood Fired Grill"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "17d36a01b1679625",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6896,
-        "longitude": -117.9544,
-        "phone": "(714) 968-8300"
-      },
-      "restaurant": "Stonefire Grill",
-      "source_notes": "Official meal deals and lunch specials page",
-      "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Meal Deals - Starting at $13",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Meals For Two \u00b7 Meal Deals - Starting at $13 \u00b7 Summer Grill Packages \u00b7 Stimulus Package \u00b7 Family Four Pack Stonefire Menu Categories Limited-Time Offerings Wood Fired Grill",
-      "categories": [
-        "food"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "Stonefire Menu",
-        "Categories",
-        "Limited-Time Offerings",
-        "Wood Fired Grill"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "e10495a55435ba59",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6896,
-        "longitude": -117.9544,
-        "phone": "(714) 968-8300"
-      },
-      "restaurant": "Stonefire Grill",
-      "source_notes": "Official meal deals and lunch specials page",
-      "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Meals For Two \u00b7 Meal Deals - Starting at $13 \u00b7 Summer Grill Packages \u00b7 Stimulus Package \u00b7 Family Four Pack",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Stonefire Menu Locations Catering Rewards Categories Limited-Time Offerings Meals For Two \u00b7 Meal Deals - Starting at $13 \u00b7 Summer Grill Packages \u00b7 Stimulus Package \u00b7 Family Four Pack Wood Fired Grill",
-      "categories": [
-        "food"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "Locations",
-        "Catering",
-        "Rewards",
-        "Categories",
-        "Limited-Time Offerings",
-        "Meals For Two \u00b7 Meal Deals - Starting at $13 \u00b7 Summer Grill Packages \u00b7 Stimulus Package \u00b7 Family Four Pack",
-        "Wood Fired Grill"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "7a99296594c6f41a",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6896,
-        "longitude": -117.9544,
-        "phone": "(714) 968-8300"
-      },
-      "restaurant": "Stonefire Grill",
-      "source_notes": "Official meal deals and lunch specials page",
-      "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Stonefire Menu",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Wood Fired Grill Categories Limited-Time Offerings Meals For Two \u00b7 Meal Deals - Starting at $13 \u00b7 Summer Grill Packages \u00b7 Stimulus Package \u00b7 Family Four Pack",
-      "categories": [
-        "food"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "Categories",
-        "Limited-Time Offerings",
-        "Meals For Two \u00b7 Meal Deals - Starting at $13 \u00b7 Summer Grill Packages \u00b7 Stimulus Package \u00b7 Family Four Pack"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "46043f790feaa119",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6896,
-        "longitude": -117.9544,
-        "phone": "(714) 968-8300"
-      },
-      "restaurant": "Stonefire Grill",
-      "source_notes": "Official meal deals and lunch specials page",
-      "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Wood Fired Grill",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Wood Fired Grill \u00b7 Personal Meals \u00b7 Family Meals \u00b7 Family Meal Add-Ons \u00b7 Feasts \u00b7 \u00c0 La Carte Limited-Time Offerings Meals For Two \u00b7 Meal Deals - Starting at $13 \u00b7 Summer Grill Packages \u00b7 Stimulus Package \u00b7 Family Four Pack Wood Fired Grill",
-      "categories": [
-        "food"
-      ],
-      "city": "Fountain Valley",
-      "days_since_seen": 0,
-      "details": [
-        "Limited-Time Offerings",
-        "Meals For Two \u00b7 Meal Deals - Starting at $13 \u00b7 Summer Grill Packages \u00b7 Stimulus Package \u00b7 Family Four Pack",
-        "Wood Fired Grill"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "308f019b7f865467",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "20:30",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.6896,
-        "longitude": -117.9544,
-        "phone": "(714) 968-8300"
-      },
-      "restaurant": "Stonefire Grill",
-      "source_notes": "Official meal deals and lunch specials page",
-      "source_url": "https://www.stonefiregrill.com/location/fountain-valley/ca/menu/meal-deals/",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Wood Fired Grill \u00b7 Personal Meals \u00b7 Family Meals \u00b7 Family Meal Add-Ons \u00b7 Feasts \u00b7 \u00c0 La Carte",
-      "tags": [
-        "dollar_amount",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Gift Cards Happy Hour \u2014 The Hangout Restaurant Reservation Policy Pickup or Delivery Social Media Job Applicants Back Breakfast Lunch & Dinner",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy Hour \u2014 The Hangout Restaurant",
-        "Reservation Policy",
-        "Pickup or Delivery",
-        "Social Media",
-        "Job Applicants",
-        "Back",
-        "Breakfast",
-        "Lunch & Dinner"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "6df9fd268ab371cb",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official weekday happy hour page",
-      "source_url": "https://www.thehangoutrestaurant.com/happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Gift Cards",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Happy Hour Beer Wine & Cocktails",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Beer",
-        "Wine & Cocktails"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "9b9323f046e4d94f",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official daily weekday specials page",
-      "source_url": "https://www.thehangoutrestaurant.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Happy Hour",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Happy Hour Beer Wine & Cocktails",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Beer",
-        "Wine & Cocktails"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "9915333195f39328",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official weekday happy hour page",
-      "source_url": "https://www.thehangoutrestaurant.com/happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Happy Hour",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Happy Hour \u2014 The Hangout Restaurant Reservation Policy Pickup or Delivery Gift Cards Social Media Job Applicants",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Reservation Policy",
-        "Pickup or Delivery",
-        "Gift Cards",
-        "Social Media",
-        "Job Applicants"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "f7e605d45c479c0f",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official weekday happy hour page",
-      "source_url": "https://www.thehangoutrestaurant.com/happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Happy Hour \u2014 The Hangout Restaurant",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Pickup or Delivery Happy Hour \u2014 The Hangout Restaurant Reservation Policy Gift Cards Social Media Job Applicants Back Breakfast",
-      "categories": [
-        "food"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy Hour \u2014 The Hangout Restaurant",
-        "Reservation Policy",
-        "Gift Cards",
-        "Social Media",
-        "Job Applicants",
-        "Back",
-        "Breakfast"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "6ee2240630e0e5df",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official weekday happy hour page",
-      "source_url": "https://www.thehangoutrestaurant.com/happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Pickup or Delivery",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [],
-      "candidate_text": "Reservation Policy Happy Hour \u2014 The Hangout Restaurant Pickup or Delivery Gift Cards Social Media Job Applicants Back",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy Hour \u2014 The Hangout Restaurant",
-        "Pickup or Delivery",
-        "Gift Cards",
-        "Social Media",
-        "Job Applicants",
-        "Back"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "b06c8a421ccbeb31",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official weekday happy hour page",
-      "source_url": "https://www.thehangoutrestaurant.com/happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Reservation Policy",
-      "tags": [
-        "happy_hour"
-      ],
-      "time_window": null,
-      "validity": "Check source"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday",
-        "saturday",
-        "sunday"
-      ],
-      "candidate_text": "2-4-1 Meatloaf Sandwiches or Meatloaf Dinners with Purchase of Two Drinks. Plus 8 Dollar House Martinis All Day. \u2014DAILY SPECIALS\u2014 (Daily Specials are NOT Availably on Holidays) MEATLOAF & MARTINI MONDAY SPAGHETTI TUESDAY",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "\u2014DAILY SPECIALS\u2014",
-        "(Daily Specials are NOT Availably on Holidays)",
-        "MEATLOAF & MARTINI MONDAY",
-        "SPAGHETTI TUESDAY"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "8dbbc9ba23df6840",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official daily weekday specials page",
-      "source_url": "https://www.thehangoutrestaurant.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "2-4-1 Meatloaf Sandwiches or Meatloaf Dinners with Purchase of Two Drinks. Plus 8 Dollar House Martinis All Day.",
-      "tags": [
-        "dollar_amount",
-        "bogo",
-        "weekday_special",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Every day"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday",
-        "saturday",
-        "sunday"
-      ],
-      "candidate_text": "The Hangout Restaurant Happy Hour Reservation Policy Pickup or Delivery Gift Cards Social Media Newsletter Subscribe Job Applicants Everyday Specials",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy Hour",
-        "Reservation Policy",
-        "Pickup or Delivery",
-        "Gift Cards",
-        "Social Media",
-        "Newsletter Subscribe",
-        "Job Applicants",
-        "Everyday Specials"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "5cf974014f067815",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official daily weekday specials page",
-      "source_url": "https://www.thehangoutrestaurant.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "The Hangout Restaurant",
-      "tags": [
-        "happy_hour",
-        "deal_language"
-      ],
-      "time_window": null,
-      "validity": "Every day"
-    },
-    {
-      "applies_days": [
-        "friday",
-        "tuesday"
-      ],
-      "candidate_text": "1/2 OFF Fish n' Chips, Fried Fish Sandwich & Fried Fish Tacos with Drink Purchase. SPAGHETTI TUESDAY",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "SPAGHETTI TUESDAY"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "cc529771884d1348",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official daily weekday specials page",
-      "source_url": "https://www.thehangoutrestaurant.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "1/2 OFF Fish n' Chips, Fried Fish Sandwich & Fried Fish Tacos with Drink Purchase.",
-      "tags": [
-        "percent_off",
-        "weekday_special"
-      ],
-      "time_window": null,
-      "validity": "Fri, Tue"
-    },
-    {
-      "applies_days": [
-        "monday"
-      ],
-      "candidate_text": "Bolognese, Chicken Pesto, Clam Alfredo, Spicy Seafood Pasta, Garlic Tomato Basil, or Marinara. Includes Green or Caesar Salad & Garlic Bread. Half Price Bottles of Wine All Day. MEATLOAF & MARTINI MONDAY",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "MEATLOAF & MARTINI MONDAY"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "fba85a6bef57b5f8",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official daily weekday specials page",
-      "source_url": "https://www.thehangoutrestaurant.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Bolognese, Chicken Pesto, Clam Alfredo, Spicy Seafood Pasta, Garlic Tomato Basil, or Marinara. Includes Green or Caesar Salad & Garlic Bread. Half Price Bottles of Wine All Day.",
-      "tags": [
-        "percent_off",
-        "weekday_special"
-      ],
-      "time_window": null,
-      "validity": "Mon"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "The Hangout Restaurant Happy Hour Reservation Policy Pickup or Delivery Gift Cards Social Media Newsletter Subscribe Job Applicants WEEKDAY HAPPY HOUR",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy Hour",
-        "Reservation Policy",
-        "Pickup or Delivery",
-        "Gift Cards",
-        "Social Media",
-        "Newsletter Subscribe",
-        "Job Applicants",
-        "WEEKDAY HAPPY HOUR"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "68028f47aa555b3f",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official weekday happy hour page",
-      "source_url": "https://www.thehangoutrestaurant.com/happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "The Hangout Restaurant",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": null,
-      "validity": "Mon-Fri"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "(Happy Hour is NOT Available on Holidays) WEEKDAY HAPPY HOUR \u2014HAPPY HOUR\u2014 WEEKDAYS 3PM-6PM BOTTLED BEER 4.50 DRAFT BEER 5.50 HOUSE WINE",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "WEEKDAY HAPPY HOUR",
-        "\u2014HAPPY HOUR\u2014",
-        "WEEKDAYS 3PM-6PM",
-        "BOTTLED BEER",
-        "4.50",
-        "DRAFT BEER",
-        "5.50",
-        "HOUSE WINE"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "cc280935ee56c9a9",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official weekday happy hour page",
-      "source_url": "https://www.thehangoutrestaurant.com/happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "(Happy Hour is NOT Available on Holidays)",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "3 PM - 6 PM",
-      "validity": "Mon-Fri, 3 PM - 6 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "Job Applicants Gift Cards Social Media Newsletter Subscribe WEEKDAY HAPPY HOUR \u2014HAPPY HOUR\u2014 WEEKDAYS 3PM-6PM (Happy Hour is NOT Available on Holidays) BOTTLED BEER",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Gift Cards",
-        "Social Media",
-        "Newsletter Subscribe",
-        "WEEKDAY HAPPY HOUR",
-        "\u2014HAPPY HOUR\u2014",
-        "WEEKDAYS 3PM-6PM",
-        "(Happy Hour is NOT Available on Holidays)",
-        "BOTTLED BEER"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "41b8e106c4453cf7",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official weekday happy hour page",
-      "source_url": "https://www.thehangoutrestaurant.com/happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Job Applicants",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "3 PM - 6 PM",
-      "validity": "Mon-Fri, 3 PM - 6 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "Newsletter Subscribe The Hangout Restaurant Gift Cards Social Media Job Applicants WEEKDAY HAPPY HOUR \u2014HAPPY HOUR\u2014 WEEKDAYS 3PM-6PM (Happy Hour is NOT Available on Holidays)",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "The Hangout Restaurant",
-        "Gift Cards",
-        "Social Media",
-        "Job Applicants",
-        "WEEKDAY HAPPY HOUR",
-        "\u2014HAPPY HOUR\u2014",
-        "WEEKDAYS 3PM-6PM",
-        "(Happy Hour is NOT Available on Holidays)"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "262935148f2b63d0",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official weekday happy hour page",
-      "source_url": "https://www.thehangoutrestaurant.com/happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Newsletter Subscribe",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "3 PM - 6 PM",
-      "validity": "Mon-Fri, 3 PM - 6 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "Social Media Pickup or Delivery The Hangout Restaurant Gift Cards Newsletter Subscribe Job Applicants WEEKDAY HAPPY HOUR \u2014HAPPY HOUR\u2014 WEEKDAYS 3PM-6PM",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Pickup or Delivery",
-        "The Hangout Restaurant",
-        "Gift Cards",
-        "Newsletter Subscribe",
-        "Job Applicants",
-        "WEEKDAY HAPPY HOUR",
-        "\u2014HAPPY HOUR\u2014",
-        "WEEKDAYS 3PM-6PM"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "015713e896d56742",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official weekday happy hour page",
-      "source_url": "https://www.thehangoutrestaurant.com/happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Social Media",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "3 PM - 6 PM",
-      "validity": "Mon-Fri, 3 PM - 6 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "WEEKDAY HAPPY HOUR Social Media Newsletter Subscribe Job Applicants \u2014HAPPY HOUR\u2014 WEEKDAYS 3PM-6PM (Happy Hour is NOT Available on Holidays) BOTTLED BEER 4.50",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Social Media",
-        "Newsletter Subscribe",
-        "Job Applicants",
-        "\u2014HAPPY HOUR\u2014",
-        "WEEKDAYS 3PM-6PM",
-        "(Happy Hour is NOT Available on Holidays)",
-        "BOTTLED BEER",
-        "4.50"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "acc5ba8ae2c245fc",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official weekday happy hour page",
-      "source_url": "https://www.thehangoutrestaurant.com/happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "WEEKDAY HAPPY HOUR",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "3 PM - 6 PM",
-      "validity": "Mon-Fri, 3 PM - 6 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "WEEKDAYS 3PM-6PM Job Applicants WEEKDAY HAPPY HOUR \u2014HAPPY HOUR\u2014 (Happy Hour is NOT Available on Holidays) BOTTLED BEER 4.50 DRAFT BEER 5.50",
-      "categories": [
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Job Applicants",
-        "WEEKDAY HAPPY HOUR",
-        "\u2014HAPPY HOUR\u2014",
-        "(Happy Hour is NOT Available on Holidays)",
-        "BOTTLED BEER",
-        "4.50",
-        "DRAFT BEER",
-        "5.50"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "85f3451de43157a0",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official weekday happy hour page",
-      "source_url": "https://www.thehangoutrestaurant.com/happy-hour",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "WEEKDAYS 3PM-6PM",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "3 PM - 6 PM",
-      "validity": "Mon-Fri, 3 PM - 6 PM"
-    },
-    {
-      "applies_days": [
-        "monday",
-        "tuesday",
-        "wednesday",
-        "thursday",
-        "friday"
-      ],
-      "candidate_text": "Created by Happy Hour: Monday - Friday: 3:00 PM - 6:00 PM Closed on Thanksgiving Day & Christmas Day Balfour Designs - 2019",
-      "categories": [
-        "general"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "Happy Hour:",
-        "Monday - Friday: 3:00 PM - 6:00 PM",
-        "Closed on Thanksgiving Day & Christmas Day",
-        "Balfour Designs - 2019"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "67ea0b2e19d033f4",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official daily weekday specials page",
-      "source_url": "https://www.thehangoutrestaurant.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "Created by",
-      "tags": [
-        "happy_hour",
-        "weekday_special"
-      ],
-      "time_window": "3:00 PM - 6:00 PM",
-      "validity": "Mon-Fri, 3:00 PM - 6:00 PM"
-    },
-    {
-      "applies_days": [
-        "wednesday",
-        "tuesday"
-      ],
-      "candidate_text": "FISH FRY WEDNESDAY 2-4-1 Meatloaf Sandwiches or Meatloaf Dinners with Purchase of Two Drinks. Plus 8 Dollar House Martinis All Day. SPAGHETTI TUESDAY",
-      "categories": [
-        "food",
-        "drink"
-      ],
-      "city": "Huntington Beach",
-      "days_since_seen": 0,
-      "details": [
-        "2-4-1 Meatloaf Sandwiches or Meatloaf Dinners with Purchase of Two Drinks. Plus 8 Dollar House Martinis All Day.",
-        "SPAGHETTI TUESDAY"
-      ],
-      "first_seen": "2026-09-10T00:02:48Z",
-      "id": "d557e2f6bfb4be27",
-      "is_stale": true,
-      "last_seen": "2026-09-10T00:02:48Z",
-      "location": {
-        "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
-        "hours": {
-          "friday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "22:00",
-              "open": "07:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:30",
-              "open": "07:00"
-            }
-          ]
-        },
-        "latitude": 33.7242,
-        "longitude": -118.0427,
-        "phone": "(657) 204-9306"
-      },
-      "restaurant": "The Hangout",
-      "source_notes": "Official daily weekday specials page",
-      "source_url": "https://www.thehangoutrestaurant.com/daily-specials",
-      "stale_after_days": 21,
-      "status": "stale",
-      "summary": "FISH FRY WEDNESDAY",
-      "tags": [
-        "dollar_amount",
-        "bogo",
-        "weekday_special"
-      ],
-      "time_window": null,
-      "validity": "Wed, Tue"
     }
   ],
-  "generated_at": "2026-09-10T00:07:18Z",
+  "generated_at": "2026-09-10T00:11:27Z",
   "scope": {
     "cities": [
       "Fountain Valley",
@@ -10858,7 +5613,7 @@
   "sources": [
     {
       "candidate_count": 0,
-      "checked_at": "2026-09-10T00:07:18Z",
+      "checked_at": "2026-09-10T00:11:27Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18033 Magnolia St, Fountain Valley, CA 92708",
@@ -10918,7 +5673,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T00:07:18Z",
+      "checked_at": "2026-09-10T00:11:27Z",
       "city": "Huntington Beach",
       "location": {
         "address": "807 E Adams Ave, Huntington Beach, CA 92648",
@@ -10978,7 +5733,7 @@
     },
     {
       "candidate_count": 10,
-      "checked_at": "2026-09-10T00:07:18Z",
+      "checked_at": "2026-09-10T00:11:27Z",
       "city": "Fountain Valley",
       "location": {
         "address": "10130 Warner Ave, Fountain Valley, CA 92708",
@@ -11038,7 +5793,7 @@
     },
     {
       "candidate_count": 8,
-      "checked_at": "2026-09-10T00:07:18Z",
+      "checked_at": "2026-09-10T00:11:27Z",
       "city": "Huntington Beach",
       "location": {
         "address": "21080 Pacific Coast Hwy, Huntington Beach, CA 92648",
@@ -11098,7 +5853,7 @@
     },
     {
       "candidate_count": 4,
-      "checked_at": "2026-09-10T00:07:18Z",
+      "checked_at": "2026-09-10T00:11:27Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708",
@@ -11158,7 +5913,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T00:07:18Z",
+      "checked_at": "2026-09-10T00:11:27Z",
       "city": "Huntington Beach",
       "location": {
         "address": "215 Main St, Huntington Beach, CA 92648",
@@ -11218,7 +5973,7 @@
     },
     {
       "candidate_count": 3,
-      "checked_at": "2026-09-10T00:07:18Z",
+      "checked_at": "2026-09-10T00:11:27Z",
       "city": "Huntington Beach",
       "location": {
         "address": "500 Pacific Coast Hwy, Huntington Beach, CA 92648",
@@ -11278,7 +6033,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T00:07:18Z",
+      "checked_at": "2026-09-10T00:11:27Z",
       "city": "Huntington Beach",
       "location": {
         "address": "300 Pacific Coast Hwy #112, Huntington Beach, CA 92648",
@@ -11338,7 +6093,7 @@
     },
     {
       "candidate_count": 9,
-      "checked_at": "2026-09-10T00:07:18Z",
+      "checked_at": "2026-09-10T00:11:27Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16821 Algonquin St Ste 105, Huntington Beach, CA 92649",
@@ -11402,7 +6157,7 @@
     },
     {
       "candidate_count": 0,
-      "checked_at": "2026-09-10T00:07:18Z",
+      "checked_at": "2026-09-10T00:11:27Z",
       "city": "Fountain Valley",
       "location": {
         "address": "10201 Slater Ave, Fountain Valley, CA 92708",
@@ -11462,7 +6217,7 @@
     },
     {
       "candidate_count": 14,
-      "checked_at": "2026-09-10T00:07:18Z",
+      "checked_at": "2026-09-10T00:11:27Z",
       "city": "Huntington Beach",
       "location": {
         "address": "7631 Edinger Ave, Huntington Beach, CA 92647",
@@ -11522,7 +6277,7 @@
     },
     {
       "candidate_count": 2,
-      "checked_at": "2026-09-10T00:07:18Z",
+      "checked_at": "2026-09-10T00:11:27Z",
       "city": "Fountain Valley",
       "location": {
         "address": "18727 Brookhurst St, Fountain Valley, CA 92708",
@@ -11582,7 +6337,7 @@
     },
     {
       "candidate_count": 5,
-      "checked_at": "2026-09-10T00:07:18Z",
+      "checked_at": "2026-09-10T00:11:27Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
@@ -11642,7 +6397,7 @@
     },
     {
       "candidate_count": 1,
-      "checked_at": "2026-09-10T00:07:18Z",
+      "checked_at": "2026-09-10T00:11:27Z",
       "city": "Huntington Beach",
       "location": {
         "address": "16490 Bolsa Chica St, Huntington Beach, CA 92649",
@@ -11702,7 +6457,7 @@
     },
     {
       "candidate_count": 8,
-      "checked_at": "2026-09-10T00:07:18Z",
+      "checked_at": "2026-09-10T00:11:27Z",
       "city": "Huntington Beach",
       "location": {
         "address": "9059 Adams Ave, Huntington Beach, CA 92646",
@@ -11765,7 +6520,7 @@
     "active_deals": 67,
     "failed_sources": 0,
     "healthy_sources": 15,
-    "stale_deals": 62,
-    "total_deals": 129
+    "stale_deals": 0,
+    "total_deals": 67
   }
 }
