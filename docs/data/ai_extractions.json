@@ -1,6 +1,6 @@
 {
   "extraction_version": 1,
-  "generated_at": "2026-09-11T17:57:55Z",
+  "generated_at": "2026-09-12T17:29:00Z",
   "model": "gemini-3.5-flash-lite",
   "pages": [
     {
@@ -2736,7 +2736,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "1abc6bf2596acce3f043a37faf50035a69779433f5a8f99ea4056c6bdb38431a",
+      "content_hash": "a120acfed22362bfd0a4fd4bba0f56580e18a19cee921bcd44d8ff70b7427193",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -2747,7 +2747,8 @@
             "food"
           ],
           "details": [
-            "Kids eat free promotion"
+            "Kids eat free promotion",
+            "Valid every Wednesday through September 30"
           ],
           "source_evidence": [
             "Kids eat free every Wednesday thru 9/30"
@@ -2757,7 +2758,7 @@
           "valid_through": "2026-09-30"
         }
       ],
-      "extracted_at": "2026-09-11T17:52:13Z",
+      "extracted_at": "2026-09-12T17:25:14Z",
       "key": "f566f804ead8d7087856",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -2848,7 +2849,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "adb757f5cbc193fef17f97a318f75455cc8319af8ce656555d2946bcb61549ee",
+      "content_hash": "7a31dedfd06f2bd0b3720460ac3a5353eede14e553e701a95ceec4afc9e13c62",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -2857,14 +2858,54 @@
             "food"
           ],
           "details": [
-            "Six ounces of penne pasta served with plant or traditional Swedish meatballs",
-            "Valid in-store only at IKEA Burbank, IKEA Carson, IKEA Costa Mesa, and IKEA Covina"
+            "Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs for $1.99.",
+            "Valid in-store only at IKEA Burbank, IKEA Carson, IKEA Costa Mesa, and IKEA Covina."
           ],
           "source_evidence": [
             "Lunch or dinner for just $1.99*",
             "Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs for $1.99."
           ],
-          "summary": "Pasta and meatballs meal for $1.99",
+          "summary": "Penne pasta with meatballs for $1.99",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "tuesday"
+          ],
+          "categories": [
+            "general"
+          ],
+          "details": [
+            "Shop select textiles priced at just $5 each.",
+            "Look for items marked 'Textiles Tuesday' to score the deal."
+          ],
+          "source_evidence": [
+            "Textiles Tuesdays:",
+            "Every Tuesday, shop select textiles priced at just $5 each!"
+          ],
+          "summary": "Select textiles priced at $5 each on Tuesdays",
+          "time_window": null,
+          "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "wednesday"
+          ],
+          "categories": [
+            "general"
+          ],
+          "details": [
+            "Each week, one select item will be marked 75% off.",
+            "Look for the tag labeled 'WOW Wednesday.'"
+          ],
+          "source_evidence": [
+            "Wow Wednesdays:",
+            "Each week, one select item will be marked 75% off, just look for the tag labeled 'WOW Wednesday.'"
+          ],
+          "summary": "Select item marked 75% off on Wednesdays",
           "time_window": null,
           "valid_through": null
         },
@@ -2877,20 +2918,19 @@
             "food"
           ],
           "details": [
-            "Free kids meals in the IKEA Swedish Restaurant",
-            "Exclusive to IKEA Family members",
-            "Available on Wednesdays only"
+            "IKEA Family members enjoy free kids' meals on Wednesdays.",
+            "Valid in the IKEA Swedish Restaurant."
           ],
           "source_evidence": [
             "Kids eat free on Wednesdays",
             "Delicious, fun and free! IKEA Family members enjoy free kids\u2019 meals on Wednesdays only at the IKEA Swedish Restaurant. Now thru 9/30."
           ],
-          "summary": "Free kids meals on Wednesdays for IKEA Family members",
+          "summary": "Kids eat free on Wednesdays for IKEA Family members",
           "time_window": null,
           "valid_through": "2026-09-30"
         }
       ],
-      "extracted_at": "2026-09-10T16:32:51Z",
+      "extracted_at": "2026-09-12T17:25:23Z",
       "key": "c58851b52546601e171d",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -2898,7 +2938,9 @@
         "label": "Offers, sales, & deals",
         "url": "https://www.ikea.com/us/en/stores/costa-mesa/?utm_source=google&utm_medium=organic&utm_campaign=map_r&utm_content=costa-mesa"
       },
-      "rejected_candidates": [],
+      "rejected_candidates": [
+        "Save 10% in As-is department on Fridays for IKEA Family"
+      ],
       "restaurant": {
         "address": "1475 S Coast Dr, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -3606,9 +3648,9 @@
       "status": "fetch_failed"
     },
     {
-      "content_hash": "e7a995e2281b428922997660e9c7ce36aa402e7e7f200e14ae9cca3334e8e4a8",
+      "content_hash": "2f6d46113013f27fb16133d1fc1d7356b4e03860a1881d27ee3c41629b39519b",
       "deals": [],
-      "extracted_at": "2026-09-11T17:52:33Z",
+      "extracted_at": "2026-09-12T17:25:30Z",
       "key": "e1f8468585a3f3edcaad",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -5720,9 +5762,7 @@
         "label": "Learn more",
         "url": "https://www.trentapizza.com/event-details/happy-hour-trenta-lounge-2026-09-10-17-00"
       },
-      "rejected_candidates": [
-        "Happy hour appetizers including charcuterie, calamari, cannolo salato, and bruschetta"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "1661 Superior Ave Ste d, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -7019,131 +7059,6 @@
             "food"
           ],
           "details": [
-            "Price is $3",
-            "Original Pretzel Bun Chili Dog only",
-            "Cheese extra",
-            "Coupon good for TWO orders on same visit",
-            "Must be surrendered at time of purchase",
-            "Tax extra"
-          ],
-          "source_evidence": [
-            "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
-            "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
-          ],
-          "summary": "$3 Pretzel Bun Chili Dog",
-          "time_window": null,
-          "valid_through": null
-        }
-      ],
-      "extracted_at": "2026-09-10T04:22:51Z",
-      "key": "48fe406dac90084e8078",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-      },
-      "rejected_candidates": [],
-      "restaurant": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "ok"
-    },
-    {
-      "content_hash": "0702eb0b0f7ed6ce6ef21efeecc1bc7b27bf7ade11c95d12aa2fcf93fed22826",
-      "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
             "Price: $3",
             "Item: Original Pretzel Bun Chili Dog",
             "Cheese is extra",
@@ -7257,6 +7172,131 @@
           "establishment"
         ],
         "website_url": "http://www.wienerschnitzel.com/location/239-beach-blvd-talbert-huntington-beach-18012-beach-blvd-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "0702eb0b0f7ed6ce6ef21efeecc1bc7b27bf7ade11c95d12aa2fcf93fed22826",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Price is $3",
+            "Original Pretzel Bun Chili Dog only",
+            "Cheese extra",
+            "Coupon good for TWO orders on same visit",
+            "Must be surrendered at time of purchase",
+            "Tax extra"
+          ],
+          "source_evidence": [
+            "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
+            "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+          ],
+          "summary": "$3 Pretzel Bun Chili Dog",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T04:22:51Z",
+      "key": "48fe406dac90084e8078",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
     },
@@ -7399,6 +7439,132 @@
             "drink"
           ],
           "details": [
+            "Includes a corn dog, small fries, and small soda for $5",
+            "Tax extra",
+            "Good for two orders on same visit",
+            "Must be surrendered at time of purchase",
+            "Not valid with any other offer, discount or coupon",
+            "Not valid in Sacramento, Stockton & Modesto areas"
+          ],
+          "source_evidence": [
+            "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+            "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
+          ],
+          "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-10T04:23:29Z",
+      "key": "b722649edfad301a9018",
+      "model": "gemini-3.5-flash-lite",
+      "page": {
+        "confidence": "high",
+        "label": "Specials",
+        "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+      },
+      "rejected_candidates": [],
+      "restaurant": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "city": "Huntington Beach",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "name": "Wienerschnitzel",
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
+        "primary_type": "fast_food_restaurant",
+        "specials_pages": [
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "http://www.wienerschnitzel.com/coupons/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+          },
+          {
+            "confidence": "high",
+            "label": "Specials",
+            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+          }
+        ],
+        "types": [
+          "fast_food_restaurant",
+          "ice_cream_shop",
+          "dessert_shop",
+          "hot_dog_restaurant",
+          "american_restaurant",
+          "confectionery",
+          "food_store",
+          "store",
+          "restaurant",
+          "food",
+          "point_of_interest",
+          "establishment"
+        ],
+        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
+      },
+      "status": "ok"
+    },
+    {
+      "content_hash": "cee065429487d19b0abcec053c23c8449451a81351a55a69463b50cf73a42609",
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
             "Price: $5",
             "Includes a corn dog, small fries, and a small soda",
             "Coupon good for two orders on the same visit",
@@ -7512,132 +7678,6 @@
           "establishment"
         ],
         "website_url": "http://www.wienerschnitzel.com/location/239-beach-blvd-talbert-huntington-beach-18012-beach-blvd-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
-      },
-      "status": "ok"
-    },
-    {
-      "content_hash": "cee065429487d19b0abcec053c23c8449451a81351a55a69463b50cf73a42609",
-      "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Includes a corn dog, small fries, and small soda for $5",
-            "Tax extra",
-            "Good for two orders on same visit",
-            "Must be surrendered at time of purchase",
-            "Not valid with any other offer, discount or coupon",
-            "Not valid in Sacramento, Stockton & Modesto areas"
-          ],
-          "source_evidence": [
-            "$5 - Corn Dog, Small Fries and Small Soda Coupon",
-            "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
-          ],
-          "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
-          "time_window": null,
-          "valid_through": null
-        }
-      ],
-      "extracted_at": "2026-09-10T04:23:29Z",
-      "key": "b722649edfad301a9018",
-      "model": "gemini-3.5-flash-lite",
-      "page": {
-        "confidence": "high",
-        "label": "Specials",
-        "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-      },
-      "rejected_candidates": [],
-      "restaurant": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "city": "Huntington Beach",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "name": "Wienerschnitzel",
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U",
-        "primary_type": "fast_food_restaurant",
-        "specials_pages": [
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "http://www.wienerschnitzel.com/coupons/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-          },
-          {
-            "confidence": "high",
-            "label": "Specials",
-            "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-          }
-        ],
-        "types": [
-          "fast_food_restaurant",
-          "ice_cream_shop",
-          "dessert_shop",
-          "hot_dog_restaurant",
-          "american_restaurant",
-          "confectionery",
-          "food_store",
-          "store",
-          "restaurant",
-          "food",
-          "point_of_interest",
-          "establishment"
-        ],
-        "website_url": "http://www.wienerschnitzel.com/location/283-brookhurst-garfield-huntington-beach-19101-brookhurst-huntington-beach-ca-92646/?utm_source=google&utm_medium=profiles&utm_campaign=local_profiles"
       },
       "status": "ok"
     },
@@ -10341,10 +10381,10 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "f421162ea66ec6ff2ae72aa51842cf9778effa2750118aea4e792deb93d6c72a",
+      "content_hash": "ae0862384e7c328da6c87a893b39cea16b6bee99c5e4278a0e15bdadc515f361",
       "deals": [
         {
-          "ai_confidence": 0.95,
+          "ai_confidence": 0.9,
           "applies_days": [
             "monday",
             "tuesday",
@@ -10357,13 +10397,12 @@
             "drink"
           ],
           "details": [
-            "Mon\u2013Fri, 4\u20136pm"
+            "Mon-Fri, 4-6pm"
           ],
           "source_evidence": [
-            "Mon\u2013Fri, 4\u20136pm",
-            "Happy Hour is from 4pm-6pm, even Tuesdays!"
+            "Mon\u2013Fri, 4\u20136pm"
           ],
-          "summary": "Happy Hour drinks and bites",
+          "summary": "Happy Hour specials on weekdays",
           "time_window": "4:00 PM - 6:00 PM",
           "valid_through": null
         },
@@ -10379,21 +10418,20 @@
           "details": [
             "Tacos from $4",
             "$10 margaritas",
-            "$6 Modelo",
             "DJ at 7pm",
-            "Ground beef $4, smoked pork belly $4, fish $6, sirloin $7, lobster $8, birria $8"
+            "Ground beef $4, smoked pork belly $4, fish $6, sirloin $7, lobster $8, birria $8",
+            "$6 Modelo and $10 Casa Margarita all day"
           ],
           "source_evidence": [
             "Tuesdays all day \u2014 tacos from $4, $10 margaritas, DJ at 7pm",
-            "$6 Modelo and $10 Casa Margarita all day.",
-            "Ground beef $4 \u00b7 Smoked pork belly $4 \u00b7 Fish $6 \u00b7 Sirloin $7 \u00b7 Lobster $8 \u00b7 Birria $8"
+            "$6 Modelo and $10 Casa Margarita all day."
           ],
-          "summary": "Tulum Tuesdays taco and drink specials",
+          "summary": "Tulum Tuesdays specials with tacos and margaritas",
           "time_window": "all day",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-10T19:05:10Z",
+      "extracted_at": "2026-09-12T17:25:38Z",
       "key": "63b417f4f740268d385a",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -10401,7 +10439,9 @@
         "label": "Website specials",
         "url": "https://www.casadeondarestaurant.com/"
       },
-      "rejected_candidates": [],
+      "rejected_candidates": [
+        "Homemade shrimp tamales special"
+      ],
       "restaurant": {
         "address": "1870 Harbor Blvd Second Level, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -13033,9 +13073,7 @@
         "label": "Website specials",
         "url": "https://www.goathilltavern.com/"
       },
-      "rejected_candidates": [
-        "1/2 off all IPAs daily"
-      ],
+      "rejected_candidates": [],
       "restaurant": {
         "address": "1830 Newport Blvd, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -13307,7 +13345,7 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "3b8224202ccca667326b9315133683ddcd02130d851e214b0cfc6e0607ae77f2",
+      "content_hash": "b1f0960f465f6241c9428b12c80b1b0dde81325105caa7c9c2bc0f9db0bbc92f",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -13319,18 +13357,38 @@
             "food"
           ],
           "details": [
-            "Kids eat free when you dine in",
-            "Must purchase an adult entr\u00e9e"
+            "Kids eat free when you dine in and purchase an adult entr\u00e9e.",
+            "Applies to dinner time on applicable days."
           ],
           "source_evidence": [
-            "Kids eat free every Tuesday & Saturday night when you dine in and purchase an adult entr\u00e9e."
+            "Kids eat free every Tuesday & Saturday night when you dine in and purchase an adult entr\u00e9e. \ud83c\udf54"
           ],
-          "summary": "Kids eat free every Tuesday and Saturday night with an adult entr\u00e9e",
+          "summary": "Kids eat free on Tuesday and Saturday nights with adult entr\u00e9e purchase",
           "time_window": null,
           "valid_through": null
+        },
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "saturday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Buy One, Get One Free Bowls.",
+            "Valid for dine-in at Orange, Brea, and Huntington Beach locations on Saturday, July 11."
+          ],
+          "source_evidence": [
+            "Enjoy BOGO FREE bowls with us this Saturday when you dine in at our Brea, Orange, and HB locations! \ud83e\udd73",
+            "Mark your calendar for Saturday, July 11 as we celebrate the amazing community that makes Green Tomato Grill possible with Buy One, Get One Free Bowls"
+          ],
+          "summary": "BOGO Free Bowls on GTG Customer Appreciation Day",
+          "time_window": null,
+          "valid_through": "2026-07-11"
         }
       ],
-      "extracted_at": "2026-09-11T17:54:57Z",
+      "extracted_at": "2026-09-12T17:25:46Z",
       "key": "dc73dc8dd4574d33bdc2",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -15445,14 +15503,17 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "c331754ab3de9f844058ab1fdd642976930a205b88695ec8677c05f27031d8ee",
+      "content_hash": "962900a279eea9d0df32b4e98c6dc7c6f80983d5a7f83709437fcaec34f4da70",
       "deals": [],
+      "extracted_at": "2026-09-12T17:25:53Z",
       "key": "b9be67241d188f5a98ba",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Special",
         "url": "http://orderlassalsastaqueriaca.mobile-webview2.com/special.php"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "2263 Fairview Rd Unit G, Costa Mesa, CA 92627, USA",
         "business_status": "OPERATIONAL",
@@ -15533,17 +15594,42 @@
         ],
         "website_url": "http://orderlassalsastaqueriaca.mobile-webview2.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "078ace13143cd462ac8907f5dbb31221f6b1fb1155d2d3fd738739b61777853b",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Thinly-sliced rib roast, melted provolone cheese and a spicy house-made relish with Calabrian chilies",
+            "Price: $18"
+          ],
+          "source_evidence": [
+            "Discover the new Ayres Family Favorite, The Calabrian, with thinly-sliced rib roast, melted provolone cheese and a spicy house-made relish with Calabrian chilies. Available in our All Day Menu",
+            "$18"
+          ],
+          "summary": "The Calabrian Weekly Special",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-12T17:26:01Z",
       "key": "ce48d2fcfe468a8d9f9d",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://www.ayreshotels.com/ayres-hotel-costa-mesa-newport-beach/dining"
       },
+      "rejected_candidates": [
+        "Weekend Brunch",
+        "Happy Hour"
+      ],
       "restaurant": {
         "address": "325 Bristol St, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -15634,17 +15720,20 @@
         ],
         "website_url": "https://www.ayreshotels.com/ayres-hotel-costa-mesa-newport-beach/dining"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "8a045158251840a8dc7303e348def06324899d9c531f85f05a0d6f29c087593c",
       "deals": [],
+      "extracted_at": "2026-09-12T17:26:09Z",
       "key": "c3a8e1922bb07e0cd5e4",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Special Offers",
         "url": "https://www.ayreshotels.com/ayres-hotel-costa-mesa-newport-beach/special-offers"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "325 Bristol St, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -15735,17 +15824,20 @@
         ],
         "website_url": "https://www.ayreshotels.com/ayres-hotel-costa-mesa-newport-beach/dining"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
-      "content_hash": "d4c177af2505fde92aec4281c64389ba54951e70ec25b8c8326d10aadcd5bc51",
+      "content_hash": "2a738ed2fe26d1b7c0da46bfd1d5e0b76a23ecf161747f4fb06fd13ca23dddfc",
       "deals": [],
+      "extracted_at": "2026-09-12T17:26:16Z",
       "key": "8bf180d5fe899e9559f4",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Special Offers",
         "url": "https://www.ayreshotels.com/special-offers"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "325 Bristol St, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -15836,12 +15928,12 @@
         ],
         "website_url": "https://www.ayreshotels.com/ayres-hotel-costa-mesa-newport-beach/dining"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
-      "content_hash": "63cff9341c12e703d3e8f322f4391d7c73a2c6abc4b80fd8d68491517b221944",
+      "content_hash": "99fd8bbb6573afe64a84ff0c1fc0e8daf61e66b0b925ae2a1bea12dd0995f1b6",
       "deals": [],
-      "extracted_at": "2026-09-10T03:28:18Z",
+      "extracted_at": "2026-09-12T17:26:23Z",
       "key": "589825ac47de20879b9c",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -15926,9 +16018,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "41c11f7b48849518bdc2f1b8349be548da6f712d0292091dd5c714ef588f6cdd",
+      "content_hash": "1c12a17028af4d2e57218c8b461ec8b1e0aa22d9bb10dc5e170d57126379b0c8",
       "deals": [],
-      "extracted_at": "2026-09-10T02:31:56Z",
+      "extracted_at": "2026-09-12T17:26:30Z",
       "key": "019539f5038d404cfe77",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -16024,9 +16116,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "025816bad218cd742bc1f4c8c12af2062b42755ee2771b78c5fb949eded31466",
+      "content_hash": "da0b342edb7646e25adbab0f717a044c74ce2f865ce953185d90f9909b6acb9d",
       "deals": [],
-      "extracted_at": "2026-09-10T02:32:03Z",
+      "extracted_at": "2026-09-12T17:26:37Z",
       "key": "59f559fe410dab72ee82",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -16122,9 +16214,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "46f44608df9df4dcc6940e922844f409e47a482f6f4d952a1d0de0a1e9333efe",
+      "content_hash": "c9e9af77bdd14bae708d1804b4e1ce6520089d9280d6cccc02cfc501d369d55c",
       "deals": [],
-      "extracted_at": "2026-09-10T02:32:10Z",
+      "extracted_at": "2026-09-12T17:26:45Z",
       "key": "2de81f85cbdb7c8496c5",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -16224,13 +16316,38 @@
     },
     {
       "content_hash": "99385dace120e3d366c075e048bdf0e1cbe7f258f3e9ca5a7e8ce040da084099",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "thursday",
+            "monday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Features refined appetizers, Manpuku's signature Kyoto-style A5 Wagyu, and a curated selection of premium BBQ meats",
+            "Price is $108 per person",
+            "Minimum 2 guests required"
+          ],
+          "source_evidence": [
+            "*September 3 (Thu) \u2013 7 (Mon), 2026 | $108 per person (Minimum 2 guests)"
+          ],
+          "summary": "Labor Day Special Omakase course for $108 per person",
+          "time_window": null,
+          "valid_through": "2026-09-07"
+        }
+      ],
+      "extracted_at": "2026-09-12T17:26:52Z",
       "key": "43f3191d6ee246cb0dc9",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Labor Day Special Omakase | September 3 (Thu) \u2013 7 (Mon), 2026",
         "url": "http://www.manpukuus.com/news-and-events/labor-day-special-omakase-september-3-thu---7-mon-2026"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "891 Baker St, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -16309,17 +16426,43 @@
         ],
         "website_url": "http://www.manpukuus.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
       "content_hash": "58d84b108793d791acf4aa17444e15a8e32040a75fabe979aee125c36a38d99e",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "thursday",
+            "monday"
+          ],
+          "categories": [
+            "food"
+          ],
+          "details": [
+            "Features appetizers, Kyoto-style A5 Wagyu, and an assortment of premium BBQ cuts",
+            "Minimum 2 guests required",
+            "Limited availability for Labor Day Weekend"
+          ],
+          "source_evidence": [
+            "$108 per person\uff08Minimum 2 guests\uff09",
+            "September 3, 2026 (Thu) \u2013 September 7, 2026 (Mon)"
+          ],
+          "summary": "Labor Day Special Omakase Course for $108 per person",
+          "time_window": null,
+          "valid_through": "2026-09-07"
+        }
+      ],
+      "extracted_at": "2026-09-12T17:27:00Z",
       "key": "6964e029b29f8e0c0933",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Labor Day Special Omakase\uff5cStarts Today",
         "url": "http://www.manpukuus.com/news-and-events/labor-day-special-omakase-starts-today"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "891 Baker St, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -16398,10 +16541,10 @@
         ],
         "website_url": "http://www.manpukuus.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
-      "content_hash": "b3eeba18a0ba075bfd406f83a4b4f1e64cdbb06586b0bb7c7e3d0441a0845394",
+      "content_hash": "532e43d24c92ba0f4c07f6fefa6838287e0a9acd65233315b1e88e725249dd92",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -16410,12 +16553,13 @@
             "food"
           ],
           "details": [
-            "Get a whole pie to-go for just $13.99 all month long"
+            "Get a whole pie to-go for just $13.99",
+            "Available all month long"
           ],
           "source_evidence": [
             "Luscious Lemon Meringue is our Pie of the Month! Get a whole pie to-go for just $13.99 all month long!"
           ],
-          "summary": "Lemon Meringue Pie of the Month to-go for $13.99",
+          "summary": "Luscious Lemon Meringue whole pie to-go for $13.99 all month long",
           "time_window": null,
           "valid_through": "2026-09-30"
         },
@@ -16426,8 +16570,9 @@
             "food"
           ],
           "details": [
-            "Includes one appetizer, two entrees, and two slices of pie for $42",
-            "Dine-in only, at participating locations"
+            "Includes one appetizer, two entrees, and two slices of pie",
+            "Price is $42",
+            "Dine-in only at participating locations"
           ],
           "source_evidence": [
             "One Appetizer, Two Entrees & Two Slices of Pie for $42! Dine-in only, at participating locations."
@@ -16437,7 +16582,7 @@
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-10T02:32:18Z",
+      "extracted_at": "2026-09-12T17:27:08Z",
       "key": "314f18ca3ce051ff8397",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -16523,9 +16668,9 @@
       "status": "ok"
     },
     {
-      "content_hash": "6197d48a899944c55c28b422e62c3a29504f38151919466f858d40a5520f993d",
+      "content_hash": "7b5053914602a9d1a56bd06fa054110d4b4ef9f376fbfaff80a52affb5e3ffbb",
       "deals": [],
-      "extracted_at": "2026-09-10T02:32:26Z",
+      "extracted_at": "2026-09-12T17:27:15Z",
       "key": "5d88e39c2362b02c828d",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -16533,7 +16678,9 @@
         "label": "Website specials",
         "url": "https://www.marketbroiler.com/huntington"
       },
-      "rejected_candidates": [],
+      "rejected_candidates": [
+        "Happy Hour specials in the bar area"
+      ],
       "restaurant": {
         "address": "20111 Brookhurst St, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
@@ -16613,9 +16760,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "752e92c37b4d9a61c9823f193a04efcb061aacc1bd536705538896ff1ca2c1db",
+      "content_hash": "b9132fb08699a8993801cd927c8a08f6a53d9e5ebc3da0b36108f78fdbf861cd",
       "deals": [],
-      "extracted_at": "2026-09-10T02:32:33Z",
+      "extracted_at": "2026-09-12T17:27:23Z",
       "key": "60e66bbb88cd1ce419de",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -16706,9 +16853,9 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "52f41a04befbcde61623529b2c70f2a5cf843084bd563c84ff96bfb20f3c72c2",
+      "content_hash": "83381bb07fc377a0ffb536f9c1d127a63ea621d90c8a11c5a4374bdcc8285d5e",
       "deals": [],
-      "extracted_at": "2026-09-10T02:32:43Z",
+      "extracted_at": "2026-09-12T17:27:30Z",
       "key": "76158c674b0cbdb6c08f",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -16882,9 +17029,9 @@
       "status": "fetch_failed"
     },
     {
-      "content_hash": "ba070cc58746ebd16c3d2a527435e87741e44d2de4a3b18ff8cebe82912dff7a",
+      "content_hash": "efccc5305ee575948d59bc6bcd239a943d7b99db759abc73cee1d327bdb7cc0c",
       "deals": [],
-      "extracted_at": "2026-09-10T02:32:50Z",
+      "extracted_at": "2026-09-12T17:27:37Z",
       "key": "b772f2c10f5cf49ea4f7",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -16974,12 +17121,15 @@
     {
       "content_hash": "b57d9f8711aec2883e0901a16806a769436efd4d637e8f56386f613f3296d0d1",
       "deals": [],
+      "extracted_at": "2026-09-12T17:27:44Z",
       "key": "7812d83a51c38ac7e9a3",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "https://amusecostamesa.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "500 Anton Blvd, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -17084,17 +17234,45 @@
         ],
         "website_url": "https://amusecostamesa.com/"
       },
-      "status": "pending"
+      "status": "no_deals"
     },
     {
       "content_hash": "83f75fea2761070bd9a5a17950d9deaff6916ec367cc8b68e27a8200ba08290a",
-      "deals": [],
+      "deals": [
+        {
+          "ai_confidence": 0.85,
+          "applies_days": [],
+          "categories": [
+            "food",
+            "general"
+          ],
+          "details": [
+            "Meatloaf Sunday",
+            "Industry Tuesday",
+            "Hickory BBQ Wednesday",
+            "Pot Roast Thursday"
+          ],
+          "source_evidence": [
+            "$12.95 Weekly Deals",
+            "Meatloaf Sunday",
+            "Industry Tuesday",
+            "Hickory BBQ Wednesday",
+            "Pot Roast Thursday"
+          ],
+          "summary": "$12.95 Weekly Specials",
+          "time_window": null,
+          "valid_through": null
+        }
+      ],
+      "extracted_at": "2026-09-12T17:27:52Z",
       "key": "15310ffeaf91c332503d",
+      "model": "gemini-3.5-flash-lite",
       "page": {
         "confidence": "medium",
         "label": "Website specials",
         "url": "http://memphiscafe.com/"
       },
+      "rejected_candidates": [],
       "restaurant": {
         "address": "2920 Bristol St, Costa Mesa, CA 92626, USA",
         "business_status": "OPERATIONAL",
@@ -17173,12 +17351,12 @@
         ],
         "website_url": "http://memphiscafe.com/"
       },
-      "status": "pending"
+      "status": "ok"
     },
     {
-      "content_hash": "020af6e4fbf2c9661b956a13653f2adbf5fc23e63da0afc34ee0883630e49bf8",
+      "content_hash": "0e80cc71a1e24099c81d7f68ad1ef2e34569c95c93a699dbc4109071b7df5924",
       "deals": [],
-      "extracted_at": "2026-09-10T02:32:58Z",
+      "extracted_at": "2026-09-12T17:27:59Z",
       "key": "9f5c39d27dd7f14f9781",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -17256,7 +17434,7 @@
       "status": "no_deals"
     },
     {
-      "content_hash": "e2577b7fdae2debdf370ce43dd270689c732a35b9b5f2fcacd47cda9be8868c4",
+      "content_hash": "b9f161aab06b645f75959aaaaede13736c1c295ef854fa6791dcb5a5a31d60c4",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -17265,7 +17443,7 @@
             "general"
           ],
           "details": [
-            "5% discount applies to online orders only"
+            "5% off online only"
           ],
           "source_evidence": [
             "5% off online only"
@@ -17273,28 +17451,9 @@
           "summary": "5% off online orders",
           "time_window": null,
           "valid_through": null
-        },
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [],
-          "categories": [
-            "food"
-          ],
-          "details": [
-            "Price: $31.00",
-            "Includes extra large pizza with 2 toppings, whole chicken, rice, pita bread, homemade pickles, and garlic sauce"
-          ],
-          "source_evidence": [
-            "Moonlight Special",
-            "$31.00",
-            "Ex large pizza 2 toppings, whole chicken, served with rice, pita bread homemade pickles, garlic sauce."
-          ],
-          "summary": "Moonlight Special: Extra large pizza, whole chicken, rice, pita, pickles, and garlic sauce",
-          "time_window": null,
-          "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-10T02:33:06Z",
+      "extracted_at": "2026-09-12T17:28:06Z",
       "key": "f8ded4d956abc4bace36",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -17387,7 +17546,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "e2577b7fdae2debdf370ce43dd270689c732a35b9b5f2fcacd47cda9be8868c4",
+      "content_hash": "b9f161aab06b645f75959aaaaede13736c1c295ef854fa6791dcb5a5a31d60c4",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -17396,17 +17555,17 @@
             "general"
           ],
           "details": [
-            "5% discount applies to online orders only"
+            "5% off online only"
           ],
           "source_evidence": [
             "5% off online only"
           ],
-          "summary": "5% off online orders",
+          "summary": "5% off online only orders",
           "time_window": null,
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-10T02:33:14Z",
+      "extracted_at": "2026-09-12T17:28:14Z",
       "key": "7dd59c04af1dd9af9fdb",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -17499,7 +17658,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "e2577b7fdae2debdf370ce43dd270689c732a35b9b5f2fcacd47cda9be8868c4",
+      "content_hash": "b9f161aab06b645f75959aaaaede13736c1c295ef854fa6791dcb5a5a31d60c4",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -17518,7 +17677,7 @@
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-10T02:33:22Z",
+      "extracted_at": "2026-09-12T17:28:21Z",
       "key": "816ee19ee9aaf2bbb590",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -17611,41 +17770,9 @@
       "status": "ok"
     },
     {
-      "content_hash": "68639acb26b2af0b5f9538ab0d6e81df98917a354ba61bfaa314d0b111a7c204",
-      "deals": [
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [
-            "monday",
-            "wednesday",
-            "thursday",
-            "friday"
-          ],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "Dine-in only",
-            "House Margaritas starting at $7",
-            "Draft Beer for $5",
-            "Chicken, Carnitas & Al Pastor Tacos for $4",
-            "Asada Tacos for $5.50",
-            "Tacos de Rajas with Cheese for $3.50",
-            "Cheese Quesadillas for $10",
-            "Chile Verde Plate and Carnitas Plate for $18 with rice, beans, and handmade tortillas"
-          ],
-          "source_evidence": [
-            "MORENA\u2019S HAPPY HOUR \u2013 HUNTINGTON BEACH",
-            "Available Monday, Wednesday, Thursday & Friday from 3:00 PM \u2013 6:00 PM (Dine-In Only).",
-            "House Margaritas starting at $7, Draft Beer for $5, Chicken, Carnitas & Al Pastor Tacos for $4, Asada Tacos for $5.50, Tacos de Rajas with Cheese for $3.50, and Cheese Quesadillas for $10."
-          ],
-          "summary": "Morena's Happy Hour with discounted food, drinks, and plates",
-          "time_window": "3:00 PM \u2013 6:00 PM",
-          "valid_through": null
-        }
-      ],
-      "extracted_at": "2026-09-10T02:33:30Z",
+      "content_hash": "e870871a28fa7ea5d6add71111fe83e0b0aaed2449b35e41dab33d18b13ddf9b",
+      "deals": [],
+      "extracted_at": "2026-09-12T17:28:29Z",
       "key": "49fc10ba0c11f30985d4",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -17653,7 +17780,9 @@
         "label": "Website specials",
         "url": "https://hb.morenasmex.com/"
       },
-      "rejected_candidates": [],
+      "rejected_candidates": [
+        "Saturday Chef\u2019s Special"
+      ],
       "restaurant": {
         "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -17731,11 +17860,37 @@
         ],
         "website_url": "https://hb.morenasmex.com/"
       },
-      "status": "ok"
+      "status": "no_deals"
     },
     {
-      "content_hash": "5c5f5c384ccd5beeacd833429403620100668a7b14674a547f0fe4c06d932235",
+      "content_hash": "a9ea4147b2a574fd7770e8c046907e5f21efdf02c6e7d8abde56c850146f9f29",
       "deals": [
+        {
+          "ai_confidence": 0.95,
+          "applies_days": [
+            "sunday"
+          ],
+          "categories": [
+            "food",
+            "drink"
+          ],
+          "details": [
+            "$39.99 Per Guest \u2013 Includes Bottomless Mimosas",
+            "$34.99 Per Guest \u2013 Non-Alcoholic Option",
+            "Kids Ages 6\u201312: $19.99",
+            "Kids Under 6 Eat Free",
+            "Includes Omelette Station, Chilaquiles Station, hot buffet, salad bar, desserts, and Mexican brunch favorites",
+            "Bottomless Mimosa service limited to 90 minutes per guest"
+          ],
+          "source_evidence": [
+            "BOTTOMLESS MIMOSA BRUNCH BUFFET",
+            "Every Sunday | 10:00 AM \u2013 3:00 PM",
+            "$39.99 Per Guest \u2013 Includes Bottomless Mimosas"
+          ],
+          "summary": "Sunday Brunch Buffet with Bottomless Mimosas",
+          "time_window": "10:00 AM \u2013 3:00 PM",
+          "valid_through": null
+        },
         {
           "ai_confidence": 0.95,
           "applies_days": [
@@ -17759,34 +17914,11 @@
             "Chile Verde Plate and Carnitas Plate for $18"
           ],
           "source_evidence": [
+            "MORENA\u2019S HAPPY HOUR \u2013 HUNTINGTON BEACH",
             "Available Monday, Wednesday, Thursday & Friday from 3:00 PM \u2013 6:00 PM (Dine-In Only)."
           ],
-          "summary": "Happy Hour featuring discounted drinks, tacos, quesadillas, and dinner plates",
+          "summary": "Morena's Happy Hour",
           "time_window": "3:00 PM \u2013 6:00 PM",
-          "valid_through": null
-        },
-        {
-          "ai_confidence": 0.95,
-          "applies_days": [
-            "sunday"
-          ],
-          "categories": [
-            "food",
-            "drink"
-          ],
-          "details": [
-            "$39.99 Per Guest \u2013 Includes Bottomless Mimosas",
-            "$34.99 Per Guest \u2013 Non-Alcoholic Option",
-            "Kids Ages 6\u201312: $19.99",
-            "Kids Under 6 Eat Free",
-            "Bottomless Mimosa service limited to 90 minutes per guest"
-          ],
-          "source_evidence": [
-            "Every Sunday | 10:00 AM \u2013 3:00 PM",
-            "$39.99 Per Guest \u2013 Includes Bottomless Mimosas"
-          ],
-          "summary": "Sunday Brunch Buffet with optional bottomless mimosas",
-          "time_window": "10:00 AM \u2013 3:00 PM",
           "valid_through": null
         },
         {
@@ -17795,6 +17927,7 @@
             "tuesday"
           ],
           "categories": [
+            "food",
             "drink"
           ],
           "details": [
@@ -17802,18 +17935,20 @@
             "Bottled Mexican Beer \u2013 $5",
             "Brewery X \u2013 $5",
             "House Margaritas \u2013 $8",
-            "Cadillac Margaritas \u2013 $11"
+            "Cadillac Margaritas \u2013 $11",
+            "Taco specials available from 4:00 PM \u2013 8:00 PM"
           ],
           "source_evidence": [
             "TACO TUESDAY",
+            "Taco specials available from 4:00 PM \u2013 8:00 PM ONLY",
             "Taco Tuesday Drink Specials"
           ],
-          "summary": "Taco Tuesday drink specials",
-          "time_window": null,
+          "summary": "Taco Tuesday Drink Specials",
+          "time_window": "4:00 PM \u2013 8:00 PM",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-10T02:33:40Z",
+      "extracted_at": "2026-09-12T17:28:38Z",
       "key": "6d69a42f4282d5cf415c",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -17821,7 +17956,9 @@
         "label": "ALL SPECIALS",
         "url": "https://hb.morenasmex.com/huntington-beach-bella-terra-morenas-mexican-cuisine-huntington-beach-happy-hours-specials"
       },
-      "rejected_candidates": [],
+      "rejected_candidates": [
+        "Chef\u2019s Special"
+      ],
       "restaurant": {
         "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
         "business_status": "OPERATIONAL",
@@ -17902,7 +18039,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "0c58dcdace2723391634d59a8eb4f1eb66e6e39f89fbb59ea1b5426ad396070d",
+      "content_hash": "c2adba58bda71f36f14514c2ec51aac15ce08c203f7adebc54e6656807751abe",
       "deals": [
         {
           "ai_confidence": 0.85,
@@ -17918,19 +18055,19 @@
             "drink"
           ],
           "details": [
-            "Specials on full bar, beer, and wine list",
-            "Specials on selected food items"
+            "Specials from full bar, beer and wine list, and selected food items"
           ],
           "source_evidence": [
+            "Happy Hour",
             "Monday - Friday \u2022 2:00 PM - 6:00 PM",
             "Unwind with specials from our full bar, beer and wine list, and selected food items."
           ],
-          "summary": "Happy Hour specials on full bar, beer, wine list, and selected food items",
+          "summary": "Happy Hour specials with drinks and selected food items",
           "time_window": "2:00 PM - 6:00 PM",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-10T02:33:48Z",
+      "extracted_at": "2026-09-12T17:28:46Z",
       "key": "7bce048bad09ddc68d44",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -17938,7 +18075,9 @@
         "label": "Website specials",
         "url": "http://myplacesportsbar.com/"
       },
-      "rejected_candidates": [],
+      "rejected_candidates": [
+        "Weekend Breakfast and all-day weekend mimosas"
+      ],
       "restaurant": {
         "address": "5452 Commercial Dr, Huntington Beach, CA 92649, USA",
         "business_status": "OPERATIONAL",
@@ -18026,7 +18165,7 @@
       "status": "ok"
     },
     {
-      "content_hash": "53d75dba47b4b333659b250afe698181672db7602784851957440a6eeda48a09",
+      "content_hash": "7e421f79ea46ea60f72beadb9926d14ef82427de1a17344d0ff843711b97385a",
       "deals": [
         {
           "ai_confidence": 0.95,
@@ -18046,12 +18185,12 @@
           "source_evidence": [
             "Happy Hour Monday through Friday 4 PM till 7 PM. Buy a double shot of Kava get a double shot of kava free."
           ],
-          "summary": "Happy Hour: Buy a double shot of Kava, get a double shot of kava free",
-          "time_window": "16:00 - 19:00",
+          "summary": "Happy Hour: Buy a double shot of Kava get a double shot free",
+          "time_window": "04:00 PM - 07:00 PM",
           "valid_through": null
         }
       ],
-      "extracted_at": "2026-09-10T02:34:09Z",
+      "extracted_at": "2026-09-12T17:28:54Z",
       "key": "0dd556e0163f09c1dcdd",
       "model": "gemini-3.5-flash-lite",
       "page": {
@@ -28924,7 +29063,8 @@
               "food"
             ],
             "details": [
-              "Kids eat free promotion"
+              "Kids eat free promotion",
+              "Valid every Wednesday through September 30"
             ],
             "source_evidence": [
               "Kids eat free every Wednesday thru 9/30"
@@ -29004,14 +29144,54 @@
               "food"
             ],
             "details": [
-              "Six ounces of penne pasta served with plant or traditional Swedish meatballs",
-              "Valid in-store only at IKEA Burbank, IKEA Carson, IKEA Costa Mesa, and IKEA Covina"
+              "Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs for $1.99.",
+              "Valid in-store only at IKEA Burbank, IKEA Carson, IKEA Costa Mesa, and IKEA Covina."
             ],
             "source_evidence": [
               "Lunch or dinner for just $1.99*",
               "Six ounces of penne pasta served with your choice of plant or traditional Swedish meatballs for $1.99."
             ],
-            "summary": "Pasta and meatballs meal for $1.99",
+            "summary": "Penne pasta with meatballs for $1.99",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "tuesday"
+            ],
+            "categories": [
+              "general"
+            ],
+            "details": [
+              "Shop select textiles priced at just $5 each.",
+              "Look for items marked 'Textiles Tuesday' to score the deal."
+            ],
+            "source_evidence": [
+              "Textiles Tuesdays:",
+              "Every Tuesday, shop select textiles priced at just $5 each!"
+            ],
+            "summary": "Select textiles priced at $5 each on Tuesdays",
+            "time_window": null,
+            "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "wednesday"
+            ],
+            "categories": [
+              "general"
+            ],
+            "details": [
+              "Each week, one select item will be marked 75% off.",
+              "Look for the tag labeled 'WOW Wednesday.'"
+            ],
+            "source_evidence": [
+              "Wow Wednesdays:",
+              "Each week, one select item will be marked 75% off, just look for the tag labeled 'WOW Wednesday.'"
+            ],
+            "summary": "Select item marked 75% off on Wednesdays",
             "time_window": null,
             "valid_through": null
           },
@@ -29024,15 +29204,14 @@
               "food"
             ],
             "details": [
-              "Free kids meals in the IKEA Swedish Restaurant",
-              "Exclusive to IKEA Family members",
-              "Available on Wednesdays only"
+              "IKEA Family members enjoy free kids' meals on Wednesdays.",
+              "Valid in the IKEA Swedish Restaurant."
             ],
             "source_evidence": [
               "Kids eat free on Wednesdays",
               "Delicious, fun and free! IKEA Family members enjoy free kids\u2019 meals on Wednesdays only at the IKEA Swedish Restaurant. Now thru 9/30."
             ],
-            "summary": "Free kids meals on Wednesdays for IKEA Family members",
+            "summary": "Kids eat free on Wednesdays for IKEA Family members",
             "time_window": null,
             "valid_through": "2026-09-30"
           }
@@ -30901,92 +31080,6 @@
     {
       "city": "Huntington Beach",
       "location": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
-      },
-      "name": "Wienerschnitzel",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Price is $3",
-              "Original Pretzel Bun Chili Dog only",
-              "Cheese extra",
-              "Coupon good for TWO orders on same visit",
-              "Must be surrendered at time of purchase",
-              "Tax extra"
-            ],
-            "source_evidence": [
-              "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
-              "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
-            ],
-            "summary": "$3 Pretzel Bun Chili Dog",
-            "time_window": null,
-            "valid_through": null
-          }
-        ]
-      },
-      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
         "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
@@ -31064,6 +31157,92 @@
               "$3 Pretzel Bun Chili Dog Coupon Wienerschnitzel"
             ],
             "summary": "$3 Pretzel Bun Chili Dog coupon",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.wienerschnitzel.com/coupon/3-pretzel-bun-chili-dog-230/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
+      },
+      "name": "Wienerschnitzel",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Price is $3",
+              "Original Pretzel Bun Chili Dog only",
+              "Cheese extra",
+              "Coupon good for TWO orders on same visit",
+              "Must be surrendered at time of purchase",
+              "Tax extra"
+            ],
+            "source_evidence": [
+              "$3 \u2013 Pretzel Bun Chili Dog \u2013 230",
+              "Original Pretzel Bun Chili Dog only. (Cheese extra.)"
+            ],
+            "summary": "$3 Pretzel Bun Chili Dog",
             "time_window": null,
             "valid_through": null
           }
@@ -31163,6 +31342,93 @@
     {
       "city": "Huntington Beach",
       "location": {
+        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "00:00",
+              "open": "10:00"
+            }
+          ]
+        },
+        "latitude": 33.6851471,
+        "longitude": -117.9546044,
+        "phone": "(714) 962-9431",
+        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
+      },
+      "name": "Wienerschnitzel",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food",
+              "drink"
+            ],
+            "details": [
+              "Includes a corn dog, small fries, and small soda for $5",
+              "Tax extra",
+              "Good for two orders on same visit",
+              "Must be surrendered at time of purchase",
+              "Not valid with any other offer, discount or coupon",
+              "Not valid in Sacramento, Stockton & Modesto areas"
+            ],
+            "source_evidence": [
+              "$5 - Corn Dog, Small Fries and Small Soda Coupon",
+              "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
+            ],
+            "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
+    },
+    {
+      "city": "Huntington Beach",
+      "location": {
         "address": "18012 Beach Blvd, Huntington Beach, CA 92646, USA",
         "business_status": "OPERATIONAL",
         "google_maps_url": "https://maps.google.com/?cid=12976695700916022884&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
@@ -31239,93 +31505,6 @@
             "source_evidence": [
               "$5 - Corn Dog, Small Fries and Small Soda Coupon",
               "$5 - Corn Dog, Small Fries and Small Soda - 251"
-            ],
-            "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
-            "time_window": null,
-            "valid_through": null
-          }
-        ]
-      },
-      "url": "https://www.wienerschnitzel.com/coupon/5-corn-dog-small-fries-and-small-soda-251/"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
-        "address": "19101 Brookhurst St, Huntington Beach, CA 92646, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=11958001623765042767&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "00:00",
-              "open": "10:00"
-            }
-          ]
-        },
-        "latitude": 33.6851471,
-        "longitude": -117.9546044,
-        "phone": "(714) 962-9431",
-        "place_id": "ChIJ8Sx_hMwg3YART0YP4B5b86U"
-      },
-      "name": "Wienerschnitzel",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "Includes a corn dog, small fries, and small soda for $5",
-              "Tax extra",
-              "Good for two orders on same visit",
-              "Must be surrendered at time of purchase",
-              "Not valid with any other offer, discount or coupon",
-              "Not valid in Sacramento, Stockton & Modesto areas"
-            ],
-            "source_evidence": [
-              "$5 - Corn Dog, Small Fries and Small Soda Coupon",
-              "$5 \u2013 Corn Dog, Small Fries and Small Soda \u2013 251"
             ],
             "summary": "$5 Corn Dog, Small Fries and Small Soda Deal",
             "time_window": null,
@@ -32845,7 +33024,7 @@
         "ai_extracted": true,
         "static_deals": [
           {
-            "ai_confidence": 0.95,
+            "ai_confidence": 0.9,
             "applies_days": [
               "monday",
               "tuesday",
@@ -32858,13 +33037,12 @@
               "drink"
             ],
             "details": [
-              "Mon\u2013Fri, 4\u20136pm"
+              "Mon-Fri, 4-6pm"
             ],
             "source_evidence": [
-              "Mon\u2013Fri, 4\u20136pm",
-              "Happy Hour is from 4pm-6pm, even Tuesdays!"
+              "Mon\u2013Fri, 4\u20136pm"
             ],
-            "summary": "Happy Hour drinks and bites",
+            "summary": "Happy Hour specials on weekdays",
             "time_window": "4:00 PM - 6:00 PM",
             "valid_through": null
           },
@@ -32880,16 +33058,15 @@
             "details": [
               "Tacos from $4",
               "$10 margaritas",
-              "$6 Modelo",
               "DJ at 7pm",
-              "Ground beef $4, smoked pork belly $4, fish $6, sirloin $7, lobster $8, birria $8"
+              "Ground beef $4, smoked pork belly $4, fish $6, sirloin $7, lobster $8, birria $8",
+              "$6 Modelo and $10 Casa Margarita all day"
             ],
             "source_evidence": [
               "Tuesdays all day \u2014 tacos from $4, $10 margaritas, DJ at 7pm",
-              "$6 Modelo and $10 Casa Margarita all day.",
-              "Ground beef $4 \u00b7 Smoked pork belly $4 \u00b7 Fish $6 \u00b7 Sirloin $7 \u00b7 Lobster $8 \u00b7 Birria $8"
+              "$6 Modelo and $10 Casa Margarita all day."
             ],
-            "summary": "Tulum Tuesdays taco and drink specials",
+            "summary": "Tulum Tuesdays specials with tacos and margaritas",
             "time_window": "all day",
             "valid_through": null
           }
@@ -33799,15 +33976,35 @@
               "food"
             ],
             "details": [
-              "Kids eat free when you dine in",
-              "Must purchase an adult entr\u00e9e"
+              "Kids eat free when you dine in and purchase an adult entr\u00e9e.",
+              "Applies to dinner time on applicable days."
             ],
             "source_evidence": [
-              "Kids eat free every Tuesday & Saturday night when you dine in and purchase an adult entr\u00e9e."
+              "Kids eat free every Tuesday & Saturday night when you dine in and purchase an adult entr\u00e9e. \ud83c\udf54"
             ],
-            "summary": "Kids eat free every Tuesday and Saturday night with an adult entr\u00e9e",
+            "summary": "Kids eat free on Tuesday and Saturday nights with adult entr\u00e9e purchase",
             "time_window": null,
             "valid_through": null
+          },
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "saturday"
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Buy One, Get One Free Bowls.",
+              "Valid for dine-in at Orange, Brea, and Huntington Beach locations on Saturday, July 11."
+            ],
+            "source_evidence": [
+              "Enjoy BOGO FREE bowls with us this Saturday when you dine in at our Brea, Orange, and HB locations! \ud83e\udd73",
+              "Mark your calendar for Saturday, July 11 as we celebrate the amazing community that makes Green Tomato Grill possible with Buy One, Get One Free Bowls"
+            ],
+            "summary": "BOGO Free Bowls on GTG Customer Appreciation Day",
+            "time_window": null,
+            "valid_through": "2026-07-11"
           }
         ]
       },
@@ -34365,6 +34562,259 @@
       "url": "https://www.kitschbar.com/"
     },
     {
+      "city": "Costa Mesa",
+      "location": {
+        "address": "325 Bristol St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=7008442839293773772&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:00",
+              "open": "06:30"
+            }
+          ]
+        },
+        "latitude": 33.665504999999996,
+        "longitude": -117.88192299999999,
+        "phone": "(714) 549-0300 ext. 406",
+        "place_id": "ChIJ0zuQ7gDf3IARzEe8SKH9QmE"
+      },
+      "name": "Le Chateau Garden Bistro",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Thinly-sliced rib roast, melted provolone cheese and a spicy house-made relish with Calabrian chilies",
+              "Price: $18"
+            ],
+            "source_evidence": [
+              "Discover the new Ayres Family Favorite, The Calabrian, with thinly-sliced rib roast, melted provolone cheese and a spicy house-made relish with Calabrian chilies. Available in our All Day Menu",
+              "$18"
+            ],
+            "summary": "The Calabrian Weekly Special",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "https://www.ayreshotels.com/ayres-hotel-costa-mesa-newport-beach/dining"
+    },
+    {
+      "city": "Costa Mesa",
+      "location": {
+        "address": "891 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6744435703585884667&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:30",
+              "open": "17:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:30",
+              "open": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:30",
+              "open": "17:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:30",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.6798888,
+        "longitude": -117.8934926,
+        "phone": "(714) 708-3290",
+        "place_id": "ChIJC9HxWhbf3IAR-8my8okMmV0"
+      },
+      "name": "Manpuku",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "thursday",
+              "monday"
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Features refined appetizers, Manpuku's signature Kyoto-style A5 Wagyu, and a curated selection of premium BBQ meats",
+              "Price is $108 per person",
+              "Minimum 2 guests required"
+            ],
+            "source_evidence": [
+              "*September 3 (Thu) \u2013 7 (Mon), 2026 | $108 per person (Minimum 2 guests)"
+            ],
+            "summary": "Labor Day Special Omakase course for $108 per person",
+            "time_window": null,
+            "valid_through": "2026-09-07"
+          }
+        ]
+      },
+      "url": "http://www.manpukuus.com/news-and-events/labor-day-special-omakase-september-3-thu---7-mon-2026"
+    },
+    {
+      "city": "Costa Mesa",
+      "location": {
+        "address": "891 Baker St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=6744435703585884667&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "23:30",
+              "open": "17:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "22:30",
+              "open": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "23:30",
+              "open": "17:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "22:30",
+              "open": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "22:30",
+              "open": "17:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "22:30",
+              "open": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "22:30",
+              "open": "17:00"
+            }
+          ]
+        },
+        "latitude": 33.6798888,
+        "longitude": -117.8934926,
+        "phone": "(714) 708-3290",
+        "place_id": "ChIJC9HxWhbf3IAR-8my8okMmV0"
+      },
+      "name": "Manpuku",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.95,
+            "applies_days": [
+              "thursday",
+              "monday"
+            ],
+            "categories": [
+              "food"
+            ],
+            "details": [
+              "Features appetizers, Kyoto-style A5 Wagyu, and an assortment of premium BBQ cuts",
+              "Minimum 2 guests required",
+              "Limited availability for Labor Day Weekend"
+            ],
+            "source_evidence": [
+              "$108 per person\uff08Minimum 2 guests\uff09",
+              "September 3, 2026 (Thu) \u2013 September 7, 2026 (Mon)"
+            ],
+            "summary": "Labor Day Special Omakase Course for $108 per person",
+            "time_window": null,
+            "valid_through": "2026-09-07"
+          }
+        ]
+      },
+      "url": "http://www.manpukuus.com/news-and-events/labor-day-special-omakase-starts-today"
+    },
+    {
       "city": "Fountain Valley",
       "location": {
         "address": "18889 Brookhurst St, Fountain Valley, CA 92708, USA",
@@ -34431,12 +34881,13 @@
               "food"
             ],
             "details": [
-              "Get a whole pie to-go for just $13.99 all month long"
+              "Get a whole pie to-go for just $13.99",
+              "Available all month long"
             ],
             "source_evidence": [
               "Luscious Lemon Meringue is our Pie of the Month! Get a whole pie to-go for just $13.99 all month long!"
             ],
-            "summary": "Lemon Meringue Pie of the Month to-go for $13.99",
+            "summary": "Luscious Lemon Meringue whole pie to-go for $13.99 all month long",
             "time_window": null,
             "valid_through": "2026-09-30"
           },
@@ -34447,8 +34898,9 @@
               "food"
             ],
             "details": [
-              "Includes one appetizer, two entrees, and two slices of pie for $42",
-              "Dine-in only, at participating locations"
+              "Includes one appetizer, two entrees, and two slices of pie",
+              "Price is $42",
+              "Dine-in only at participating locations"
             ],
             "source_evidence": [
               "One Appetizer, Two Entrees & Two Slices of Pie for $42! Dine-in only, at participating locations."
@@ -34460,6 +34912,94 @@
         ]
       },
       "url": "https://www.mariecallenders.com/"
+    },
+    {
+      "city": "Costa Mesa",
+      "location": {
+        "address": "2920 Bristol St, Costa Mesa, CA 92626, USA",
+        "business_status": "OPERATIONAL",
+        "google_maps_url": "https://maps.google.com/?cid=2809028626076783709&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+        "hours": {
+          "friday": [
+            {
+              "close": "21:30",
+              "open": "08:00"
+            }
+          ],
+          "monday": [
+            {
+              "close": "14:00",
+              "open": "08:00"
+            }
+          ],
+          "saturday": [
+            {
+              "close": "21:30",
+              "open": "08:00"
+            }
+          ],
+          "sunday": [
+            {
+              "close": "20:30",
+              "open": "08:00"
+            }
+          ],
+          "thursday": [
+            {
+              "close": "21:30",
+              "open": "08:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "close": "20:30",
+              "open": "08:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "close": "20:30",
+              "open": "08:00"
+            }
+          ]
+        },
+        "latitude": 33.676879299999996,
+        "longitude": -117.8866396,
+        "phone": "(714) 432-7685",
+        "place_id": "ChIJp7BLNhrf3IARXdQ1Daes-yY"
+      },
+      "name": "Memphis Cafe",
+      "notes": "AI-extracted from an official restaurant page; source evidence checked",
+      "options": {
+        "ai_extracted": true,
+        "static_deals": [
+          {
+            "ai_confidence": 0.85,
+            "applies_days": [],
+            "categories": [
+              "food",
+              "general"
+            ],
+            "details": [
+              "Meatloaf Sunday",
+              "Industry Tuesday",
+              "Hickory BBQ Wednesday",
+              "Pot Roast Thursday"
+            ],
+            "source_evidence": [
+              "$12.95 Weekly Deals",
+              "Meatloaf Sunday",
+              "Industry Tuesday",
+              "Hickory BBQ Wednesday",
+              "Pot Roast Thursday"
+            ],
+            "summary": "$12.95 Weekly Specials",
+            "time_window": null,
+            "valid_through": null
+          }
+        ]
+      },
+      "url": "http://memphiscafe.com/"
     },
     {
       "city": "Fountain Valley",
@@ -34528,31 +35068,12 @@
               "general"
             ],
             "details": [
-              "5% discount applies to online orders only"
+              "5% off online only"
             ],
             "source_evidence": [
               "5% off online only"
             ],
             "summary": "5% off online orders",
-            "time_window": null,
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [],
-            "categories": [
-              "food"
-            ],
-            "details": [
-              "Price: $31.00",
-              "Includes extra large pizza with 2 toppings, whole chicken, rice, pita bread, homemade pickles, and garlic sauce"
-            ],
-            "source_evidence": [
-              "Moonlight Special",
-              "$31.00",
-              "Ex large pizza 2 toppings, whole chicken, served with rice, pita bread homemade pickles, garlic sauce."
-            ],
-            "summary": "Moonlight Special: Extra large pizza, whole chicken, rice, pita, pickles, and garlic sauce",
             "time_window": null,
             "valid_through": null
           }
@@ -34623,98 +35144,29 @@
           {
             "ai_confidence": 0.95,
             "applies_days": [
-              "monday",
-              "wednesday",
-              "thursday",
-              "friday"
+              "sunday"
             ],
             "categories": [
               "food",
               "drink"
             ],
             "details": [
-              "Dine-in only",
-              "House Margaritas starting at $7",
-              "Draft Beer for $5",
-              "Chicken, Carnitas & Al Pastor Tacos for $4",
-              "Asada Tacos for $5.50",
-              "Tacos de Rajas with Cheese for $3.50",
-              "Cheese Quesadillas for $10",
-              "Chile Verde Plate and Carnitas Plate for $18 with rice, beans, and handmade tortillas"
+              "$39.99 Per Guest \u2013 Includes Bottomless Mimosas",
+              "$34.99 Per Guest \u2013 Non-Alcoholic Option",
+              "Kids Ages 6\u201312: $19.99",
+              "Kids Under 6 Eat Free",
+              "Includes Omelette Station, Chilaquiles Station, hot buffet, salad bar, desserts, and Mexican brunch favorites",
+              "Bottomless Mimosa service limited to 90 minutes per guest"
             ],
             "source_evidence": [
-              "MORENA\u2019S HAPPY HOUR \u2013 HUNTINGTON BEACH",
-              "Available Monday, Wednesday, Thursday & Friday from 3:00 PM \u2013 6:00 PM (Dine-In Only).",
-              "House Margaritas starting at $7, Draft Beer for $5, Chicken, Carnitas & Al Pastor Tacos for $4, Asada Tacos for $5.50, Tacos de Rajas with Cheese for $3.50, and Cheese Quesadillas for $10."
+              "BOTTOMLESS MIMOSA BRUNCH BUFFET",
+              "Every Sunday | 10:00 AM \u2013 3:00 PM",
+              "$39.99 Per Guest \u2013 Includes Bottomless Mimosas"
             ],
-            "summary": "Morena's Happy Hour with discounted food, drinks, and plates",
-            "time_window": "3:00 PM \u2013 6:00 PM",
+            "summary": "Sunday Brunch Buffet with Bottomless Mimosas",
+            "time_window": "10:00 AM \u2013 3:00 PM",
             "valid_through": null
-          }
-        ]
-      },
-      "url": "https://hb.morenasmex.com/"
-    },
-    {
-      "city": "Huntington Beach",
-      "location": {
-        "address": "7402 Edinger Ave, Huntington Beach, CA 92647, USA",
-        "business_status": "OPERATIONAL",
-        "google_maps_url": "https://maps.google.com/?cid=17342935908951398760&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
-        "hours": {
-          "friday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "monday": [
-            {
-              "close": "20:00",
-              "open": "11:00"
-            }
-          ],
-          "saturday": [
-            {
-              "close": "21:00",
-              "open": "10:00"
-            }
-          ],
-          "sunday": [
-            {
-              "close": "20:00",
-              "open": "10:00"
-            }
-          ],
-          "thursday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "tuesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ],
-          "wednesday": [
-            {
-              "close": "21:00",
-              "open": "11:00"
-            }
-          ]
-        },
-        "latitude": 33.7298377,
-        "longitude": -117.99953239999999,
-        "phone": "(657) 301-2017",
-        "place_id": "ChIJQVaJ_PYn3YARaBlqh1J8rvA"
-      },
-      "name": "Morena's Mexican Cuisine",
-      "notes": "AI-extracted from an official restaurant page; source evidence checked",
-      "options": {
-        "ai_extracted": true,
-        "static_deals": [
+          },
           {
             "ai_confidence": 0.95,
             "applies_days": [
@@ -34738,34 +35190,11 @@
               "Chile Verde Plate and Carnitas Plate for $18"
             ],
             "source_evidence": [
+              "MORENA\u2019S HAPPY HOUR \u2013 HUNTINGTON BEACH",
               "Available Monday, Wednesday, Thursday & Friday from 3:00 PM \u2013 6:00 PM (Dine-In Only)."
             ],
-            "summary": "Happy Hour featuring discounted drinks, tacos, quesadillas, and dinner plates",
+            "summary": "Morena's Happy Hour",
             "time_window": "3:00 PM \u2013 6:00 PM",
-            "valid_through": null
-          },
-          {
-            "ai_confidence": 0.95,
-            "applies_days": [
-              "sunday"
-            ],
-            "categories": [
-              "food",
-              "drink"
-            ],
-            "details": [
-              "$39.99 Per Guest \u2013 Includes Bottomless Mimosas",
-              "$34.99 Per Guest \u2013 Non-Alcoholic Option",
-              "Kids Ages 6\u201312: $19.99",
-              "Kids Under 6 Eat Free",
-              "Bottomless Mimosa service limited to 90 minutes per guest"
-            ],
-            "source_evidence": [
-              "Every Sunday | 10:00 AM \u2013 3:00 PM",
-              "$39.99 Per Guest \u2013 Includes Bottomless Mimosas"
-            ],
-            "summary": "Sunday Brunch Buffet with optional bottomless mimosas",
-            "time_window": "10:00 AM \u2013 3:00 PM",
             "valid_through": null
           },
           {
@@ -34774,6 +35203,7 @@
               "tuesday"
             ],
             "categories": [
+              "food",
               "drink"
             ],
             "details": [
@@ -34781,14 +35211,16 @@
               "Bottled Mexican Beer \u2013 $5",
               "Brewery X \u2013 $5",
               "House Margaritas \u2013 $8",
-              "Cadillac Margaritas \u2013 $11"
+              "Cadillac Margaritas \u2013 $11",
+              "Taco specials available from 4:00 PM \u2013 8:00 PM"
             ],
             "source_evidence": [
               "TACO TUESDAY",
+              "Taco specials available from 4:00 PM \u2013 8:00 PM ONLY",
               "Taco Tuesday Drink Specials"
             ],
-            "summary": "Taco Tuesday drink specials",
-            "time_window": null,
+            "summary": "Taco Tuesday Drink Specials",
+            "time_window": "4:00 PM \u2013 8:00 PM",
             "valid_through": null
           }
         ]
@@ -34869,14 +35301,14 @@
               "drink"
             ],
             "details": [
-              "Specials on full bar, beer, and wine list",
-              "Specials on selected food items"
+              "Specials from full bar, beer and wine list, and selected food items"
             ],
             "source_evidence": [
+              "Happy Hour",
               "Monday - Friday \u2022 2:00 PM - 6:00 PM",
               "Unwind with specials from our full bar, beer and wine list, and selected food items."
             ],
-            "summary": "Happy Hour specials on full bar, beer, wine list, and selected food items",
+            "summary": "Happy Hour specials with drinks and selected food items",
             "time_window": "2:00 PM - 6:00 PM",
             "valid_through": null
           }
@@ -34962,8 +35394,8 @@
             "source_evidence": [
               "Happy Hour Monday through Friday 4 PM till 7 PM. Buy a double shot of Kava get a double shot of kava free."
             ],
-            "summary": "Happy Hour: Buy a double shot of Kava, get a double shot of kava free",
-            "time_window": "16:00 - 19:00",
+            "summary": "Happy Hour: Buy a double shot of Kava get a double shot free",
+            "time_window": "04:00 PM - 07:00 PM",
             "valid_through": null
           }
         ]
@@ -36572,9 +37004,9 @@
   "summary": {
     "candidate_pages": 256,
     "failed_pages": 15,
-    "pending_pages": 44,
-    "processed_pages": 197,
-    "published_deals": 191,
-    "published_sources": 77
+    "pending_pages": 36,
+    "processed_pages": 205,
+    "published_deals": 196,
+    "published_sources": 80
   }
 }
